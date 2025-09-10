@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1067" type="main">SZATHMÁRY GYÖRGY – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1067</idno>
+				<idno type="ITIdata">Q347678</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1067.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 604. 
+						</bibl>
+						 ) 
+						<persName>Szathmáry
+							György</persName>
+						 : ref. lelkész és igazgató tanár 
+						<placeName>
+							Hajdúszoboszló 
+							<idno type="ITIdata">Q17235</idno>
+						</placeName>
+						 n az 1850-es években 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/484</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>244</height>
+										<width>194</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 csontszínű fol., 24,4x19,4 cm. 1–2. levél, 3–4. vers.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q347677</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél; vers</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1859-02-20"/>
+				<placeName>
+					 Hajdúszoboszló 
+					<idno type="ITIdata">Q17235</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Szathmáry György 
+						<idno type="ITIdata">Q270884</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>SZATHMÁRY GYÖRGY – ARANY JÁNOSNAK</title>
+					<hi rend="underline">
+						<choice>
+							<orig>H. Szoboszló</orig>
+							<supplied>
+								<placeName>
+									 Hajdú Szoboszló 
+									<idno corresp="Hajdúszoboszló" type="ITIdata">Q17235</idno>
+								</placeName>
+							</supplied>
+						</choice>
+						 , 
+						<date when="1859-02-20">
+							 februar 20 
+							<hi rend="super">a</hi>
+							 1859
+						</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">Tekintetes tudós Férfiú!</p>
+				<p xml:id="p.2">
+					 Vannak a’ magánynak szent percei, midőn a’ szellem túl szárnyalva
+					a’ test porháza szűk körén, föl keresi a’ távolban ama 
+					<hi rend="underline">magas szellemeket</hi>
+					 , kik, – mint az ég’ ölén az örök égi tüzek – a’
+					hon’ egén, 
+					<hi rend="underline">a’ köz üdvért,</hi>
+					 tűz fáklyaként ragyognak. 
+				</p>
+				<p xml:id="p.3">
+					 Ilyen 
+					<hi rend="underline">szent perc</hi>
+					 vala reám nézve: 
+					<date when="1859-02-11">februar 11ké</date>
+					 nek csöndes tiszta éjjele. 
+				</p>
+				<p xml:id="p.4">
+					 Lelkem meg ragadta egy 
+					<hi rend="underline">szent eszme</hi>
+					 , hogy
+					a’ 
+					<hi rend="underline">hon’ koszorús kőltőjét</hi>
+					 meg-énekeljem. 
+				</p>
+				<p xml:id="p.5">Nem győzhetvén le a’ por anyag a’ szellem’ tűzakaratát: a’ szent
+					eszme létesűlt.</p>
+				<p xml:id="p.6">
+					 Szerény pályámon, keblemben hordván a’ 
+					<hi rend="underline">tiszta
+						önérzet</hi>
+					 leg szebb jutalmát: a’ közönség’ tapsaira nem vágyok. 
+				</p>
+				<p xml:id="p.7">Ha Annak, kit lelkem’ mélyiből tisztelek, tetszeni fognak soraim:
+					bizon! többre fogom ezt becsűlni a’ sokszor változó ’s ingatag népvéleménynél ’s
+					el mondandom én is, ekkor, ama római lantos kőltővel:</p>
+				<lg xml:id="lg.1">
+					<lg xml:id="lg.2">
+						<l xml:id="l.1">
+							 „ 
+							<hi rend="underline">Sublimi feriam sidera vertice</hi>
+							”. 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.8">
+					<note type="critic">
+						<quote>
+							 „ 
+							<hi rend="underline">Sublimi feriam sidera vertice</hi>
+							 ” 
+						</quote>
+						– 
+						<bibl>
+							<persName>
+								 Horatius 
+								<idno corresp="Horatius, Quintus Flaccus"/>
+							</persName>
+							 : 
+							<title>Énekek</title>
+							 , I. 1. 36. (utolsó sor). 
+						</bibl>
+						<persName>Bede Anna</persName>
+						 fordításában: 
+						<lg xml:id="lg.3">
+							<lg xml:id="lg.4">
+								<l xml:id="l.2">fennkölt homlokomat csillagokig vetem</l>
+							</lg>
+						</lg>
+						<p xml:id="p.9">
+							 Fogadja azért tekintetes tudós Férfiú! az ily nézetből ki
+							indúlónak egyenesen 
+							<hi rend="underline">hozzá</hi>
+							 intézett tísztelő
+							sorait; tűrje el annak hiányait; tekíntse csak a’ 
+							<hi rend="underline">lelket</hi>
+							 , melynek tíszta szent érzelmei, annak sorain, végig
+							lengenek; ’s engedje meg hogy az önt meg tísztelő haza ’s honfiak’
+							díszes körében, én is, egy 
+							<hi rend="underline">kis egyszerű babér
+								koszorúval</hi>
+							 üdvözölhessem; 
+							<note type="critic">
+								<quote>
+									 engedje meg hogy az önt meg tísztelő haza ’s honfiak’ díszes
+									körében, én is, egy 
+									<hi rend="underline">kis egyszerű babér
+										koszorúval</hi>
+									 üdvözölhessem 
+								</quote>
+								 – A levél melléklete:
+								<placeName>
+									 H. Szoboszló 
+									<idno corresp="Hajdúszoboszló"/>
+								</placeName>
+								 , 
+								<date when="1859-02-11">
+									 február 11 
+									<hi rend="super">e</hi>
+									 1859. 
+								</date>
+								<hi rend="underline">
+									<persName>
+										 Arany János 
+										<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+									</persName>
+									 hoz. 
+								</hi>
+								<lg xml:id="lg.5">
+									<lg xml:id="lg.6">
+										<l xml:id="l.3">
+											 Qu 
+											<add>i</add>
+											 s desiderio sit pudor aut
+											modus 
+										</l>
+									</lg>
+									<lg xml:id="lg.7">
+										<l xml:id="l.4">Tam cari capitis?</l>
+									</lg>
+									<lg xml:id="lg.8">
+										<l xml:id="l.5">cui liquidam Pater</l>
+									</lg>
+									<lg xml:id="lg.9">
+										<l xml:id="l.6">Vocem cum cythara dedit.</l>
+									</lg>
+								</lg>
+								<p xml:id="p.10">
+									<hi rend="underline">
+										<persName>
+											 Horatius 
+											<idno corresp="Horatius, Quintus Flaccus"/>
+										</persName>
+										 Lib. I. Ode XXIV. 
+									</hi>
+								</p>
+								<p xml:id="p.11">
+									 A mottó pontos helye: 
+									<bibl>
+										<persName>
+											 Horatius 
+											<idno corresp="Horatius, Quintus Flaccus"/>
+										</persName>
+										 : 
+										<title>Énekek</title>
+										 , I. 24. 1–2., 3–4. 
+									</bibl>
+									<persName>Grigássy Éva</persName>
+									 fordításában: 
+								</p>
+								<lg xml:id="lg.10">
+									<lg xml:id="lg.11">
+										<l xml:id="l.7">Mily szégyen s fegyelem tiltana gyászt, ha
+											íly</l>
+									</lg>
+									<lg xml:id="lg.12">
+										<l xml:id="l.8">kedves főt siratunk? […] égi atyád kinek</l>
+									</lg>
+									<lg xml:id="lg.13">
+										<l xml:id="l.9">szép hangot s kitharát adott.</l>
+									</lg>
+								</lg>
+								<lg xml:id="lg.14">
+									<lg xml:id="lg.15">
+										<l xml:id="l.10">Óh! drága arannya</l>
+									</lg>
+									<lg xml:id="lg.16">
+										<l xml:id="l.11">A’ magyar hazának,</l>
+									</lg>
+									<lg xml:id="lg.17">
+										<l xml:id="l.12">Isten, jó kedviben</l>
+									</lg>
+									<lg xml:id="lg.18">
+										<l xml:id="l.13">Adott a’ Világnak.</l>
+									</lg>
+									<lg xml:id="lg.19">
+										<l xml:id="l.14">
+											<hi rend="underline">Arany</hi>
+											 vagy Te-magad, 
+										</l>
+									</lg>
+									<lg xml:id="lg.20">
+										<l xml:id="l.15">
+											<hi rend="underline">Arany</hi>
+											 a’ te neved, 
+										</l>
+									</lg>
+									<lg xml:id="lg.21">
+										<l xml:id="l.16">Mely sugárzó napként</l>
+									</lg>
+									<lg xml:id="lg.22">
+										<l xml:id="l.17">Ragyog e’ hon felett!</l>
+									</lg>
+									<lg xml:id="lg.23">
+										<l xml:id="l.18">Óh! bár láthatnálak</l>
+									</lg>
+									<lg xml:id="lg.24">
+										<l xml:id="l.19">Szinről szinre Téged!</l>
+									</lg>
+									<lg xml:id="lg.25">
+										<l xml:id="l.20">És hogy nem láthatlak,</l>
+									</lg>
+									<lg xml:id="lg.26">
+										<l xml:id="l.21">Hidd, ez, engem’ éget.</l>
+									</lg>
+									<lg xml:id="lg.27">
+										<l xml:id="l.22">Mi boldog kör, melynek</l>
+									</lg>
+									<lg xml:id="lg.28">
+										<l xml:id="l.23">Vagyon ily férfia,</l>
+									</lg>
+									<lg xml:id="lg.29">
+										<l xml:id="l.24">Kit látva és bírva,</l>
+									</lg>
+									<lg xml:id="lg.30">
+										<l xml:id="l.25">Föl kell lángolnia.</l>
+									</lg>
+									<lg xml:id="lg.31">
+										<l xml:id="l.26">Midőn lángol lelked</l>
+									</lg>
+									<lg xml:id="lg.32">
+										<l xml:id="l.27">’S dalokban ömledez,</l>
+									</lg>
+									<lg xml:id="lg.33">
+										<l xml:id="l.28">’S tűz szárnyain égi</l>
+									</lg>
+									<lg xml:id="lg.34">
+										<l xml:id="l.29">Sphaerák közt lengedez:</l>
+									</lg>
+									<lg xml:id="lg.35">
+										<l xml:id="l.30">Megindúl a’ kő-szív</l>
+									</lg>
+									<lg xml:id="lg.36">
+										<l xml:id="l.31">
+											 Mint 
+											<hi rend="underline">Orpheus’</hi>
+											lantján; 
+										</l>
+									</lg>
+									<lg xml:id="lg.37">
+										<l xml:id="l.32">Virág ’s élet fakad</l>
+									</lg>
+									<lg xml:id="lg.38">
+										<l xml:id="l.33">A’ síroknak lantján.</l>
+									</lg>
+									<lg xml:id="lg.39">
+										<l xml:id="l.34">Nemzetünk’ tűz lelkű –</l>
+									</lg>
+									<lg xml:id="lg.40">
+										<l xml:id="l.35">Ihletett dalnoka!</l>
+									</lg>
+									<lg xml:id="lg.41">
+										<l xml:id="l.36">Te élni fogsz nállunk,</l>
+									</lg>
+									<lg xml:id="lg.42">
+										<l xml:id="l.37">Magas dalaidba’.</l>
+									</lg>
+									<lg xml:id="lg.43">
+										<l xml:id="l.38">
+											 Ki vívtad „ 
+											<hi rend="underline">Tóldi</hi>
+											 ”val 
+										</l>
+									</lg>
+									<lg xml:id="lg.44">
+										<l xml:id="l.39">
+											 ’S „ 
+											<hi rend="underline">Murány
+												ostromá”val</hi>
+											 , 
+										</l>
+									</lg>
+									<lg xml:id="lg.45">
+										<l xml:id="l.40">Hogy büszke Rád e’ hon,</l>
+									</lg>
+									<lg xml:id="lg.46">
+										<l xml:id="l.41">
+											 Mint 
+											<hi rend="underline">Hellás</hi>
+											<hi rend="underline">Homérral</hi>
+											 , 
+										</l>
+									</lg>
+									<lg xml:id="lg.47">
+										<l xml:id="l.42">
+											 Örök leszen 
+											<hi rend="underline">neved</hi>
+											 , 
+										</l>
+									</lg>
+									<lg xml:id="lg.48">
+										<l xml:id="l.43">Honunk’ évkönyviben,</l>
+									</lg>
+									<lg xml:id="lg.49">
+										<l xml:id="l.44">’S halhatatlanított</l>
+									</lg>
+									<lg xml:id="lg.50">
+										<l xml:id="l.45">Milliók’ sziviben!</l>
+									</lg>
+									<lg xml:id="lg.51">
+										<l xml:id="l.46">
+											 Ragyogni fog 
+											<hi rend="underline">neved</hi>
+											 , 
+										</l>
+									</lg>
+									<lg xml:id="lg.52">
+										<l xml:id="l.47">Míg lesz magyar kebel;</l>
+									</lg>
+									<lg xml:id="lg.53">
+										<l xml:id="l.48">
+											 A’ 
+											<hi rend="underline">márvány</hi>
+											 el
+											porlik, 
+										</l>
+									</lg>
+									<lg xml:id="lg.54">
+										<l xml:id="l.49">De Te nem halhatsz el!</l>
+									</lg>
+									<lg xml:id="lg.55">
+										<l xml:id="l.50">Én sem halok még meg,</l>
+									</lg>
+									<lg xml:id="lg.56">
+										<l xml:id="l.51">Hiszem jó Istenem,</l>
+									</lg>
+									<lg xml:id="lg.57">
+										<l xml:id="l.52">
+											 Míg a’ hon’ 
+											<hi rend="underline">Aranyát</hi>
+										</l>
+									</lg>
+									<lg xml:id="lg.58">
+										<l xml:id="l.53">Meg nem ölelhetem;</l>
+									</lg>
+									<lg xml:id="lg.59">
+										<l xml:id="l.54">Akkor áshatjátok</l>
+									</lg>
+									<lg xml:id="lg.60">
+										<l xml:id="l.55">Bátran meg síromat:</l>
+									</lg>
+									<lg xml:id="lg.61">
+										<l xml:id="l.56">Mosolygva fogadom,</l>
+									</lg>
+									<lg xml:id="lg.62">
+										<l xml:id="l.57">
+											<hi rend="underline">Ha jő, halálomat!!</hi>
+										</l>
+									</lg>
+								</lg>
+							</note>
+							 ’s legyen meg-győződve leg bensőbb tíszteletemről. Maradván 
+						</p>
+						<p xml:id="p.12">Önnek</p>
+						<p xml:id="p.13">legalázatosabb szólgája:</p>
+						<p xml:id="p.14">
+							<persName>Szathmáry György</persName>
+							 , 
+						</p>
+						<p xml:id="p.15">igazgató Tanár.</p>
+					</note>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

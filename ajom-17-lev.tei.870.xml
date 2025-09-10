@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="870" type="main">NAGYSZALONTA – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace>
+				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.870</idno>
+				<idno type="ITIdata">Q338385</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.870.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Utalás a levélre: 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Tompá 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 nak, 888. 
+						<ref target="ajom-17-lev.tei.888"/>
+						<date when="1857-03-08">1857. márc. 8.</date>
+						 : „A szalontai komédia épen
+						nem versed miatt késett el: 
+						<persName>
+							 Barabás 
+							<idno corresp="Barabás Miklós" type="ITIdata">Q40273</idno>
+						</persName>
+						 mostanig sem küldte nekik le a képet. Külömben nekem is írtak
+						azóta, hogy téged kértek föl s te egy igen szép levélben kimentetted
+						magadat.” A levelet feltehetőleg 
+						<persName>Mezey Ferenc</persName>
+						 szalontai
+						főbíró írta, mivel ő intézte az arckép készítését a város számára: lásd
+						<date when="1856-08-19">1856. aug. 19-i</date>
+						 levelét 
+						<persName>
+							 AJ
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak ( 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 828. 738. és 1095. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.828"/>
+						 ); 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<date when="1856-08-23">1856. aug. 23-án</date>
+						 írt válaszában fogadta el a
+						felkérést ( ugyanott 832. 742.) 
+						<ref target="ajom-16-lev.tei.832"/>
+						 .
+						<persName>
+							 Barabás 
+							<idno corresp="Barabás Miklós" type="ITIdata">Q40273</idno>
+						</persName>
+						<date when="1856-09-06">1856. szept. 6-án</date>
+						 kérte a költőt, hogy
+						utazzon ezügyben 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest" type="ITIdata">Q93</idno>
+						</placeName>
+						 re (ugyanott 840. 757.) 
+						<ref target="ajom-16-lev.tei.840"/>
+						 ; a
+						kép még abban a hónapban el is készült ( 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Ercsey 
+							<idno corresp="ifj. Ercsey Sándor" type="ITIdata">Q43387</idno>
+						</persName>
+						 nek, ugyanott 848. 765. 
+						<ref target="ajom-16-lev.tei.848"/>
+						 Lásd
+						<persName>
+							 Sáfrán Györgyi 
+							<idno corresp="Sáfrán Györgyi" type="ITIdata">Q48414</idno>
+						</persName>
+						 jegyzetét, ugyanott 1097–1098.); vesd össze 
+						<bibl>
+							<abbr>Dánielisz 1984.</abbr>
+							 71–78. 
+						</bibl>
+						 – E kötet anyagának egészére
+						lásd 
+						<bibl>
+							<abbr>Voinovich 1931.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Voinovich 1938.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Törös 1978.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Novák 1982.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Sáfrán 1982.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Keresztury 1987.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Dávidházi 1992.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Nyilasy 1998.</abbr>
+						</bibl>
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Ismeretlen.</country>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio"/>
+									<dimensions unit="mm">
+										<height/>
+										<width/>
+									</dimensions>
+								</extent>
+								<condition>
+									<p/>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q338383</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Elveszett.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date from="1857-01" to="1857-02"/>
+				<placeName>
+					 Nagyszalonta 
+					<idno type="ITIdata">Q2455</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<placeName>
+						 Nagyszalonta 
+						<idno type="ITIdata">Q2455</idno>
+					</placeName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>NAGYSZALONTA – ARANY JÁNOSNAK</title>
+					<supplied>Elveszett</supplied>
+					<supplied>
+						<placeName>
+							 Nagyszalonta 
+							<idno corresp="Nagyszalonta" type="ITIdata">Q2455</idno>
+						</placeName>
+						 , 
+						<date from="1857-01" to="1857-02">1857. január második fele –
+							február</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">
+					<supplied>
+						 Arról tudósítanak, hogy a 
+						<persName>
+							 Barabás Miklós 
+							<idno corresp="Barabás Miklós" type="ITIdata">Q40273</idno>
+						</persName>
+						<note type="critic">
+							<quote>
+								<persName>
+									 Barabás Miklós 
+									<idno corresp="Barabás Miklós" type="ITIdata">Q40273</idno>
+								</persName>
+							</quote>
+							 – ( 
+							<date from="1810" to="1898">1810–1898</date>
+							 ); korábbi
+							kapcsolatukra nézve lásd 
+							<bibl>
+								<abbr>AJÖM XV.</abbr>
+								 804. és XVI. 1134. 
+							</bibl>
+							 A XVI. kötet egy
+							elveszett Barabás-levelet tart számon ( 
+							<date when="1856-09-06">1856.
+								szept. 6.</date>
+							 ) 
+						</note>
+						 festette Arany-kép még mindig nem
+						érkezett meg 
+						<placeName>
+							 Szalontá 
+							<idno corresp="Nagyszalonta"/>
+						</placeName>
+						 ra, s hogy 
+						<persName>
+							 Tompa 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 , 
+						<note type="critic">
+							<quote>
+								<persName>
+									 Tompa 
+									<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+								</persName>
+							</quote>
+							 – 
+							<persName>
+								 Tompa Mihály 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							 ( 
+							<date from="1817" to="1868">1817–1868</date>
+							 ) és
+							<persName>
+								 AJ 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 korábbi levelezésére és kapcsolatára nézve lásd 
+							<bibl>
+								<abbr>AJÖM XV.</abbr>
+								 909–912. és XVI. 1215–1220. 
+							</bibl>
+							<persName>
+								 AJ 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 első, 
+							<persName>
+								 Tompá 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							 hoz szóló levelét 
+							<date from="1847-06-06" to="1847-06-08">1847. jún. 6. és 8. között</date>
+							 írta, 
+							<persName>
+								 Petőfi 
+								<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+							</persName>
+							 vel együtt (66.) 
+							<ref target="ajom-15-lev.tei.66"/>
+							 ,
+							amelyet 
+							<persName>
+								 Tompa 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							<date when="1847-06-14">1847. jún. 14-én</date>
+							 köszönt meg (67.) 
+							<ref target="ajom-15-lev.tei.67"/>
+							 . 
+							<persName>
+								 AJ 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 levelezésének ez a legterjedelmesebb része, belőle először
+							<persName>
+								 Arany László 
+								<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+							</persName>
+							 közölt bő válogatást ( 
+							<bibl>AJLI I–II.</bibl>
+							 ). 
+							<persName>
+								Tompa 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							 levelezésének Fontes-kiadásából ez a központi jelentőségű
+							rész, papírtakarékossági okokból, kimaradt ( 
+							<bibl>TMLev I–II.</bibl>
+							 ).
+							Az 
+							<bibl>
+								<abbr>AJÖM XV.</abbr>
+								 és XVI. kötetében 
+							</bibl>
+							<persName>
+								 Bisztray Gyula 
+								<idno corresp="Bisztray Gyula" type="ITIdata">Q142424</idno>
+							</persName>
+							 rendezte sajtó alá ezt az anyagot. 
+							<persName>
+								 AJ 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 -nak 
+							<date to="1851">1851</date>
+							 végéig, a XV. kötet
+							lezárásáig, huszonegy 
+							<persName>
+								 Tompá 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							 hoz írt leveléről van tudomásunk (mindegyik elveszett);
+							<persName>
+								 Tompá 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							 nak ugyanebből a korszakból huszonkét levele maradt fenn. A
+							XVI. kötetben negyvenöt AJ- és ötvenhárom Tompa-levél kapott helyet
+							(közülük az 
+							<persName>
+								 AJ 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 által írt első négy, 
+							<date to="1852">1852</date>
+							 őszéig,
+							elveszett). A XVII. kötet harminchárom AJ- és harminchét Tompa-levelet
+							közöl, s emellett tud egy elveszett AJ-levélről is. 
+						</note>
+						 fia
+						betegsége miatt, nem írhatja meg a leleplezési ünnepségre kért verset.
+					</supplied>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

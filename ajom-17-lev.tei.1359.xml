@@ -1,0 +1,2714 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1359" type="main">ARANY JÁNOS – MADÁCH IMRÉNEK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1359</idno>
+				<idno type="ITIdata">Q482093</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1359.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Válasz 
+						<persName>
+							 Madách 
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						<date when="1861-10-03">1861. okt. 3-i</date>
+						 levelére (1345.) 
+						<ref target="ajom-17-lev.tei.1345"/>
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI II.</abbr>
+						 386–388. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>MÍL 1938.</abbr>
+						 321–323. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>MIÖL</abbr>
+						 II. 88–91. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>MIÖM</abbr>
+						 II. 1001– 1013. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>AJLev</abbr>
+						 514–516. 
+					</bibl>
+					 (kihagyással); 
+					<bibl>
+						<abbr>ML</abbr>
+						 199–201. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>MIVM 1989.</abbr>
+						 355–367. 
+					</bibl>
+					 ; A melléklet: 
+					<bibl>
+						<abbr>AJÖM XIII.</abbr>
+						 104. 284–291. Jegyzet hozzá: 537–546. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>MIVM 1989.</abbr>
+						 355–367. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Országos Széchényi Könyvtár; Magyar Tudományos Akadémia
+							Könyvtára</institution>
+						<repository/>
+						<idno>K 531.</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2; 4</measure>
+									<dimensions unit="mm">
+										<height>233; 260</height>
+										<width>150; 210</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 Az 1. oldalon középen fönt: fekete ceruzával bekarikázott 2.
+										Ugyanott jobboldalt lenn fekete ceruzával: 39. A 2–3.
+										oldalon: M. N. Muzeum Madách hagyaték kéziratt. 
+										<date when="1913">1913.</date>
+										 40. sz. Kék ceruzás aláhúzások.
+										2 világoskék fol. koronás BATH-nyomatttal, 23,3x15 cm. 1–2.
+										levél, 3–4. üres. A címzés fölött fekete ceruzával,
+										bekarikázva: 2. Piros pecsét 
+										<persName>
+											 AJ 
+											<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+										</persName>
+										 felirattal. Pecsétek: 
+										<placeName>
+											 Pesth 
+											<idno corresp="Pest" type="ITIdata">Q93</idno>
+										</placeName>
+										 Abends 28/10.; 
+										<placeName>
+											 Szakál 
+											<idno corresp="Nógrádszakál" type="ITIdata">Q15716</idno>
+										</placeName>
+										 29/10. 10 kr-os bélyeg. A melléklet: 
+										<title>Az
+											ember tragédiája</title>
+										 kéziratába kötve. Az 1. oldal
+										jobb felső sarkában fekete ceruzával: 151. 4 világoskék
+										fol., koronás BATH-nyomattal. 26x21 cm. 1–6. szöveg, 7–8.
+										üres. Poss. Kisfaludy-Társaság. 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471330</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél; melléklet</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1861-10-27"/>
+				<placeName>
+					 Budapest 
+					<idno type="ITIdata">Q93</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Madách Imre 
+						<idno type="ITIdata">Q56413</idno>
+					</persName>
+					<placeName>
+						 Alsósztregova 
+						<idno type="ITIdata">Q1731</idno>
+					</placeName>
+				</correspAction>
+				<correspAction type="address">
+					<p>
+						<supplied>A borítékon címzés:</supplied>
+					</p>
+					<p>
+						 Tekintetes 
+						<hi rend="underline">
+							<persName>
+								 Madách Imre 
+								<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+							</persName>
+							 urnak 
+						</hi>
+					</p>
+					<p>
+						 tiszt 
+						<metamark function="lehuzas"/>
+					</p>
+					<p>
+						<hi rend="underline">
+							<placeName>
+								 B. Gyarmat 
+								<idno corresp="Balassagyarmat" type="ITIdata">Q18295</idno>
+							</placeName>
+						</hi>
+					</p>
+					<p>
+						 u. p. 
+						<hi rend="underline">
+							<placeName>
+								 Szakál 
+								<idno corresp="Nógrádszakál" type="ITIdata">Q15716</idno>
+							</placeName>
+						</hi>
+					</p>
+					<p>
+						<hi rend="underline">
+							<placeName>
+								 A. Sztregován 
+								<idno corresp="Alsósztregova" type="ITIdata">Q1731</idno>
+							</placeName>
+						</hi>
+					</p>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – MADÁCH IMRÉNEK</title>
+					<placeName>
+						 Pest 
+						<idno corresp="Pest" type="ITIdata">Q93</idno>
+					</placeName>
+					 , 
+					<date when="1861-10-27">october 27. 1861.</date>
+				</head>
+				<p xml:id="p.1">Édes Barátom!</p>
+				<p xml:id="p.2">Hagyjuk a teketoriát, igy bizalmas társalgásban könynyebben
+					megértjük egymást.</p>
+				<p xml:id="p.3">Nem akartam irni, míg tragédiádon végig nem haladtam
+					észrevételimmel, de úgy látom, hogy ez kissé több időt vesz igénybe, s én
+					másfelé is el lévén foglalva, nem űlhetek rajta folyvást. Pedig az idő sürget:
+					szeretném müvedet minél előbb látni nyomtatásban.</p>
+				<p xml:id="p.4">
+					 Itt küldöm jegyzeteim egy részét. 
+					<note type="critic">
+						<quote>Itt küldöm jegyzeteim egy részét</quote>
+						 – Az 1–7. szín javítását.
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 korrekcióinak jellegéről lásd 
+						<bibl>Kerényi, kézirat</bibl>
+					</note>
+					 Ezekből megláthatod, milyen természetűek azok. Alig némi kivétellel a
+					legkülső technicára tartozók. Mily kár, hogy ilyenek fordúlnak elő: szerintem az
+					„ember tragoediája” egy 
+					<persName>
+						 Dante 
+						<idno corresp="Dante, Alighieri" type="ITIdata">Q334387</idno>
+					</persName>
+					 vagy 
+					<persName>
+						 Goethe 
+						<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+					</persName>
+					<choice>
+						<orig>techikajával</orig>
+						<supplied>technikajával</supplied>
+					</choice>
+					 remekmű volna. Így is az, de 
+					<choice>
+						<orig>felűtes</orig>
+						<supplied>felűletes</supplied>
+					</choice>
+					 olvasó fenakad az apró rögökön. 
+				</p>
+				<p xml:id="p.5">
+					 Engedelmed folytán már bejelentettem a Kisfaludy-társaságnak. 
+					<note type="critic">
+						<quote>Engedelmed folytán már bejelentettem a Kisfaludy-társaságnak</quote>
+						– Az 
+						<date when="1861-10-10">1861. okt. 10-i</date>
+						 ülésen, amelyen
+						<persName>
+							 Toldy Ferenc 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 elnökölt és 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 , 
+						<persName>
+							 Csengery 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						 , 
+						<persName>
+							 Czuczor 
+							<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+						</persName>
+						 , 
+						<persName>
+							 Greguss 
+							<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+						</persName>
+						 , 
+						<persName>
+							 Salamon 
+							<idno corresp="Salamon Ferenc" type="ITIdata">Q160085</idno>
+						</persName>
+						 és 
+						<persName>
+							 Szalay 
+							<idno corresp="Szalay Ágoston" type="ITIdata">Q66626</idno>
+						</persName>
+						 volt jelen, a jegyzőkönyv szerint „Az igazgató bemutatván »
+						<title>Az ember tragédiája</title>
+						 « czimű drámai költeményt, melynek
+						szerzője magát egyelőre nem nevezte meg, e művet oly kitűnő szerkesztménynek
+						tünteti föl, mely csekély külső javítások megtörténtével a pártolók 60 ívnyi
+						könyvilletményében méltán helyet foglalhatna s ennek még első évi folyamába
+						is fölvétethetnék: a társaság magáévá teszi az igazgató nézetét s megbízza
+						őt, hogy a mű fölvétele iránt a 60-ives vállalatba saját belátása szerint
+						intézkedjék.” 
+					</note>
+					 Neved még tudva nincs: tőled függ, mikor legyen
+					napfényre hozva. Föltéve, hogy nem ellenzed, 
+					<date when="1861-10-31">e hó
+						31-én</date>
+					 , a csütörtöki űlésben fel akarok belőle olvasni egy 
+					<add type="corr">p</add>
+					 ár szakaszt. 
+					<note type="critic">
+						<quote>
+							<date when="1861-10-31">e hó 31-én</date>
+							 , a csütörtöki űlésben fel
+							akarok belőle olvasni egy 
+							<add type="corr">p</add>
+							 ár szakaszt 
+						</quote>
+						– Az 
+						<date when="1861-10-31">1861. okt. 31-i</date>
+						 ülésen, amelyen
+						<persName>
+							 Eötvös József 
+							<idno corresp="Eötvös József" type="ITIdata">Q241165</idno>
+						</persName>
+						 elnökölt és 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 , 
+						<persName>
+							 Csengery 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						 , 
+						<persName>
+							 Czuczor 
+							<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+						</persName>
+						 , 
+						<persName>
+							 Greguss 
+							<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+						</persName>
+						 , 
+						<persName>
+							 Henszlmann 
+							<idno corresp="Henszlmann Imre" type="ITIdata">Q146095</idno>
+						</persName>
+						 , 
+						<persName>
+							 Kiss Károly 
+							<idno corresp="Kiss Károly" type="ITIdata">Q58114</idno>
+						</persName>
+						 , 
+						<persName>
+							 Lukács 
+							<idno corresp="Lukács Móric"/>
+						</persName>
+						 , 
+						<persName>
+							 Salamon 
+							<idno corresp="Salamon Ferenc" type="ITIdata">Q160085</idno>
+						</persName>
+						 , 
+						<persName>
+							 Szász Károly 
+							<idno corresp="Szász Károly" type="ITIdata">Q150786</idno>
+						</persName>
+						 , 
+						<persName>
+							 Toldy 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 , 
+						<persName>
+							 Tóth Kálmán 
+							<idno corresp="Tóth Kálmán" type="ITIdata">Q151435</idno>
+						</persName>
+						 és 
+						<persName>
+							 Tóth Lőrinc 
+							<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+						</persName>
+						 volt jelen, a jegyzőkönyv szerint „ 
+						<persName>
+							 Tóth Kálmán 
+							<idno corresp="Tóth Kálmán" type="ITIdata">Q151435</idno>
+						</persName>
+						 » 
+						<title>Az egri szép napok</title>
+						 « ( 
+						<title>Dobó
+							Katicza</title>
+						 ) czimü népszinművéből, 
+						<persName>
+							 Arany János 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 » 
+						<title>Az ember tragoediája</title>
+						 « czimü drámai
+						költeményből, 
+						<persName>
+							 Szász Károly 
+							<idno corresp="Szász Károly" type="ITIdata">Q150786</idno>
+						</persName>
+						 » 
+						<title>A kis Ilonka emlékezete</title>
+						 « czimü
+						költeményfüzetéből olvastak föl mutatványokat.” 
+					</note>
+					 Egyébiránt a kiadás
+					saját szakálamra is megtörténhetnék, miután 
+					<choice>
+						<orig>fel vagyok</orig>
+						<supplied>felvagyok</supplied>
+					</choice>
+					 hatalmazva, mi jőjön azon 60 ives vállalatba, mely a pártolóknak
+					igértetett. 
+					<note type="critic">
+						<quote>
+							<choice>
+								<orig>fel vagyok</orig>
+								<supplied>felvagyok</supplied>
+							</choice>
+							 hatalmazva, mi jőjön azon 60 ives vállalatba, mely a
+							pártolóknak igértetett 
+						</quote>
+						 – lásd feljebb; vállalat: vállalkozás
+					</note>
+				</p>
+				<p xml:id="p.6">
+					 Az e vállalatba fölvett művekért mérsékelt tiszteletdij is jár (kis
+					ive 20–30 ft); a mi 
+					<add type="corr">ugyan</add>
+					 nincsen arányban műved
+					értékével, de én elönyösnek látom föllépésedre, hogy az a Kisf. t. aegise 
+					<note type="critic">
+						<quote>aegise</quote>
+						 – pártolása (gör.) 
+					</note>
+					 alatt történjék. Munkádra
+					így több figyelem fordúl, s nem lesz kitéve annak, hogy olvasatlan maradjon, mig
+					maga magát valahogy ki nem küzdi a homályból. 
+				</p>
+				<p xml:id="p.7">
+					 Ha tehát nincs szavad eljárásom ellen – ha javításaimat részben,
+					vagy egészben helybenhagyod, vagy újakkal pótolod, 
+					<hi rend="underline">küldd
+						vissza azokat minél előbb</hi>
+					 hozzám, mert nincsenek meg párban, s
+					kéziratodon nem változtattam semmit. 
+				</p>
+				<p xml:id="p.8">
+					 Ha módositásaim nem tetszenének, vagy ha átalában semmit nem ak
+					<del>á</del>
+					<add type="corr">a</add>
+					 rnál is módositni (kivéve néhol a helyesirást, mert azt
+					minden esetre kell) azt ís ird 
+					<del>d</del>
+					 meg. A munka megjelenésére ez nem
+					akadály; csupán 
+					<hi rend="underline">éretted</hi>
+					 ajánlottam változtatást. 
+				</p>
+				<p xml:id="p.9">
+					 Mihelyt ez első küldeményt, észrevételeiddel megkaptam, azonnal
+					kezdhetnők a nyomást. A mint aztán a munka előbb halad; időről időre kicserélnők
+					észrevételinket. Arról biztossá tehetlek, hogy jegyzeteim mind csupán effélék
+					lesznek, s mindig kevesbedő számmal. Lényegesebbre nem fognak vonatkozni:
+					compositió, oeconomia 
+					<note type="critic">
+						<quote>oeconomia</quote>
+						 – rendezettség (gör.) 
+					</note>
+					 &amp;c. mind teljes.
+					Sőt az sem fog talán többször előfordúlni, mint itt egy pár esetben megtörtént,
+					hogy a gondolatra tegyek észrevételt. 
+				</p>
+				<p xml:id="p.10">
+					<title>Csák</title>
+					 ot vettem – de nem adtam még be a szinházhoz. 
+					<note type="critic">
+						<quote>
+							<title>Csák</title>
+							 ot vettem – de nem adtam még be a szinházhoz
+						</quote>
+						 – lásd 
+						<persName>
+							 Madách 
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1345. 
+						<ref target="ajom-17-lev.tei.1345"/>
+						<date when="1861-10-03">1861. okt. 3.</date>
+					</note>
+					 Véleményem szerint előnyös lesz rád nézve, ha 
+					<title>Csák</title>
+					 ot nem
+					is ösmerik, míg a „ 
+					<title>Tragédiá</title>
+					 t” nem olvassák. Úgy találom, hogy
+					ebben – daczára, hogy a szereplők elvont eszmét képviselnek – még is több a
+					drámaiság is, mint 
+					<title>Csák</title>
+					 ban. Hanem erről másszor. 
+				</p>
+				<p xml:id="p.11">Fogadd legszivesb üdvözlésemet!</p>
+				<p xml:id="p.12">tisztelő és szerető</p>
+				<p xml:id="p.13">barátod</p>
+				<p xml:id="p.14">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.15">
+					 U.i. Úgy látom, senki sem tudna inkább hozzászólni aesth. és
+					irodalmi kérdésekhez, 
+					<choice>
+						<orig>
+							<add type="corr">m</add>
+							 in 
+						</orig>
+						<supplied>
+							<add type="corr">m</add>
+							 int 
+						</supplied>
+					</choice>
+					 épen te. Én egy írodalmi lapot szerkesz 
+					<add type="corr">t</add>
+					 ek;
+					igen nagy szűke van nálam dolgozótársaknak. Nem lennél-e szives támogatni?
+					Hallom és tudom, hogy régebben működtél journalistikai pályán, habár más
+					szakmában. 
+					<note type="critic">
+						<quote>régebben működtél journalistikai pályán, habár más szakmában</quote>
+						– 
+						<persName>
+							 Madách 
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						 az 1840-es évek közepén 
+						<persName>
+							 Timon 
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						 álnéven politikai cikkeket írt a 
+						<persName>
+							 Szalay 
+							<idno corresp="Szalay Ágoston" type="ITIdata">Q66626</idno>
+						</persName>
+						 , majd 
+						<persName>
+							 Csengery 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						 szerkesztette 
+						<title>PH</title>
+						 -ba. Lásd 
+						<bibl>
+							<abbr>Praznovszky 1984.</abbr>
+							 97–112. 
+						</bibl>
+						 és 
+						<bibl>
+							<abbr>Fenyő 1997.</abbr>
+							 289–297. 
+						</bibl>
+					</note>
+					 Irhatsz álnév alatt is vagy név nélkűl. Értekező czikk, bel vagy kül
+					irodalmi termékek ismertetése, birálata &amp;c. mind lapom körébe vág. Ne vond
+					el tőlem munkásságodat. 
+					<note type="critic">
+						<quote>Ne vond el tőlem munkásságodat</quote>
+						 – 
+						<persName>
+							 Madách 
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						<date when="1862-04-02">1862. ápr. 2-án</date>
+						 tartotta Kisfaludy
+						Társaságbeli székfoglalóját 
+						<title>Az aesthetika és társadalom viszonyos
+							befolyása</title>
+						 címmel ( 
+						<bibl>
+							<abbr>SzF</abbr>
+							 II. I. 24. sz. 
+							<date when="1862-04-17">1862. ápr.
+								17.</date>
+							 369–372. és 25. sz. 
+							<date when="1862-04-24">ápr.
+								24.</date>
+							 385–389. 
+						</bibl>
+						 ). 
+						<title>A nőről, különösen aestheticai
+							szempontból</title>
+						 c., 
+						<date when="1864-04-18">1864. ápr. 18-án</date>
+						elhangzott akadémiai értekezése először a 
+						<title>Ko</title>
+						 -ban jelent meg
+						(II. II. 1. sz. 
+						<date when="1864-07-03">1864. júl. 3.</date>
+						 1–4., 2. sz.
+						<date when="1864-07-10">júl. 10.</date>
+						 25–28., 3. sz. 
+						<date when="1864-07-17">júl. 17.</date>
+						 49–53.); 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 ugyanott közölte a következő Madách-verseket:
+						<title>Elveink</title>
+						 (I. I. 9. sz. 
+						<date when="1863-03-08">1863. márc.
+							8.</date>
+						 197.), 
+						<title>A könyek</title>
+						 (I. II. 13. sz. 
+						<date when="1863-09-27">1863. szept. 27.</date>
+						 268.), 
+						<title>A rab
+							család</title>
+						 (II. II. 15. sz. 
+						<date when="1863-10-11">1863. okt.
+							11.</date>
+						 340–341.), 
+						<title>Borbálához</title>
+						 (II. I. 15. sz. 
+						<date when="1864-04-10">1864. ápr. 10.</date>
+						 341.), 
+						<title>Két kérő</title>
+						(II. II. 10. sz. 
+						<date when="1864-09-04">1864. szept. 4.</date>
+						 219–220.),
+						<title>Őszi érzés</title>
+						 (II. II. 16. sz. 
+						<date when="1864-10-16">1864.
+							okt. 16.</date>
+						 372.), 
+						<title>Tündérálom</title>
+						 (II. II. 6. sz. 
+						<date when="1864-08-07">1864. aug. 7.</date>
+						 123–125.) és A
+						<title>Kolozsiak</title>
+						 c. elbeszélést (II. II. 12. sz. 
+						<date when="1864-09-18">1864. szept. 18</date>
+						 268–275., 13. sz. 
+						<date when="1864-09-25">szept. 25.</date>
+						 292–300.) 
+					</note>
+				</p>
+				<p xml:id="p.16">
+					<hi rend="underline">
+						 I 
+						<hi rend="super">ső</hi>
+						 szín. 
+					</hi>
+				</p>
+				<p xml:id="p.17">
+					 „Dicsőség a magasban isten 
+					<hi rend="underline">em</hi>
+					 nek.” Ez
+					<hi rend="underline">em</hi>
+					 nagyon személyes, erölteti a hangot: s a mérték
+					miatt látszik betoldva lenni. 
+				</p>
+				<p xml:id="p.18">
+					 „Részünk csak az 
+					<hi rend="underline">árny</hi>
+					 ”, s alább: 
+				</p>
+				<p xml:id="p.19">
+					 „ 
+					<hi rend="underline">Fényében</hi>
+					 ily osztály részt…”
+					Ellenmondásnak látszik, ha csak úgy nem vesszük hogy az 
+					<hi rend="underline">árny</hi>
+					 része a 
+					<hi rend="underline">fénynek</hi>
+					 . Lehet talán így is. 
+				</p>
+				<p xml:id="p.20">
+					 „Imádjuk őt a végtelen kegyért, 
+					<hi rend="underline">hogy</hi>
+					 ”
+					ez a 
+					<hi rend="underline">hogy</hi>
+					 kivált 
+					<del>sorvégen</del>
+					 lyrában,
+					sorvégen, 
+					<del>
+						<gap extent="unknown" reason="illegible" unit="char"/>
+					</del>
+					 rosz. 
+					<note type="critic">
+						<quote>
+							 ez a 
+							<hi rend="underline">hogy</hi>
+							 kivált 
+							<del>sorvégen</del>
+							lyrában, sorvégen, 
+							<del>
+								<gap extent="unknown" reason="illegible" unit="char"/>
+							</del>
+							 rosz 
+						</quote>
+						 – a hogy szó stilisztikai problémáiról lásd 
+						<bibl>
+							<persName>
+								 AJ 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 : 
+							<title>Visszatekintés II.</title>
+							 ( 
+							<abbr>SzF</abbr>
+							 I.
+							37. sz. 
+							<date when="1861-07-18">1861. júl. 18.</date>
+							 579–580. 
+						</bibl>
+						és 
+						<bibl>
+							<abbr>AJÖM XI.</abbr>
+							 228–229. 
+						</bibl>
+						 ) 
+					</note>
+					 Nem lehetne segítni
+					rajta? 
+				</p>
+				<lg xml:id="lg.1">
+					<lg xml:id="lg.2">
+						<l xml:id="l.1">„Be van fejezve a nagy mű, igen</l>
+						<l xml:id="l.2">
+							 S úgy összevág minden, hogy 
+							<hi rend="underline">azt
+								hiszem</hi>
+						</l>
+						<l xml:id="l.3">Év milliókig szépen elforog</l>
+						<l xml:id="l.4">Mig egy kerékfogát ujítni kell.”</l>
+					</lg>
+				</lg>
+				<p xml:id="p.21">
+					 – E sorokban az 
+					<hi rend="underline">azt hiszem</hi>
+					 , kissé
+					furcsa: de az egész négy sor 
+					<hi rend="underline">mester emberes</hi>
+					önelégűltsége is komikai szinben tünik fel. Annyival inkább, mert a darab elején
+					van, s első szava istennek. Nem lehetne majestaticusabb 
+					<note type="critic">
+						<quote>majestaticusabb</quote>
+						 – fenségesebb (lat.) 
+					</note>
+					 hangúval
+					cserélni föl? Rám oly hatást tett először, hogy félretettem a művet s csak
+					<persName>
+						 Jámbor Pali 
+						<idno corresp="Jámbor Pál" type="ITIdata">Q146658</idno>
+					</persName>
+					 sürgetésére vettem megint elő. 
+					<note type="critic">
+						<quote>
+							 Rám oly hatást tett először, hogy félretettem a művet s csak
+							<persName>
+								 Jámbor Pali 
+								<idno corresp="Jámbor Pál" type="ITIdata">Q146658</idno>
+							</persName>
+							 sürgetésére vettem megint elő 
+						</quote>
+						 – 
+						<persName>
+							 Madách
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						<date when="1861-08">1861 aug.</date>
+						 első felében kérhette meg
+						képviselőtársát, 
+						<persName>
+							 Jámbor Pál 
+							<idno corresp="Jámbor Pál" type="ITIdata">Q146658</idno>
+						</persName>
+						 t 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 sürgetésére, aki 
+						<date when="1861-08-25">aug. 25-re</date>
+						 már
+						végig is olvasta ( 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Tompá 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 nak, 1336. 
+						<ref target="ajom-17-lev.tei.1336"/>
+						<date when="1861-08-25">1861. aug. 25.</date>
+						 ). Lásd 
+						<bibl>Kerényi, kézirat
+							630–633.</bibl>
+						 – 
+						<persName>
+							 Jámbor Pál 
+							<idno corresp="Jámbor Pál" type="ITIdata">Q146658</idno>
+						</persName>
+						 ( 
+						<date from="1821" to="1897">1821–1897</date>
+						 ): franciaországi
+						emigrációjából 
+						<date when="1859">1859-ben</date>
+						 hazatérve
+						<placeName>Hegyes</placeName>
+						 en káplán, az 
+						<date when="1861">1861-es</date>
+						 országgyűlésen a kulai kerület képviselője, ezután a
+						szabadkai gimnázium igazgatója. E korszakbeli művei egyebek között a
+						<title>Hf</title>
+						 -ban, a 
+						<title>VU</title>
+						 -ban, a 
+						<title>PN</title>
+						-ban és a 
+						<title>Dcs</title>
+						 -ban jelentek meg. 
+					</note>
+				</p>
+				<p xml:id="p.22">„Sverák” (több helyen). Szférák, vagy sphaerák (σφαιρα = gömb)</p>
+				<p xml:id="p.23">
+					 „dőre szikra” – a 
+					<hi rend="underline">dőre</hi>
+					 csak hézagpótló
+					epithetonnak 
+					<note type="critic">
+						<quote>epithetonnak</quote>
+						 – jelzőnek (gör.) 
+					</note>
+					 tetszik. „ 
+					<hi rend="underline">Szikra</hi>
+					 ” és „világa” képtelen rosz rím. egyikben 
+					<sic/>
+					<hi rend="underline">i</hi>
+					 – 
+					<hi rend="underline">a</hi>
+					 hangzók, másikban 
+					<hi rend="underline">á</hi>
+					 – 
+					<hi rend="underline">a</hi>
+					 . 
+				</p>
+				<lg xml:id="lg.3">
+					<lg xml:id="lg.4">
+						<l xml:id="l.5">„Két golyó küzd egymás ellen,</l>
+						<l xml:id="l.6">
+							<hi rend="underline">Szétszakadni</hi>
+							 , 
+							<hi rend="underline">összeesni</hi>
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.24">
+					 – az utóbbi sor syntactice és grammatice 
+					<note type="critic">
+						<quote>syntactice és grammatice</quote>
+						 – mondattanilag és nyelvtanilag
+						(lat.) 
+					</note>
+					 homályosan fejezi ki a gondolatot. 
+				</p>
+				<p xml:id="p.25">
+					 „Csillaga a szerelemnek” – ez talán frivol itt, annyival inkább,
+					mert még akkor nem volt 
+					<hi rend="underline">az</hi>
+					 , de különben is csak a
+					föld fia nézheti 
+					<hi rend="underline">csillag</hi>
+					 nak azon sphaerákat, angyal
+					nincs oly opticai csalódásban. 
+				</p>
+				<p xml:id="p.26">
+					 „Itt 
+					<hi rend="underline">enyészők</hi>
+					 omladéka” – Ha a teremtés
+					után 
+					<hi rend="underline">mindjárt</hi>
+					 kezdődik a színmű, talán nincs helyén
+					<hi rend="underline">enyésző</hi>
+					 világokat látni még. 
+				</p>
+				<p xml:id="p.27">
+					 „cserélnek – felettek” nem igen jó rím: 
+					<hi rend="underline">é</hi>
+					 – 
+					<hi rend="underline">e</hi>
+					 = 
+					<hi rend="underline">e</hi>
+					<del>,</del>
+					 – 
+					<hi rend="underline">e</hi>
+					 . 
+				</p>
+				<p xml:id="p.28">
+					 „öröké” – örök 
+					<hi rend="underline">k</hi>
+					 é (mert örök 
+					<hi rend="underline">v</hi>
+					 é-ből). A helyesirási hibákat ezentúl nem jelölöm
+					ki, majd kijavítom, ha kezemen megy át a correctura. 
+				</p>
+				<p xml:id="p.29">
+					 „De még 
+					<hi rend="underline">ha is</hi>
+					 , másitni nincs erőd”. – A
+					<hi rend="underline">ha is</hi>
+					 nem magyar. („Vagy, ha igen, másitni nincs
+					<del>”</del>
+					 erőd.”) 
+				</p>
+				<p xml:id="p.30">
+					 „Méltó-e illyen 
+					<hi rend="underline">öreg urhoz”</hi>
+					 … Az öreg úr
+					nagyon 
+					<persName>
+						 Goethé 
+						<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+					</persName>
+					 s, 
+					<title>Mephistó</title>
+					 s. – Nem lehetne mindenütt más címet
+					adni. Bornirt 
+					<note type="critic">
+						<quote>Bornirt</quote>
+						 – korlátolt (né.) 
+					</note>
+					 ember ilyesekből ordítja az
+					<hi rend="underline">utánzás</hi>
+					 vádját. 
+				</p>
+				<p xml:id="p.31">
+					 „Hozsánna, úr! (2 
+					<hi rend="super">ik</hi>
+					 személy) „ki szent
+					törvényt 
+					<hi rend="underline">szabott</hi>
+					 (3 
+					<hi rend="super">ik</hi>
+					 sz.) Jó
+					volna egyeztetni, kissé visszás. 
+				</p>
+				<p xml:id="p.32">
+					<hi rend="underline">
+						 2 
+						<hi rend="super">ik</hi>
+						 szin. 
+					</hi>
+				</p>
+				<p xml:id="p.33">
+					 („Verő 
+					<hi rend="underline">nap</hi>
+					 ” – Verőfényt mondanak, verő
+					<hi rend="underline">nap</hi>
+					 ot nem 
+					<del>.</del>
+					<add type="corr">)</add>
+				</p>
+				<p xml:id="p.34">
+					 „Ah, milyen édes, milyen szép 
+					<hi rend="underline">az élni</hi>
+					 ”.
+					Nem tudom, comma 
+					<note type="critic">
+						<quote>comma</quote>
+						 – vessző (lat.) 
+					</note>
+					 jö-e az 
+					<hi rend="underline">az</hi>
+					 után, vagy 
+					<hi rend="underline">élni</hi>
+					 főnév helyett áll.
+					Mindenkép bajos. Igy kiáltatnám fel Évát: „Ah, élni, élni! mily édes, mi szép”!
+					emphaticusabb 
+					<note type="critic">
+						<quote>emphaticusabb</quote>
+						 – hevesebb (gör.-lat.) 
+					</note>
+					 is, vers, nyelv
+					is jobb. 
+				</p>
+				<p xml:id="p.35">
+					 „ 
+					<hi rend="underline">Mint hogy ha</hi>
+					<del>”</del>
+					 ellenséges idegen” – E többször előforduló „mint hogy ha” nagyon
+					kitűnteti a vers nyűgét. Tán inkább egy egytagú interjectio 
+					<note type="critic">
+						<quote>interjectio</quote>
+						 – indulatszó (lat.) 
+					</note>
+					 kellene elébe: 
+					<hi rend="underline">Hah</hi>
+					 ! Nézd! Ah! 
+					<hi rend="underline">mintha</hi>
+					 …. 
+				</p>
+				<p xml:id="p.36">
+					 „Itt kebleden, ugy látszik, hallom azt még.” (Az égi zengzetet) –
+					A 
+					<hi rend="underline">látszik</hi>
+					 helyett jobb 
+					<hi rend="underline">
+						 t
+						<del>é</del>
+						<add type="corr">e</add>
+						 tszik 
+					</hi>
+					 , mert nem 
+					<hi rend="underline">látható</hi>
+					 ról beszél Ádám. Az egész 
+					<hi rend="underline">édeskés</hi>
+					<hi rend="underline">modern</hi>
+					 bókja a szerelemnek, valamint az Éva
+					complimentje 
+					<note type="critic">
+						<quote>complimentje</quote>
+						 – bókja (fr.) 
+					</note>
+					 is Ádám 
+					<hi rend="underline">szemére</hi>
+					 . 
+				</p>
+				<p xml:id="p.37">
+					 „fejelne” helyett talán 
+					<hi rend="underline">feselne</hi>
+					 ; az a
+					<hi rend="underline">fejelés</hi>
+					 először a csizmát juttatja eszünkbe. 
+				</p>
+				<p xml:id="p.38">
+					 „Kétkedve állok mégis újra meg” – 
+					<hi rend="underline">két</hi>
+					kedve-e, vagy 
+					<hi rend="underline">kés</hi>
+					 kedve? az utóbbi szokatlan. 
+				</p>
+				<p xml:id="p.39">„az öreg úr”… L. fentebb.</p>
+				<p xml:id="p.40">
+					 „mint 
+					<hi rend="underline">bamba gyermeket</hi>
+					 ” Anachronismus
+					<note type="critic">
+						<quote>Anachhronismus</quote>
+						 – kortévesztés (gör.) 
+					</note>
+					 Ádám irányában.
+					Neki nem lehet fogalma erről. Később (midőn 
+					<hi rend="underline">visióban</hi>
+					él) nincs anachronismus, mert mindent tudhat, most még nem. 
+				</p>
+				<p xml:id="p.41">
+					 „trágya 
+					<hi rend="underline">túrony</hi>
+					 ” 
+					<note type="critic">
+						<quote>
+							 „trágya 
+							<hi rend="underline">túrony</hi>
+							 ” 
+						</quote>
+						 – ganajtúró
+						bogár (vesd össze 
+						<persName>
+							 Madách 
+							<idno corresp="Madách Imre" type="ITIdata">Q56413</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1361. 
+						<ref target="ajom-17-lev.tei.1361"/>
+						<date when="1861-11-02">1861. nov. 2.</date>
+						 ) 
+					</note>
+					 a 
+					<hi rend="underline">túronyt</hi>
+					 nem ismerem. Tán érthetőbb volna, ha nem szebb
+					is: „De trágya 
+					<hi rend="underline">domb gyanánt</hi>
+					 ….” 
+				</p>
+				<p xml:id="p.42">
+					 „Tenyészni kis körödnek lágy ölé 
+					<hi rend="underline">ben</hi>
+					 ”…
+					lágy 
+					<hi rend="underline">ölén</hi>
+					 . A nélkűl is sok a catalecticus 
+					<note type="critic">
+						<quote>catalecticus</quote>
+						 – csonka (gör.) 
+					</note>
+					 (5 1/2) vers sor.
+					Rítkítni kell, a hol lehet, mert végre sem 
+					<hi rend="underline">szabály</hi>
+					 ez
+					a jámbusban, hanem 
+					<hi rend="underline">kivétel</hi>
+					 , 
+				</p>
+				<p xml:id="p.43">
+					 „arasz 
+					<hi rend="underline">t</hi>
+					 ” helyett mindenütt jobb 
+					<hi rend="underline">arasz</hi>
+					 , ha csak mérték nem parancsolja úgy. 
+				</p>
+				<p xml:id="p.44">
+					 „Ha az 
+					<hi rend="underline">tat</hi>
+					 élvezed”…. Az 
+					<hi rend="underline">tat</hi>
+					 elég népies, de megtagadja a nyelvtan. El is
+					lehetne kerülni: „Tudsz, mint {az/egy isten, 
+					<hi rend="underline">azt</hi>
+					 ha
+					élvezed.” 
+				</p>
+				<p xml:id="p.45">
+					 „Még is cs 
+					<hi rend="underline">ak</hi>
+					 zsarn 
+					<hi rend="underline">ok</hi>
+					 …” Kemény. „Még is 
+					<hi rend="underline">nagy</hi>
+					 zsarnok”…? 
+				</p>
+				<p xml:id="p.46">
+					 „A 
+					<hi rend="underline">dícs</hi>
+					 kissé kitisztúl”…. Ez a 
+					<hi rend="underline">dícs</hi>
+					 igy magában szokatlan, a gloria helyett, melyet
+					dics 
+					<hi rend="underline">fény</hi>
+					 nek fordítnak. Azonban látom, hogy erősebb
+					volna, ha megszoknók. – 
+				</p>
+				<p xml:id="p.47">
+					 „A vén tagadás kísért….” A metrum jajgat. Tagadás, lehetne – u –
+					mert az első syllaba 
+					<note type="critic">
+						<quote>syllaba</quote>
+						 – szótag (gör.-lat.) 
+					</note>
+					 hangsulyos, de „ 
+					<hi rend="underline">a</hi>
+					 v 
+					<hi rend="underline">é</hi>
+					 n | t 
+					<hi rend="underline">a</hi>
+					 ga|d 
+					<hi rend="underline">á</hi>
+					 s” bajosabb”. – De
+					látom, nehéz igazítni, hogy meg ne rontsuk a praecisiót. 
+					<note type="critic">
+						<quote>praecisiót</quote>
+						 – pontosságot (lat.) 
+					</note>
+				</p>
+				<lg xml:id="lg.5">
+					<lg xml:id="lg.6">
+						<l xml:id="l.7">„Segítsetek</l>
+						<l xml:id="l.8">Ti elemek,</l>
+						<l xml:id="l.9">Az embert nektek</l>
+						<l xml:id="l.10">Szerezni meg…”</l>
+					</lg>
+				</lg>
+				<p xml:id="p.48">
+					 Ilyenekben mutat 
+					<persName>
+						 Goethe 
+						<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+					</persName>
+					 nagy lyrai virt 
+					<add type="corr">u</add>
+					 ositást… ez olyan, mint a
+					<persName>Nagy István</persName>
+					 fordításában 
+					<persName>
+						 Goethe 
+						<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+					</persName>
+					 . 
+					<note type="critic">
+						<quote>
+							 ez olyan, mint a 
+							<persName>Nagy István</persName>
+							 fordításában
+							<persName>
+								 Goethe 
+								<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+							</persName>
+						</quote>
+						 – 
+						<bibl>
+							<title>Faust</title>
+							 . Irta 
+							<persName>
+								 Goethe 
+								<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+							</persName>
+							 . Forditotta 
+							<persName>Nagy István</persName>
+							 . 
+							<placeName>
+								Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1860">1860.</date>
+						</bibl>
+						 Lásd róla 
+						<persName>
+							 Szász Károly 
+							<idno corresp="Szász Károly" type="ITIdata">Q150786</idno>
+						</persName>
+						 recenzióját ( 
+						<bibl>
+							<abbr>SzF</abbr>
+							 I. 3. sz. 
+							<date when="1860-11-21">1860. nov. 21.</date>
+							35–38. 
+						</bibl>
+						 ) 
+					</note>
+					 Hanem rövid, s maradjon. 
+				</p>
+				<p xml:id="p.49">
+					 „Mindkettőt más-más látkör 
+					<hi rend="underline">vesz</hi>
+					 körűl.”
+					Határozottan hibás a syntaxis. 
+					<hi rend="underline">Veszi</hi>
+					 kell, okvetetlen.
+					Talán így: Mindkettőt más-más 
+					<hi rend="underline">láthatár övedzi</hi>
+					 . 
+				</p>
+				<p xml:id="p.50">
+					 „látköröd 
+					<hi rend="underline">kivűl</hi>
+					 ” – lehet, mint kétség
+					<hi rend="underline">kivűl</hi>
+					 . De megakad ám rajta Boeotia! 
+					<note type="critic">
+						<quote>De megakad ám rajta Boeotia!</quote>
+						 – a Beócia nevű tartomány
+						<placeName>Athén</placeName>
+						 előtt nehézkes felfogású lakosairól volt
+						ismert; vesd össze 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>Ney Ferenc</persName>
+						 nek, 
+						<date when="1853-10-04">1853. okt.
+							4.</date>
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 559. 316. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.559"/>
+						 és 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Gyulai 
+							<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+						</persName>
+						 nak, 1344. 
+						<ref target="ajom-17-lev.tei.1344"/>
+						<date when="1861-10-02">1861. okt. 2.</date>
+					</note>
+				</p>
+				<p xml:id="p.51">
+					<del>
+						 „A legmagasbat embernek tekinted”…. Talán nem tiszta. Azt akarja-e
+						mondani: istent is antropomorphisálod, vagy csak ezt: 
+						<hi rend="underline">És ember, a mi legmagasb neked</hi>
+						 ”? 
+					</del>
+				</p>
+				<p xml:id="p.52">
+					 „Ép úgy tekintünk 
+					<hi rend="underline">meg</hi>
+					 mi…” „Meg mi”
+					szokatlan rend: „ 
+					<hi rend="underline">Mi</hi>
+					<hi rend="underline">meg</hi>
+					 ép úgy tekintünk…. volna helyes rendben. „Mi meg
+					szint’úgy – a vers roszabb, de érthetőbb. 
+				</p>
+				<p xml:id="p.53">
+					 „E porvilágot választ 
+					<hi rend="underline">ván</hi>
+					 ”… A
+					participium 
+					<note type="critic">
+						<quote>participium</quote>
+						 – igenév (lat.) 
+					</note>
+					 visszás. Könnyű volna
+					segitni: E porvilágra közzénk mért jövél? 
+				</p>
+				<p xml:id="p.54">
+					 „kimér 
+					<hi rend="underline">ett</hi>
+					 éle 
+					<hi rend="underline">tet</hi>
+					 ” rosz hang. 
+					<hi rend="underline">Szabályos életet</hi>
+					 ? 
+				</p>
+				<p xml:id="p.55">
+					 „De mondt 
+					<hi rend="underline">a</hi>
+					<hi rend="underline">a</hi>
+					 z úr, hogy büntetni fog.” 
+					<add type="corr">Hi</add>
+					atus is, a 
+					<hi rend="underline">meg</hi>
+					 szócskának sem szabad volna elmaradni:
+					„Megmondta isten, hogy büntetni fog.” 
+				</p>
+				<p xml:id="p.56">
+					 „ 
+					<hi rend="underline">nap</hi>
+					 sugaras napok közt –” egyik 
+					<hi rend="underline">nap</hi>
+					 pleonasmus. 
+					<note type="critic">
+						<quote>pleonasmus</quote>
+						 – szószaporítás (gör.) 
+					</note>
+				</p>
+				<p xml:id="p.57">
+					<hi rend="underline">
+						 3 
+						<hi rend="super">ik</hi>
+						 szín. 
+					</hi>
+				</p>
+				<p xml:id="p.58">
+					 „ 
+					<hi rend="underline">Minőnk</hi>
+					 egykor volt”…. nehéz. „Mint
+					egykoron volt”? 
+				</p>
+				<p xml:id="p.59">
+					 „A míg ipar lesz és hăză belőle” – Tán igy: „A míg belőle 
+					<hi rend="underline">hon</hi>
+					 lesz és 
+					<hi rend="underline">ipar</hi>
+					 .
+					<del>?</del>
+					<add type="corr">–</add>
+					 ” 
+				</p>
+				<p xml:id="p.60">
+					 „daczolsz a tiszta ég 
+					<hi rend="underline">nek</hi>
+					 ” – daczolni
+					valami 
+					<hi rend="underline">vel</hi>
+					 . Inkább vesszen a rím. 
+				</p>
+				<p xml:id="p.61">
+					 „Mely jár nyomá 
+					<hi rend="underline">ban</hi>
+					 , a lehangolás 
+					<hi rend="underline">ban</hi>
+					 ”… rimel. Lehetne így: „A mely nyomán jár, a
+					lehangolásban.” 
+				</p>
+				<p xml:id="p.62">
+					 „De hogyha a hálának 
+					<hi rend="underline">pántja</hi>
+					 ” csunya ez
+					a nem is tiszta magyar 
+					<hi rend="underline">pánt</hi>
+					 …. 
+					<hi rend="underline">kapcsa</hi>
+					 ? 
+					<hi rend="underline">csatja</hi>
+					 ? 
+					<hi rend="underline">örve</hi>
+					 ? stb. 
+				</p>
+				<p xml:id="p.63">
+					 „Mit 
+					<hi rend="underline">dőre</hi>
+					 tervvel ember alkotand…” nem
+					tudom, magáról szól-e Ádám, vagy másról. Ha az első, akkor visszás, hogy
+					önbizalma daczára tervét 
+					<hi rend="underline">dőré</hi>
+					 nek mondja, ha a leendő
+					nemzedékről – anachronismus tudnia, hogy 
+					<hi rend="underline">dőre</hi>
+					 tervek
+					is lesznek. Olyannak kell képzelnie ivadékát, mint maga. 
+				</p>
+				<p xml:id="p.64">
+					 „segélyed sem 
+					<hi rend="underline">szükségelém</hi>
+					 ” Nem versbe
+					való ez a 
+					<hi rend="underline">szükségből</hi>
+					 faragott szó. „Ahhoz segélyed tán
+					fölösleges”? 
+				</p>
+				<p xml:id="p.65">
+					 „Tán 
+					<hi rend="underline">czérna</hi>
+					 szál” gemein 
+					<note type="critic">
+						<quote>gemein</quote>
+						 – közönséges (né.) 
+					</note>
+					 ez a czérna… 
+					<hi rend="underline">fonál</hi>
+					 kellene inkább. Vagy: hajszál &amp;c. 
+				</p>
+				<p xml:id="p.66">
+					 „ 
+					<hi rend="underline">néked</hi>
+					 még daczolhat L. feljebb. „bir
+					<hi rend="underline">veled</hi>
+					 daczolni..” aztán a köv. sorban: 
+				</p>
+				<p xml:id="p.67">
+					 „S Csak 
+					<sic/>
+					 is ez az…. 
+					<del>”</del>
+					 mi 
+					<hi rend="underline">énvelem daczol</hi>
+					 ” 
+				</p>
+				<p xml:id="p.68">
+					 „Elrejtve zajtalan 
+					<hi rend="underline">mert</hi>
+					 működik” – Az
+					inversio nagyon kemény. „Hogy, mert elrejtve munkál, s zajtalan”, 
+				</p>
+				<p xml:id="p.69">
+					 „Hadd meglátnom hát 
+					<hi rend="underline">azt a</hi>
+					 működést”…
+					Nehéz a spondeustól „Hagyd megtekintnem hát e működést –” 
+				</p>
+				<p xml:id="p.70">
+					 – „ 
+					<hi rend="underline">Mely</hi>
+					 rám befolyhat” – messze van a
+					praedicatum a subjectumtól. 
+					<note type="critic">
+						<quote>messze van a praedicatum a subjectumtól</quote>
+						 – messze van az
+						állítmány az alanytól (lat.) 
+					</note>
+					 Az incisumok 
+					<note type="critic">
+						<quote>incisumok</quote>
+						 – közbevetések (lat.) 
+					</note>
+					 nagyon elfordítják a
+					beszéd értelmét. – 
+				</p>
+				<p xml:id="p.71">
+					 – „ 
+					<hi rend="underline">silledsz</hi>
+					 ” = sűlyedsz… – Az ilyet
+					majd az orthographiánál 
+					<note type="critic">
+						<quote>orthographiánál</quote>
+						 – helyesírásnál (lat.) 
+					</note>
+					 meg kell
+					javítnunk. 
+				</p>
+				<p xml:id="p.72">
+					 – „más felettettek 
+					<hi rend="underline">ha</hi>
+					 nincs” – nehézkes
+					inversio. „Hogy fáztok ápoló gond s kéz ne’kűl, 
+				</p>
+				<lg xml:id="lg.7">
+					<lg xml:id="lg.8">
+						<l xml:id="l.11"> u u u</l>
+						<l xml:id="l.12">
+							 „Rŏkŏn 
+							<hi rend="underline">ibbat</hi>
+							 mint a ri 
+							<hi rend="underline">deg</hi>
+							 ör 
+							<hi rend="underline">eg</hi>
+							 volt” 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.73">. Rosz vers, rosz hang. „Ki nyájasabb lesz, mint a zord öreg.”</p>
+				<p xml:id="p.74">
+					 „szép szerény fiú az”. – 
+					<hi rend="underline">az</hi>
+					 nem kell. 
+				</p>
+				<lg xml:id="lg.9">
+					<lg xml:id="lg.10">
+						<l xml:id="l.13"> - u u u</l>
+						<l xml:id="l.14">„szellem = velem”</l>
+					</lg>
+				</lg>
+				<p xml:id="p.75">– nem jó rim, mert – u = u u</p>
+				<p xml:id="p.76">
+					 „Ha felveszem képem, leroskad 
+					<hi rend="underline">asz</hi>
+					 ” 
+				</p>
+				<lg xml:id="lg.11">
+					<lg xml:id="lg.12">
+						<l xml:id="l.15">
+							 „Ha fölveszem saját képem, leros 
+							<add type="corr">k</add>
+							adsz 
+							<del>”</del>
+						</l>
+						<l xml:id="l.16">S eme két féreg itt megsemmisűl.”</l>
+					</lg>
+				</lg>
+				<p xml:id="p.77">
+					 „a mint kértek, már határozások” 
+					<note type="critic">piros
+						ceruzával áthúzva</note>
+					 (vannak.) – Nehéz magyarban az ilyen. Vagy
+					határozátok? úgy jó. 
+				</p>
+				<p xml:id="p.78">
+					 „és az egynapos 
+					<hi rend="underline">légy</hi>
+					 ” – A 
+					<hi rend="underline">légy</hi>
+					 , egy az hogy nem igen poétai, más meg hogy a
+					catalecticus verset szaporítja. Nem volna jobb: „A százados fa s egynapos 
+					<hi rend="underline">rovar?</hi>
+					 ” 
+				</p>
+				<p xml:id="p.79">
+					 „mi változunk 
+					<hi rend="underline">csak</hi>
+					 ” – a 
+					<hi rend="underline">csak</hi>
+					 nélkűl is ugyanazt az értelmet adná, több
+					emphasissal, jobb verssel. 
+				</p>
+				<p xml:id="p.80">
+					 „betöltöd czélodat te is 
+					<hi rend="underline">hát</hi>
+					 ” A 
+					<hi rend="underline">hát</hi>
+					 megint kimaradhat, 
+				</p>
+				<p xml:id="p.81">
+					 „szorítv 
+					<hi rend="underline">a</hi>
+					<hi rend="underline">a</hi>
+					 z” hiatus 
+				</p>
+				<p xml:id="p.82">
+					 „Ez visszapillantás 
+					<hi rend="underline">a</hi>
+					<hi rend="underline">a</hi>
+					 z öregnek” – nem értem 
+					<choice>
+						<orig>
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>tisztán.</supplied>
+					</choice>
+					 A másik sor nem tudom szándékosan rimel-é? Tán 
+					<hi rend="underline">könnyebb</hi>
+					 volna igy: 
+				</p>
+				<lg xml:id="lg.13">
+					<lg xml:id="lg.14">
+						<l xml:id="l.17">De ifju keblem forró vágya más:</l>
+						<l xml:id="l.18">Jövőnkbe vetni egy pillantatot.</l>
+					</lg>
+				</lg>
+				<p xml:id="p.83">
+					<hi rend="underline">
+						 4 
+						<hi rend="super">ik</hi>
+						 szín. 
+					</hi>
+				</p>
+				<p xml:id="p.84">
+					 „Hiába 
+					<hi rend="underline">hivod</hi>
+					 azt” – A hivod (rufst)
+					magyarban nem teszi azt ki: 
+					<hi rend="underline">segélyűl</hi>
+					 . Talán 
+					<hi rend="underline">kéred</hi>
+					 , noha ez gemeinabb. 
+				</p>
+				<p xml:id="p.85">„mi bűbájt bir sajátul” – veszett hang, rosz syntaxis. „Ki e nő és
+					miféle bája van”</p>
+				<p xml:id="p.86">
+					 „lényéhez 
+					<hi rend="underline">ragadja</hi>
+					 ” – nem volna jobb:
+					„Lerántja porban fetrengő magához”? 
+				</p>
+				<p xml:id="p.87">
+					 „Mit 
+					<hi rend="underline">tegyek</hi>
+					 tehát” – Nem volna jobb 
+					<hi rend="underline">tegyen</hi>
+					 ? (t.i. a 
+					<hi rend="underline">bölcs
+						király</hi>
+					 kiről Pharaó beszél) akkor jobban jőne a következő két sora
+					Luczifernek. Vagy ott a 
+					<hi rend="underline">tudás</hi>
+					 a subjectum, meg az 
+					<hi rend="underline">erő</hi>
+					 ? Nehéz érteni e két sort: „Nincsen más hátra,
+					mint hogy a tudás(nak) létét tagadja (a bölcs király) s az erő kaczagja (a bölcs
+					királyt); vagy pedig: nincsen más hátra, minthogy a 
+					<hi rend="underline">tudás</hi>
+					 (saját) létét tagadja, s az erő (ugyanazt) kaczagja.” – Kell
+					vele tenni valamit, mert „ 
+					<hi rend="underline">brevis esse laborat, obscurus
+						fit.</hi>
+					 ” 
+					<note type="critic">
+						<quote>
+							 „ 
+							<hi rend="underline">brevis esse laborat, obscurus fit.</hi>
+							 ”
+						</quote>
+						 – 
+						<lg xml:id="lg.15">
+							<lg xml:id="lg.16">
+								<l xml:id="l.19">brevis esse laboro,</l>
+								<l xml:id="l.20">obscurus fio</l>
+							</lg>
+						</lg>
+						 ( 
+						<bibl>
+							<persName>
+								 Horatius 
+								<idno corresp="Horatius, Quintus Flaccus"/>
+							</persName>
+							 : 
+							<title>De arte poetica. Epistularum liber alter II.
+								III.</title>
+							 25–26. 
+						</bibl>
+						 ); 
+						<persName>
+							 Muraközy Gyula 
+							<idno corresp="Muraközy Gyula" type="ITIdata">Q244679</idno>
+						</persName>
+						 fordításában: 
+						<lg xml:id="lg.17">
+							<lg xml:id="lg.18">
+								<l xml:id="l.21">Mit tömörítve szeretnék</l>
+								<l xml:id="l.22">írni, homályos lesz</l>
+							</lg>
+						</lg>
+					</note>
+				</p>
+				<p xml:id="p.88">
+					 „Mit az 
+					<hi rend="underline">erős</hi>
+					 rak, s állitván utódot
+					Jármába, meghal.” Az utóbbi két praedicatumot az olvasó az 
+					<hi rend="underline">erősre</hi>
+					 értheti inkább. 
+				</p>
+				<lg xml:id="lg.19">
+					<lg xml:id="lg.20">
+						<l xml:id="l.23">
+							 Miért él 
+							<hi rend="underline">a pór</hi>
+							 ? gúlához követ 
+						</l>
+						<l xml:id="l.24">
+							 Hord az 
+							<hi rend="underline">erősnek</hi>
+							 , s állítván
+							utódot 
+						</l>
+						<l xml:id="l.25">Jármába, meghal.</l>
+					</lg>
+				</lg>
+				<p xml:id="p.89">
+					 „Neked 
+					<hi rend="underline">hitvány</hi>
+					 szám” – jobb metrumot ad:
+					<hi rend="underline">silány</hi>
+					 . 
+				</p>
+				<p xml:id="p.90">
+					 „Mint a 
+					<hi rend="underline">hatály</hi>
+					 nak én” – a hatály jobb
+					metrum ugyan mint a kitörlött 
+					<hi rend="underline">erő</hi>
+					 , de ez erősebb. 
+				</p>
+				<lg xml:id="lg.21">
+					<lg xml:id="lg.22">
+						<l xml:id="l.26">
+							 „Mint az 
+							<hi rend="underline">erőnek</hi>
+							 én. 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.91">
+					 „Te meg tilts 
+					<hi rend="underline">ad</hi>
+					 be” – szabályos de
+					erőszak látszik, „ 
+					<hi rend="underline">Csitítsd</hi>
+					 el?” 
+				</p>
+				<p xml:id="p.92">
+					 „az 
+					<hi rend="underline">tat</hi>
+					 az igával” – az igával 
+					<hi rend="underline">azt</hi>
+					 . 
+				</p>
+				<p xml:id="p.93">
+					 „Hŏgy ăz ā népjaj” – „Hogy a nép jajja” vagy „ 
+					<hi rend="underline">e</hi>
+					 nép jajja” ha a specialis vonatkozás el nem
+					maradhat. 
+				</p>
+				<p xml:id="p.94">
+					 „És 
+					<hi rend="underline">véled</hi>
+					 én” – a 
+					<hi rend="underline">véled</hi>
+					 ige is: olvashatja szórakozott igy: „És véled, én?…,..” – És én
+					<hi rend="underline">veled</hi>
+					 . Semmi a metrum. 
+				</p>
+				<p xml:id="p.95">
+					 „A végezet elítélt állata” – Nehéz hang. Talán: A { végzés/végzet
+					} 
+					<hi rend="underline">arra</hi>
+					 ítélt állata” (a mit t.i. Ádám elmondott) 
+				</p>
+				<p xml:id="p.96">
+					 „ 
+					<hi rend="underline">Mit</hi>
+					 vágyol 
+					<hi rend="underline">mást</hi>
+					 –” vágyni 
+					<hi rend="underline">valamit</hi>
+					 ? Igazitni könnyű
+					volna: „mi vágyad más?” 
+				</p>
+				<p xml:id="p.97">
+					 „e hasztalan e 
+					<hi rend="underline">dőre</hi>
+					 fecsegéssel” – a
+					dőre igen sokszor jő már el 
+					<del>e</del>
+					<add type="corr">é</add>
+					 . Itt lehetne: 
+					<hi rend="underline">balga</hi>
+					fecsegés. 
+				</p>
+				<p xml:id="p.98">
+					 „mely 
+					<hi rend="underline">arczaid</hi>
+					 nál” – úgy veszik, hogy
+					<hi rend="underline">arcz</hi>
+					 egy van (Gesicht) 
+					<hi rend="underline">orcza</hi>
+					 kettő (Wangen) 
+				</p>
+				<lg xml:id="lg.23">
+					<lg xml:id="lg.24">
+						<l xml:id="l.27">
+							 „Mely 
+							<hi rend="underline">arczodat legyinti</hi>
+							 s
+							elröpűl” 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.99">
+					 „Vékonyka porréteg marad 
+					<hi rend="underline">utána</hi>
+					 = az
+					arczon? nem, a földön. De amúgy érthetni előbb. „marad, 
+					<hi rend="underline">hol
+						elszáll</hi>
+					 ” 
+				</p>
+				<p xml:id="p.100">
+					 „tanyá 
+					<hi rend="underline">zik</hi>
+					 ” Lehet s jobb is: 
+					<hi rend="underline">tanyáz</hi>
+					 . 
+				</p>
+				<p xml:id="p.101">
+					 „něm ăz égrá 
+					<add type="corr">z</add>
+					 ó fergeteg” – „S mindezt
+					nem ég- s földrázó fergeteg” vagy: –––––––––––– a menyrázó fergeteg – 
+				</p>
+				<p xml:id="p.102">„Egyesekböl mely egy egészet alkot –” nem zeng. Talán igy: „Mely
+					egyesekből nagy egészt csinál.”</p>
+				<p xml:id="p.103">
+					 „Vezes, vezess Lucifer új helyemre.” – „Vezess 
+					<choice>
+						<orig>v.</orig>
+						<supplied>vezess</supplied>
+					</choice>
+					<hi rend="ul">új czélra</hi>
+					 , Lucifer. (?) 
+				</p>
+				<p xml:id="p.104">
+					 „tört 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					 reménnyel stb…. Nehézkes. De maradhat is. 
+				</p>
+				<p xml:id="p.105">
+					<hi rend="underline">
+						 5 
+						<hi rend="super">ik</hi>
+						 szin. 
+					</hi>
+				</p>
+				<p xml:id="p.106">
+					 „Nézd, arra 
+					<hi rend="underline">ment</hi>
+					 atyád el…. „Nézd, arra
+					ment el gyors hajón atyád” 
+				</p>
+				<p xml:id="p.107">„S vezesse közzénk hős atyádat épen.</p>
+				<p xml:id="p.108">
+					 „bú emészti 
+					<hi rend="underline">itt</hi>
+					 honn – Csak: 
+					<hi rend="underline">honn</hi>
+					 . 
+				</p>
+				<p xml:id="p.109">
+					 „Istennek átka 
+					<hi rend="underline">űl</hi>
+					 …. 
+				</p>
+				<p xml:id="p.110">
+					 „Csak a szerelmes nőnek 
+					<hi rend="underline">van joga</hi>
+				</p>
+				<p xml:id="p.111">
+					 „túlerőre 
+					<hi rend="underline">jöne</hi>
+					 ” = jutna, v. kapna. 
+				</p>
+				<p xml:id="p.112">
+					 „Ki sem szólit szavazatom 
+					<hi rend="underline">miatt</hi>
+					 ”…
+					Miatt nem jó. 
+					<hi rend="underline">Ért</hi>
+					 , vagy 
+					<hi rend="underline">végett</hi>
+					 kellene. „És senkinek sem kell a szavazat” 
+				</p>
+				<p xml:id="p.113">
+					 „Mit kezdjen már az ember” – 
+					<hi rend="underline">Németes</hi>
+					 . 
+				</p>
+				<lg xml:id="lg.25">
+					<lg xml:id="lg.26">
+						<l xml:id="l.28">„Unalmas élet! Mittevők legyünk már?”</l>
+						<l xml:id="l.29">„Egy gyönge kis zavar nem ártana”</l>
+						<l xml:id="l.30">
+							<del>„</del>
+							<add type="corr">(</add>
+							 Nemt volna rosz egy kis zenebona) 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.114">
+					 „El innen, engem illet e hely itt…. 
+					<hi rend="underline">
+						<choice>
+							<orig>germanism.</orig>
+						</choice>
+					</hi>
+					<choice>
+						<supplied>germanismus</supplied>
+					</choice>
+					 „Odább! ez a hely itten az enyém 
+					<add type="corr">:</add>
+					 ” 
+				</p>
+				<p xml:id="p.115">„Koszorúzzad meg.” „No csak, virágozd fel az állatot”</p>
+				<p xml:id="p.116">
+					 „Nagyok 
+					<hi rend="underline">nak</hi>
+					 asztalánál – 
+					<hi rend="underline">Gazdái</hi>
+					 asztalá 
+					<hi rend="underline">ról</hi>
+					 … 
+				</p>
+				<lg xml:id="lg.27">
+					<lg xml:id="lg.28">
+						<l xml:id="l.31">
+							 „Unalmas árnyjátéktoknak 
+							<hi rend="underline">nem-e</hi>
+						</l>
+						<l xml:id="l.32">Kopogtat szintén véle bé határa.</l>
+					</lg>
+				</lg>
+				<p xml:id="p.117">
+					 Nehéz. a 
+					<sic/>
+					<hi rend="underline">nem-e</hi>
+					 nem is jó magyarság. 
+					<hi rend="underline">határ</hi>
+					 és 
+					<hi rend="underline">kopogtat</hi>
+					 rossz tropus 
+					<note type="critic">
+						<quote>tropus</quote>
+						 – szókép (gör.-lat.) 
+					</note>
+					 is. 
+				</p>
+				<lg xml:id="lg.29">
+					<lg xml:id="lg.30">
+						<l xml:id="l.33">„Unalmas árnyjátéktoknak vajon</l>
+						<l xml:id="l.34">Nem áll-e majd be rettentő határa”</l>
+						<l xml:id="l.35">„Ah Miltiadesz, mért is jősz, ha nőd</l>
+						<l xml:id="l.36">
+							<add>(N)</add>
+							 Sem bir örülni jöttödön. – Fiam,….” 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.118">
+					 „Oltárod 
+					<hi rend="underline">nak</hi>
+					 fölé 
+					<hi rend="underline">
+						b 
+						<del>é</del>
+						<add type="corr">e</add>
+					</hi>
+					<choice>
+						<orig>
+							 szen 
+							<metamark function="tinta"/>
+							 lem 
+						</orig>
+						<supplied>szentelem</supplied>
+					</choice>
+					 . – „Szentelve tűzöm 
+					<choice>
+						<orig>
+							 olt 
+							<metamark function="tinta"/>
+							 d 
+						</orig>
+						<supplied>oltárod</supplied>
+					</choice>
+					 fölé.” 
+				</p>
+				<p xml:id="p.119">
+					 „E hitvány nép csak 
+					<hi rend="underline">békót</hi>
+					<choice>
+						<orig>
+							 érdem 
+							<metamark function="tinta"/>
+							 l 
+						</orig>
+						<supplied>érdemel</supplied>
+					</choice>
+					 . 
+					<hi rend="underline">Mely</hi>
+					 (a 
+					<hi rend="underline">mely</hi>
+					 a
+					<hi rend="underline">békó</hi>
+					 ra vihető inkább) 
+				</p>
+				<lg xml:id="lg.31">
+					<lg xml:id="lg.32">
+						<l xml:id="l.37">
+							 „Hiszen csak békót érdemel e 
+							<hi rend="underline">nép</hi>
+							, 
+						</l>
+						<l xml:id="l.38">
+							<hi rend="underline">Mely</hi>
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.120">
+					 „Mint ( 
+					<hi rend="underline">az</hi>
+					 ) enyém.” Segitni rajta
+					valahogy, mert erőszakos. „Hát még, ha tiszta, mint ez az enyém, 
+				</p>
+				<p xml:id="p.121">
+					 „Oh 
+					<hi rend="underline">igen</hi>
+					 ” – „Oh, nagyon. 
+				</p>
+				<p xml:id="p.122">
+					 „Te nő meg, a ki a 
+					<hi rend="underline">paradicsomból</hi>
+					 ”….
+					Másutt nem emlékszik Ádám paradicsomi voltára. És ez tán jobb is. – 
+				</p>
+				<p xml:id="p.123">
+					 „ 
+					<hi rend="underline">Nem-e borzongat</hi>
+					 … Rosz fűzés: 
+					<hi rend="underline">Nem</hi>
+					 borzongat- 
+					<hi rend="underline">e</hi>
+					 . – Az a
+					<hi rend="underline">nem-e</hi>
+					 mindenütt rosz. 
+				</p>
+				<lg xml:id="lg.33">
+					<lg xml:id="lg.34">
+						<l xml:id="l.39">– Nos vitéz, ugyan,</l>
+						<l xml:id="l.40">Nem borzongatja kissé tagjaid</l>
+						<l xml:id="l.41">A torzképü halál hideg szele?</l>
+					</lg>
+				</lg>
+				<p xml:id="p.124">
+					 „ 
+					<hi rend="underline">nem</hi>
+					 olyan édes a szabadság”… 
+				</p>
+				<lg xml:id="lg.35">
+					<lg xml:id="lg.36">
+						<l xml:id="l.42">„Pedig nincs olyan édes a szabadság</l>
+						<l xml:id="l.43">Neked, a milyen fájdalmas nekem volt.</l>
+					</lg>
+				</lg>
+				<p xml:id="p.125">maradhat is</p>
+				<p xml:id="p.126">
+					<hi rend="underline">
+						 6 
+						<hi rend="super">ik</hi>
+						 szín. 
+					</hi>
+				</p>
+				<p xml:id="p.127">
+					 „szegletes asztal” (az 
+					<supplied>„</supplied>
+					 instructióban”.
+					<note type="critic">
+						<quote>
+							<supplied>„</supplied>
+							 instructióban” 
+						</quote>
+						 – utasításban (lat.)
+					</note>
+					 ). 
+					<del>v</del>
+					<add type="corr">V</add>
+					 ajon nem inkább 
+					<hi rend="underline">kerek</hi>
+					 asztal
+					volt a római 
+					<del>á</del>
+					<add type="corr">a</add>
+					 ké? (Lásd pl. 
+					<hi rend="underline">Rich</hi>
+					<choice>
+						<orig>Diction. Antiqu.</orig>
+						<supplied>Dictionnaire Antiquités</supplied>
+					</choice>
+					<hi rend="underline">
+						 Me 
+						<add type="corr">n</add>
+						 sa 
+					</hi>
+					 . 
+					<note type="critic">
+						<quote>
+							 Lásd pl. 
+							<hi rend="underline">Rich</hi>
+							<choice>
+								<orig>Diction. Antiqu.</orig>
+								<supplied>Dictionnaire Antiquités</supplied>
+							</choice>
+							<hi rend="underline">
+								 Me 
+								<add type="corr">n</add>
+								 sa 
+							</hi>
+							 . 
+						</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Anthony Rich 
+								<idno corresp="Rich, Anthony"/>
+							</persName>
+							 : 
+							<title>Dictionnaire des antiquités romaines et
+								grecques</title>
+							 . 
+							<placeName>
+								 Paris 
+								<idno corresp="Párizs"/>
+							</placeName>
+							 , 
+							<date when="1859">1859.</date>
+						</bibl>
+						 – mensa: asztal (lat.) 
+					</note>
+				</p>
+				<p xml:id="p.128">
+					 „Ki van köztünk ki hisz még istenekben – sok 
+					<hi rend="underline">i</hi>
+					 sok 
+					<hi rend="underline">k</hi>
+					 , „Ki hinne köztünk még ez
+					istenekben?…. 
+				</p>
+				<lg xml:id="lg.37">
+					<lg xml:id="lg.38">
+						<l xml:id="l.44">
+							 …Vagy 
+							<hi rend="underline">ki</hi>
+							 az, dusabban 
+						</l>
+						<l xml:id="l.45">
+							<hi rend="underline">Ki</hi>
+							<hi rend="underline">k</hi>
+							 edvesét 
+							<hi rend="underline">ki</hi>
+							tartja?… 
+						</l>
+					</lg>
+				</lg>
+				<p xml:id="p.129">
+					 rosz hang, sok 
+					<hi rend="underline">k</hi>
+					 , sok 
+					<hi rend="underline">ki</hi>
+					 ; és a maitresse 
+					<note type="critic">
+						<quote>maitresse</quote>
+						 – maîtresse: szerető (fr.) 
+					</note>
+					<sic/>
+					<hi rend="underline">kitartás</hi>
+					 modern 
+				</p>
+				<p xml:id="p.130">
+					<hi rend="underline">Ha is</hi>
+					 = Ha 
+					<hi rend="underline">birnád</hi>
+					 is.
+					Valahogy a versbe férkeztetni. 
+				</p>
+				<p xml:id="p.131">
+					 „vágyol gyönyör 
+					<hi rend="underline">t</hi>
+					 ” – gyönyör 
+					<hi rend="underline">re</hi>
+					 vágy 
+					<hi rend="underline">sz</hi>
+					 (még jobb, ha 
+					<hi rend="underline">nem ikes</hi>
+					 ) 
+				</p>
+				<p xml:id="p.132">
+					 „S nem esz meg- 
+					<hi rend="underline">e</hi>
+					 ’ ” – határozottan
+					hiba. S te nem rút féreg martaléka lészsz-e? vagy S nem esz meg a rút féreg
+					téged is? 
+				</p>
+				<p xml:id="p.133">
+					 „ha egy kis 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					 vér 
+					<hi rend="underline">futott</hi>
+					 ” 
+					<choice>
+						<orig>germanism.</orig>
+						<supplied>germanismus</supplied>
+					</choice>
+					<hi rend="underline">ömölt</hi>
+					 . 
+					<hi rend="underline">Jó</hi>
+					 van 
+					<hi rend="underline">jó</hi>
+					 = 
+					<hi rend="underline">jól</hi>
+					 van, 
+					<hi rend="underline">jól</hi>
+					 . 
+				</p>
+				<p xml:id="p.134">„Szemedbe tartom stb. Sejtem az értelmét, de fátyolzott
+					gondolatnak is homályos. –</p>
+				<p xml:id="p.135">
+					 „Már benne lappang a f 
+					<del>é</del>
+					<add type="corr">e</add>
+					 kete halál”. Nem jambus. „Lappangva ég a feketedd
+					halál” inkább menne talá 
+					<add type="corr">n</add>
+					 . 
+				</p>
+				<p xml:id="p.136">
+					<hi rend="underline">Hippia</hi>
+					 és 
+					<hi rend="underline">Cluvia</hi>
+					 dala. Igen
+					jó gondolat, de lyrai zöngelem nélkűl. 
+				</p>
+				<p xml:id="p.137">
+					 „ 
+					<hi rend="underline">Kisértett</hi>
+					 a nagyok agyában Es
+					spuckte. 
+					<hi rend="underline">Német</hi>
+					 . 
+				</p>
+				<p xml:id="p.138">
+					 „Vagy nem vagy-e’ 
+					<hi rend="underline">jól</hi>
+					 ?… – Nem magyar.
+					A magyar 
+					<hi rend="underline">jól</hi>
+					 van, mikor nem beteg. – Az ilyen jól 
+					<hi rend="underline">esik</hi>
+					 neki. 
+				</p>
+				<lg xml:id="lg.39">
+					<lg xml:id="lg.40">
+						<l xml:id="l.46">„Nem jó pihenned férfi keblemen?</l>
+						<l xml:id="l.47">„Ah, jól esik. –</l>
+					</lg>
+				</lg>
+				<lg xml:id="lg.41">
+					<lg xml:id="lg.42">
+						<l xml:id="l.48">„A boldogság komolylyá hogyha hangol,</l>
+						<l xml:id="l.49">Azt tartom mely kaczag nem is valódi</l>
+					</lg>
+				</lg>
+				<p xml:id="p.139">nehéz.</p>
+				<p xml:id="p.140">
+					 „Mintha messze multba szállnék” – Éva emlékezete a 
+					<hi rend="underline">paradicsomra</hi>
+					 itt sokkal szebben van felhozva, mint az
+					Ádámé fönebb. Így kellene tán Ádámnak is emlékezni előbbi lételére. 
+				</p>
+				<p xml:id="p.141">
+					<hi rend="underline">Ádám</hi>
+					 . „Ugy érzem” stb. Itt már homályos emlékezet.
+					Annál szükségesebb kijavitni az 5. scenát. 
+					<note type="critic">
+						<quote>scenát</quote>
+						 – jelenetet (gör.–lat.) 
+					</note>
+					 – 
+				</p>
+				<p xml:id="p.142">
+					 hogy köre legyen = hogy legyen 
+					<hi rend="underline">köre</hi>
+					(Ádám imájában) 
+				</p>
+				<p xml:id="p.143">
+					 „mint dagadó párnákon” jobb mint ez: „min 
+					<hi rend="underline">t</hi>
+					 a daga 
+					<hi rend="underline">dt</hi>
+					 párnákon. 
+				</p>
+				<p xml:id="p.144">
+					<hi rend="underline">
+						 7 
+						<hi rend="super">ik</hi>
+						 szin. 
+					</hi>
+				</p>
+				<p xml:id="p.145">
+					<hi rend="underline">Nem-é látjátok</hi>
+					 …. „Vagy nem látjátok? Hát nem? 
+				</p>
+				<p xml:id="p.146">
+					 testvér 
+					<hi rend="underline">pánttal</hi>
+					 …. 
+				</p>
+				<p xml:id="p.147">
+					 Hogy annyi 
+					<hi rend="underline">hitvány</hi>
+					 , aljas
+					tervezettel”… A 
+					<hi rend="underline">hitványt</hi>
+					 szintén a 
+					<hi rend="underline">tervezet</hi>
+					 epithetonának lehet olvasni. 
+					<choice>
+						<orig>Substantiv.</orig>
+						<supplied>Substantivum</supplied>
+					</choice>
+					<note type="critic">
+						<quote>
+							<choice>
+								<orig>Substantiv.</orig>
+								<supplied>Substantivum</supplied>
+							</choice>
+						</quote>
+						 – főnév (lat.) 
+					</note>
+					 kellene Vagy: hogy annyi 
+					<hi rend="underline">rabló</hi>
+					 , 
+				</p>
+				<lg xml:id="lg.43">
+					<lg xml:id="lg.44">
+						<l xml:id="l.50">„Hogy aljas czéllal annyi martalócz,</l>
+						<l xml:id="l.51">Kezében a szt zászlót lengeti.</l>
+					</lg>
+				</lg>
+				<p xml:id="p.148">
+					 Lesujtom 
+					<hi rend="underline">őt</hi>
+					 . Az 
+					<hi rend="underline">őt</hi>
+					 nem 
+					<choice>
+						<orig>
+							 tudju 
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>tudjuk</supplied>
+					</choice>
+					 , 
+					<choice>
+						<orig>
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>a</supplied>
+					</choice>
+					<choice>
+						<orig>
+							<metamark function="tinta"/>
+							 épre 
+						</orig>
+						<supplied>népre</supplied>
+					</choice>
+					 vitetik-e vagy a szellemre. 
+				</p>
+				<p xml:id="p.149">
+					 Jobb igy: Lesujtom. – 
+					<choice>
+						<orig>L.</orig>
+						<supplied>Lucifer</supplied>
+					</choice>
+					 : És ha szellem nála is lesz? 
+				</p>
+				<p xml:id="p.150">Nem-e’ nemesb… – Hát nem nemesb?</p>
+				<p xml:id="p.151">„társt” – erőszak.</p>
+				<p xml:id="p.152">
+					 „ 
+					<hi rend="underline">nem-e</hi>
+					 ’ hiszesz már… Hát nem hiszesz
+					már. 
+				</p>
+				<p xml:id="p.153">
+					 S ti még is mindig…. Nem kell a kötszó 
+					<hi rend="underline">s</hi>
+					 mert participium előzi meg. 
+				</p>
+				<p xml:id="p.154">
+					 „mez 
+					<hi rend="underline">tel</hi>
+					 lábas”…. Nem megy, lehetne 
+					<hi rend="underline">pőre lábas</hi>
+					 . 
+				</p>
+				<p xml:id="p.155">
+					 „megszámitottak” – 
+					<hi rend="underline">Nehéz</hi>
+					 , a stil, nem
+					a vers. – 
+				</p>
+				<lg xml:id="lg.45">
+					<lg xml:id="lg.46">
+						<l xml:id="l.52">Számlálva vannak…</l>
+						<l xml:id="l.53">Mert megszámítvák….</l>
+					</lg>
+				</lg>
+				<p xml:id="p.156">
+					<hi rend="underline">Ha is</hi>
+					 , mit nyertem? „S mit nyertem vol 
+					<hi rend="underline">na</hi>
+					 ?… 
+				</p>
+				<p xml:id="p.157">
+					 S igy elkárh 
+					<hi rend="underline">ozott</hi>
+					 …. elkárhozo 
+					<hi rend="underline">m</hi>
+					 . 
+				</p>
+				<p xml:id="p.158">
+					<hi rend="underline">nem-e</hi>
+					 nagy eszme? 
+					<hi rend="underline">hát nem</hi>
+					nagy eszme? 
+				</p>
+				<p xml:id="p.159">
+					 „midőn egy 
+					<hi rend="underline">éjt</hi>
+					 meglepte 
+					<hi rend="underline">táborát</hi>
+					 … Nehéz. 
+				</p>
+				<p xml:id="p.160">„Nevezetes!” (merkwürdig) „Ez különös”….</p>
+				<p xml:id="p.161">
+					 gátolni már győzēlměm…. – gy 
+					<hi rend="underline">ő</hi>
+					 z mindig
+					hosszu. 
+				</p>
+				<p xml:id="p.162">
+					 szere 
+					<hi rend="underline">s</hi>
+					 lek – Nincs mód, flexio-formát
+					<note type="critic">
+						<quote>flexio-formát</quote>
+						 – ragozás-formát (lat.) 
+					</note>
+					<hi rend="underline">csinálni!</hi>
+					 „Nincs tiltva tán, hogy 
+					<hi rend="underline">én</hi>
+					 szeres 
+					<hi rend="underline">se</hi>
+					 lek? 
+				</p>
+				<p xml:id="p.163">
+					 Hol 
+					<del>csak nekünk szeretni</del>
+					<add type="corr">szeretni csak nekünk</add>
+					 nem szabad 
+				</p>
+				<lg xml:id="lg.47">
+					<lg xml:id="lg.48">
+						<l xml:id="l.54">„Szeretni hol csak nékünk nem szabad.”</l>
+					</lg>
+				</lg>
+				<p xml:id="p.164">
+					 dacolni 
+					<sic/>
+					 minden 
+					<hi rend="underline">nek</hi>
+					 … nem 
+					<hi rend="underline">neki</hi>
+					 , 
+					<hi rend="underline">vele</hi>
+					 . 
+				</p>
+				<p xml:id="p.165">
+					 „Szem 
+					<hi rend="underline">et</hi>
+					 lenség” egész más, mint 
+					<hi rend="underline">szemtelenség</hi>
+					 . „Arczátlanság” lehetne. 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

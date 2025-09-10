@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1377" type="main">ROZVÁNY GYÖRGY – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1377</idno>
+				<idno type="ITIdata">Q482111</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1377.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 603. 
+						</bibl>
+						 ) 
+						<persName>
+							 Rozvány György
+							<idno corresp="Rozvány György" type="ITIdata">Q150125</idno>
+						</persName>
+						 válasza 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<date when="1861-11-29">1861. nov. 29-i</date>
+						 levelére (1375.) 
+						<ref target="ajom-17-lev.tei.1375"/>
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/451; K 513/451/a</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>275; 219; 220</height>
+										<width>220; 137; 138</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 A 4. oldalon, feltehetőleg 
+										<persName>
+											 Rozvány György 
+											<idno corresp="Rozvány György" type="ITIdata">Q150125</idno>
+										</persName>
+										 írásával, tintával: 
+										<title>RÁKÓCZY-DAL</title>
+										HOZ. Alatta fekete ceruzával: 
+										<persName>
+											 Rozvány 
+											<idno corresp="Rozvány György" type="ITIdata">Q150125</idno>
+										</persName>
+										 . A 4. oldal bal felső sarkában fekete
+										ceruzával: 451. 2 csontszínű fol., 27,5x22 cm. 1. levél,
+										2–3. melléklet, 4. cím. Melléklet: 2 csontszínű fol. Az
+										első: 21,9x13,7 cm. 1–2.: a vers szövege. Az egymást követő
+										versszakokat 
+										<persName>
+											 AJ 
+											<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+										</persName>
+										 fekete ceruzával ilyen rendben számozta át: 1,
+										2, 3, 5, 7, 6, 8, 9, 10, 4. A második: 22x13,8 cm. 1. kotta,
+										2. üres. 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471348</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél; melléklet</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1861-12-02"/>
+				<placeName>
+					 Nagyszalonta 
+					<idno type="ITIdata">Q2455</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Rozvány György 
+						<idno type="ITIdata">Q150125</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ROZVÁNY GYÖRGY – ARANY JÁNOSNAK</title>
+					<placeName>
+						 Szalonta 
+						<idno corresp="Nagyszalonta" type="ITIdata">Q2455</idno>
+					</placeName>
+					<date when="1861-12-02">
+						 Dec. 2 
+						<hi rend="super">–</hi>
+						 1861. 
+					</date>
+				</head>
+				<p xml:id="p.1">
+					 Tisztelt barátom, 
+					<persName>
+						 Jani 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+					 ! 
+				</p>
+				<p xml:id="p.2">
+					<persName>
+						 Ercsey Sándor 
+						<idno corresp="ifj. Ercsey Sándor" type="ITIdata">Q43387</idno>
+					</persName>
+					 sógorod felhivott engem a 
+					<persName>Kenéz Péter</persName>
+					 által 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					 mult 
+					<date when="1860">
+						 1860 
+						<hi rend="super">ik</hi>
+					</date>
+					 évben lediktált, elöttem elénekelt, s ezután általam le is hangjegyezett
+					„ 
+					<title>Rákóczi Notájá</title>
+					 nak” átadására, hogy azt felhivásod folytán
+					Neked elküldhesse. Örömmel teszem ezt; sőt hogy az elküldésbe nekem is legyen
+					egy kis részem, egy kis commentárt nyujtok e dalnak kezemhez lett jutásáról. 
+				</p>
+				<p xml:id="p.3">
+					 A 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 en közelebb öngyilkosság által 
+					<add>elhunyt</add>
+					<persName>Nagy Lajos</persName>
+					 a mult 
+					<date when="1860">
+						 1860 
+						<hi rend="super">ik</hi>
+					</date>
+					 évben nálam irnok lévén, figyelmeztetett a 
+					<title>Vasárnapi
+						ujság</title>
+					<date when="1860">
+						 1860 
+						<hi rend="super">ik</hi>
+					</date>
+					 évi 9ik számában a „ 
+					<title>Rákóczy indúló</title>
+					 ” eredetéről
+					<persName>Ruehietl Miklós</persName>
+					 által irott czikre: 
+					<note type="critic">
+						<quote>
+							<persName>Nagy Lajos</persName>
+							 a mult 
+							<date when="1860">
+								 1860 
+								<hi rend="super">ik</hi>
+							</date>
+							 évben nálam irnok lévén, figyelmeztetett a 
+							<title>Vasárnapi
+								ujság</title>
+							<date when="1860">
+								 1860 
+								<hi rend="super">ik</hi>
+							</date>
+							 évi 9ik számában a „ 
+							<title>Rákóczy indúló</title>
+							 ” eredetéről
+							<persName>Ruehietl Miklós</persName>
+							 által irott czikre 
+							<sic/>
+						</quote>
+						 – 
+						<persName>Ruehietl Miklós</persName>
+						 ( 
+						<date from="1804" to="1889">1804–1889</date>
+						 ): 
+						<bibl>
+							<title>Más vélemény a Rákóczy-induló eredetéről</title>
+							 .
+							<abbr>VU</abbr>
+							<date when="1860-02-26">1860. febr. 26.</date>
+							 107. 
+						</bibl>
+						 A cikk,
+						amelyre ez az írás reagál: 
+						<bibl>
+							<title>A Rákóczy-induló eredete</title>
+							 (Gr. 
+							<persName>Fáy
+								István</persName>
+							 szerint.) 
+							<abbr>VU</abbr>
+							<date when="1860-01-01">1860. jan. 1.</date>
+							 9–10. 
+						</bibl>
+						 – Vesd össze
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Ercsey 
+							<idno corresp="ifj. Ercsey Sándor" type="ITIdata">Q43387</idno>
+						</persName>
+						 nek 
+						<date when="1861-11-29">1861. nov. 29-én</date>
+						 írt
+						levelével (1375.) 
+						<ref target="ajom-17-lev.tei.1375"/>
+					</note>
+					 mire azt mondám nekie, hogy a 
+					<persName>
+						 Ruehietl 
+						<idno corresp="Ruehietl Miklós"/>
+					</persName>
+					 által a szerkesztőségnek megküldött – de nem közölhetett – induló
+					versszakai aligha azok nem leendenek, melyeket 
+					<persName>Kenéz Péter</persName>
+					városgazda korában még 
+					<date to="1848">1848</date>
+					 előtt Neked tollad alá
+					elmondott. 
+					<persName>Nagy Lajos</persName>
+					 , a megboldogult, mint minden nemzeti
+					ügyért kegyelettel érező, nem nyúgodott addig, mig 
+					<persName>Kenéz
+						Péter</persName>
+					 uramat hozzám el nem hozta. Leültünk tehát hároman csász.
+					kir: közjegyzői irodámban, és 
+					<persName>Kenéz Péter</persName>
+					 uram elkezdé a
+					<title>Rákóczy nótájá</title>
+					 t nekem tollam alá mondani, s azután
+					hangjegyzés végett hegedüm hurja alá énekelni. – 
+					<persName>Nagy Lajos</persName>
+					humoros természeténél fogva jó iz 
+					<supplied>
+						<unclear>ü</unclear>
+					</supplied>
+					 űen mosolygott a dallam szépsége, s később afelett, hogy minö
+					dologgal foglalkozunk a közjegyzöi irodában. – Igy készen lévén a leirás és
+					hangjegyzéssel; azon curiositásból, 
+					<note type="critic">
+						<quote>curiositásból</quote>
+						 – kíváncsiságból (lat.) 
+					</note>
+					 ha valjon a
+					<persName>
+						 Ruehietl 
+						<idno corresp="Ruehietl Miklós"/>
+					</persName>
+					 által felküldött 
+					<title>Rákóczy induló</title>
+					 azonos é a
+					<persName>Kenéz Péter</persName>
+					 uram által lediktáltal, 
+					<sic/>
+					 – azokat a
+					<title>Vasárnapi ujság</title>
+					 szerkeszt 
+					<supplied>
+						<unclear>ö</unclear>
+					</supplied>
+					 őjéhez a túllapon látható czikk kiséretében 
+					<note type="critic">
+						<quote>a túllapon látható czikk kiséretében</quote>
+						 – „ 
+						<hi rend="underline">Másolat.</hi>
+						<placeName>
+							 N. szalonta 
+							<idno corresp="Nagyszalonta"/>
+						</placeName>
+						<date when="1860-03-08">mart. 8 1860</date>
+						 (: Még egy vélemény a 
+						<title>
+							Rakóczy 
+							<sic/>
+							 induló 
+						</title>
+						 eredetéről:) 
+						<p xml:id="p.4">
+							 A
+							<title>Vasárnapi ujság</title>
+							 folyó évi (: 
+							<date when="1860">1860</date>
+							 :) 9 
+							<hi rend="super">ik</hi>
+							 számában
+							<persName>Ruehietl Miklós</persName>
+							 a 
+							<title>
+								 Rakóczy 
+								<sic/>
+								 indúló
+							</title>
+							 t egy, történelmi alapon szerkesztett, érzékeny, szerkesztői
+							észrevétel szerint nem közölhető költeményből vonva következést nem
+							czigány zenész, hanem népköltötől mondja szerkesztettnek. 
+						</p>
+						<p xml:id="p.5">
+							 Ambár nem ismerem a 
+							<choice>
+								<orig>R. M.</orig>
+								<supplied>
+									<persName>Ruehietl Miklós</persName>
+								</supplied>
+							</choice>
+							 által ezelőtt 30 évvel régi irásból lemásolt érzékeny, s
+							állitása bebizonyitására okmányul felhasznált költeményt: de ha az
+							ugyanaz, vagy legalább azonos azzal, melyet hangjegyezve is
+							idemellékelve a t. szerkesztőségnek megküldök; akkor 
+							<choice>
+								<orig>R. Miklós</orig>
+								<supplied>
+									<persName>Ruehietl Miklós</persName>
+								</supplied>
+							</choice>
+							 állitása bebizonyitására kétségtelen kutfőt használt. 
+						</p>
+						<p xml:id="p.6">
+							 Az itten levő, szövege és dallamára nézve érzékeny, szinte
+							történelmi alapon szerkesztett, épen úgy nem közölhető költeményt Nagy
+							szalontai lakos és volt egyház gondnok id. 
+							<persName>Kenéz
+								Péter</persName>
+							 uram elöadása után irtam, 
+							<del>le,</del>
+							 és
+							hangjegyeztem le. 
+						</p>
+						<p xml:id="p.7">
+							 E szöveget és dallamot a nyelve, öltönye és ösi szokásaihoz
+							oly hiven ragaszkodó köznép hagyománykép adta át gyermekeinek s tartotta
+							fen 150 éven keresztül. Ezt, mint egyszerű népköltötte themát a czigány
+							zenész, mert e dallam értelme szivéhez növe nem vala, már rég
+							elfelejtette, émlékezetében 
+							<sic/>
+							 legfelebb az ezen egyszerü themából
+							idö folyama alatt különbözö képzettségü zenészek által szerkesztett
+							különbözö változatokat (:variatio:) mint » 
+							<hi rend="underline">
+								<title>Rákóczy kesergője</title>
+							</hi>
+							 « » 
+							<hi rend="underline">
+								<title>
+									 Rakóczy 
+									<sic/>
+									 indulója 
+								</title>
+							</hi>
+							 « ujabb idöben » 
+							<hi rend="underline">
+								<title>
+									 Rakóczy 
+									<sic/>
+									 francia négyesse 
+								</title>
+							</hi>
+							<supplied>«</supplied>
+							 , tartotta meg: sőt már e három közül is az elöbb
+							nevezett »kesergöt« csaknem feledékenységbe hagyta menni: pedig a
+							hajdani jelesebb czigányzenészeknek ez vala legkedvesebb productionalis
+							darabja, s épen ezért tehetségük fitogtatására, kitoldozgatva
+							<add>azt</add>
+							 ujabb ’s ujabb czikornyás czifrasággal, (:
+							ornamentatio:) annyira fel nem ismerhetővé tették 
+							<del>,</del>
+							 az
+							eredeti szép, de egyszerü themát; mint ezt jelenben a » 
+							<hi rend="underline">biro uram</hi>
+							 « féle kipitykézett dalnál
+							tapasztalhatjuk. – 
+						</p>
+						<p xml:id="p.8">
+							 Ha 
+							<del>A</del>
+							<add type="corr">a</add>
+							 z általam néphagyomány után hangjegyzett
+							dallamnak egyszerü szépségét, a szöveghez alkalma 
+							<add type="corr">z</add>
+							 ott fájdalmas síró hangzatát és ös typussát figyelembe
+							veszem: határozottan merem mondani, hogy ez a legelsö » 
+							<title>Rákóczy
+								nota</title>
+							 « s themája a késöbb különbféle név és változatok alatt
+							keletkezett e czimű dal, és nótáknak, s hogy ennek, mint a legtöbb
+							népdalnak 
+							<add type="corr">sz</add>
+							 erzőjét felfedezni sohasem
+							sikerülend. – 
+						</p>
+						<p xml:id="p.9">
+							 Az itten beküldött dallamnak valamelyik szaker 
+							<add type="corr">t</add>
+							 ő 
+							<sic/>
+							 zenészünk, ki zeneköltészetünk
+							történelmén valaha elmélkedett, vagy legalább régibb dallamok
+							összegyüjtésével foglalkozik, hasznát vehetendi. Sziveskedjék szerkesztö
+							úr ezzel rendelkezni. s.at. 
+							<persName>
+								 Rozvány György 
+								<idno corresp="Rozvány György" type="ITIdata">Q150125</idno>
+							</persName>
+							 . –” 
+						</p>
+					</note>
+					 a postára feltettem: de ez valószinüleg, a szerkeszt 
+					<supplied>
+						<unclear>ö</unclear>
+					</supplied>
+					 őhöz felnem 
+					<sic/>
+					 érkezett, mert sem nem közölte, 
+					<add type="corr">s</add>
+					 em „szerkesztői mondani valója” közt arról emlitést sem tett. –
+					Most tehát ujra közlöm veled ugy a 
+					<add type="corr">ver</add>
+					 seket, mint a
+					dallamát, mint 
+					<add>pedig</add>
+					 túllapon e versekrőli nézetemet. – Fogadd tőlem
+					szivesen, s használtasd fel a dallamot 
+					<del>leg</del>
+					 valamelyik zenészünk által
+					a nemzeti dal történelme megirásánál anyagul. 
+				</p>
+				<p xml:id="p.10">Baráti kézszoritásom mellett add át üdvözletem családod minden
+					tagjának. Vagyok</p>
+				<p xml:id="p.11">tisztelö barátod</p>
+				<p xml:id="p.12">
+					<choice>
+						<orig>RozványGyörgy</orig>
+						<supplied>
+							<persName>
+								 Rozvány György 
+								<idno corresp="Rozvány György" type="ITIdata">Q150125</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<lg xml:id="lg.1">
+					<head type="title">
+						<hi rend="underline">Rákóczy kesergője.</hi>
+					</head>
+					<lg xml:id="lg.2">
+						<l xml:id="l.1">
+							<hi rend="underline">1.</hi>
+						</l>
+						<l xml:id="l.2">Hallgassátok meg magyarim, amit beszélek.</l>
+						<l xml:id="l.3">Tanácsoljatok vitézim, hogy mittévő legyek.</l>
+						<l xml:id="l.4">Jön a német, dúl-fúl pusztit,</l>
+						<l xml:id="l.5">Rabol kerget, mindent éget:</l>
+						<l xml:id="l.6">Jaj már mit tegyek!</l>
+					</lg>
+					<lg xml:id="lg.3">
+						<l xml:id="l.7">
+							<hi rend="underline">2.</hi>
+						</l>
+						<l xml:id="l.8">
+							 Tanacsoljuk 
+							<sic/>
+							 Felségednek, meg se is vesse, 
+						</l>
+						<l xml:id="l.9">Aranyait, ezüsteit rúdakba veresse:</l>
+						<l xml:id="l.10">Rakassa fel, vitesse el,</l>
+						<l xml:id="l.11">Hordassa el és menjen el,</l>
+						<l xml:id="l.12">Merre szeme lát.</l>
+					</lg>
+					<lg xml:id="lg.4">
+						<l xml:id="l.13">
+							<hi rend="underline">3.</hi>
+						</l>
+						<l xml:id="l.14">Megcselekszem, elkövetem; mondja valaki,</l>
+						<l xml:id="l.15">Söt szeretem, meg sem vetem, oktasson akárki.</l>
+						<l xml:id="l.16">Ki az oka, minden látja:</l>
+						<l xml:id="l.17">de megtudja, hogy megbánja</l>
+						<l xml:id="l.18">
+							 Spion 
+							<del>k</del>
+							<add type="corr">K</add>
+							 arolyi 
+							<sic/>
+						</l>
+					</lg>
+					<lg xml:id="lg.5">
+						<l xml:id="l.19">
+							<hi rend="underline">4.</hi>
+						</l>
+						<l xml:id="l.20">Országomból a hazámból, már ki kell menni.</l>
+						<l xml:id="l.21">Mordságimról, hibáimról megengedj Tökölÿ.</l>
+						<l xml:id="l.22">Megölellek, megcsókollak,</l>
+						<l xml:id="l.23">A mig élek, mindég szánlak</l>
+						<l xml:id="l.24">Kedves Bercsényim!</l>
+					</lg>
+					<lg xml:id="lg.6">
+						<l xml:id="l.25">
+							<hi rend="underline">5.</hi>
+						</l>
+						<l xml:id="l.26">Sok pénzembe, kölcségembe került váraim;</l>
+						<l xml:id="l.27">
+							 Ahoz pompásosan készült 
+							<add>sok</add>
+							 szép palotáim. 
+						</l>
+						<l xml:id="l.28">Itt hagylak már pataki vár,</l>
+						<l xml:id="l.29">nem látlak már munkácsi vár.</l>
+						<l xml:id="l.30">Isten meg áldjon.</l>
+					</lg>
+					<lg xml:id="lg.7">
+						<l xml:id="l.31">
+							<hi rend="underline">6.</hi>
+						</l>
+						<l xml:id="l.32">Megengedjen a magyarság, már azt kiáltom.</l>
+						<l xml:id="l.33">
+							 Edes 
+							<sic/>
+							 hazám, mire jutok, csak azt 
+							<add>at</add>
+							sajnálom! 
+						</l>
+						<l xml:id="l.34">
+							 Nemet 
+							<sic/>
+							 lesz már a vezéred, 
+						</l>
+						<l xml:id="l.35">Jaj de néked az nem véred:</l>
+						<l xml:id="l.36">Jaj ki ne szánna!!</l>
+					</lg>
+				</lg>
+				<p xml:id="p.13">
+					 (: 
+					<hi rend="underline">
+						<persName>Kenéz Péter</persName>
+						 uram a következő versszakokat is
+						után-diktálta a túllapi kesergőnek: de véleményem szerint ez 
+					</hi>
+					 ahhoz nem
+					tartozhatik, s 
+					<hi rend="underline">jóval később</hi>
+					 a nép által költöttnek
+					vehető: 
+					<hi rend="underline">mit igazol a vers</hi>
+					 mérték egyenlőtlen volta, az
+					<hi rend="underline">eszmemenet megs</hi>
+					 zakadása, vagy leg alább ide- 
+					<hi rend="underline">oda csapongása</hi>
+					 :) 
+				</p>
+				<lg xml:id="lg.8">
+					<lg xml:id="lg.9">
+						<l xml:id="l.37">
+							<hi rend="underline">7.</hi>
+						</l>
+						<l xml:id="l.38">
+							 Hej Rákóczy, magyarok vezeri 
+							<sic/>
+							 Bercsényi, 
+						</l>
+						<l xml:id="l.39">Országunk fejedelme vezére Tököly!</l>
+						<l xml:id="l.40">Hová lettek, hová mentek</l>
+						<l xml:id="l.41">
+							 Orszagunknak 
+							<sic/>
+							 híres jeles 
+						</l>
+						<l xml:id="l.42">magyar vezéri!</l>
+					</lg>
+					<lg xml:id="lg.10">
+						<l xml:id="l.43">
+							<hi rend="underline">8.</hi>
+						</l>
+						<l xml:id="l.44">Oh égre kiáltó vétek, hogyha képzelem:</l>
+						<l xml:id="l.45">Országából elbujdosott a jó Fejedelem!</l>
+						<l xml:id="l.46">Én nem képz’lem, nem is vélem,</l>
+						<l xml:id="l.47">Más országnak királyánál</l>
+						<l xml:id="l.48">
+							 Heljét 
+							<sic/>
+							 ne lelje. 
+						</l>
+					</lg>
+					<lg xml:id="lg.11">
+						<l xml:id="l.49">
+							<hi rend="underline">9.</hi>
+						</l>
+						<l xml:id="l.50">
+							 Nézd a német la 
+							<add type="corr">k</add>
+							 földünket már
+							mivé tette. 
+						</l>
+						<l xml:id="l.51">Asszonyinkat, leányinkat megszeplősitette.</l>
+						<l xml:id="l.52">Német már a vezéretek,</l>
+						<l xml:id="l.53">Jaj de szánlak benneteket</l>
+						<l xml:id="l.54">Isten veletek.</l>
+					</lg>
+					<lg xml:id="lg.12">
+						<l xml:id="l.55">
+							<hi rend="underline">10.</hi>
+						</l>
+						<l xml:id="l.56">Megfizeti még az árát az árúlásnak,</l>
+						<l xml:id="l.57">
+							 Kipótolja maradéki Essze 
+							<sic/>
+							 Tamásnak: 
+						</l>
+						<l xml:id="l.58">Ha nem másnak, árúlónak:</l>
+						<l xml:id="l.59">Úgy lészen még dolga neki</l>
+						<l xml:id="l.60">Miként Judásnak.</l>
+					</lg>
+				</lg>
+				<p xml:id="p.14">
+					<title>Rákóczÿ kesergője</title>
+					 , levéve a köznép ajkáról 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

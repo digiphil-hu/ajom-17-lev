@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1050" type="main">TOLDY FERENC – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1050</idno>
+				<idno type="ITIdata">Q346497</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1050.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p/>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI II.</abbr>
+						 63. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>Kaziány 1905.</abbr>
+					</bibl>
+					 (kivonat) 
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/884</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>226</height>
+										<width>142</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 csontszínű fol., 22,6x14,2 cm. l. levél, 2–4. üres</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q346496</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1858-12-15"/>
+				<placeName>
+					 Budapest 
+					<idno type="ITIdata">Q93</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Toldy Ferenc 
+						<idno type="ITIdata">Q151328</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>TOLDY FERENC – ARANY JÁNOSNAK</title>
+					<choice>
+						<orig>Pestdec.</orig>
+						<supplied>
+							<placeName>
+								 Pest 
+								<idno corresp="Pest" type="ITIdata">Q93</idno>
+							</placeName>
+							<date when="1858-12-15">dec. 15. 858,</date>
+						</supplied>
+					</choice>
+				</head>
+				<p xml:id="p.1">
+					<choice>
+						<orig>Igentisztelt</orig>
+						<supplied>Igen tisztelt</supplied>
+					</choice>
+					 Barátom, 
+				</p>
+				<p xml:id="p.2">
+					 A ma délelőtti ülésben 
+					<note type="critic">
+						<quote>A ma délelőtti ülésben</quote>
+						 – Az Akadémia 
+						<date when="1858">1858.</date>
+						 évi nagygyűlésének első ülésén, 
+						<persName>
+							 Dessewffy Emil
+							<idno corresp="Dessewffy Emil" type="ITIdata">Q143987</idno>
+						</persName>
+						 elnöklete alatt és országfejedelmi biztos Dr. 
+						<persName>Palló
+							Sándor</persName>
+						 helytartósági tanácsos előtt. Részt vettek: 
+						<persName>
+							Eötvös József 
+							<idno corresp="Eötvös József" type="ITIdata">Q241165</idno>
+						</persName>
+						 másodelnök; tiszteleti tagokként: 
+						<persName>
+							 Deák Ferenc 
+							<idno corresp="Deák Ferenc" type="ITIdata">Q240932</idno>
+						</persName>
+						 , 
+						<persName>
+							 Fáy András 
+							<idno corresp="Fáy András" type="ITIdata">Q144762</idno>
+						</persName>
+						 , 
+						<persName>Károlyi György</persName>
+						 , 
+						<persName>
+							 Kemény
+							Zsigmond 
+							<idno corresp="Kemény Zsigmond" type="ITIdata">Q46130</idno>
+						</persName>
+						 , 
+						<persName>Kubinyi Ágost</persName>
+						 ; rendes tagokként:
+						<persName>Balogh Pál</persName>
+						 , 
+						<persName>Bugát Pál</persName>
+						 ,
+						<persName>
+							 Czuczor Gergely 
+							<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+						</persName>
+						 , 
+						<persName>Érdy János</persName>
+						 , 
+						<persName>
+							 Fábián Gábor
+							<idno corresp="Fábián Gábor" type="ITIdata">Q144595</idno>
+						</persName>
+						 , 
+						<persName>
+							 Fogarasi János 
+							<idno corresp="Fogarasi János" type="ITIdata">Q240058</idno>
+						</persName>
+						 , 
+						<persName>Frivaldszky Imre</persName>
+						 , 
+						<persName>Gebhardt
+							Ferenc</persName>
+						 , 
+						<persName>Győry Sándor</persName>
+						 ,
+						<persName>Horváth Cyrill</persName>
+						 , 
+						<persName>
+							 Kiss Károly 
+							<idno corresp="Kiss Károly" type="ITIdata">Q58114</idno>
+						</persName>
+						 , 
+						<persName>Nagy János</persName>
+						 , 
+						<persName>Purgstaller
+							József</persName>
+						 , 
+						<persName>
+							 Szalay László 
+							<idno corresp="Szalay László" type="ITIdata">Q209640</idno>
+						</persName>
+						 ; lev. tagokként: 
+						<persName>Ballagi Móric</persName>
+						 ,
+						<persName>
+							 Erdélyi János 
+							<idno corresp="Erdélyi János" type="ITIdata">Q43473</idno>
+						</persName>
+						 , 
+						<persName>Kubinyi Ferenc</persName>
+						 , 
+						<persName>Lukács
+							Móric</persName>
+						 , 
+						<persName>Peregriny Elek</persName>
+						 ,
+						<persName>Podhradczky József</persName>
+						 , 
+						<persName>
+							 Tóth Lőrinc 
+							<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+						</persName>
+						 , 
+						<persName>Wenczel Gusztáv</persName>
+						 valamint 
+						<persName>
+							 Toldy
+							Ferenc 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 titoknok. 
+					</note>
+					 „ 
+					<title>Toldi Estvéje</title>
+					 ” Marczibányi
+					jutalmat nyert (50 #); 
+					<note type="critic">
+						<quote>
+							<title>Toldi Estvéje</title>
+							 ” Marczibányi jutalmat nyert (50 #)
+						</quote>
+						 – A Marczibányi-jutalom 
+						<date when="1845">1845-ben</date>
+						 jött
+						létre a Pest vármegye által kiadott Marczibányi-alapítványból. Mivel 
+						<date from="1849" to="1858">1849 és 1858 között</date>
+						 maga az alapítvány nem
+						szünetelt, 
+						<date when="1858">1858-ban</date>
+						 kiadhatták. (
+						<persName>Marczibányi Lajos</persName>
+						 alapító levelét lásd 
+						<bibl>
+							<abbr>Kerényi 2002.</abbr>
+							 344–345. 
+						</bibl>
+						 ; történetét lásd ugyanott
+						86–90.). 
+					</note>
+					 az estveliben pedig Kd az akad. levelező, s fél órával
+					utóbb rendes taggá választatott. 
+					<note type="critic">
+						<quote>az estveliben pedig Kd az akad. levelező, s fél órával utóbb rendes
+							taggá választatott</quote>
+						 – Az 
+						<date when="1858">1858.</date>
+						 évi
+						nagygyűlés második ülése 
+						<date when="1858-12-15">1858. dec. 15-én</date>
+						 du.
+						5 órakor, 
+						<persName>
+							 Eötvös József 
+							<idno corresp="Eötvös József" type="ITIdata">Q241165</idno>
+						</persName>
+						 másodelnök elnöksége alatt a következők jelenlétében ült öszsze:
+						tiszteleti tagokként 
+						<persName>
+							 Deák Ferenc 
+							<idno corresp="Deák Ferenc" type="ITIdata">Q240932</idno>
+						</persName>
+						 , 
+						<persName>
+							 Fáy András 
+							<idno corresp="Fáy András" type="ITIdata">Q144762</idno>
+						</persName>
+						 , 
+						<persName>Károlyi György</persName>
+						 , 
+						<persName>
+							 Kemény
+							Zsigmond 
+							<idno corresp="Kemény Zsigmond" type="ITIdata">Q46130</idno>
+						</persName>
+						 , 
+						<persName>Kubinyi Ágost</persName>
+						 ; rendes tagokként
+						<persName>Balogh Pál</persName>
+						 , 
+						<persName>Bugát Pál</persName>
+						 ,
+						<persName>
+							 Czuczor Gergely 
+							<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+						</persName>
+						 , 
+						<persName>Érdy János</persName>
+						 , 
+						<persName>
+							 Fábián Gábor
+							<idno corresp="Fábián Gábor" type="ITIdata">Q144595</idno>
+						</persName>
+						 , 
+						<persName>
+							 Fogarasi János 
+							<idno corresp="Fogarasi János" type="ITIdata">Q240058</idno>
+						</persName>
+						 , 
+						<persName>Frivaldszky Imre</persName>
+						 , 
+						<persName>Gebhardt
+							Ferenc</persName>
+						 , 
+						<persName>Győry Sándor</persName>
+						 ,
+						<persName>Horváth Cyrill</persName>
+						 , 
+						<persName>
+							 Kiss Károly 
+							<idno corresp="Kiss Károly" type="ITIdata">Q58114</idno>
+						</persName>
+						 , 
+						<persName>Nagy János</persName>
+						 , 
+						<persName>Purgstaller
+							József</persName>
+						 , 
+						<persName>
+							 Szalay László 
+							<idno corresp="Szalay László" type="ITIdata">Q209640</idno>
+						</persName>
+						 , 
+						<persName>Tarczy Lajos</persName>
+						 ; lev. tagokként
+						<persName>Kiss Ferenc</persName>
+						 , 
+						<persName>
+							 Mátray Gábor 
+							<idno corresp="Mátray Gábor" type="ITIdata">Q58633</idno>
+						</persName>
+						 , 
+						<persName>
+							 Szőnyi Pál 
+							<idno corresp="Szőnyi Pál" type="ITIdata">Q60797</idno>
+						</persName>
+						 , 
+						<persName>
+							 Tóth Lőrinc 
+							<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+						</persName>
+						 , 
+						<persName>Török János</persName>
+						 valamint 
+						<persName>
+							 Toldy
+							Ferenc 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 titoknok. 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -t a nyelv- és széptudományi osztályba 20 szavazattal
+						választották meg lev., majd 18 szavazattal rendes tagnak. – Vesd össze 
+						<bibl>
+							<abbr>Gergely 1978.</abbr>
+							 5. 
+						</bibl>
+						 és 
+						<bibl>
+							<abbr>Keresztury 1978.</abbr>
+						</bibl>
+					</note>
+				</p>
+				<p xml:id="p.3">
+					 Levelező taggá lettek 
+					<persName>
+						 Szabó Károly 
+						<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+					</persName>
+					 és 
+					<persName>
+						 Szilágyi Sándor 
+						<idno corresp="Szilágyi Sándor" type="ITIdata">Q151031</idno>
+					</persName>
+					 . 
+					<note type="critic">
+						<quote>
+							 Levelező taggá lettek 
+							<persName>
+								 Szabó Károly 
+								<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+							</persName>
+							 és 
+							<persName>
+								 Szilágyi Sándor 
+								<idno corresp="Szilágyi Sándor" type="ITIdata">Q151031</idno>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Szabó Károly 
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						 20, 
+						<persName>
+							 Szilágyi Sándor 
+							<idno corresp="Szilágyi Sándor" type="ITIdata">Q151031</idno>
+						</persName>
+						 16 szavazattal lett a történeti osztály tagja 
+					</note>
+					 Tudósítsa
+					őket, kérem; s fogadja Kd legszivesb üdvözletemet! 
+				</p>
+				<p xml:id="p.4">Öszinte igaz tisztelője barátja</p>
+				<p xml:id="p.5">
+					<persName>
+						 Toldy 
+						<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+					</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

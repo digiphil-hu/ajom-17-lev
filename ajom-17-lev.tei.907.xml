@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="907" type="main">ARANY JÁNOS – SALAMON FERENCNEK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.907</idno>
+				<idno type="ITIdata">Q340843</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.907.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p/>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>Jónás 1903.</abbr>
+						 94–97. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/1348</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>277</height>
+										<width>216</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 csontszínű fol., koronás BATH-nyomattal, 27,7x21,6 cm. 1–2.
+										levél.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q340842</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1857-05-02"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Salamon Ferenc 
+						<idno type="ITIdata">Q160085</idno>
+					</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – SALAMON FERENCNEK</title>
+					<hi rend="underline">
+						<placeName>
+							 Kőrös 
+							<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+						</placeName>
+						 , 
+						<date when="1857-05-02">majus 2. 1857.</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">
+					 Salamonio mio! 
+					<note type="critic">
+						<quote>Salamonio mio!</quote>
+						 – Én 
+						<persName>
+							 Salamon 
+							<idno corresp="Salamon Ferenc" type="ITIdata">Q160085</idno>
+						</persName>
+						 om! (ol.) 
+					</note>
+				</p>
+				<p xml:id="p.2">
+					 Kértél, édes barátom, hogy 
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 utánzásait, a mennyiben 
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 t, 
+					<persName>
+						 Ariostó 
+						<idno corresp="Ariosto, Ludovico"/>
+					</persName>
+					 t, vagy 
+					<persName>
+						 Virgil 
+						<idno corresp="Vergilius Maro, Publius"/>
+					</persName>
+					 t követte, mutassam ki. 
+					<note type="critic">
+						<quote>
+							 Kértél, édes barátom, hogy 
+							<persName>
+								 Zrinyi 
+								<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+							</persName>
+							 utánzásait, a mennyiben 
+							<persName>
+								 Tassó 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+							 t, 
+							<persName>
+								 Ariostó 
+								<idno corresp="Ariosto, Ludovico"/>
+							</persName>
+							 t, vagy 
+							<persName>
+								 Virgil 
+								<idno corresp="Vergilius Maro, Publius"/>
+							</persName>
+							 t követte, mutassam ki 
+						</quote>
+						 – Feltehetőleg 
+						<date from="1857-04-12" to="1857-04-13">1857 húsvétján (ápr. 12. vagy
+							13.)</date>
+						 , amikor 
+						<persName>
+							 Salamon 
+							<idno corresp="Salamon Ferenc" type="ITIdata">Q160085</idno>
+						</persName>
+						<persName>
+							 Csengery 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						 vel és 
+						<persName>
+							 Gyulai 
+							<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+						</persName>
+						 val látogatta meg 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -t (lásd 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Tompá 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 nak, 899. 
+						<ref target="ajom-17-lev.tei.899"/>
+						<date when="1857-04-19">1857. ápr. 19.</date>
+						 ). – 
+						<persName>
+							 Zrínyi Miklós
+							<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+						</persName>
+						 ( 
+						<date from="1620" to="1664">1620–1664</date>
+						 ); 
+						<persName>
+							Torquato Tasso 
+							<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+						</persName>
+						 ( 
+						<date from="1544" to="1595">1544–1595</date>
+						 ); 
+						<persName>
+							Ludovico Ariosto 
+							<idno corresp="Ariosto, Ludovico"/>
+						</persName>
+						 ( 
+						<date from="1474" to="1533">1474–1533</date>
+						 ); 
+						<persName>
+							Publius Vergilius Maro 
+							<idno corresp="Vergilius Maro, Publius"/>
+						</persName>
+						 ( 
+						<date from="-0070" to="-0019">ie. 70–ie. 19</date>
+						 ) 
+					</note>
+					 E
+					tárgy huzamosb tanúlatra volna méltó, s jókora essay-t irhatna róla, kinek ideje
+					s kedve lenne. 
+					<note type="critic">
+						<quote>jókora essay-t irhatna róla, kinek ideje s kedve lenne</quote>
+						 – Vesd
+						össze 
+						<bibl>
+							<persName>
+								 AJ 
+								<idno corresp="Arany János"/>
+							</persName>
+							 : 
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>BpSz</abbr>
+							<date when="1859">1859.</date>
+							 VII. köt. 177–212., 
+							<date when="1860">1860.</date>
+							 VIII. köt. 107–143. és 
+							<abbr>AJÖM X.</abbr>
+							 330–439.
+							Jegyzet hozzá: 615–623. 
+						</bibl>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 Ariosto- és Tasso-jegyzeteitől lásd 
+						<bibl>
+							<abbr>Kovács 1981.</abbr>
+						</bibl>
+						 , 
+						<bibl>
+							<abbr>Király–Kovács 1983.</abbr>
+						</bibl>
+						 Verses epikájában való szerepükről: 
+						<bibl>
+							<abbr>Nyilasy 2001.</abbr>
+							 72–100. 
+						</bibl>
+					</note>
+					 Útasítálak, hogy 
+					<persName>
+						 Toldi 
+						<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+					</persName>
+					 „leczkéit” s a mit ezekben 
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 ről mond, ne hagyd megolvasatlan. 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Toldi 
+								<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+							</persName>
+							 „leczkéit” s a mit ezekben 
+							<persName>
+								 Zrinyi 
+								<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+							</persName>
+							 ről mond, ne hagyd megolvasatlan 
+						</quote>
+						 – 
+						<persName>
+							 Toldy
+							Ferenc 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 ( 
+						<date from="1805" to="1875">1805–1875</date>
+						 ): 
+						<date from="1835" to="1860">1835 és 1860 között</date>
+						 a Magyar Tudós Társaság
+						titkára, 
+						<date from="1841">1841-től</date>
+						 a Kisfaludy Társaság igazgatója,
+						<date from="1860">1860-tól</date>
+						 másodelnöke, 
+						<date from="1850">1850-től</date>
+						 az esztétika és az egyetemes irodalomtörténet
+						magántanára. Az 1850-es évtized volt irodalomtörténeti szintéziseinek fő
+						időszaka. – Korábbi kapcsolatukra nézve lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 908–909. 
+						</bibl>
+						 és XVI. 1213–1214. A XV. kötet
+						négy AJ- és öt Toldy-levelet ad közre (az utóbbiak közül az első dátuma
+						<date when="1847-10-01">1847. okt. 1.</date>
+						 ), a XVI. egy AJ- és két
+						Toldy-levelet tartalmaz. Ez a kötet hat 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 –tól és hat 
+						<persName>
+							 Toldy 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 tól való levelet közöl. – 
+						<persName>
+							 Toldy 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 „leczkéi”: 
+						<bibl>
+							<title>A magyar költészet története</title>
+							 .
+							Huszonegyedik–Huszonnegyedik Előadás. 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1854">1854.</date>
+							 3–55. 
+						</bibl>
+					</note>
+					 Én röviden jegyzem ide azon nyomokat, melyek figyelmem el nem kerűlték. 
+				</p>
+				<p xml:id="p.3">
+					 Minjárt az 
+					<hi rend="underline">első</hi>
+					 ének 1.2. verse az 
+					<hi rend="underline">
+						<title>Aeneis</title>
+					</hi>
+					 kezdetét juttatja eszünkbe: Ille ego, qui quondam stb. „Én a ki az
+					előtt……” 
+					<note type="critic">
+						<quote>Ille ego, qui quondam stb. „Én a ki az előtt……”</quote>
+						 – Sokáig ezt
+						a sort tartották az 
+						<title>Aeneis</title>
+						 első sorának. A négy (ál)kezdő sor
+						latinul: 
+						<lg xml:id="lg.1">
+							<lg xml:id="lg.2">
+								<l xml:id="l.1">Ille ego, qui quondam gracili modulatus avena</l>
+							</lg>
+							<lg xml:id="lg.3">
+								<l xml:id="l.2">carmen et egressus silvis vicina coegi,</l>
+							</lg>
+							<lg xml:id="lg.4">
+								<l xml:id="l.3">ut quamvis avido parerent arva colono</l>
+							</lg>
+							<lg xml:id="lg.5">
+								<l xml:id="l.4">gratum opus agriculis, at nunc horrentia Martis</l>
+							</lg>
+							<lg xml:id="lg.6">
+								<l xml:id="l.5">(arma virumque cano…)</l>
+							</lg>
+						</lg>
+						 ( 
+						<bibl>
+							<persName>Donatus</persName>
+							 – 
+							<persName>
+								 Suetonius 
+								<idno corresp="Suetonius Tranquillus, Caius" type="ITIdata">Q346653</idno>
+							</persName>
+							 : 
+							<title>Vergilius élete</title>
+							 , 42. 
+						</bibl>
+						 ; 
+						<bibl>
+							<persName>Maurus Servius Honoratus</persName>
+							 : 
+							<title>Magyarázatok
+								Vergilius Aeneiséhez</title>
+							 , Bevezetés. 
+						</bibl>
+						 ) 
+						<persName>
+							Csengery János 
+							<idno corresp="Csengery János" type="ITIdata">Q143541</idno>
+						</persName>
+						 fordításában: 
+						<lg xml:id="lg.7">
+							<l xml:id="l.6">Én, aki rég` vékony nádon dalom elfurulyáztam,</l>
+						</lg>
+						<lg xml:id="lg.8">
+							<l xml:id="l.7">Majd a vadont hagyván a mezőket kényszeritettem,</l>
+						</lg>
+						<lg xml:id="lg.9">
+							<l xml:id="l.8">Hogy tegyenek kedvére, akármily kapzsi a gazda,</l>
+						</lg>
+						<lg xml:id="lg.10">
+							<l xml:id="l.9">(Kedves is annak e mű), most küzdelmes, riadalmas</l>
+						</lg>
+						<lg xml:id="lg.11">
+							<l xml:id="l.10">(Fegyvereket zengek s daliát…)</l>
+						</lg>
+						 Vesd össze 
+						<bibl>
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>AJÖM X.</abbr>
+							 341. 18. sor
+						</bibl>
+					</note>
+					 Csakhogy 
+					<hi rend="underline">
+						<persName>
+							 Virgil 
+							<idno corresp="Vergilius Maro, Publius"/>
+						</persName>
+					</hi>
+					 pásztori verseire, s 
+					<title>Georgiconá</title>
+					 ra, 
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 pedig szerelmi költeményeire emlékszik. 
+				</p>
+				<p xml:id="p.4">
+					 A 3–6 vers, segédhivás, 
+					<hi rend="underline">Invocatio</hi>
+					 . 
+					<note type="critic">
+						<quote>
+							 A 3–6 vers, segédhivás, 
+							<hi rend="underline">Invocatio</hi>
+						</quote>
+						 – vesd össze ugyanott 14. sor 
+					</note>
+					 Múzsa helyett Szűz Máriát
+					hivja a költő. Ezt 
+					<title>Tassó</title>
+					 ból vette: de 
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 tól csak a 3-dik versszakot; 
+					<note type="critic">
+						<quote>
+							 de 
+							<persName>
+								 Tassó 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+							 tól csak a 3-dik versszakot 
+						</quote>
+						 – vesd össze ugyanott
+						342. és 
+						<hi rend="italic">
+							<title>Tassó</title>
+							 ból 
+						</hi>
+						 ( 
+						<bibl>
+							<abbr>AJÖM VI.</abbr>
+							 114. 
+						</bibl>
+						 ): 
+						<lg xml:id="lg.12">
+							<lg xml:id="lg.13">
+								<l xml:id="l.11">Tudod, hogy a világ mind arra tódul</l>
+							</lg>
+							<lg xml:id="lg.14">
+								<l xml:id="l.12">Hová Parnasszus önti csábjait,</l>
+							</lg>
+							<lg xml:id="lg.15">
+								<l xml:id="l.13">S a költeménnyel fűszeres valótul</l>
+							</lg>
+							<lg xml:id="lg.16">
+								<l xml:id="l.14">Rögzött se fél, oly édesen javit.</l>
+							</lg>
+							<lg xml:id="lg.17">
+								<l xml:id="l.15">Így a beteg gyermek, ha kóstolóul</l>
+							</lg>
+							<lg xml:id="lg.18">
+								<l xml:id="l.16">Mézzel kenők a csésze ajkait,</l>
+							</lg>
+							<lg xml:id="lg.19">
+								<l xml:id="l.17">A keserű nedvet csalódva issza,</l>
+							</lg>
+							<lg xml:id="lg.20">
+								<l xml:id="l.18">Hogy a csalásban éltét nyerje vissza.</l>
+							</lg>
+						</lg>
+					</note>
+					 ellenben ez: Te ki szűz anya vagy és 
+					<hi rend="underline">szülted
+						uradat</hi>
+					 , s a mi még hátra van, nincs az olaszban, 
+					<persName>
+						 Zrinyi
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 é e hatalmas hely. 
+				</p>
+				<p xml:id="p.5">A 7. vers:</p>
+				<lg xml:id="lg.21">
+					<lg xml:id="lg.22">
+						<l xml:id="l.19">Az nagy mindenható e földre tekinte</l>
+					</lg>
+				</lg>
+				<p xml:id="p.6">
+					 ….. szóval az eszme, hogy Isten ott űl az égben s alánéz,
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 é. 
+					<hi rend="underline">
+						<choice>
+							<orig>Gerusalemme</orig>
+							<supplied>
+								<title>Gerusalemme Liberata</title>
+							</supplied>
+						</choice>
+						 , Canto I. v. 7. 
+					</hi>
+					<note type="critic">
+						<quote>
+							<hi rend="underline">
+								<choice>
+									<orig>Gerusalemme</orig>
+									<supplied>
+										<title>Gerusalemme Liberata</title>
+									</supplied>
+								</choice>
+								 , Canto I. v. 7. 
+							</hi>
+						</quote>
+						 – 
+						<bibl>
+							<title>A megszabadított Jeruzsálem</title>
+							 , I. ének, 7. vers 
+						</bibl>
+					</note>
+					 de 
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 é is 
+					<persName>
+						 Virgil 
+						<idno corresp="Vergilius Maro, Publius"/>
+					</persName>
+					 után 
+					<note type="critic">
+						<lg xml:id="lg.23">
+							<lg xml:id="lg.24">
+								<l xml:id="l.20">…… magas trónjáról az örök Atya,</l>
+							</lg>
+							<lg xml:id="lg.25">
+								<l xml:id="l.21">Mely az ég legtisztább részében van,</l>
+							</lg>
+							<lg xml:id="lg.26">
+								<l xml:id="l.22">S a mennyivel az alvilág a csillagoknál alább,</l>
+							</lg>
+							<lg xml:id="lg.27">
+								<l xml:id="l.23">Annyival van fölebb a csillagi körökön,</l>
+							</lg>
+							<lg xml:id="lg.28">
+								<l xml:id="l.24">
+									 Szemeit aláfordítá, és 
+									<hi rend="underline">egy
+										szempontból</hi>
+									 , egy látással 
+								</l>
+							</lg>
+							<lg xml:id="lg.29">
+								<l xml:id="l.25">
+									<hi rend="underline">Meglátta, mind azt, mit a világ magában
+										egyesít. stb.</hi>
+								</l>
+							</lg>
+						</lg>
+					</note>
+					<note type="critic">
+						<quote>….. magas trónjáról az örök Atya,</quote>
+						 – vesd össze 
+						<hi rend="italic">
+							<title>Tassó</title>
+							 bó 
+						</hi>
+						 l ( 
+						<bibl>
+							<abbr>AJÖM VI.</abbr>
+							 115. 
+						</bibl>
+						 ) 
+						<lg xml:id="lg.30">
+							<l xml:id="l.26">Midőn az Úristen, királyi széke</l>
+						</lg>
+						<lg xml:id="lg.31">
+							<l xml:id="l.27">Fönségiből, szemét aláveté,</l>
+						</lg>
+						<lg xml:id="lg.32">
+							<l xml:id="l.28">Onnan, hol a menny legtisztább vidéke</l>
+						</lg>
+						<lg xml:id="lg.33">
+							<l xml:id="l.29">Még egyszer oly fenn trónját hirdeté</l>
+						</lg>
+						<lg xml:id="lg.34">
+							<l xml:id="l.30">Mint a pokol a csillagok alatt van, –</l>
+						</lg>
+						<lg xml:id="lg.35">
+							<l xml:id="l.31">S megláta mindent egy szemfordulatban.</l>
+						</lg>
+						 : 
+					</note>
+				</p>
+				<p xml:id="p.7">
+					 meglátja a szentföldi hadakat, s Godofrédet vezérökül szánja, s
+					küldi hozzá Gábor 
+					<add type="corr">A</add>
+					 ngyalt.a A mienk itt eltér, s
+					önállóan végzi cselekvényét. – 
+				</p>
+				<p xml:id="p.8">
+					 Ettől fogva, egész a VI. énekig nem vettem észre semmit, a mi
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 ra 
+					<del>
+						<gap extent="unknown" reason="illegible" unit="char"/>
+					</del>
+					 e 
+					<add type="corr">m</add>
+					 lékeztetne. Lehet egyes kép, figura &amp;c. de
+					a cselekvény önálló. A VI. énekben két követ megy Solimántól Zrinyihez, Halul a
+					hizelgő és 
+					<del>Agrant</del>
+					<add>Demirham</add>
+					 a dühös, vad indulatú hős. Ezek előképei 
+					<persName>
+						 Tassó
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 nál (II: 58–95) a sima 
+					<hi rend="underline">Aléte</hi>
+					 és a szilaj
+					<hi rend="underline">Argante</hi>
+					 . 
+					<note type="critic">
+						<quote>
+							 Ezek előképei 
+							<persName>
+								 Tassó 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+							 nál (II: 58–95) a sima 
+							<hi rend="underline">Aléte</hi>
+							 és a
+							szilaj 
+							<hi rend="underline">Argante</hi>
+						</quote>
+						 – vesd össze 
+						<bibl>
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>AJÖM X.</abbr>
+							 408. 6–7. sor
+						</bibl>
+					</note>
+					 Ott is úgy okoskodik, s hosszú dictiót tart az első, mint Halul
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 nél, csakhogy a mienk egészen – a körűlményekből folyó – tehát új
+					argumentumakat 
+					<sic/>
+					 használ, noha elejét épen ugy kezdi Zrinyi dicséretén mint
+					amaz a Godofrédén – 
+					<note type="footnote">a bal lapszélen függőleges
+						besz.</note>
+					 minthogy nem is alkalmazhatná az Aléte okait, melyek a
+					jeruzsalemi viszonyokat tárgyazzák. De már az A 
+					<del>gr</del>
+					<add>rg</add>
+					 ante kitörése utánozva van Demirhamban, valamint az is hogy
+					palástját redőkbe szedi s azt mondja: „im, béke és háború van az én ölemben!
+					válaszszatok!” De ez 
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 nál sem eredeti: ezt 
+					<hi rend="underline">
+						<persName>Fabius</persName>
+					</hi>
+					 tette és mondta a carthagói tanácsban. 
+					<note type="critic">
+						<quote>
+							 De ez 
+							<persName>
+								 Tasso 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+							 nál sem eredeti: ezt 
+							<hi rend="underline">
+								<persName>Fabius</persName>
+							</hi>
+							 tette és mondta a carthagói tanácsban 
+						</quote>
+						 – 
+						<bibl>
+							<persName>Florus</persName>
+							 : 
+							<title>Róma háborúi, II. 6.</title>
+						</bibl>
+						 „Huius tantae cladis auctor 
+						<persName>Hannibal</persName>
+						 poscitur.
+						Tergiversantibus poenis dux legationis »quae« inquit »mora est?« Fabius »in
+						hoc ego sinu bellum pacemque porto; utrum eligitis?« subclamantibus bellum
+						»bellum igitur« inquit »accipite«. Et excusso in media curia togae gremio
+						non sine horrore, quasi plane sinu bellum ferret, effudit.” 
+						<persName>Havas
+							László</persName>
+						 fordításában: „E szörnyű vérfürdőt 
+						<supplied>
+							tudniillik 
+							<placeName>Saguntum</placeName>
+							 pusztulását 
+						</supplied>
+						<persName>Hannibal</persName>
+						 idézte elő, s 
+						<placeName>Róma</placeName>
+						 azt
+						követelte, hogy szolgáltassák ki őt neki. A punok azonban egyszerűen hátat
+						fordítottak a követeinknek, mire küldöttségünk vezetője,
+						<persName>Fabius</persName>
+						 így szólt: – Ugyan, miféle időpocsékolás ez?
+						Íme, togám redőjében vagy a békét, vagy a háborút hozom nektek! Melyiket
+						választjátok? – A háborút! – zúgták rá. – Akkor hát, nesztek a háború! –
+						felelte, és borzadályt keltve, kitárta ruhája öblét a tanácsterem közepén, s
+						mintha valóban abban hozta volna, szabadon engedte a harc szellemét.”
+					</note>
+					 A Zrinyi méltóságos, nyugott felelete hasonlóan Godofréd méltóságteljes
+					válaszára emlékeztet: de a szavak különbözők. 
+				</p>
+				<p xml:id="p.9">
+					 A 
+					<hi rend="underline">csodálatos</hi>
+					 , a machina, még az, miben
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós"/>
+					</persName>
+					 szemlátomást követte 
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato"/>
+					</persName>
+					 t. 
+					<note type="critic">
+						<quote>
+							 A 
+							<hi rend="underline">csodálatos</hi>
+							 , a machina, még az, miben
+							<persName>
+								 Zrinyi 
+								<idno corresp="Zrínyi Miklós"/>
+							</persName>
+							 szemlátomást követte 
+							<persName>
+								 Tassó 
+								<idno corresp="Tasso, Torquato"/>
+							</persName>
+							 t 
+						</quote>
+						 – vesd össze 
+						<bibl>
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>AJÖM X.</abbr>
+							 339–340., 410–411.
+						</bibl>
+					</note>
+					 Godofréd ügye mellett az 
+					<hi rend="underline">égi</hi>
+					 , ellene az 
+					<hi rend="underline">alvilági</hi>
+					 hatalmak, ez utobbiak pogány mythologiával
+					vegyítve, a középkor szokása szerint. – 
+					<persName>
+						 Dante 
+						<idno corresp="Dante Alighieri"/>
+					</persName>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Dante 
+								<idno corresp="Dante Alighieri"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>Dante Alighieri</persName>
+						 ( 
+						<date from="1265" to="1321">1265–1321</date>
+						 ) 
+					</note>
+					 mythologiája is illyen; őnála 
+					<hi rend="underline">Minos</hi>
+					 az alvilági biró, 
+					<hi rend="underline">Charon</hi>
+					 a hajós etc. 
+				</p>
+				<p xml:id="p.10">
+					 A 
+					<title>Gerusalemme</title>
+					 XII. én. 50. versszaktól fogva, 
+					<hi rend="underline">Clorinda</hi>
+					 kizáratása a városból hasonlit 
+					<hi rend="underline">Deli Vid</hi>
+					 kizáratásához, ( 
+					<add>XI. én</add>
+					 ) 
+					<note type="critic">a bal lapszélen besz.</note>
+					 a mennyiben mindenik elragadtatva
+					a harc hevétől künn marad; de aztán egészen más-más dolog fejlik ki belőle,
+					Clorinda az őt szerető Tancréddal ví meg, s kezétől elesik, meghal: Deli Vidnek
+					a nőjével lesz kalandja. 
+					<note type="critic">
+						<quote>Clorinda az őt szerető Tancréddal ví meg, s kezétől elesik, meghal:
+							Deli Vidnek a nőjével lesz kalandja</quote>
+						 – vesd össze ugyanott 409.
+						17–18. sor 
+					</note>
+				</p>
+				<p xml:id="p.11">
+					<choice>
+						<orig>Gerus.</orig>
+						<supplied>
+							<title>Gerusalemme</title>
+						</supplied>
+					</choice>
+					 XVIII. 49. a 
+					<hi rend="underline">posta-galamb</hi>
+					 , mely egy ölyűtől
+					megtámadva Godofréd keblébe keres menedéket, nyakán levél az egyiptomi
+					szultántól, hogy jő, útban van 
+					<choice>
+						<orig>Jerus.</orig>
+						<supplied>
+							<placeName>
+								 Jerusalem 
+								<idno corresp="Jeruzsálem"/>
+							</placeName>
+						</supplied>
+					</choice>
+					 védelmére. Utánozva 
+					<hi rend="underline">
+						<persName>
+							 Zrinyi 
+							<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+						</persName>
+						 nél 
+					</hi>
+					 , 
+					<note type="critic">
+						<quote>
+							 Utánozva 
+							<hi rend="underline">
+								<persName>
+									 Zrinyi 
+									<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+								</persName>
+							</hi>
+							 nél 
+						</quote>
+						 – vesd össze ugyanott 23. sor 
+					</note>
+					 (XIII. É.
+					<del>)</del>
+					 86 v.) hol Szolimán ez által tudja meg a várbeliek szorúlt
+					állapotját. – 
+				</p>
+				<p xml:id="p.12">
+					<title>Zrinyiász</title>
+					 XII. 109–110 Delimán dühöngése bújában az örjöngő 
+					<hi rend="underline">Orlandóra</hi>
+					 emlékeztet, 
+					<note type="critic">
+						<quote>
+							 Delimán dühöngése bújában az örjöngő 
+							<hi rend="underline">Orlandóra</hi>
+							 emlékeztet 
+						</quote>
+						 – vesd össze ugyanott 15– 16.
+						sor 
+					</note>
+					 az is meztelen tépi a fákat. (: 
+					<choice>
+						<orig>Orl. Fur.</orig>
+						<supplied>
+							<title>Orlando Furioso</title>
+						</supplied>
+					</choice>
+					 XXIII. 134. 135.) 
+				</p>
+				<p xml:id="p.13">
+					 A VII. Énekben (39 v.) midőn Zrinyi a kimúlt 
+					<hi rend="underline">Farkasicsot</hi>
+					 siratja, kőltönk 
+					<sic/>
+					 előtt hihetőleg Godofréd beszéde
+					lebegett 
+					<add>Dudo fölött</add>
+					<note type="critic">a bal lapszélen besz.</note>
+					 ( 
+					<choice>
+						<orig>Gerus.</orig>
+						<supplied>
+							<title>Gerusalemme</title>
+						</supplied>
+					</choice>
+					 III 68–70), de a mienk annál teljesebb, egészen más, és költőibb.
+					Hasonlit hozzá az a hely 
+					<persName>
+						 Ariosto 
+						<idno corresp="Ariosto, Ludovico"/>
+					</persName>
+					 nál 
+					<note type="critic">
+						<quote>
+							 Hasonlit hozzá az a hely 
+							<persName>
+								 Ariosto 
+								<idno corresp="Ariosto, Ludovico"/>
+							</persName>
+							 nál 
+						</quote>
+						 – vesd össze ugyanott 408. 10–11. sor 
+					</note>
+					 ( 
+					<choice>
+						<orig>Orl. Fur.</orig>
+						<orig>
+							<title>Orlando Furioso</title>
+						</orig>
+					</choice>
+					 65 XLIII. 170–174) hol Orlandó bajtársát Brandimartet siratja, de
+					csak, a mennyiben hős perorál 
+					<note type="critic">
+						<quote>perorál</quote>
+						 – szónoklatot tart (lat.) 
+					</note>
+					 hős felett. – 
+				</p>
+				<p xml:id="p.14">
+					 A VII. Ének. 101. Mikor a vivó 
+					<hi rend="underline">Deli Vid</hi>
+					és 
+					<hi rend="underline">Demirham</hi>
+					 , éj beállta miatt, félbeszakítják s
+					elhalasztják a harczot. 
+					<choice>
+						<orig>Gerus.</orig>
+						<supplied>
+							<title>Gerusalemme</title>
+						</supplied>
+					</choice>
+					 VI. 52. 53. épen oly alkut tesznek 
+					<hi rend="underline">Tancréd és
+						Argante</hi>
+					 . 
+					<note type="critic">
+						<quote>
+							 épen oly alkut tesznek 
+							<hi rend="underline">Tancréd és Argante</hi>
+						</quote>
+						 – vesd össze 
+						<bibl>
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>AJÖM X.</abbr>
+							 408. 12–13. sor
+						</bibl>
+					</note>
+					 Egyébiránt ez közös eposzi fogás, 
+					<hi rend="underline">
+						<persName>
+							 Ariosto 
+							<idno corresp="Ariosto, Ludovico"/>
+						</persName>
+						 nál 
+					</hi>
+					 is többször. 
+				</p>
+				<p xml:id="p.15">
+					 A VIII. Ének 21 – Haditanács. Csak kissé hasonlit a 
+					<add>z</add>
+					 ( 
+					<choice>
+						<orig>Gerus.</orig>
+						<supplied>
+							<title>Gerusalemme</title>
+						</supplied>
+					</choice>
+					 X-k É. 35–56.) Aladin által tartott haditanácshoz, hol 
+					<hi rend="underline">Orkán</hi>
+					 (mint itt Szokolovics) a gyávaság sophistája,
+					<note type="critic">
+						<quote>sophistája</quote>
+						 – álbölcselője (gör.) 
+					</note>
+					 s a titkon hallgató
+					<hi rend="underline">Solimán</hi>
+					 kitör ellene, mint itt Deliman. 
+					<note type="critic">
+						<quote>
+							 a titkon hallgató 
+							<hi rend="underline">Solimán</hi>
+							 kitör ellene,
+							mint itt Deliman 
+						</quote>
+						 – vesd össze 
+						<bibl>
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>AJÖM X.</abbr>
+							 408. 18–19. sor
+						</bibl>
+					</note>
+					 De a tárgy különböző. – 
+				</p>
+				<p xml:id="p.16">
+					 A IX. Ének. 
+					<hi rend="underline">Radivoj</hi>
+					 és 
+					<hi rend="underline">Juranics</hi>
+					 . 
+					<hi rend="underline">
+						<persName>
+							 Virgil 
+							<idno corresp="Vergilius Maro, Publius"/>
+						</persName>
+						 nél 
+					</hi>
+					<hi rend="underline">Nisus</hi>
+					 és 
+					<hi rend="underline">Euryalus</hi>
+					 . Ugyanez
+					<persName>
+						 Ariosto 
+						<idno corresp="Ariosto, Ludovico"/>
+					</persName>
+					 nál (: 
+					<choice>
+						<orig>Orl. Fur.</orig>
+						<supplied>
+							<title>Orlando Furioso</title>
+						</supplied>
+					</choice>
+					 165– stb.) 
+					<hi rend="underline">Cloridan</hi>
+					 és 
+					<hi rend="underline">Medor</hi>
+					 , de az utóbbi életben marad. 
+					<note type="critic">
+						<quote>
+							<hi rend="underline">Cloridan</hi>
+							 és 
+							<hi rend="underline">Medor</hi>
+							 ,
+							de az utóbbi életben marad 
+						</quote>
+						 – vesd össze ugyanott 20–22. sor,
+						420. 11. sor 
+					</note>
+					 Azonfelűl e kettő közt nem barátság, hanem oly forma
+					viszony van, mint 
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 nél (83–109) 
+					<hi rend="underline">Kamber</hi>
+					 és 
+					<hi rend="underline">Hamviván</hi>
+					 közt. 
+					<hi rend="underline">Amaz</hi>
+					 szolga,
+					ez gondjaira bizott ifjú. – A miénk 
+					<hi rend="underline">
+						<persName>
+							 Virgil 
+							<idno corresp="Vergilius Maro, Publius"/>
+						</persName>
+						 t 
+					</hi>
+					 nyomon követi (IX. 176–449): még a „Fortunati ambo! si
+					quid mea carmina possunt….” 
+					<note type="critic">
+						<quote>„Fortunati ambo! si quid mea carmina possunt….”</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Vergilius 
+								<idno corresp="Vergilius Maro, Publius"/>
+							</persName>
+							 : 
+							<title>Aeneis</title>
+							 , 9. 446. 
+						</bibl>
+						<persName>Lakatos István</persName>
+						 fordításában: „Boldog pár, te! ha
+						versemnek van némi hatalma…”. A sor az Euryalus és Nisus közös vállalkozását
+						és halálát leíró rész végén található. 
+					</note>
+					 is meg van. 
+					<sic/>
+					 De mig
+					<persName>
+						 Virgil 
+						<idno corresp="Vergilius Maro, Publius"/>
+					</persName>
+					 nél a két elesett hős fejét az ellen dárdákra szúrja, s úgy ismeri
+					meg a falakról Aeneás 
+					<add>fia</add>
+					<note type="critic">a bal lapszélen besz.</note>
+					 és népe, a mienk költöibb
+					dolgot csinál, megjelenteti Radivoj „meztelen lelkét” („spirto ignudo” 
+					<note type="critic">
+						<quote>„spirto ignudo”</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Tasso 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+							 : 
+							<title>Gerusalemme Liberata</title>
+							 , IX. 99. 792 
+						</bibl>
+						(a canto utolsó sora). 
+						<lg xml:id="lg.36">
+							<l xml:id="l.32">Risorgerò nemico ognor piú ignudo</l>
+						</lg>
+						<lg xml:id="lg.37">
+							<l xml:id="l.33">cenere anco sepolto e spirto ignudo</l>
+						</lg>
+						<persName>Tusnády László</persName>
+						 fordításában: 
+						<lg xml:id="lg.38">
+							<l xml:id="l.34">Feltámadok, mint ellenség, kegyetlen,</l>
+						</lg>
+						<lg xml:id="lg.39">
+							<l xml:id="l.35">ha földelt por leszek is, puszta szellem.</l>
+						</lg>
+						 (A menekülő szultán szavai.) 
+					</note>
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 ) Deli Vidnek 
+					<add>álmában</add>
+					 , úgy adatja hirűl elestöket. 
+					<note type="critic">
+						<quote>úgy adatja hirűl elestöket</quote>
+						 – vesd össze 
+						<bibl>
+							<title>Zrinyi és Tasso</title>
+							 . 
+							<abbr>AJÖM X.</abbr>
+							 418. 38–39. sor
+						</bibl>
+					</note>
+					 (IX. 85. stb). 
+					<add>
+						 Egyébiránt ez 
+						<hi rend="underline">álomjelenet</hi>
+						<choice>
+							<orig>Aen</orig>
+						</choice>
+						 . 
+						<choice>
+							<supplied>
+								<title>Aeneis</title>
+							</supplied>
+						</choice>
+						 II. midőn Aeneásnak Hector megjelen. 
+					</add>
+					<note type="critic">
+						<quote>
+							<add>
+								 ez 
+								<hi rend="underline">álomjelenet</hi>
+								<choice>
+									<orig>Aen.</orig>
+									<supplied>
+										<title>Aeneis</title>
+									</supplied>
+								</choice>
+								 II. midőn Aeneásnak Hector megjelen 
+							</add>
+						</quote>
+						 – vesd össze ugyanott 413. 7. sor 
+					</note>
+					 – 
+				</p>
+				<p xml:id="p.17">
+					 X. Ének. Kitérésen kezdődik több ének 
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 nél. Ez nem annyira 
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 ban, mint 
+					<persName>
+						 Ariostó 
+						<idno corresp="Ariosto, Ludovico"/>
+					</persName>
+					 nál szokás, ki rendszerint elmélkedik 4–5 versszakot minden ének
+					elején, s alanyi dolgokról beszél. – Az ének vége is 
+					<persName>
+						 Ariosto 
+						<idno corresp="Ariosto, Ludovico"/>
+					</persName>
+					 nál: „majd elmondom a következő énekben”-féle; mint a mienk III.
+					117: „Mi volt másodnapra, Azt bízom negyedik rész históriámra.” 
+				</p>
+				<p xml:id="p.18">
+					<hi rend="underline">Demirham</hi>
+					 és 
+					<hi rend="underline">Deliman</hi>
+					 vakmerő
+					bátorsága ostrom alkalmával (X ének), 
+					<hi rend="underline">Rodomontét</hi>
+					juttatja eszünkbe 
+					<del>n</del>
+					 , ki ( 
+					<hi rend="underline">
+						<title>Orlando Furioso</title>
+					</hi>
+					 XII.) egy maga bemegy s benszorúl az ostromlott 
+					<del>p</del>
+					<placeName>
+						<add type="corr">P</add>
+						 áris 
+						<idno corresp="Párizs"/>
+					</placeName>
+					 ban, ott szörnyű dolgokat mivel, s nem akar visszavonulni. – 
+					<hi rend="underline">Rináldo</hi>
+					 is hasonlít, 
+					<placeName>
+						 Jeruzsalem 
+						<idno corresp="Jeruzsálem"/>
+					</placeName>
+					 ostrománál. ( 
+					<hi rend="underline">
+						<choice>
+							<orig>Gerus. Lib.</orig>
+							<supplied>
+								<title>Gerusalemme Liberata</title>
+							</supplied>
+						</choice>
+					</hi>
+					 XVIII. 75 seqq.) – 
+					<hi rend="underline">
+						<title>Aeneis</title>
+					</hi>
+					 IX. 
+					<hi rend="underline">Turnus</hi>
+					 hasonlólag reked benn. 
+					<note type="critic">
+						<quote>
+							<hi rend="underline">Turnus</hi>
+							 hasonlólag reked benn 
+						</quote>
+						 – vesd
+						össze ugyanott 419. 34–35. sor 
+					</note>
+					<add>
+						<hi rend="underline">Deliman</hi>
+						 benrekedése, visszavonúlása nyomon követi
+						<persName>
+							 Virgil 
+							<idno corresp="Vergilius Maro, Publius"/>
+						</persName>
+						 t. 
+					</add>
+					 – 
+				</p>
+				<p xml:id="p.19">
+					<hi rend="underline">XI. Ének.</hi>
+					<hi rend="underline">Deliman</hi>
+					 megöli 
+					<hi rend="underline">Rustant</hi>
+					 ,
+					azért a császár haragját magára vonja, nem akarja megadni magát, de végre
+					barátai tanácsára, elvonúl, számkivetésbe megy. – Utánozva 
+					<hi rend="underline">Rinald</hi>
+					 , ki megöli 
+					<hi rend="underline">Gernandot</hi>
+					 , s
+					Godofrednek, ki azért 
+					<del>ellen</del>
+					 meg akarja fogatni, ellenszegűlni készül,
+					de barátjai kérelmére enged, s számkivetésbe megy, 
+					<note type="critic">
+						<quote>de barátjai kérelmére enged, s számkivetésbe megy</quote>
+						 – vesd
+						össze ugyanott 409. 7–8. sor 
+					</note>
+					 – 
+					<add>
+						<hi rend="underline">
+							<persName>
+								 Tasso 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+						</hi>
+						 előtt pedig 
+						<hi rend="underline">Achilles</hi>
+						 lebegett midőn Rinaldot
+						alkotta. ( 
+						<title>Ilias</title>
+						 . I. seqq. 
+					</add>
+					<note type="critic">a bal lapszélen besz.</note>
+					 ) 
+				</p>
+				<p xml:id="p.20">
+					<hi rend="underline">Deli Vid</hi>
+					 és 
+					<hi rend="underline">Demirham</hi>
+					 viadala
+					(37–83) a török árulása miatt félbenszakad. Gyakori 
+					<hi rend="underline">fogás</hi>
+					 eposzban. 
+					<persName>
+						 Homér 
+						<idno corresp="Homer" type="ITIdata">Q334363</idno>
+					</persName>
+					 nál 
+					<note type="critic">
+						<persName>
+							 Homér 
+							<idno corresp="Homer" type="ITIdata">Q334363</idno>
+						</persName>
+						 nál – 
+						<persName>
+							 Homérosz 
+							<idno corresp="Homer" type="ITIdata">Q334363</idno>
+						</persName>
+						 (? i.e. 8. sz. ) 
+					</note>
+					 is van már. Igy töri meg az 
+					<hi rend="underline">
+						<title>Ilias</title>
+						 ban 
+					</hi>
+					 (IV.) a frigyet a nyilazó 
+					<hi rend="underline">Pandarus</hi>
+					 etcet. 
+					<hi rend="underline">Turnus</hi>
+					 és
+					<hi rend="underline">Aeneás</hi>
+					 viadala is igy, 
+					<hi rend="underline">
+						<choice>
+							<orig>Aen.</orig>
+							<supplied>
+								<title>Aeneis</title>
+							</supplied>
+						</choice>
+						 XII. 266. seqq 
+					</hi>
+					 . 
+				</p>
+				<p xml:id="p.21">
+					 XII. Ének. 
+					<hi rend="underline">Delimánért</hi>
+					 zendűlés. Így
+					<persName>
+						 Tassó 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 nál 
+					<hi rend="underline">Rináldért</hi>
+					 , kit elveszettnek hisz a
+					nép. ( 
+					<choice>
+						<orig>Gerus.</orig>
+						<supplied>
+							<title>Gerusalemme</title>
+						</supplied>
+					</choice>
+					 VIII. 57–85). 
+				</p>
+				<p xml:id="p.22">
+					 XIII. Ének. A 
+					<hi rend="underline">hirvivő galambról</hi>
+					 (86)
+					fönebb emlékeztem. 
+				</p>
+				<p xml:id="p.23">
+					 XIV. Ének – az 
+					<hi rend="underline">ördögök</hi>
+					 s 
+					<hi rend="underline">alvilági lelkek</hi>
+					 harcza a keresztyének ellen emlékeztet
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 IX. énekére, valamint, 
+				</p>
+				<p xml:id="p.24">
+					 XV. ének. – az 
+					<hi rend="underline">angyalok leszállása</hi>
+					 is. –
+					<del>De ezek nem</del>
+					<del>
+						<gap extent="unknown" reason="illegible" unit="char"/>
+					</del>
+					 És pedig: 
+				</p>
+				<p xml:id="p.25">
+					 A XIV-dikben (13–19) 
+					<hi rend="underline">Alderan</hi>
+					 , 
+					<hi rend="underline">Izmén</hi>
+					 után van képezve ( 
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 . II.) vagy legalább az adta a gondolatot. A pokolbeli lelkek
+					kiszállása szinte csak átalánosságban mondható utánzásnak. A XV. ének (18 vers) 
+				</p>
+				<lg xml:id="lg.40">
+					<lg xml:id="lg.41">
+						<l xml:id="l.36">
+							<hi rend="underline">űl vala az isten</hi>
+						</l>
+					</lg>
+					<lg xml:id="lg.42">
+						<l xml:id="l.37">Sedea colà</l>
+					</lg>
+				</lg>
+				<p xml:id="p.26">
+					 ( 
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 IX–56) már közelebbi nyomon halad. 
+					<note type="critic">
+						<quote>
+							 „ 
+							<hi rend="underline">űl vala az isten</hi>
+							 ” „Sedea colà” (
+							<persName>
+								 Tasso 
+								<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+							</persName>
+							 IX–56) már közelebbi nyomon halad 
+						</quote>
+						 – vesd össze
+						ugyanott 33–34. sor 
+					</note>
+					 Az olasz is leirja előbb isten dicsőségét, de
+					más szavakkal, aztán híja 
+					<hi rend="underline">Mihály</hi>
+					 angyalt (a miénk 
+					<hi rend="underline">Gábort</hi>
+					 ) s küldi az ördöghad ellen, 
+					<hi rend="underline">Godofréd</hi>
+					 segítségére. – 
+				</p>
+				<p xml:id="p.27">
+					 De mind a mellett hogy 
+					<persName>
+						 Zrinyi 
+						<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno>
+					</persName>
+					 n 
+					<persName>
+						 Tasso 
+						<idno corresp="Tasso, Torquato" type="ITIdata">Q334397</idno>
+					</persName>
+					 nyomai látszanak, átalában nem mondható 
+					<hi rend="underline">lopásnak, plágiumnak</hi>
+					 , oly szabadon bánik a tárgygyal. Sok helyen 
+					<hi rend="underline">szebbé teszi</hi>
+					 az átvett helyet, módositja – mint pl. a
+					Szűz 
+					<hi rend="underline">Mária segédűl hivását</hi>
+					 , a 
+					<hi rend="underline">Juranics</hi>
+					 episodot stb. Itt is (XV ének) az olasz csak annyit mondott
+					az istenről: „Qui tacque” elhallgatott: Zrinyi pedig (53 v.) „Igy monda, de nem
+					<hi rend="underline">nyelvvel</hi>
+					 és 
+					<hi rend="underline">nem
+						szózattal</hi>
+					 , 
+					<add>
+						 Hanem 
+						<hi rend="underline">tündöklő isteni
+							akarattal</hi>
+						 . 
+					</add>
+					 ” – Mennyivel jobban kifejezi Isten fönségét! – 
+				</p>
+				<p xml:id="p.28">
+					 Adieu! 
+					<note type="critic">
+						<quote>Adieu!</quote>
+						 – Isten veled! (fr.) 
+					</note>
+				</p>
+				<p xml:id="p.29">
+					<choice>
+						<orig>AranyJ</orig>
+						<supplied>
+							<persName>
+								 Arany J 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

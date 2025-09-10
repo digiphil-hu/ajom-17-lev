@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1176" type="main">SZÉL FARKAS – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1176</idno>
+				<idno type="ITIdata">Q481912</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1176.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 608. 
+						</bibl>
+						 ) 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/643</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>212</height>
+										<width>172</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 2 csontszínű fol., 21,2x17,2 cm. 1. levél, 2–4. üres.
+										Melléklet 
+										<persName>Szél Farkas</persName>
+										 írásával,
+										tintával: MTAK Kt K 513/643/a. 6 csontszínű fol., 21,2x17,2
+										cm 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471147</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-08-08"/>
+				<placeName>
+					 Hódmezővásárhely 
+					<idno type="ITIdata">Q19143</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Szél Farkas 
+						<idno type="ITIdata">Q49289</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>SZÉL FARKAS – ARANY JÁNOSNAK</title>
+					<hi rend="underline">
+						<choice>
+							<orig>H.M.Vásárhely</orig>
+							<supplied>
+								<placeName>
+									 HódMezőVásárhely 
+									<idno corresp="Hódmezővásárhely" type="ITIdata">Q19143</idno>
+								</placeName>
+							</supplied>
+						</choice>
+						<date when="1860-08-08">Aug 8. 1860.</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">Tisztelt urambátyám!</p>
+				<p xml:id="p.2">
+					<persName>
+						 Laczi 
+						<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+					</persName>
+					 barátom ösztönzésére 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Laczi 
+								<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+							</persName>
+							 barátom ösztönzésére 
+						</quote>
+						 – 
+						<persName>Szél
+							Farkas</persName>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 val utazott, 
+						<placeName>Hódmezővásárhely</placeName>
+						 en és
+						<placeName>Erdőgyarak</placeName>
+						 on át, 
+						<placeName>
+							 Nagyszalontá 
+							<idno corresp="Nagyszalonta"/>
+						</placeName>
+						 ra (lásd 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Ercsey 
+							<idno corresp="ifj. Ercsey Sándor" type="ITIdata">Q43387</idno>
+						</persName>
+						 nek, 1174. 
+						<ref target="ajom-17-lev.tei.1174"/>
+						<date when="1860-08-05">1860. aug. 5.</date>
+						 ) 
+					</note>
+					 kénytelen vagyok ezen
+					czimet irni, mert mint mondá: ha igy nem irom valamennyiszer meg semmisíti a’
+					<add type="corr">l</add>
+					 evelet. Kegyes elnézést kérek ez oknál fogva
+					bátorságomért. 
+				</p>
+				<p xml:id="p.3">
+					 Az általam sokszor emlitett XVIII 
+					<hi rend="super">ik</hi>
+					századbeli népdalokat, 
+					<persName>Szentjóbi Szabó László</persName>
+					 költeményes
+					munkáival együtt, – hamarább mint reméllettem –, van szerencsém megküldeni.
+					<note type="critic">
+						<quote>
+							 Az általam sokszor emlitett XVIII 
+							<hi rend="super">ik</hi>
+							századbeli népdalokat, 
+							<persName>Szentjóbi Szabó László</persName>
+							költeményes munkáival együtt, – hamarább mint reméllettem –, van
+							szerencsém megküldeni 
+						</quote>
+						 – az első küldeményt nem ismerjük; a
+						második 
+						<persName>Szentjóbi Szabó László</persName>
+						 ( 
+						<date from="1767" to="1795">1767–1795</date>
+						 ) 
+						<title>Költeményes munkái</title>
+						 nak
+						valamelyik kiadása: 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , 
+						<date when="1791">1791.</date>
+						 ,
+						<placeName>Debrecen</placeName>
+						 , 
+						<date when="1820">1820.</date>
+						<hi rend="super">2</hi>
+						 vagy 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , 
+						<date when="1839">1839.</date>
+						<hi rend="super">3</hi>
+					</note>
+				</p>
+				<p xml:id="p.4">
+					 De ennél sokkal fontosabbra térek: tegnap elkezdém a’ régi irások
+					közt a’ kutatást, és nem csekély meglepetésemre 
+					<persName>
+						 Bessenyeÿ György
+						<idno corresp="Bessenyei György"/>
+					</persName>
+					 nek háromkötetes munkáját leltem meg. E’ munka czime: „ 
+					<title>A’
+						Természet Világa, vagy A Józan Okosság;</title>
+					 ” – mint kedves Anyám
+					állítja 
+					<persName>
+						 Bessenyeÿ György 
+						<idno corresp="Bessenyei György"/>
+					</persName>
+					 saját keze írása, 
+					<note type="critic">
+						<quote>
+							 E’ munka czime: „ 
+							<title>A’ Természet Világa, vagy A Józan
+								Okosság;</title>
+							 ” – mint kedves Anyám állítja 
+							<persName>
+								 Bessenyeÿ
+								György 
+								<idno corresp="Bessenyei György"/>
+							</persName>
+							 saját keze írása 
+						</quote>
+						 – A kézirat nem autográf, hanem
+						<persName>Bessenyei György</persName>
+						 ( 
+						<date from="1747" to="1811">1747–1811</date>
+						 ) művének másolata; a Tiszántúli Református
+						Egyházkerületi és Kollégiumi Nagykönyvtár Kézirattárában található, R
+						614/1–3. jelzet alatt, ahová 
+						<date when="1865-04-28">1865. ápr. 28-án</date>
+						került, 
+						<persName>Szél Farkas</persName>
+						 ajándékaként. Lásd erről bővebben 
+						<bibl>
+							<abbr>Bessenyei 1999.</abbr>
+							 16–32., különösen 29–30. 
+						</bibl>
+					</note>
+					 és 
+					<placeName>
+						 Tóth 
+						<idno corresp="Fekete-Tóth"/>
+					</placeName>
+					 on lakott 
+					<persName>
+						 An 
+						<supplied>
+							<unclear>í</unclear>
+						</supplied>
+						 ús 
+						<idno corresp="Bessenyei Anna"/>
+					</persName>
+					 nénénktől került ide; 
+					<note type="critic">
+						<quote>
+							<placeName>
+								 Tóth 
+								<idno corresp="Fekete-Tóth"/>
+							</placeName>
+							 on lakott 
+							<persName>
+								 An 
+								<supplied>
+									<unclear>í</unclear>
+								</supplied>
+								 ús 
+								<idno corresp="Bessenyei Anna"/>
+							</persName>
+							 nénénktől került ide 
+						</quote>
+						 – 
+						<persName>
+							 Bessenyei Anná
+							<idno corresp="Bessenyei Anna"/>
+						</persName>
+						 tól ( 
+						<date from="1765" to="1859">1765?–1859</date>
+						 ),
+						<persName>Bessenyei György</persName>
+						 unokahúgától, aki a Bihar megyei
+						<placeName>Fekete-Tóth</placeName>
+						 on halt meg 
+					</note>
+					 azt is mondá:
+					hogy van ott még több is. 
+				</p>
+				<p xml:id="p.5">Nyomtatásban – mint többektől tudom – nem jelent meg (?), és e’
+					szerint nagyon érdekes. Sietek tisztelt urambátyámnak az egészet ezennel tudtára
+					adni, és csekély tehetségemtől telve jegyzetek kiséretében bemutatni.</p>
+				<p xml:id="p.6">
+					 Az egész kézirátot 
+					<sic/>
+					 attól tartva nem küldöm el, hát ha
+					nyomtatásban is megjelent már. 
+					<note type="critic">
+						<quote>hát ha nyomtatásban is megjelent már</quote>
+						 – 
+						<title>A természet
+							világa vagy a józan okosságot</title>
+						 először 
+						<persName>Bokor
+							János</persName>
+						 adta ki: 
+						<placeName>
+							 Bp. 
+							<idno corresp="Budapest"/>
+						</placeName>
+						 , 
+						<date when="1898">1898.</date>
+						 (RMKt 7.). A melléklet
+						szövege: 
+						<p xml:id="p.7">
+							<title>A’ Természet Világa, vagy A’ Józan Okosság</title>
+							 . 
+						</p>
+						 Első
+						könyv 
+						<p xml:id="p.8">Első kötés.</p>
+						 Olvasó! 
+						<p xml:id="p.9">
+							 Ollyá lettem,
+							mint a’ pusztában bújdosó Szarándok, ki Világát elhagyván, csak egyedűl
+							űl, melyből áradt keservében könyveit törölgeti szeméről: Igy űlök
+							magánosságomban, szüntelen arra forogván art 
+							<add type="corr">z</add>
+							al, hol a’ nyájas Böltsek egymással társalkodva, az életnek unalmát
+							magok közt enyhítik ’s édesítik! 
+						</p>
+						 Músámat szóllítom, hadd panaszolja
+						életemnek hanyatlását; úgy mint a’ megélemedett Hattyú, mely már utólsó
+						óráit hozzá közelgetni érezvén, abból vett fájdalmát hajnalonként bánattal
+						énekelgeti. Ifiúságomnak örömmel teljes mezeje, hol egy kezemet fogva Vénus,
+						mással Minerva vezettek, oly aggott magánossággá változott most, hol csak
+						őszi ködök, és szomorú fellegek boronganak! Méjj álmomban e’ tsendességek
+						alatt érezve, ’s tizenhat Esztendeig gondolkozva, most fordúlok ki ismét e’
+						Világra artzal. Mit szóljak hozzá? Hízelkedni néki neve 
+						<add type="corr">tt</add>
+						 ség, mivel tekintetbe nem veszi; szidni bolondság, mert sem
+						hallja, sem érti, sem érzi, sem tettéről felelni nem tartozik:
+						Viszontagságainak fergeteges Tengerén mindnyájjunkat szabad útnak bocsát:
+						akár ütközzünk kőszálaiba, akár szerentsésen kerűljük el azokat; egyben nem
+						vigasztal, másban nem oktat. Végre nem maratt egyébb a’ szomorú
+						emlékezetnél, és körűltem haldokló kietlen magánosságnál. Óh! boldog
+						Házasság, tőllem örökre eltávozott élet, hol a 
+						<supplied>’</supplied>
+						 meg
+						aggott halandó, gyermekeiben születik újra, mikor már esztendeinek sokasága
+						szivéről minden egyébb világi örömét eltörli! Te! ki ezt írod vénségben,
+						nételenségben, hová lett vígasztalásod? Mindenestől fogva vezet a’ halál
+						sírod szélihez, honnan e’ világra nézvén vissza, senkit sem látsz utánnad,
+						ki véredben nevedben éljen.. Fedezzük el a’ Házasságnak édes sebeit!. Leg
+						nagyobb fájdalom annál, a’ kinél nem találtathatik! Édes vígasztalás a’
+						vénségbe belé fúlt életnek, magát gyermekeiben látni, és asztalánál mondani:
+						<hi rend="underline">
+							 Egyetek ebből,! 
+							<sic/>
+							 igyatok abból! 
+						</hi>
+						<p xml:id="p.10">Alig vehetem fel, mit írjak, kinek, és minek? Valamennyi
+							csupa ember még e’ földönn írással okoskodott, mind küszködésében
+							cselekedte. Vagy sorsát panaszolta; vagy kenyerét kereste, vagy
+							vakított, hogy vezethessen, vagy gonoszság ellen dolgozott, mely minden
+							időre megmarad; vagy végre elfelejtett semmiségéből, kívánta magát több
+							társai felett küszködéssel kimutatni.</p>
+						 Irok én is unalmamban,
+						kínomban, nem tudván mi vonsz, csak érzek a’ bennem élő természetben oly
+						ellene állhatatlan ösztönt, mely magát halandó társaival közölni kivánja.
+						Koporsómon túl vitt beszédem úgy tetszik, mintha síromnak komor éjtszakáját
+						hozná haldokló szívemen kiderűlésre, enyhítvén keservét ennek előre való
+						tudása, hogy halálomból elevenekhez szólhatok ki. Ha pedig én is írásommal
+						a’ közboldogság Templomának oszlopa alá egy követ letehetek, abból
+						származott vígasztalásom, a’ halálnak örök álmai közt is hevűlésbe hozza
+						hideg hamvai 
+						<add type="corr">m</add>
+						 at. – 
+						<lg xml:id="lg.1">
+							<head type="title">
+								<hi rend="underline">A’ Tudománynak választása.</hi>
+							</head>
+							<lg xml:id="lg.2">
+								<l xml:id="l.1">Lássuk! mibenn hasznos hát az oly Tudomány</l>
+							</lg>
+							<lg xml:id="lg.3">
+								<l xml:id="l.2">Mely színében czifra, de magában sovány?</l>
+							</lg>
+							<lg xml:id="lg.4">
+								<l xml:id="l.3">Tudod e hogy Plátó melyik nap született?</l>
+							</lg>
+							<lg xml:id="lg.5">
+								<l xml:id="l.4">A’ Bábája ki volt, ’s mitsoda pépet ett?</l>
+							</lg>
+							<lg xml:id="lg.6">
+								<l xml:id="l.5">Mikor keződtek el a’ Népek ’s Nemzetek</l>
+							</lg>
+							<lg xml:id="lg.7">
+								<l xml:id="l.6">Külömböző nyelvek, ruhák ’s nevezetek?</l>
+							</lg>
+							<lg xml:id="lg.8">
+								<l xml:id="l.7">Ha ezekről nem írsz, a’ Szennyes okosok,</l>
+							</lg>
+							<lg xml:id="lg.9">
+								<l xml:id="l.8">Régiség hamvában pislogó Túdosok</l>
+							</lg>
+							<lg xml:id="lg.10">
+								<l xml:id="l.9">Mind tudatlanságra átkozzák nevedet,</l>
+							</lg>
+							<lg xml:id="lg.11">
+								<l xml:id="l.10">És reves grapsákhoz lántzolják Lelkedet.</l>
+							</lg>
+							<lg xml:id="lg.12">
+								<l xml:id="l.11">Ha ezekrűl nem írsz, szólj hát a’ Lélekrűl</l>
+							</lg>
+							<lg xml:id="lg.13">
+								<l xml:id="l.12">Melynek a’ Tudomány mind fenekére űl.</l>
+							</lg>
+							<lg xml:id="lg.14">
+								<l xml:id="l.13">Okoskodjál rólla szép eszetlenséggel,</l>
+							</lg>
+							<lg xml:id="lg.15">
+								<l xml:id="l.14">És hogy oktalan vagy, próbáld elmésséggel.</l>
+							</lg>
+							<lg xml:id="lg.16">
+								<l xml:id="l.15">Érzés, gondolat közt hánnyál határokat</l>
+							</lg>
+							<lg xml:id="lg.17">
+								<l xml:id="l.16">Hogy ne tehessenek egymásnak károkat</l>
+							</lg>
+							<lg xml:id="lg.18">
+								<l xml:id="l.17">Légy túdos tudatlan; Lelket, érzéseket</l>
+							</lg>
+							<lg xml:id="lg.19">
+								<l xml:id="l.18">Köss egybe, ’s pórászonn vezessed léteket.</l>
+							</lg>
+							<lg xml:id="lg.20">
+								<l xml:id="l.19">Mutasd meg hogy egyik másikához hol jut</l>
+							</lg>
+							<lg xml:id="lg.21">
+								<l xml:id="l.20">
+									 ’S merre szolgál ettűl amahoz 
+									<add type="corr">b</add>
+									 é az út. 
+								</l>
+							</lg>
+							<lg xml:id="lg.22">
+								<l xml:id="l.21">Gondolatot, érzést fűzz fel nagy pórékba,</l>
+							</lg>
+							<lg xml:id="lg.23">
+								<l xml:id="l.22">’S a’ mi oda nem fér, zárd egy mély szuszékba.</l>
+							</lg>
+							<lg xml:id="lg.24">
+								<l xml:id="l.23">Vagy menj tanátskozni egy Itekáriussal</l>
+							</lg>
+							<lg xml:id="lg.25">
+								<l xml:id="l.24">Ki körűl van rakva Kommentáriussal</l>
+							</lg>
+							<lg xml:id="lg.26">
+								<l xml:id="l.25">Melyeket az útas, mások is megnéznek</l>
+							</lg>
+							<lg xml:id="lg.27">
+								<l xml:id="l.26">Szépen megdítsérnek: meg helyre intéznek.</l>
+							</lg>
+							<lg xml:id="lg.28">
+								<l xml:id="l.27">Nyöszörögj vagy dünnyögj ott Fábritziussal,</l>
+							</lg>
+							<lg xml:id="lg.29">
+								<l xml:id="l.28">Szent Krisosztomussal, Náziánzénussal.</l>
+							</lg>
+							<lg xml:id="lg.30">
+								<l xml:id="l.29">Lambeciust, Kollárt tedd sorokra velek.</l>
+							</lg>
+							<lg xml:id="lg.31">
+								<l xml:id="l.30">
+									 Forg 
+									<add type="corr">as</add>
+									 d munkájokban
+									árkusos Levelek. 
+								</l>
+							</lg>
+							<lg xml:id="lg.32">
+								<l xml:id="l.31">Ha szép írásikat szélyel el osztanák,</l>
+							</lg>
+							<lg xml:id="lg.33">
+								<l xml:id="l.32">Falusi nemesség számára ki adnák</l>
+							</lg>
+							<lg xml:id="lg.34">
+								<l xml:id="l.33">Tudós Leveleket tejes fazekakonn</l>
+							</lg>
+							<lg xml:id="lg.35">
+								<l xml:id="l.34">Olvashatnád, és a’ kitört ablakokonn.</l>
+							</lg>
+							<lg xml:id="lg.36">
+								<l xml:id="l.35">Kevés ember van itt, ki ezt tanúlhassa –</l>
+							</lg>
+							<lg xml:id="lg.37">
+								<l xml:id="l.36">Térdig érő könyvek! – Ördög sem olvassa.</l>
+							</lg>
+							<lg xml:id="lg.38">
+								<l xml:id="l.37">Menj tovább: Szedd össze mind a’ szép Böltseket</l>
+							</lg>
+							<lg xml:id="lg.39">
+								<l xml:id="l.38">Tanúld meg sorjára kihírelt neveket.</l>
+							</lg>
+							<lg xml:id="lg.40">
+								<l xml:id="l.39">
+									<choice>
+										<orig>
+											 Ve 
+											<metamark function="tinta"/>
+											 d 
+										</orig>
+										<supplied>Vedd</supplied>
+									</choice>
+									 elő munkájok 
+									<del>,</del>
+									<add type="corr">:</add>
+									 mutogasd másoknak 
+								</l>
+							</lg>
+							<lg xml:id="lg.41">
+								<l xml:id="l.40">Nevezd könyveiket a’ nagy Tudósoknak.</l>
+							</lg>
+							<lg xml:id="lg.42">
+								<l xml:id="l.41">Ne fáraszszad magad a’ sok olvasással</l>
+							</lg>
+							<lg xml:id="lg.43">
+								<l xml:id="l.42">Eleget tanúlhatsz már ma a’ hallással.</l>
+							</lg>
+							<lg xml:id="lg.44">
+								<l xml:id="l.43">
+									<add type="corr">H</add>
+									 a kérdik, e’ könyvben ’s másban
+									<add>írva</add>
+									<choice>
+										<orig>mi vólt</orig>
+										<supplied>mivólt</supplied>
+									</choice>
+									<del>
+										<gap extent="unknown" reason="illegible" unit="char"/>
+									</del>
+								</l>
+							</lg>
+							<lg xml:id="lg.45">
+								<l xml:id="l.44">Fújd az órrod ’s mondgy rá sületlen a própot</l>
+							</lg>
+							<lg xml:id="lg.46">
+								<l xml:id="l.45">Elég a’ tenger könyv ha mind ott áll sorban;</l>
+							</lg>
+							<lg xml:id="lg.47">
+								<l xml:id="l.46">Nem lehet tanúlni már az ember korban.</l>
+							</lg>
+							<lg xml:id="lg.48">
+								<l xml:id="l.47">Elég hogy te sok szép könyvet megszereztél,</l>
+							</lg>
+							<lg xml:id="lg.49">
+								<l xml:id="l.48">És általa híres tudományú lettél</l>
+							</lg>
+							<lg xml:id="lg.50">
+								<l xml:id="l.49">Jobb egy hosszú czifra újj nevet szerezni</l>
+							</lg>
+							<lg xml:id="lg.51">
+								<l xml:id="l.50">Ezzel tudják szépen az embert Kendezni!</l>
+							</lg>
+							<lg xml:id="lg.52">
+								<l xml:id="l.51">Hányd fel Szelek közé a’ keresetedet,</l>
+							</lg>
+							<lg xml:id="lg.53">
+								<l xml:id="l.52">’S Pótold ki Szép hanggal te is a’ Létedet</l>
+							</lg>
+							<lg xml:id="lg.54">
+								<l xml:id="l.53">Minden érdem megvan, csak más neved legyen.</l>
+							</lg>
+							<lg xml:id="lg.55">
+								<l xml:id="l.54">Már ennek az elme felibe nem megyen.</l>
+							</lg>
+							<lg xml:id="lg.56">
+								<l xml:id="l.55">Hogy lehess még tudós igen könnyű móddal?</l>
+							</lg>
+							<lg xml:id="lg.57">
+								<l xml:id="l.56">Keveset vesződvén Lélekben magaddal.</l>
+							</lg>
+							<lg xml:id="lg.58">
+								<l xml:id="l.57">Add reá eszedet a’ sok név gyűjtésre,</l>
+							</lg>
+							<lg xml:id="lg.59">
+								<l xml:id="l.58">Rakd boglyába őket és vidd a’ törésre.</l>
+							</lg>
+							<lg xml:id="lg.60">
+								<l xml:id="l.59">Egyiknek értelmét tedd ki a’ dologban:</l>
+							</lg>
+							<lg xml:id="lg.61">
+								<l xml:id="l.60">Bizonyítsd többekkel, de halgass magadban.</l>
+							</lg>
+							<lg xml:id="lg.62">
+								<l xml:id="l.61">
+									 Örökké 
+									<add type="corr">c</add>
+									 sak azt írd, a’
+									mit más megmondott 
+								</l>
+							</lg>
+							<lg xml:id="lg.63">
+								<l xml:id="l.62">És nevednek a’ hír, ditsőséget adott.</l>
+							</lg>
+							<lg xml:id="lg.64">
+								<l xml:id="l.63">Tsak ezt bizonyíthasd, hogy sokat olvastál,</l>
+							</lg>
+							<lg xml:id="lg.65">
+								<l xml:id="l.64">Nem árt, életedben, ha semmit se mondtál.</l>
+							</lg>
+						</lg>
+						<p xml:id="p.11">
+							<persName>
+								 Bessenyeÿ György 
+								<idno corresp="Bessenyei György"/>
+							</persName>
+							 ezen tankölteménye három kötetből áll, melyet ő könyvnek
+							nevezett; és minden könyv több kötésre van osztva, nevezetesen az egész
+							mű áll nyolcz kötésből; minden kötés kevesebb és több szakaszra van
+							osztva; az 
+							<hi rend="underline">első kötés</hi>
+							<add type="corr">á</add>
+							 ll öt szakaszból, a’ 
+							<hi rend="underline">második</hi>
+							 : h 
+							<del>a</del>
+							<add type="corr">á</add>
+							<del>t</del>
+							<add>rom</add>
+							 ból; a’ 
+							<hi rend="underline">harmadik</hi>
+							 : hatból; a’
+							<hi rend="underline">negyedik</hi>
+							 : ötből; az 
+							<hi rend="underline">ötödik</hi>
+							 : ötből; – a’ 
+							<hi rend="underline">hatodik</hi>
+							 :
+							ötből; a’ 
+							<hi rend="underline">hetedik</hi>
+							 : kettőből; és végre a’ 
+							<hi rend="underline">nyolczadik</hi>
+							 kötés négy szakaszból áll. A’
+							szakaszok ísmét több részre osztvák, nevezetesen: 
+						</p>
+						<p xml:id="p.12">
+							<hi rend="underline">Első kötés:</hi>
+							 Első Szakasz tartalma: Az ember
+							mint csecsemő; gyermekkor; – Ifiu kor. Az örömnek keserve. Ember kor. 
+						</p>
+						<p xml:id="p.13">Második Szakasz – ” – : Az ember mint vad állat, vallás
+							tudomány, mesterség nélkűl. Testi gyengesége az embernek.</p>
+						<p xml:id="p.14">Harmadik Szakasz. – ” – : Az ember, mint tudomány és
+							mesterség. Bálványozás a’ pogányok közt. Fegyver, harcz, tanult, és
+							mesterséges vérontás. Bujálkodás a’ gyönyörködésben. Meg
+							szakadhatatlanság a’ gyönyörködésben. Tengeri kereskedés, hajókázás.
+							Méltósága az emberi értelemnek! Irás, nyomtatás. Kincskeresés: veszte az
+							erkölcsnek. Veszedelme a’ tanálmánynak.</p>
+						<p xml:id="p.15">Negyedik szakasz: Az ember mint házi gond és cseléd vezér.
+							Mezei mív ’s annak régisége. A’ mezei mívet könyvböl tanulni nevettség.
+							Jövedelem és költség. A’ szolgálat bosszant. Vezérlő okosság. Erkölcs a’
+							házi rendtartásban.</p>
+						<p xml:id="p.16">Ötödik szakasz: Az ember, mint igaz hadi vezér, és
+							világdúló. Az igaz vezér, mennyei védelem. Halhatatlan győzedelme a’
+							magyar nemzetnek. A’ ki csak hirért hadakozik, ostora az egeknek. –</p>
+						<p xml:id="p.17">
+							<hi rend="underline">Második kötés</hi>
+							 . Első Szakasz: Az ember mint
+							múzsa, és szomorú bölcsesség. A’ bölcsesség egész világi boldogságot nem
+							adhat, de segít, különösön. Haszna a’ tudománynak. 
+						</p>
+						<p xml:id="p.18">Második Szakasz: Az ember mint pártra hajlás és párt ütés.
+							Párt ütés.</p>
+						<p xml:id="p.19">Harmadik Szakasz: Az ember mint öröme magának és keserve.
+							Harag, irigység: veszte az életnek.</p>
+						<p xml:id="p.20">
+							<hi rend="underline">Harmadik kötés</hi>
+							 . Első Szakasz: Az ember mint a
+							becsűletnek rabja. Az ember mint világ fia. A’ bölcs ítélet és
+							szemérmetesség rúgó tollai a’ becsűletnek. Az elrablott hir,név 
+							<sic/>
+							becstelenség. 
+						</p>
+						<p xml:id="p.21">
+							 Második szakasz: Az ember mint szomszédjának bírája. –
+							<note type="footnote">
+								 A’ második szakasz föl 
+								<del>f</del>
+								<add type="corr">v</add>
+								 an cserélve az elsővel; az első a’ második
+								és a’ második az első 
+							</note>
+						</p>
+						<p xml:id="p.22">
+							 Harmadik Szakasz: Az ember, mint józan okosság által való
+							Isteni ismeret. A’ hol értelem nincs, ott 
+							<add type="corr">r</add>
+							 end
+							nem lehet. – Ellenvetések a’ naturálístáknak, a’ különős Isteni
+							igazgatásra nézve, Pálnak, Péternek világi állapatjában. 
+						</p>
+						<p xml:id="p.23">Negyedik Szakasz: Az ember mint pogány, Istenének
+							isméretiben.</p>
+						<p xml:id="p.24">Ötödik szakasz: Az ember, mint előre látás, vagy plánum.
+							–</p>
+						<p xml:id="p.25">Hatodik szakasz: Az ember, mint barátság. Barátok közt a’
+							szüntelen való látogatás unalom. Teljesítése e’ szakasznak.
+							(:próza:)</p>
+						<p xml:id="p.26">
+							<hi rend="underline">Negyedik kötés</hi>
+							 . Első szakasz: Az ember, mint
+							hittűrő. Fanatizmus. 
+						</p>
+						<p xml:id="p.27">Második szakasz: Az ember, mint törvénybiró. Minden polgár
+							köteles, a’ hogy ’s mivel teheti, közjóra dolgozni. Az igaz bíró kincs.
+							A’ rang, hivatal: tárgya az irigységnek. Pusztúlás. Okosság a’
+							hivatalban.</p>
+						<p xml:id="p.28">Harmadik szakasz: Az ember mint magában veszett vad
+							természet. Természet, és mesterség; latba vetve.</p>
+						<p xml:id="p.29">Negyedik szakasz: Az ember mint uralkodásának külömbb,
+							külömbb féle módja, és örökös szenvedés.</p>
+						<p xml:id="p.30">Ötödik szakasz: Az ember, mint változhatatlan erkölcs.
+							Megátalkodás a’ gonoszban. Korhely. Méreg, bolond indúlat. Prédálás,
+							vesztegetés. Fukarság, fösvénység. A’ testi szükség, ösztöne az
+							értelemnek és uralkodik, mínt érzés.</p>
+						<p xml:id="p.31">
+							<hi rend="underline">Ötödik kötés</hi>
+							 . Első szakasz: Az ember, mint
+							polgári kötelesség, maga iránt való tartozás, és alku. – A’ király és
+							törvény. Haza-fiúság. Királyhoz való 
+							<choice>
+								<orig>
+									 hív 
+									<metamark function="tinta"/>
+									 ég 
+								</orig>
+								<supplied>hívség</supplied>
+							</choice>
+							 . A’ nemzet szereteti: 
+							<del>a’</del>
+							 maga szeretet. A’ polgári
+							engedelmességnek vallás az eredete. A’ vallás el nem töröltethetik. 
+						</p>
+						<p xml:id="p.32">Második szakasz: Az ember, mint természet szerint való
+							igazság, és szerzett törvény.</p>
+						<p xml:id="p.33">Harmadik szakasz: Az ember, mint família, és régi
+							nemzettség. A’ megnemesitő érdem: mindég parasztban terem. Az úri
+							méltóság eredetire tér viszsza, honnan származik. Az érdemetlenségnek
+							érdeme. Becsi a’ régi vérnek. A’ parasztot a’ méltóság bé nem fedheti.
+							A’ halandóságban egyenlőség van. A’ halál minden bánatnak véget vet.</p>
+						<p xml:id="p.34">
+							 Negyedik szakasz: Az ember, mint magában meg
+							külömböztetett nemzet, és ország. Tárgya a’ nemzetnek: A’ nagy
+							birodalom, ha szabad; dicsősséges; de örökké véres. Anya nyelv. –
+							Tudomány. Magyar erkölcsí tulajdonság. 
+							<note type="footnote">
+								 Ezen
+								czikkecskét mutatványképpen meg nem állhatom hogy ide ne irjam: 
+								<lg xml:id="lg.66">
+									<lg xml:id="lg.67">
+										<l xml:id="l.65">Ősi erköltsidet gyermek szokásokban</l>
+									</lg>
+									<lg xml:id="lg.68">
+										<l xml:id="l.66">Ne temesd el, mert jók még azok
+											magokban.</l>
+									</lg>
+									<lg xml:id="lg.69">
+										<l xml:id="l.67">„Nemesi bátorság, szép álhatatosság,</l>
+									</lg>
+									<lg xml:id="lg.70">
+										<l xml:id="l.68">„Tsendes tűz, vitézség, és Józan
+											okosság:</l>
+									</lg>
+									<lg xml:id="lg.71">
+										<l xml:id="l.69">„Jámborság, emberség, szemérem,
+											szelédség</l>
+									</lg>
+									<lg xml:id="lg.72">
+										<l xml:id="l.70">„Hallgató okosság, és nyájas Nemesség,</l>
+									</lg>
+									<lg xml:id="lg.73">
+										<l xml:id="l.71">„Tsapodárság kivűl fenn tartott
+											barátság</l>
+									</lg>
+									<lg xml:id="lg.74">
+										<l xml:id="l.72">„És durvaság nélkül való szép
+											múlattság:</l>
+									</lg>
+									<lg xml:id="lg.75">
+										<l xml:id="l.73">Mind ollyan erköltsök, mellyeket
+											tisztelhetsz</l>
+									</lg>
+									<lg xml:id="lg.76">
+										<l xml:id="l.74">’S Elméddel táplálvánn véllek ember
+											lehetsz.</l>
+									</lg>
+									<lg xml:id="lg.77">
+										<l xml:id="l.75">Ha nínts szép-erköltsöd, tsak Finfinísta
+											vagy,</l>
+									</lg>
+									<lg xml:id="lg.78">
+										<l xml:id="l.76">Hijába a’ gőgöd, ’s rongyos pompád, oly
+											nagy.</l>
+									</lg>
+								</lg>
+							</note>
+						</p>
+						<p xml:id="p.35">Hadisereg. Kereskedés. Kötés, – fogadás. Perelkedés. Pompa.
+							Meg ismértető jele az alacsonyságnak. Emberség, – jóság. Nevelés. Erős
+							test, és annak alkotása. Hadi mesterség, tudomány. Az érdem magában.
+							Természet ajándéka. Gazdálkodó okosság. A’ tudatlanság, ostora a’
+							társaságnak. A’ hit külömbségét türni kell.</p>
+						<p xml:id="p.36">
+							 Ötödik szakasz: Az ember mint országló értelem.
+							(:Folytatása az elébbi szakasznak.) A’ föld népe első tárgy. Uralkodás
+							az életem, halálom. A’ földmivelő nép nem igazgathat, sem uralkodásra
+							nem mehet. Birtok, Jövedelem a’ polgárra nézve. A’ hívatal érdemre
+							tartozik. Ösztön nélkül a’ természet puszta. A’ mezei mív, minden
+							törvény alá zárt társaságnak fundamentoma. A’ szegényt, sorsa
+							jutalmazza. A’ méltóságos sorsnak ’s 
+							<sic/>
+							 vannak osztályba jutott
+							mennykövei. 
+						</p>
+						<lg xml:id="lg.79">
+							<lg xml:id="lg.80">
+								<l xml:id="l.77">(:Róma, Mogol, Persa, Khína, mind fel fordúlt,</l>
+							</lg>
+							<lg xml:id="lg.81">
+								<l xml:id="l.78">Ilion, Karthágo, Memfis hamvába fult.</l>
+							</lg>
+							<lg xml:id="lg.82">
+								<l xml:id="l.79">Krézus, kintsei közt Solon után sóhajt – – –</l>
+							</lg>
+							<lg xml:id="lg.83">
+								<l xml:id="l.80">Igy tsinálja a’ sors, a’ nagyoknak a’ bajt. Bess.:)
+									–</l>
+							</lg>
+						</lg>
+						<p xml:id="p.37">
+							 Hatodik kötés. Első szakasz: Az ember, mint k 
+							<del>í</del>
+							<add type="corr">i</add>
+							 rályi tanács. Keserve a’ hivatal méltóságának.
+							Ki tett tárgya a’ hibás miníszterségnek. Ösztön a’ hivatalban, és
+							tévedés. Tárgya, ’s módja az igaznak. A’ királyságnak fájdalma.
+							Tévelygés a’ tanult, és elrejtezett elmék közt. 
+						</p>
+						<p xml:id="p.38">Második szakasz: Az ember, mint ijjesztő szegény. A’
+							testnek keserve, keserves szüksége becsűletet, erkölcsöt, érdemet
+							megemészt. Az elszegényedés attúl jön a’ kit üt. Az ember magában
+							gazdagodik, és magában szegényedik.</p>
+						<p xml:id="p.39">Harmadik szakasz: Az ember, mint a’ gondviselésnek
+							tárgya.</p>
+						<p xml:id="p.40">Negyedik szakasz: Az ember, mint asszony.</p>
+						<p xml:id="p.41">Ötödik szakasz: Az ember, mint házassági hívség, és
+							nételenség. Öröm, vigasztalás, méltóság – a’ házasságban. – Nételenség,
+							a’ puszta és sivatag életben. Ellenvetés a’ házasságban. Inség a’
+							magános életben.</p>
+						<p xml:id="p.42">
+							<hi rend="underline">Hetedik kötés</hi>
+							 . Első szakasz: Az ember, mint
+							Okosságának unalma, és örökös tudatlanság. Az emberi nemzet magát sem
+							érti. Az okoskodás egy fájdalmat sem ölt el. Az ember, kezét öszve
+							dugva: e’ világot nézve és semmit sem értve. Lélek ísméret. Csak a’
+							józan okosság egy átaljába való igaz lelki ismeret. Az akarat
+							kéntelenség, szükségre nézve. A’ nagy tudomány nagy fájdalom. A’
+							jámborság, együgyűség, tudományt halad. Az egyűgyűség szivbül vigad. Az
+							okoskodásábúl, vagy eszébűl kiszorult élet némán gyönyörködik. 
+						</p>
+						<p xml:id="p.43">Második szakasz: Az ember, mint józan okosság, és lehető
+							boldogság. (:Folytatása az elébbi szakasznak:). Uralkodó indúlat. A’
+							gonosz lélek egész világ kincsével sem lehet boldoggá.</p>
+						<p xml:id="p.44">
+							<hi rend="underline">Nyoltzadik kötés</hi>
+							 . 
+							<note type="footnote">A’
+								mutatvány versekben és e’ nyolczadik kötésben az eredeti kézirat
+								ortographiáját tartottam meg. SzF.</note>
+							 Első Szakasz: Az Ember,
+							mint Törvénnyel szerzett Boldogság. A’ Törvény által való Boldogság,
+							tsak Törvényes Szabadság. Polgári, vagy Nemzeti Szabadság. Köz=bátorság. 
+						</p>
+						<p xml:id="p.45">Második Szakasz: Az Ember, tsendes Egek alatt. A’ meg ért
+							Értelemnek haszna, ideje. Az Emberi Hibáknak eltűrése. Tsendes
+							tűrés.</p>
+						<p xml:id="p.46">Harmadik Szakasz. Az Ember, mint meg szikkadt Vénség, és
+							halálának árnyéka. Végső pusztúlása az Életnek. Mozgó Halál, utolsó
+							Vénség. Szomorú Vigasztalás a’ Halálban.</p>
+						<p xml:id="p.47">Negyedik szakasz: Az Ember, mint Lélek, és Halhatatlanság.
+							Elindúl a’ Lélek önnön halhatatlansága után és a’ Látásnak határából
+							kitűnik. –</p>
+						<p xml:id="p.48">
+							 Ez a’ három kötetes kézirat tartalma. Az első kőnyv
+							legelején mindjárt azon czim után, mely itt is legelől áll 
+							<del>;</del>
+							<add type="corr">,</add>
+							 van egy beszédecske az olvasóhoz; és
+							„Világosítás vagy intéző beszéd Géniusomhoz; ez két részre van osztva;
+							elsőben foglaltatik: a’ „Tudományok vál 
+							<del>á</del>
+							<add type="corr">a</add>
+							 sztása”, másodikban: „Erőltetés az erköltsben
+							Tudományban.” 
+						</p>
+						<p xml:id="p.49">Az előbeszédet, és a’ „Tudományok választását” egész
+							terjedelmében ide irtam. –</p>
+						<p xml:id="p.50">Végül megjegyzem: az egész három kötet éppen 60 tömött
+							írásu negyedrét ivet tesz. –</p>
+					</note>
+					 – 
+				</p>
+				<p xml:id="p.51">Édes néni kezeit csókolva vagyok</p>
+				<p xml:id="p.52">Tisztelt urambátyámnak</p>
+				<p xml:id="p.53">igaz tisztelője</p>
+				<p xml:id="p.54">
+					<persName>Szél Farkas</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

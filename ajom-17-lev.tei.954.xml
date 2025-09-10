@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="954" type="main">SZILÁGYI ISTVÁN – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.954</idno>
+				<idno type="ITIdata">Q344002</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.954.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Szilágyi István 
+							<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+						</persName>
+						 ( 
+						<date from="1819" to="1897">1819–1897</date>
+						 ): 
+						<date from="1845">1845-től</date>
+						 a máramarosszigeti ref. főiskola tanára,
+						<date from="1850">1850-től</date>
+						 igazgatója, 
+						<date from="1846">1846-tól</date>
+						 az Akadémia lev. tagja. E korszakbeli munkái: 
+						<title>A
+							máramaros- szigeti reform. tanoda történeteinek rövid vázlata</title>
+						 (
+						<date when="1858">1858</date>
+						 ), 
+						<title>Keresztyén
+							egyháztörténet</title>
+						 ( 
+						<date when="1860">1860</date>
+						 ), 
+						<title>A
+							gymnasiumi oktatásügy története a magyarországi helvét
+							hitvallásuaknál</title>
+						 ( 
+						<date when="1861">1861</date>
+						 ). Korábbi
+						kapcsolatukra nézve lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 898–900. és XVI. 1207–1208. 
+						</bibl>
+						 Az 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+						</bibl>
+						 24 tőle való és 12 hozzá írt levelet közöl (s még 3 elveszett
+						AJ-levélről tud), a XVI. két Szilágyi- és két AJ-levelet tartalmaz.
+						Kötetünkben 4 AJ- és 7 Szilágyi-levél található. 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/672/a</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>211</height>
+										<width>171</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 Az 1. oldal jobb felső sarkában 
+										<persName>
+											 Arany László
+											<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+										</persName>
+										 írásával, fekete ceruzával: 
+										<date when="1857-11-27">1857 novemb 27.</date>
+										 2 csontszínű
+										fol., 21,1x17,1 cm. 1–3. levél, 4. üres 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q344001</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1857-11-27"/>
+				<placeName>
+					 Máramarossziget 
+					<idno type="ITIdata">Q207</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Szilágyi István 
+						<idno type="ITIdata">Q49424</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>SZILÁGYI ISTVÁN – ARANY JÁNOSNAK</title>
+					<supplied>
+						<placeName>
+							 Máramarossziget 
+							<idno corresp="Máramarossziget" type="ITIdata">Q207</idno>
+						</placeName>
+						 , 
+						<date when="1857-11-27">1857. november 27.</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">Kedves barátom,</p>
+				<p xml:id="p.2">
+					 Ime az új Mohamed. Ha a hegy nem akart hozzá 
+					<add type="corr">jőn</add>
+					 i: ő ment ahhoz. Harmadik éve körülbelül, hogy egymásról semmit
+					sem tudunk. 
+					<note type="critic">
+						<quote>Harmadik éve körülbelül, hogy egymásról semmit sem tudunk</quote>
+						 –
+						Az utolsó levelet 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 írta 
+						<date when="1854-03-09">1854. márc. 9-én</date>
+						 . 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 603. 396–397. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.603"/>
+					</note>
+					 Én megszakasztom a hallgatást, s jelentem, hogy élek. 
+				</p>
+				<p xml:id="p.3">
+					 Istennek hála, meglehetős állapotban vagyok én és az eyeím. 
+					<note type="critic">
+						<quote>eyeím</quote>
+						 – enyéim 
+					</note>
+					 Kis fiam 
+					<date when="1857-12-08">deczemb. 8.</date>
+					 Öt éves lesz, s a derék gyermekben fő boldogságomat
+					tartom és találtam. Te a ki magad is szerencsés apa vagy, ugy hiszem érteni
+					fogod, ha mondom: ő benne van fő boldogságom. 
+				</p>
+				<p xml:id="p.4">
+					 Szándékom volt, hogy a nyári szünnapok alatt 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 et meglátogatván, 
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 t utba ejtsem. Semmi sem lett belőle. Megnehezedtem némi
+					catarrhalis 
+					<note type="critic">
+						<quote>catarrhalis</quote>
+						 – hurutos (gör.) 
+					</note>
+					 bajok miatt, s fürdöbe
+					kelle mennem. Nagy jótetemény, hogy nekünk itt annyi az alkalom s mód érczes
+					<note type="critic">
+						 Az 
+						<hi rend="bold">érczes</hi>
+						 szó, feltehetőleg
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 által, fekete ceruzával félig bekarikázva és a bal lapszélen
+						megkérdőjelezve 
+					</note>
+					 fürdőket látogatni. 
+					<date when="1857-08">Augustus</date>
+					 nagy részét ott töltöttem el. Megtisztultam. 
+				</p>
+				<p xml:id="p.5">Hát te és tieid hogy vagytok? Im én kitártam pár szóval állapotomat:
+					bár töled s rólad is tudhatnék legalább ennyit, az nekem örömömre fogna
+					szolgálni.</p>
+				<p xml:id="p.6">
+					 A vacatióban utazni ment s 
+					<placeName>
+						 Körös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ön is megfordult két ifjabb professor társamnak utasitásul adtam
+					volt, hogy házadról nekem hirt hozzanak. Fájdalommal mondák, hogy nem
+					találhattak. 
+				</p>
+				<p xml:id="p.7">
+					 Én a napokban 
+					<choice>
+						<orig>ErdélyiJ</orig>
+						<supplied>
+							<persName>
+								 Erdélyi János 
+								<idno corresp="Erdélyi János" type="ITIdata">Q43473</idno>
+							</persName>
+						</supplied>
+					</choice>
+					<hi rend="underline">Füzeteiben</hi>
+					 egy kis átdolgozatot közlöttem. 
+					<note type="critic">
+						<quote>
+							 Én a napokban 
+							<choice>
+								<orig>ErdélyiJ</orig>
+								<supplied>
+									<persName>
+										 Erdélyi János 
+										<idno corresp="Erdélyi János" type="ITIdata">Q43473</idno>
+									</persName>
+								</supplied>
+							</choice>
+							<hi rend="underline">Füzeteiben</hi>
+							 egy kis átdolgozatot közlöttem
+						</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Szilágyi István 
+								<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+							</persName>
+							 : 
+							<title>Anyanyelvi feladatok ügye a magyar
+								gimnáziumokban</title>
+							 . 
+							<abbr>SF</abbr>
+							<date from="1857" to="1858">1857–1858.</date>
+							 I. évf. II. félév 1. sz.
+							<date when="1858-11-04">nov. 4.</date>
+							 489–531. 
+						</bibl>
+					</note>
+					 Ide csatolok számodra egy példányt. Fogadd tőlem szivesen. Egy egy
+					példányt tiszteletem jeleül légy szives 
+					<hi rend="underline">
+						<persName>
+							 Varga 
+							<idno corresp="Warga János" type="ITIdata">Q60962</idno>
+						</persName>
+					</hi>
+					 , 
+					<hi rend="underline">
+						<persName>
+							 Szabó 
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+					</hi>
+					 és 
+					<hi rend="underline">
+						<persName>
+							 Szilágyi 
+							<idno corresp="Szilágyi Sándor" type="ITIdata">Q151031</idno>
+						</persName>
+					</hi>
+					 Uraknak átadni. 
+				</p>
+				<p xml:id="p.8">
+					 Szabó 
+					<choice>
+						<orig>Szabó K</orig>
+						<supplied>
+							<persName>
+								 Szabó Károly 
+								<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+							</persName>
+						</supplied>
+					</choice>
+					 t különösebben kérlek értesitsd, hogy 
+					<hi rend="underline">
+						<persName>
+							 Tordai 
+							<idno corresp="Tordai Sámuel"/>
+						</persName>
+						 t 
+					</hi>
+					 , a hozzá való 
+					<hi rend="underline">Commentárral</hi>
+					együtt 
+					<persName>
+						 Lugossy 
+						<idno corresp="Lugossy József" type="ITIdata">Q156107</idno>
+					</persName>
+					 nak még 
+					<date when="1857-10">october</date>
+					 elején át küldtem. 
+					<note type="critic">
+						<quote>
+							<hi rend="underline">
+								<persName>
+									 Tordai 
+									<idno corresp="Tordai Sámuel"/>
+								</persName>
+							</hi>
+							 t, a hozzá való 
+							<hi rend="underline">Commentárral</hi>
+							 együtt
+							<persName>
+								 Lugossy 
+								<idno corresp="Lugossy József" type="ITIdata">Q156107</idno>
+							</persName>
+							 nak még 
+							<date when="1857-10">october</date>
+							 elején át
+							küldtem 
+						</quote>
+						 – 
+						<persName>Tordai Sámuel</persName>
+						 ( 
+						<date from="1731" to="1801">1731–1801</date>
+						 ) 
+						<title>Chronicon
+							Hungarorum</title>
+						 c. munkájáról lehet szó, amelynek kiadása azonban
+						elmaradt. Vesd össze 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Szilágyi István 
+							<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+						</persName>
+						 nak, 958. 
+						<ref target="ajom-17-lev.tei.958"/>
+						<date when="1857-12-03">1857. dec. 3.</date>
+						 – 
+						<persName>
+							 Lugossy József
+							<idno corresp="Lugossy József" type="ITIdata">Q156107</idno>
+						</persName>
+						 ( 
+						<date from="1812" to="1884">1812–1884</date>
+						 ): ref. lelkész,
+						<date from="1851" to="1861">1851 és 1861 között</date>
+						 debreceni
+						főiskolai tanár (tárgyai: mértan és természettan, héber, görög nyelv és
+						irodalom, magyar nyelvészet); a 
+						<title>Történeti Emlékek</title>
+						 szerk. (
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , 
+						<date when="1859">1859.</date>
+						 I–III.), 
+						<persName>
+							 Szabó
+							Károllyal 
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						 , 
+						<persName>
+							 Szilágyi István 
+							<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+						</persName>
+						 nal és 
+						<persName>
+							 Szilágyi Sándor 
+							<idno corresp="Szilágyi Sándor" type="ITIdata">Q151031</idno>
+						</persName>
+						 ral 
+					</note>
+					 Még a Diplomatariumból 
+					<note type="critic">
+						<quote>Diplomatariumból</quote>
+						 – oklevéltárból (gör.-lat.) 
+					</note>
+					 van egy
+					pár darab hátra, de azt is pár nap alatt kézbe adom. A kiállitást ő ígérte meg,
+					s igy a nyomatás rajta áll. 
+				</p>
+				<p xml:id="p.9">
+					 Téged és tieidet én és az enyéim a legsziveb 
+					<sic/>
+					 szeretettel
+					ölelve vagyok 
+				</p>
+				<p xml:id="p.10">
+					<placeName>
+						 Sziget 
+						<idno corresp="Máramarossziget"/>
+					</placeName>
+					 , 
+					<date when="1857-11-27">novemb. 27. 1857.</date>
+				</p>
+				<p xml:id="p.11">
+					<choice>
+						<orig>Szeretőbaráto</orig>
+						<supplied>Szerető barátod</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.12">
+					<choice>
+						<orig>SzilágyiIstván</orig>
+						<supplied>
+							<persName>
+								 Szilágyi István 
+								<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

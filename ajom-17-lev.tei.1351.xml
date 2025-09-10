@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1351" type="main">ARANY JÁNOS – KÁROLYI SÁMUELNEK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1351</idno>
+				<idno type="ITIdata">Q482085</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1351.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Válasz 
+						<persName>
+							 Károlyi Sámuel 
+							<idno corresp="Károlyi Sámuel" type="ITIdata">Q54057</idno>
+						</persName>
+						<date when="1861-10-07">1861. október 7-i</date>
+						 levelére (1347.) 
+						<ref target="ajom-17-lev.tei.1347"/>
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<title>Nemzet</title>
+						<date when="1882">1882.</date>
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>Motz 1919–1921.</abbr>
+						 179–181. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>Iványi 1972.</abbr>
+						 212–214. 
+					</bibl>
+					 – Közlés utáni kéziratos másolat: 
+					<bibl>
+						<abbr>VMás</abbr>
+						 60. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Országos Levéltár</institution>
+						<repository/>
+						<idno>R 313. 1.d</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>232</height>
+										<width>150</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 2 világoskék fol., pecsétes BATH-nyomattal, 23,2x15 cm.
+										Vízjel: 
+										<persName>
+											 ARANY JÁNOS 
+											<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+										</persName>
+										 . 1–2. levél, 3–4. üres 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471322</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1861-10-17"/>
+				<placeName>
+					 Budapest 
+					<idno type="ITIdata">Q93</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Károlyi Sámuel 
+						<idno type="ITIdata">Q54057</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – KÁROLYI SÁMUELNEK</title>
+					<hi rend="underline">
+						<placeName>
+							 Pest 
+							<idno corresp="Pest" type="ITIdata">Q93</idno>
+						</placeName>
+						 , 
+						<date when="1861-10-17">
+							 oct. 17 
+							<hi rend="super">én</hi>
+							1861. 
+						</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">Kedves Barátom!</p>
+				<p xml:id="p.2">
+					 Véletlenűl megint cura alá jöttem. Elmondom a történetét. Minapi
+					bajom alkalmával, mielőtt neked irtam volna, panaszkodtam 
+					<persName>
+						 Salamon
+						Ferencz 
+						<idno corresp="Salamon Ferenc" type="ITIdata">Q160085</idno>
+					</persName>
+					 nek, ki hozzám 
+					<choice>
+						<orig>eljárogat</orig>
+						<supplied>el járogat</supplied>
+					</choice>
+					 , munka képtelenségem &amp;c. felől. Egy úttal azt is, hogy nincs
+					orvos itt 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 en, kihez ismeretség folytán bizalommal járulhatnék; azok a 
+					<hi rend="underline">híresek</hi>
+					 oly nagy urak, hogy talán nem is sokat
+					gondolnának velem, más, kevesebb igényű, de szintén ügyes tanult orvossal pedig
+					nincs ösmeretségem. Ő felhozta és dicsérte dr. 
+					<persName>
+						 Poór 
+						<idno corresp="Poór Imre"/>
+					</persName>
+					 t, 
+					<note type="critic">
+						<quote>
+							 dr. 
+							<persName>
+								 Poór 
+								<idno corresp="Poór Imre"/>
+							</persName>
+							 t 
+						</quote>
+						 – 
+						<persName>Poór Imre</persName>
+						 ( 
+						<date from="1823" to="1897">1823–1897</date>
+						 ): orvosdoktor, 
+						<date from="1858">1858-tól</date>
+						 magántanár, 
+						<date from="1861">1861-től</date>
+						 főorvos a
+						Rókus-kórházban; 
+						<date from="1857" to="1859">1857 és 1859 között</date>
+						 az
+						<title>OrvHetil</title>
+						 társszerkesztője, 
+						<date when="1861">1861-ben</date>
+						 a 
+						<title>Gyógyászat</title>
+						 c. hetilap megalapítója
+					</note>
+					 mint jóravaló, s igyekező fiatal orvost – s ez ekkor abba maradt, én
+					irtam neked, te szíves voltál receptet küldeni, használtam szereidet, s jobban
+					lettem. De a fej, vagy fülzugás, vagy sistergés, természetesen megmaradt, mint
+					már 8 év óta folyton muzsikál. 
+				</p>
+				<p xml:id="p.3">
+					 Tennap előtt – vagy tán kedden – kopogtat nálam valaki. Tessék. „Én
+					dr. 
+					<persName>
+						 Poor 
+						<idno corresp="Poór Imre"/>
+					</persName>
+					<sic/>
+					 vagyok, hallottam 
+					<persName>
+						 Salamon 
+						<idno corresp="Salamon Ferenc" type="ITIdata">Q160085</idno>
+					</persName>
+					 tól &amp;c. ma délutánra tettük a látogatást, de én délután nem
+					érkezem, eljöttem most.” Értelmes, ügyes embernek találtam, részvéttel kérdezett
+					bajomról, én elmondtam neki 8 év alatti phasisait s mindent; ő kikérdezett,
+					megvizsgált, meg 
+					<hi rend="underline">kopogtatott</hi>
+					 s diagnosisa: 
+					<hi rend="underline">lép</hi>
+					 baj. Én mondtam, hogy nem fáj sehol, de ő bizton
+					állitá, hogy a lép most is dagadt. Nem mondtam neki, de emlékeztem, hogy
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ön is néha, két három nap kegyetlen fájdalmakat éreztem, épen a
+					tájon, hol ő vizsgálta, mit akkor veled sem 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					 közlöttem, rheumának, hűlésnek tulajdonítván, s hideg vizzel,
+					<add>másszor melegfedővel etc</add>
+					 curálván. Csodálkozva kérdezte, nem
+					mondtad-e azt 
+					<hi rend="underline">te</hi>
+					 , hogy 
+					<hi rend="underline">lép</hi>
+					baj. Én nem emléke 
+					<add type="corr">z</add>
+					 tem, hogy ilyet mondtál volna, de
+					előkérve utóbbi receptedet, meggyőződött, hogy 
+					<hi rend="underline">te is annak
+						tartottad</hi>
+					 : és rendelt, a mi következik. 
+				</p>
+				<p xml:id="p.4">
+					 Recepted első részét, a hashajtót, megcsináltatni 
+					<hi rend="underline">egyszer</hi>
+					 , délelőtt bevenni: délután kezdeni a 
+					<hi rend="underline">te</hi>
+					 piluláidat és 
+					<hi rend="underline">14 napig élni
+						vele</hi>
+					 folyvást, minden nap 10 szemet vévén be. Ezenkivűl 
+					<hi rend="underline">6 hétig</hi>
+					 minden reggel, éhomra, egy pohár keserűvíz
+					(budai) egy pohár i 
+					<add type="corr">v</add>
+					 ó víz, egy órai séta szabadban, úgy
+					a reggeli. 
+					<hi rend="underline">Nem irt</hi>
+					 semmit, a te receptedet küldtem
+					patikába, azt használom íly módon. Ő biztositott, hogy az ártani nem fog,
+					ellenben a lépdagályt eloszlatja, s ha a lépet tökéletesen ki nem gyógyitja is,
+					tetemes javúlást okoz. Én elfogadtam, bizalmamat megerősítette azzal, hogy épen
+					a te szereidet ajánlja, s megkezdtem a curát tegnap ( 
+					<date when="1861-10-16">16-án</date>
+					 ). 
+				</p>
+				<p xml:id="p.5">
+					 Nem azért irom ezt, hogy az orvos háta megett veled tanácskozzam,
+					vagy mintha elpártolásom miatt benső furdalást érzenék: hanem 1 
+					<hi rend="super">o</hi>
+					 hogy tudjad; 2 
+					<hi rend="super">o</hi>
+					 és főleg, hogy nem lesz-é 
+					<hi rend="underline">nagy</hi>
+					 ártalmamra, 
+					<del>
+						<gap extent="unknown" reason="illegible" unit="char"/>
+					</del>
+					 kivált a 
+					<hi rend="underline">pilulák</hi>
+					 oly nagy mértékben használása.
+					Tudom, hogy bennök 
+					<hi rend="underline">chinin</hi>
+					 van, s e miatti aggodalmamat
+					közöltem is 
+					<persName>
+						 Poor 
+						<idno corresp="Poór Imre"/>
+					</persName>
+					 ral, de ő azzal nyugtatott meg, hogy előitélet az ezen ártatlan szer
+					ellen, melylyel vádolják, bízvást élhetek vele. 
+				</p>
+				<p xml:id="p.6">
+					 Te, aki bajomat húzamosb idő alatt s így jobban tanulmányo 
+					<add type="corr">z</add>
+					 hattad mint 
+					<choice>
+						<orig>P.</orig>
+						<supplied>
+							<persName>
+								 Poór 
+								<idno corresp="Poór Imre"/>
+							</persName>
+						</supplied>
+					</choice>
+					 , meglehet nem lészsz vele egy véleményen a baj iránt. Mindazáltal én
+					már feltettem magamban, kijárni ezt a tánczot végig; tőled csak az iránt kérnék
+					felvilágosítást: nem lesz-e 
+					<hi rend="underline">ártalmas</hi>
+					 , – szerinted
+					létező bajomat még öregbítő – ezen cura? Mert ha 
+					<hi rend="underline">nem</hi>
+					 ,
+					akkor – használ nem használ – végig folytatom, de ha nagyobb veszélytől
+					tarthatnék, vagy tartanál te, akkor abbahagyom, mihelyt szives soraid hozzám
+					jutnak. – 
+				</p>
+				<p xml:id="p.7">
+					 Légy oly jó, édes barátom, válaszolj rögtön, Szives 
+					<sic/>
+					üdvözlésünket a tieidnek! téged pedig ölellek forrón 
+				</p>
+				<p xml:id="p.8">igaz barátod</p>
+				<p xml:id="p.9">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.10">
+					 U.i. Megirtam e levelet tegnap előtt, de nem tettem postára.
+					Féltem, hogy mind irántad, mint 
+					<persName>
+						 Poór 
+						<idno corresp="Poór Imre"/>
+					</persName>
+					 iránt, 
+					<hi rend="underline">nem illő</hi>
+					 eljárás lesz. De a 
+					<hi rend="underline">chinin</hi>
+					 (vagy mi még a pilulában) annyira izgat, hogy
+					este felé már csak nehezen hallok tőle, tegnapg este erős szédűlések jöttek rám
+					az elszunynyadáskor, alig tudtam elalunni. Ma kerestem 
+					<persName>
+						 Poór 
+						<idno corresp="Poór Imre"/>
+					</persName>
+					 t, nem találtam. Ha ez igy megy, nem állom ki a 14 napot; mert nekem
+					dolgozni kell, nem csak 
+					<hi rend="underline">aggódni</hi>
+					 . Mit tegyek?
+					Válaszolj hamar. 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

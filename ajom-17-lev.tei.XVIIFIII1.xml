@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="supplement" n="7" type="main">ISMERETLEN SZERZŐ – ARANY
+					JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.XVIIFIII1</idno>
+				<idno type="ITIdata">Q482125</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.XVIIFIII1.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p/>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/1312</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">8</measure>
+									<dimensions unit="mm">
+										<height>244</height>
+										<width>196</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>8 csontszínű fol. 24,4x19,6 cm</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471362</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél; vers</term>
+					<term>Kiadatlan.</term>
+					<term>Elveszett.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date from="1858" to="1860"/>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>Ismeretlen szerző</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ISMERETLEN SZERZŐ – ARANY JÁNOSNAK</title>
+					<supplied>
+						<date from="1858" to="1860">
+							<unclear>1858 és 1860 között</unclear>
+						</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">
+					<supplied>
+						 A szerző 
+						<date from="1853" to="1858">1853 és 1858 között</date>
+						 írt
+						verseit küldhette el 
+						<persName>
+							 Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 nak 
+						<note type="critic">
+							 A szerző 
+							<date from="1853" to="1858">1853 és 1858 között</date>
+							 írt verseit küldhette el 
+							<persName>
+								Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 nak 
+							<p xml:id="p.2">
+								<date when="1853">1853.</date>
+							</p>
+							<lg xml:id="lg.1">
+								<lg xml:id="lg.2">
+									<l xml:id="l.1">Oh mily ápoló dajkám vagy</l>
+									<l xml:id="l.2">Édes szülő föld!</l>
+									<l xml:id="l.3">Mint egy anya hű fiához</l>
+									<l xml:id="l.4">Mint egy éltető;</l>
+									<l xml:id="l.5">Te adsz élvet mindig nekem</l>
+									<l xml:id="l.6">Távollétemben,</l>
+									<l xml:id="l.7">Te vigasztalsz nyomorimban</l>
+									<l xml:id="l.8">S te ápolsz engem</l>
+								</lg>
+								<lg xml:id="lg.3">
+									<l xml:id="l.9">Most is midőn szép ormidat</l>
+									<l xml:id="l.10">S báj vidékedet</l>
+									<l xml:id="l.11">Elhagytam sirva sovárgok</l>
+									<l xml:id="l.12">Láthatni téged</l>
+									<l xml:id="l.13">Kitárott karokkal már már</l>
+									<l xml:id="l.14">Felölelnélek,</l>
+									<l xml:id="l.15">Vig dalokkal – vig versekkel</l>
+									<l xml:id="l.16">Dicsőítnélek.</l>
+								</lg>
+								<lg xml:id="lg.4">
+									<l xml:id="l.17">Ah de ezt most a távol</l>
+									<l xml:id="l.18">Földőn teszem én,</l>
+									<l xml:id="l.19">Itt sovárgok itt sohajtok</l>
+									<l xml:id="l.20">Itt e föld terén;</l>
+									<l xml:id="l.21">Majd ha ismét vissza térek</l>
+									<l xml:id="l.22">Várt kebeledbe</l>
+									<l xml:id="l.23">Ottan mint egy szerelmi pár,</l>
+									<l xml:id="l.24">Hajlok öledbe.</l>
+								</lg>
+							</lg>
+							<p xml:id="p.3">
+								<date when="1854">1854.</date>
+							</p>
+							<lg xml:id="lg.5">
+								<lg xml:id="lg.6">
+									<l xml:id="l.25">Kutya láncos teremtette</l>
+									<l xml:id="l.26">Mit tegyek?</l>
+									<l xml:id="l.27">Mikor minden versemre igy felelnek</l>
+									<l xml:id="l.28">
+										 Még most g 
+										<add>y</add>
+										 enge, de ma
+										<add>j</add>
+										 d 
+										<del>j</del>
+										 tovább 
+									</l>
+									<l xml:id="l.29">Jobb leend.</l>
+									<l xml:id="l.30">Ha szorgosan olvas – tanul</l>
+									<l xml:id="l.31">S figyelend.</l>
+								</lg>
+								<lg xml:id="lg.7">
+									<l xml:id="l.32">Igen biz – de már az ötvent</l>
+									<l xml:id="l.33">Elhagytam</l>
+									<l xml:id="l.34">Őszbe borult a szakálam</l>
+									<l xml:id="l.35">És hajam.</l>
+									<l xml:id="l.36">Vagy ugy!! hisz ők ironiát</l>
+									<l xml:id="l.37">Használnak.</l>
+									<l xml:id="l.38">Most tudom hát – most hogy ők</l>
+									<l xml:id="l.39">Mit akarnak:</l>
+								</lg>
+								<lg xml:id="lg.8">
+									<l xml:id="l.40">Hogy majd tovább az az hogyha</l>
+									<l xml:id="l.41">Meghalok,</l>
+									<l xml:id="l.42">Mély siromba jobb verseket</l>
+									<l xml:id="l.43">Irhatok;</l>
+									<l xml:id="l.44">Jol van tehát föl fogadom</l>
+									<l xml:id="l.45">E percbe,</l>
+									<l xml:id="l.46">E néma e sötét e bus</l>
+									<l xml:id="l.47">Éjfélbe;</l>
+									<l xml:id="l.48">Hogy többet nem irok holnap</l>
+									<l xml:id="l.49">Reggelig,</l>
+									<l xml:id="l.50">A ragyogó piros bibór</l>
+									<l xml:id="l.51">Hajnalig.</l>
+								</lg>
+							</lg>
+							<p xml:id="p.4">
+								<date when="1855">1855.</date>
+							</p>
+							<lg xml:id="lg.9">
+								<head type="title">Bátyámhoz.</head>
+								<lg xml:id="lg.10">
+									<l xml:id="l.52">Dobogó hő szívem</l>
+									<l xml:id="l.53">Ti felétek sohajt</l>
+									<l xml:id="l.54">És látni titeket</l>
+									<l xml:id="l.55">Végtelenűl ohajt.</l>
+								</lg>
+								<lg xml:id="lg.11">
+									<l xml:id="l.56">Bár hova tekintek</l>
+									<l xml:id="l.57">Égre földre – vizre</l>
+									<l xml:id="l.58">Mindenütt egyedül</l>
+									<l xml:id="l.59">Ti vagytok eszembe.</l>
+								</lg>
+								<lg xml:id="lg.12">
+									<l xml:id="l.60">Picinke kis madár</l>
+									<l xml:id="l.61">Miért nem leheték</l>
+									<l xml:id="l.62">Hogy hozzátok rögtön</l>
+									<l xml:id="l.63">Rögtön elmehetnék:</l>
+								</lg>
+								<lg xml:id="lg.13">
+									<l xml:id="l.64">Koszorukat kötnék</l>
+									<l xml:id="l.65">Virágból szépeket</l>
+									<l xml:id="l.66">Közzé tennék rózsát</l>
+									<l xml:id="l.67">S égszín nefelejtset.</l>
+								</lg>
+								<lg xml:id="lg.14">
+									<l xml:id="l.68">Föl diszítném velök</l>
+									<l xml:id="l.69">Szerető szivetek</l>
+									<l xml:id="l.70">Mint legnagyobb s drágább</l>
+									<l xml:id="l.71">Egyetlen kincsteket.</l>
+								</lg>
+								<lg xml:id="lg.15">
+									<l xml:id="l.72">Ne feledjetek hát</l>
+									<l xml:id="l.73">Engemet el soha</l>
+									<l xml:id="l.74">Ne legyetek hozzám</l>
+									<l xml:id="l.75">Rideg és mostoha.</l>
+								</lg>
+								<lg xml:id="lg.16">
+									<l xml:id="l.76">És keblem mit kíván</l>
+									<l xml:id="l.77">Tőletek testvérek?</l>
+									<l xml:id="l.78">Kevesek mind azok</l>
+									<l xml:id="l.79">Az: hogy szeressetek.</l>
+								</lg>
+								<lg xml:id="lg.17">
+									<l xml:id="l.80">Dobogó hő szivem</l>
+									<l xml:id="l.81">Ti felétek sohajt</l>
+									<l xml:id="l.82">És látni titeket</l>
+									<l xml:id="l.83">Végtelenűl ohajt.</l>
+								</lg>
+							</lg>
+							<p xml:id="p.5">
+								<date when="1856">1856.</date>
+							</p>
+							<lg xml:id="lg.18">
+								<head type="title">Vadász álmam.</head>
+								<lg xml:id="lg.19">
+									<l xml:id="l.84">Ki mentem vadászni</l>
+									<l xml:id="l.85">Zöld ligetbe</l>
+									<l xml:id="l.86">Hogy bumat</l>
+									<l xml:id="l.87">
+										 Változas 
+										<sic/>
+									</l>
+									<l xml:id="l.88">Enyhitse le.</l>
+								</lg>
+								<lg xml:id="lg.20">
+									<l xml:id="l.89">Fönt pacsirta dalolt</l>
+									<l xml:id="l.90">Fellegekben</l>
+									<l xml:id="l.91">Csiz – sármány</l>
+									<l xml:id="l.92">Csalogány</l>
+									<l xml:id="l.93">A cserjékben</l>
+								</lg>
+								<lg xml:id="lg.21">
+									<l xml:id="l.94">Kis pintyőke madár</l>
+									<l xml:id="l.95">Lombok között</l>
+									<l xml:id="l.96">A héja</l>
+									<l xml:id="l.97">Prédára</l>
+									<l xml:id="l.98">Lesölködött.</l>
+								</lg>
+								<lg xml:id="lg.22">
+									<l xml:id="l.99">Nem löttem mit se én</l>
+									<l xml:id="l.100">Nem madarat</l>
+									<l xml:id="l.101">Nem ölém</l>
+									<l xml:id="l.102">Nem sértém</l>
+									<l xml:id="l.103">A futokat.</l>
+								</lg>
+								<lg xml:id="lg.23">
+									<l xml:id="l.104">Egy fa törzsre tettem</l>
+									<l xml:id="l.105">Fegyveremet</l>
+									<l xml:id="l.106">Lőszerem</l>
+									<l xml:id="l.107">Köpenyem</l>
+									<l xml:id="l.108">S bus kürtömet.</l>
+								</lg>
+								<lg xml:id="lg.24">
+									<l xml:id="l.109">S aljában szunnyadtam</l>
+									<l xml:id="l.110">Édes álmat</l>
+									<l xml:id="l.111">A lányka</l>
+									<l xml:id="l.112">Jött s hoza</l>
+									<l xml:id="l.113">Virágokat.</l>
+								</lg>
+								<lg xml:id="lg.25">
+									<l xml:id="l.114">Nefelejtset vettem</l>
+									<l xml:id="l.115">Kis kezébűl</l>
+									<l xml:id="l.116">Ezt mondá</l>
+									<l xml:id="l.117">Ezt sugá:</l>
+									<l xml:id="l.118">„Emlékeműl.”</l>
+								</lg>
+								<lg xml:id="lg.26">
+									<l xml:id="l.119">S eltünt – s ah szivem szint</l>
+									<l xml:id="l.120">Meghasada,</l>
+									<l xml:id="l.121">Mert ő rég</l>
+									<l xml:id="l.122">Igen rég:</l>
+									<l xml:id="l.123">Hogy elhala.</l>
+								</lg>
+							</lg>
+							<p xml:id="p.6">
+								<date when="1857">1857.</date>
+							</p>
+							<lg xml:id="lg.27">
+								<head type="title">Sarolta.</head>
+								<lg xml:id="lg.28">
+									<l xml:id="l.124">Megnyerte hős Álmos vezér</l>
+									<l xml:id="l.125">A régen áldott szép hazát</l>
+									<l xml:id="l.126">Ott Ungh megyének halmain</l>
+									<l xml:id="l.127">Láthatni fényes táborát.</l>
+								</lg>
+								<lg xml:id="lg.29">
+									<l xml:id="l.128">
+										 Győzelmi víg dal 
+										<choice>
+											<orig>haroga</orig>
+											<supplied>harsoga</supplied>
+										</choice>
+									</l>
+									<l xml:id="l.129">A nöknek rózsa ajkirol</l>
+									<l xml:id="l.130">Mint a minőt kis fülmile</l>
+									<l xml:id="l.131">Csattog le bokrok galyiról.</l>
+								</lg>
+								<lg xml:id="lg.30">
+									<l xml:id="l.132">Majd ismét hős Lehel vezér</l>
+									<l xml:id="l.133">Duló csapattal utra száll</l>
+									<l xml:id="l.134">
+										<choice>
+											<orig>Fegyereik</orig>
+											<supplied>Fegyvereik</supplied>
+										</choice>
+										 fény színére 
+									</l>
+									<l xml:id="l.135">Remegve néz a napsugár.</l>
+								</lg>
+								<lg xml:id="lg.31">
+									<l xml:id="l.136">Itt nyugaton Lehel veré</l>
+									<l xml:id="l.137">A németek roppant hadát</l>
+									<l xml:id="l.138">Ottan kelet felől Botond</l>
+									<l xml:id="l.139">Töré be Konstanc ércfalát.</l>
+								</lg>
+								<lg xml:id="lg.32">
+									<l xml:id="l.140">Igy tölt sok év – sok éven át</l>
+									<l xml:id="l.141">Csatát – csatára nyerve tért</l>
+									<l xml:id="l.142">Honába vissza a magyar</l>
+									<l xml:id="l.143">S a nagy világ csak tőle félt.</l>
+								</lg>
+								<lg xml:id="lg.33">
+									<l xml:id="l.144">De Géjza lett a fejdelem</l>
+									<l xml:id="l.145">S parancs szavára uj korány</l>
+									<l xml:id="l.146">Uj kezde szép hazánk egén</l>
+									<l xml:id="l.147">Virulni bíbor hajnalán.</l>
+								</lg>
+								<lg xml:id="lg.34">
+									<l xml:id="l.148">„Te Géjza édes mindenem</l>
+									<l xml:id="l.149">Kezdé Sarolta bus szavát</l>
+									<l xml:id="l.150">Fogadd el a kereszt hitnek</l>
+									<l xml:id="l.151">Örökre üdvös szent tanát!”</l>
+								</lg>
+								<lg xml:id="lg.35">
+									<l xml:id="l.152">,Ah hát Hadur nagy Istenünk</l>
+									<l xml:id="l.153">És ős hitünk számüzve lesz?</l>
+									<l xml:id="l.154">Akkor – igen – hős Géjza mond</l>
+									<l xml:id="l.155">Hű nemzetem szélesztve lesz.’</l>
+								</lg>
+								<lg xml:id="lg.36">
+									<l xml:id="l.156">„Hidd el nagyobb leend hazád</l>
+									<l xml:id="l.157">Nagyobb erőben s bár mi vész</l>
+									<l xml:id="l.158">Mérges fulánkja szennyitől</l>
+									<l xml:id="l.159">Megfogja védni égi kéz.”</l>
+								</lg>
+								<lg xml:id="lg.37">
+									<l xml:id="l.160">Igy szólt Sarolta s Gézja hős</l>
+									<l xml:id="l.161">
+										 Szemébe vidor köny szökel 
+										<add type="corr">l</add>
+										 t, 
+									</l>
+									<l xml:id="l.162">S szivébe oltá nem soká</l>
+									<l xml:id="l.163">A szende megváltási jelt.</l>
+								</lg>
+								<lg xml:id="lg.38">
+									<l xml:id="l.164">Sarolta az ki ülteté</l>
+									<l xml:id="l.165">Keblünkbe üdvös szent hitünk</l>
+									<l xml:id="l.166">Melynek malaszt árnyába’ most</l>
+									<l xml:id="l.167">Oly édesen pihenhetünk.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.39">
+								<head type="title">Tudom…</head>
+								<lg xml:id="lg.40">
+									<l xml:id="l.168">Tudom mért adál</l>
+									<l xml:id="l.169">Piros rózsát nekem</l>
+									<l xml:id="l.170">S melléje liljomot</l>
+									<l xml:id="l.171">Leányka kedvesem:</l>
+								</lg>
+								<lg xml:id="lg.41">
+									<l xml:id="l.172">Lelném föl bennök a</l>
+									<l xml:id="l.173">Honnak három színét,</l>
+									<l xml:id="l.174">És benned a haza’</l>
+									<l xml:id="l.175">Leghivebb gyermekét.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.42">
+								<head type="title">Azt kérditek…</head>
+								<lg xml:id="lg.43">
+									<l xml:id="l.176">Azt kérditek hogy mim vagyon</l>
+									<l xml:id="l.177">Van e sok kincsem? van bizon’.</l>
+									<l xml:id="l.178">Keblemben szent erény honol</l>
+									<l xml:id="l.179">Tisztán miként a liliom.</l>
+								</lg>
+								<lg xml:id="lg.44">
+									<l xml:id="l.180">És van keblemben lángoló</l>
+									<l xml:id="l.181">Magasztos tüz: hő szerelem</l>
+									<l xml:id="l.182">Melynek nagyságát mint szerény</l>
+									<l xml:id="l.183">Kimondani én nem merem.</l>
+								</lg>
+								<lg xml:id="lg.45">
+									<l xml:id="l.184">Vagy jol van hát ki mondom azt</l>
+									<l xml:id="l.185">De csak hasonlatba teszem:</l>
+									<l xml:id="l.186">Olyan mint gömbölyü golyó</l>
+									<l xml:id="l.187">Melynek végét nem lelhetem.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.46">
+								<head type="title">Sokan szerelmet…</head>
+								<lg xml:id="lg.47">
+									<l xml:id="l.188">Sokan szerelmet esdenek</l>
+									<l xml:id="l.189">Nemde leánykák tőletek</l>
+									<l xml:id="l.190">Szorják a sok szép szavakat</l>
+									<l xml:id="l.191">Csakhogy megnyerjék szívetek.</l>
+								</lg>
+								<lg xml:id="lg.48">
+									<l xml:id="l.192">Én hallgatok hisz csak ugyan</l>
+									<l xml:id="l.193">A szerelem nem nagy hiány</l>
+									<l xml:id="l.194">Csak arr’az egyre kérlek én</l>
+									<l xml:id="l.195">Csókolj meg kedves kis leány.</l>
+								</lg>
+							</lg>
+							<p xml:id="p.7">
+								<date when="1857">1857.</date>
+							</p>
+							<lg xml:id="lg.49">
+								<head type="title">Emlény</head>
+								<lg xml:id="lg.50">
+									<l xml:id="l.196">Emlény füzért adott</l>
+									<l xml:id="l.197">A lányka kedvesem</l>
+									<l xml:id="l.198">Legszebb virágiból</l>
+									<l xml:id="l.199">Foná ő azt nekem.</l>
+								</lg>
+								<lg xml:id="lg.51">
+									<l xml:id="l.200">S emlékét tiszta – hű</l>
+									<l xml:id="l.201">Keblemben hordozám</l>
+									<l xml:id="l.202">Rezgő szép szirmait</l>
+									<l xml:id="l.203">Szeretve csokolám.</l>
+								</lg>
+								<lg xml:id="lg.52">
+									<l xml:id="l.204">Mert annyi bánatok</l>
+									<l xml:id="l.205">Vészétől ovta meg</l>
+									<l xml:id="l.206">E kis virág bokor</l>
+									<l xml:id="l.207">Törődött éltemet:</l>
+								</lg>
+								<lg xml:id="lg.53">
+									<l xml:id="l.208">Mint mennyit nélküle</l>
+									<l xml:id="l.209">Keblem a mostoha</l>
+									<l xml:id="l.210">Elbirhatni elég</l>
+									<l xml:id="l.211">Nem lett von’ tán soha.</l>
+								</lg>
+								<lg xml:id="lg.54">
+									<l xml:id="l.212">De jaj – de jaj mi az</l>
+									<l xml:id="l.213">Szívembe tőr szaladt</l>
+									<l xml:id="l.214">Mely vadkint tép – gyötör</l>
+									<l xml:id="l.215">S fakaszt fájdalmakat.</l>
+								</lg>
+								<lg xml:id="lg.55">
+									<l xml:id="l.216">A kis virág bokor</l>
+									<l xml:id="l.217">Ott nyugszik keblemen</l>
+									<l xml:id="l.218">De már ez sem segit</l>
+									<l xml:id="l.219">Kin sajgó sebemen.</l>
+								</lg>
+								<lg xml:id="lg.56">
+									<l xml:id="l.220">Mert az ki nékem ezt</l>
+									<l xml:id="l.221">Mint emlényt adta át</l>
+									<l xml:id="l.222">Hit tipró kebele</l>
+									<l xml:id="l.223">Megszegte szent szavát.</l>
+								</lg>
+								<lg xml:id="lg.57">
+									<l xml:id="l.224">Emlény füzért adott</l>
+									<l xml:id="l.225">A lányka kedvesem</l>
+									<l xml:id="l.226">Hogy lenne fájdalom</l>
+									<l xml:id="l.227">A sírig életem.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.58">
+								<head type="title">Anyámhoz</head>
+								<head type="subtitle">– levél –</head>
+								<lg xml:id="lg.59">
+									<l xml:id="l.228">Mit irjak édes egy anyám neked</l>
+									<l xml:id="l.229">Hogy földeritsem gyászos éjeled</l>
+									<l xml:id="l.230">Meg irjam keblem mennyit szenvedett</l>
+									<l xml:id="l.231">Mióta nem láthattál engemet?</l>
+									<l xml:id="l.232">Megirjam e hogy a kedves haza</l>
+									<l xml:id="l.233">Nem-nem tudom ez bántja szívedet</l>
+									<l xml:id="l.234">
+										 Hazád – fi 
+										<add>a</add>
+										 d sorsa minden
+										felett. 
+									</l>
+									<l xml:id="l.235">Azért légy nyugodt vigan élek én</l>
+									<l xml:id="l.236">Mint kis madár zöld fáknak levelén</l>
+									<l xml:id="l.237">Járok virány s csergő patak felett</l>
+									<l xml:id="l.238">Dalolva Istent – hont – és nemzetet.</l>
+									<l xml:id="l.239">De bár hol járjak és bár mit tegyek</l>
+									<l xml:id="l.240">
+										 Soha téged elnem 
+										<sic/>
+										 felejtelek 
+									</l>
+									<l xml:id="l.241">Hisz nincs a földön olyan kincs nekem</l>
+									<l xml:id="l.242">Mint te anyám egyetlen mindenem.</l>
+									<l xml:id="l.243">Oh mond a két kis testvér nem beteg</l>
+									<l xml:id="l.244">
+										 Az a szép szőke s barna lány 
+										<choice>
+											<orig>gerek</orig>
+											<supplied>gyerek</supplied>
+										</choice>
+										 ? 
+									</l>
+									<l xml:id="l.245">Nem-nem hisz látom mint tanitgatod</l>
+									<l xml:id="l.246">A két szelid angyalka magzatot,</l>
+									<l xml:id="l.247">Tanitsd is őket édes jó anyám</l>
+									<l xml:id="l.248">Tanitsd még gyenge kis testvérimet</l>
+									<l xml:id="l.249">S az uristen megáldja tettedet.</l>
+									<l xml:id="l.250">Tanitsd miként szeressék a hazát</l>
+									<l xml:id="l.251">S báj csengésü nyelvének szent szavát,</l>
+									<l xml:id="l.252">Viseljék a honnak három szinét</l>
+									<l xml:id="l.253">S tiszteljék a költőnek énekét</l>
+									<l xml:id="l.254">Igen hisz a költőnek éneke</l>
+									<l xml:id="l.255">Nem puszta hang miként a tél szele,</l>
+									<l xml:id="l.256">Égi virág az melynek ágain</l>
+									<l xml:id="l.257">Angyal sereg lép szellem szárnyain</l>
+									<l xml:id="l.258">Tiszteljétek mind azt a mi csak magyar</l>
+									<l xml:id="l.259">Nem ugy mint sok más hölgy… mint sok cudar</l>
+									<l xml:id="l.260">Kik restellik kik szégyenlik mondani:</l>
+									<l xml:id="l.261">Hogy magyarok hogy e hon gyermeki</l>
+									<l xml:id="l.262">Tanitsd őket de ah igy mért irok</l>
+									<l xml:id="l.263">Mikor te azt mint én jobban tudod,</l>
+									<l xml:id="l.264">Bocsáss meg hát hogy igy irtam neked</l>
+									<l xml:id="l.265">Hiszen te hőn kedvelled nemzeted,</l>
+									<l xml:id="l.266">S felejtém bumban hogy mint engemet</l>
+									<l xml:id="l.267">A hazának nevelt föl kebeled:</l>
+									<l xml:id="l.268">Ép ugy lesz a kedves Malvin- s Ninám</l>
+									<l xml:id="l.269">Mindkettő hű s igaz magyar leány.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.60">
+								<head type="title">Nos….</head>
+								<lg xml:id="lg.61">
+									<l xml:id="l.270">Nos mit csináltatok fiúk</l>
+									<l xml:id="l.271">
+										 Holvoltatok? 
+										<sic/>
+									</l>
+									<l xml:id="l.272">Talán bizony – talán bizony</l>
+									<l xml:id="l.273">Mulattatok?</l>
+								</lg>
+								<lg xml:id="lg.62">
+									<l xml:id="l.274">Mulattatok fiuk – mulattatok</l>
+									<l xml:id="l.275">Mint gyors patak,</l>
+									<l xml:id="l.276">Melyet jegétől langy szelek</l>
+									<l xml:id="l.277">Föloldanak.</l>
+								</lg>
+								<lg xml:id="lg.63">
+									<l xml:id="l.278">Mulattatok fiuk – mulattatok</l>
+									<l xml:id="l.279">S lánykák között</l>
+									<l xml:id="l.280">Kiknek látásán lángra gyult</l>
+									<l xml:id="l.281">Szerelmetök.</l>
+								</lg>
+								<lg xml:id="lg.64">
+									<l xml:id="l.282">Mulattatok – s én nem talán</l>
+									<l xml:id="l.283">Azt vélitek?</l>
+									<l xml:id="l.284">Balul lánykámnak irtam egy</l>
+									<l xml:id="l.285">Szép levelet.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.65">
+								<head type="title">Sokszor…</head>
+								<lg xml:id="lg.66">
+									<l xml:id="l.286">Sokszor elgondolkodtam már azon</l>
+									<l xml:id="l.287">Melyik hát szebb: a szőke vagy a barna
+										lány?</l>
+									<l xml:id="l.288">És ugy találtam:</l>
+									<l xml:id="l.289">Legeslegszebb a barna lány</l>
+									<l xml:id="l.290">Sötét haján az éj lebeg</l>
+									<l xml:id="l.291">Mit oly szépen kellemesen</l>
+									<l xml:id="l.292">Hullám redökbe rendbe szed.</l>
+								</lg>
+								<lg xml:id="lg.67">
+									<l xml:id="l.293">De bár haján az éj lebeg</l>
+									<l xml:id="l.294">Piros két ajkán szét szalad</l>
+									<l xml:id="l.295">A reggnek rózsás fellege</l>
+									<l xml:id="l.296">Melyet pirosra fest a nap.</l>
+								</lg>
+								<lg xml:id="lg.68">
+									<l xml:id="l.297">S ha rá nézek azt képzelem</l>
+									<l xml:id="l.298">Elöttem áll a nap s az éj</l>
+									<l xml:id="l.299">Sötét haján az éj lebeg</l>
+									<l xml:id="l.300">Ajkán a regg hajnalja kél.</l>
+								</lg>
+								<lg xml:id="lg.69">
+									<l xml:id="l.301">De ha nézem a szőke lányt</l>
+									<l xml:id="l.302">S a szőke lánynak kék szemét</l>
+									<l xml:id="l.303">S látom szög szőke fürtjeit</l>
+									<l xml:id="l.304">S arcának halavány szinét:</l>
+								</lg>
+								<lg xml:id="lg.70">
+									<l xml:id="l.305">Legyen bár éj vak és sötét</l>
+									<l xml:id="l.306">Mint a pokolnak börtöne</l>
+									<l xml:id="l.307">Azt gondolom elöttem áll</l>
+									<l xml:id="l.308">A napnak kedves reggele.</l>
+								</lg>
+								<lg xml:id="lg.71">
+									<l xml:id="l.309">Sokszor elgondolkodtam már azon</l>
+									<l xml:id="l.310">Melyik hát szebb a szőke vagy a barna
+										lány.</l>
+									<l xml:id="l.311">És ugy találtam:</l>
+									<l xml:id="l.312">Mind a kettő szép egyarán’</l>
+									<l xml:id="l.313">Ha szeret igazán.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.72">
+								<head type="title">Zug – zug</head>
+								<lg xml:id="lg.73">
+									<l xml:id="l.314">Zug zug – erősen zug a ház</l>
+									<l xml:id="l.315">Huzza a mord cigány</l>
+									<l xml:id="l.316">Vig táncot lejteget</l>
+									<l xml:id="l.317">Az ifju és leány:</l>
+								</lg>
+								<lg xml:id="lg.74">
+									<l xml:id="l.318">Arcán mindenkinek</l>
+									<l xml:id="l.319">Öröm rózsája ül</l>
+									<l xml:id="l.320">
+										 S a 
+										<add type="corr">s</add>
+										 ok között csak
+										én 
+									</l>
+									<l xml:id="l.321">Vagyok bus egyedűl.</l>
+								</lg>
+								<lg xml:id="lg.75">
+									<l xml:id="l.322">Meg mellettem az a</l>
+									<l xml:id="l.323">Szép szőke lány gyerek</l>
+									<l xml:id="l.324">
+										 Okát mért hallgatunk 
+										<sic/>
+									</l>
+									<l xml:id="l.325">Ne is kérdezzétek.</l>
+								</lg>
+								<lg xml:id="lg.76">
+									<l xml:id="l.326">Ti csak táncoljatok</l>
+									<l xml:id="l.327">És legyetek vigan</l>
+									<l xml:id="l.328">Nekünk csak szíveink</l>
+									<l xml:id="l.329">Beszélnek hangosan.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.77">
+								<head type="title">Midőn</head>
+								<lg xml:id="lg.78">
+									<l xml:id="l.330">Midőn eszmélni kezdtem én</l>
+									<l xml:id="l.331">Anyámnak karjain</l>
+									<l xml:id="l.332">S lepéket fogdosott kezem</l>
+									<l xml:id="l.333">A rét virányain.</l>
+								</lg>
+								<lg xml:id="lg.79">
+									<l xml:id="l.334">Midőn még kis gyermek valék</l>
+									<l xml:id="l.335">S a völgybe távozám</l>
+									<l xml:id="l.336">El-el merengtem hosszasan</l>
+									<l xml:id="l.337">A csattogány dalán.</l>
+								</lg>
+								<lg xml:id="lg.80">
+									<l xml:id="l.338">S dalára lángra gyult szivem</l>
+									<l xml:id="l.339">Kis keblem fölhevült</l>
+									<l xml:id="l.340">Szememnek fénylő tűkörén</l>
+									<l xml:id="l.341">Öröm könyűje ült.</l>
+								</lg>
+								<lg xml:id="lg.81">
+									<l xml:id="l.342">El-elmerengtem hosszasan</l>
+									<l xml:id="l.343">A csattogány dalán</l>
+									<l xml:id="l.344">S lázas szivvel tértem haza</l>
+									<l xml:id="l.345">
+										 Az 
+										<del>
+											<gap extent="1" reason="illegible" unit="char"/>
+										</del>
+										 estnek alkonyán. 
+									</l>
+								</lg>
+								<lg xml:id="lg.82">
+									<l xml:id="l.346">
+										 De 
+										<del>
+											<gap extent="1" reason="illegible" unit="char"/>
+										</del>
+										 mint a fürge-gyors patak 
+									</l>
+									<l xml:id="l.347">Futtában zug s cseveg</l>
+									<l xml:id="l.348">Miként ha sirva hagyná el</l>
+									<l xml:id="l.349">A bérci völgyeket.</l>
+								</lg>
+								<lg xml:id="lg.83">
+									<l xml:id="l.350">Én is sirtam keservesen</l>
+									<l xml:id="l.351">Mint sebzett légy szokott</l>
+									<l xml:id="l.352">Melyet röptében kis gyerek</l>
+									<l xml:id="l.353">Kezével megfogott.</l>
+								</lg>
+								<lg xml:id="lg.84">
+									<l xml:id="l.354">És sírva kérlek jó anyám</l>
+									<l xml:id="l.355">Engedje meg nekem</l>
+									<l xml:id="l.356">Had lakjam én a völgybe ott</l>
+									<l xml:id="l.357">Örökké szüntelen.</l>
+								</lg>
+								<lg xml:id="lg.85">
+									<l xml:id="l.358">Hisz lám a völgy oly kellemes</l>
+									<l xml:id="l.359">Halmát virág lepi,</l>
+									<l xml:id="l.360">Kőszirtes oldalát vidám</l>
+									<l xml:id="l.361">Patakcsa szegdeli.</l>
+								</lg>
+								<lg xml:id="lg.86">
+									<l xml:id="l.362">S zöld bokrokban patak megett</l>
+									<l xml:id="l.363">Madárka énekel</l>
+									<l xml:id="l.364">Melynek bűbájos zengzete</l>
+									<l xml:id="l.365">Szívem viditja fel.</l>
+								</lg>
+								<lg xml:id="lg.87">
+									<l xml:id="l.366">Oh engedj-engedj jó anyám</l>
+									<l xml:id="l.367">A völgybe engemet</l>
+									<l xml:id="l.368">
+										 Megkell 
+										<sic/>
+										 tanulnom mit az a 
+									</l>
+									<l xml:id="l.369">Csepp fülmile zeneg.</l>
+								</lg>
+								<lg xml:id="lg.88">
+									<l xml:id="l.370">Ne menj a völgybe gyermekem</l>
+									<l xml:id="l.371">Szolott a hü anya,</l>
+									<l xml:id="l.372">Hisz a csalogány dallani</l>
+									<l xml:id="l.373">
+										 Meg nem tanitana 
+										<del>
+											<gap extent="1" reason="illegible" unit="char"/>
+										</del>
+										 . 
+									</l>
+								</lg>
+								<lg xml:id="lg.89">
+									<l xml:id="l.374">S ha tudnák is s meg értenéd</l>
+									<l xml:id="l.375">Mindazt mit ő zeneg</l>
+									<l xml:id="l.376">A fájdalomtól kebeled</l>
+									<l xml:id="l.377">S szived repedne meg.</l>
+								</lg>
+								<lg xml:id="lg.90">
+									<l xml:id="l.378">De menj a bérctetőre fel</l>
+									<l xml:id="l.379">Hol büszke sas repül</l>
+									<l xml:id="l.380">Hol a légben vihar sivít</l>
+									<l xml:id="l.381">Szárnya szegetlenűl.</l>
+								</lg>
+								<lg xml:id="lg.91">
+									<l xml:id="l.382">Menj föl a bércre gyermekem</l>
+									<l xml:id="l.383">S a bércről még tovább</l>
+									<l xml:id="l.384">Míg lelked meg nem lelte a</l>
+									<l xml:id="l.385">Fény csillagok honát.</l>
+								</lg>
+								<lg xml:id="lg.92">
+									<l xml:id="l.386">S ott fenn majd megtanítanak</l>
+									<l xml:id="l.387">Dalolni tégedet</l>
+									<l xml:id="l.388">Magasztosabbra mint minőt</l>
+									<l xml:id="l.389">A csattogány zeneg.</l>
+								</lg>
+								<lg xml:id="lg.93">
+									<l xml:id="l.390">A nagy szellem csak ég felé</l>
+									<l xml:id="l.391">Törekszik szállani</l>
+									<l xml:id="l.392">Mint szép virágnak illata</l>
+									<l xml:id="l.393">S pacsirta hangjai.</l>
+								</lg>
+								<lg xml:id="lg.94">
+									<l xml:id="l.394">Föl föl tehát jó gyermekem</l>
+									<l xml:id="l.395">A bérc tetőre fel</l>
+									<l xml:id="l.396">És szellemed a csillagok</l>
+									<l xml:id="l.397">Honába vesszen el.</l>
+								</lg>
+								<lg xml:id="lg.95">
+									<l xml:id="l.398">Igy szolt anyám s meg indulék</l>
+									<l xml:id="l.399">A bérc tető felé</l>
+									<l xml:id="l.400">Aljába szívem fölhevült</l>
+									<l xml:id="l.401">Szememet köny lepé.</l>
+								</lg>
+								<lg xml:id="lg.96">
+									<l xml:id="l.402">S önkénytelen bár szellemem</l>
+									<l xml:id="l.403">Dalolni késztete</l>
+									<l xml:id="l.404">
+										 S ez volt szívemnek 
+										<del>első</del>
+										 gyenge –
+										és 
+									</l>
+									<l xml:id="l.405">Legelső éneke.</l>
+								</lg>
+								<lg xml:id="lg.97">
+									<l xml:id="l.406">De jőni fog egy szebb idő</l>
+									<l xml:id="l.407">Lelkemre jőni fog</l>
+									<l xml:id="l.408">Midőn keblem eléri majd</l>
+									<l xml:id="l.409">A messze bérc fokot.</l>
+								</lg>
+								<lg xml:id="lg.98">
+									<l xml:id="l.410">Akkor fogok csak zengeni</l>
+									<l xml:id="l.411">Halhatatlan danát</l>
+									<l xml:id="l.412">S büszkén repülni mint a sas</l>
+									<l xml:id="l.413">A csillag fényen át.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.99">
+								<head type="title">P. Zs.hoz</head>
+								<lg xml:id="lg.100">
+									<l xml:id="l.414">Ha bérc fokára jő a napsugár</l>
+									<l xml:id="l.415">S a fürge kis madár vigan zeneg</l>
+									<l xml:id="l.416">El-messze szállnak sziv érzelmeim</l>
+									<l xml:id="l.417">Mint égen a futó felhő tömeg.</l>
+									<l xml:id="l.418">A dal honába fölkivánkozom</l>
+									<l xml:id="l.419">Boldogságom és nyugtom ott lelem</l>
+									<l xml:id="l.420">Ki gyujt világot oh ki ád erőt?</l>
+									<l xml:id="l.421">Dalolj te szép lány – jer dalolj nekem.</l>
+								</lg>
+								<lg xml:id="lg.101">
+									<l xml:id="l.422">Szivem lesujtá néma fájdalom</l>
+									<l xml:id="l.423">Mint szép virágot észak zord szele,</l>
+									<l xml:id="l.424">De haj szerelmem lángja ég s lobog</l>
+									<l xml:id="l.425">Oly forroan miként a nap tüze.</l>
+									<l xml:id="l.426">Hazám – hazám keblemnek szent hona</l>
+									<l xml:id="l.427">Téged szeretlek – te vagy mindenem</l>
+									<l xml:id="l.428">Zengő nyelved hallhatni égi kéj…..</l>
+									<l xml:id="l.429">Dalolj te szép lány – jer dalolj nekem.</l>
+								</lg>
+								<lg xml:id="lg.102">
+									<l xml:id="l.430">A dal honába szebb élet virul</l>
+									<l xml:id="l.431">Rózsából van a költőnek laka</l>
+									<l xml:id="l.432">Lantjának hurja rezgő napsugár</l>
+									<l xml:id="l.433">Párnája a szerény kis ibolya</l>
+									<l xml:id="l.434">Szép-szép magasztos és dicső e hon</l>
+									<l xml:id="l.435">Én is megyek – hisz ott van édenem,</l>
+									<l xml:id="l.436">S hogy lantomon a dal dicsőbb legyen</l>
+									<l xml:id="l.437">Dalolj te szép lány – jer dalolj nekem.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.103">
+								<head type="title">A gyors pacsirta…</head>
+								<lg xml:id="lg.104">
+									<l xml:id="l.438">A gyors pacsirta kis madárt</l>
+									<l xml:id="l.439">Rabbá tevé egy szép leány</l>
+									<l xml:id="l.440">Hogy dalt zenegne ő neki</l>
+									<l xml:id="l.441">A reggnek rózsás hajnalán.</l>
+								</lg>
+								<lg xml:id="lg.105">
+									<l xml:id="l.442">S minden regg rózsás hajnalán</l>
+									<l xml:id="l.443">Kis csőre báj dalt csattoga</l>
+									<l xml:id="l.444">Oly andalitoan miként</l>
+									<l xml:id="l.445">A langy szellő fuvallata.</l>
+								</lg>
+								<lg xml:id="lg.106">
+									<l xml:id="l.446">S hozzá mén a kis lányka s szolt:</l>
+									<l xml:id="l.447">Madárkám édes mindenem</l>
+									<l xml:id="l.448">
+										 Dalolj ne csak regg ha 
+										<add type="corr">j</add>
+										 na 
+										<add type="corr">l</add>
+										 án 
+									</l>
+									<l xml:id="l.449">Hanem estvénként is nekem</l>
+								</lg>
+								<lg xml:id="lg.107">
+									<l xml:id="l.450">S dalolt forroan a madár</l>
+									<l xml:id="l.451">Miként kivánta szép leány</l>
+									<l xml:id="l.452">A szunnyadó hüs este is</l>
+									<l xml:id="l.453">Nem csak regg rózsás hajnalán.</l>
+								</lg>
+								<lg xml:id="lg.108">
+									<l xml:id="l.454">S ismét szolt hozzá szép leány:</l>
+									<l xml:id="l.455">Madárkám édes mindenem</l>
+									<l xml:id="l.456">Dalolj nekem egész napon</l>
+									<l xml:id="l.457">Egész napon s bus éjjelen.</l>
+								</lg>
+								<lg xml:id="lg.109">
+									<l xml:id="l.458">S a kis pacsirta igy felelt:</l>
+									<l xml:id="l.459">Megtenném oh de nem lehet</l>
+									<l xml:id="l.460">Éjente dalt csak fülmile</l>
+									<l xml:id="l.461">Zenghet bűbájosan – s zeneg.</l>
+								</lg>
+								<lg xml:id="lg.110">
+									<l xml:id="l.462">Akkor mehetsz te rosz madár</l>
+									<l xml:id="l.463">Szolt a leányka dacosan.</l>
+									<l xml:id="l.464">S selyemfonállal megköté</l>
+									<l xml:id="l.465">Kis lábát gyorsan-titkosan.</l>
+								</lg>
+								<lg xml:id="lg.111">
+									<l xml:id="l.466">S kezéből őt ki engedé</l>
+									<l xml:id="l.467">S a kis madár magasra szállt</l>
+									<l xml:id="l.468">És dalra gyult csepp csőrei</l>
+									<l xml:id="l.469">Bezugták a kék láthatárt.</l>
+								</lg>
+								<lg xml:id="lg.112">
+									<l xml:id="l.470">És zengett ott soká-soká</l>
+									<l xml:id="l.471">Zengett búsan keservesen,</l>
+									<l xml:id="l.472">Mig végre elhalt éneke</l>
+									<l xml:id="l.473">S leszállt a földre csendesen.</l>
+								</lg>
+								<lg xml:id="lg.113">
+									<l xml:id="l.474">S a lányka szolt: megállj hamis</l>
+									<l xml:id="l.475">Azt gondolád szabad leszesz</l>
+									<l xml:id="l.476">
+										 Kezembe’ a s 
+										<add type="corr">e</add>
+										 lyem
+										fonál 
+									</l>
+									<l xml:id="l.477">Mily hosszu messzibb nem mehetsz.</l>
+								</lg>
+								<lg xml:id="lg.114">
+									<l xml:id="l.478">S ment mindig a fonál után</l>
+									<l xml:id="l.479">Vizen bokron s tüskéken ált</l>
+									<l xml:id="l.480">
+										 De haj kis keble 
+										<supplied>
+											<unclear>megvetett</unclear>
+										</supplied>
+									</l>
+									<l xml:id="l.481">Holtan lelé a kis madárt.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.115">
+								<head type="title">Haragszol….</head>
+								<lg xml:id="lg.116">
+									<l xml:id="l.482">Haragszol rám te kis leány</l>
+									<l xml:id="l.483">S azért hogy melletted vagyok?</l>
+									<l xml:id="l.484">Sohse bizony – én elmegyek</l>
+									<l xml:id="l.485">Szeretőt máshol is kapok</l>
+									<l xml:id="l.486">Menjek tehát?</l>
+									<l xml:id="l.487">S oh fájdalom</l>
+									<l xml:id="l.488">Ö igy felelt:</l>
+									<l xml:id="l.489">Nem bánom.</l>
+								</lg>
+								<lg xml:id="lg.117">
+									<l xml:id="l.490">
+										 De lá 
+										<add type="corr">s</add>
+										 d ha elmegyek
+										babám 
+									</l>
+									<l xml:id="l.491">Többé nem látsz engem soha</l>
+									<l xml:id="l.492">Mert én vagy meglövöm magam</l>
+									<l xml:id="l.493">Vagy elhalok mint törött ibolya:</l>
+									<l xml:id="l.494">Menjek tehát?</l>
+									<l xml:id="l.495">S oh fájdalom</l>
+									<l xml:id="l.496">Ö igy felelt:</l>
+									<l xml:id="l.497">Nem bánom.</l>
+								</lg>
+								<lg xml:id="lg.118">
+									<l xml:id="l.498">S elnéznéd é azt édesem</l>
+									<l xml:id="l.499">Hogy én egy bujdosó legyek?</l>
+									<l xml:id="l.500">S elnézhetnéd é kinomat</l>
+									<l xml:id="l.501">Mit érted lánykám szenvedek.</l>
+									<l xml:id="l.502">Menjek tehát?</l>
+									<l xml:id="l.503">S oh fájdalom</l>
+									<l xml:id="l.504">Ö igy felelt:</l>
+									<l xml:id="l.505">Nem bánom.</l>
+								</lg>
+								<lg xml:id="lg.119">
+									<l xml:id="l.506">Te szép még is dacos leány</l>
+									<l xml:id="l.507">Add ide hát kis kezedet.</l>
+									<l xml:id="l.508">És szolj és szolj de sebesen</l>
+									<l xml:id="l.509">Megcsokolhatlak tégedet?</l>
+									<l xml:id="l.510">Először holnapig</l>
+									<l xml:id="l.511">E sötét alkonyon?</l>
+									<l xml:id="l.512">S ő igy felelt:</l>
+									<l xml:id="l.513">Nem bánom.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.120">
+								<head type="title">Hogyha…..</head>
+								<lg xml:id="lg.121">
+									<l xml:id="l.514">Hogyha föltünt az est csillag az egen</l>
+									<l xml:id="l.515">Jöjj ki hozzám – jöjj ki hozzám kedvesem</l>
+									<l xml:id="l.516">Jöjj ki hozzám a zöldelő tanyára</l>
+									<l xml:id="l.517">Jöjj ki hozzám kedvesednek karjába.</l>
+								</lg>
+								<lg xml:id="lg.122">
+									<l xml:id="l.518">Hideg szél fú – de csak fujjon nem bánom.</l>
+									<l xml:id="l.519">Ha te itt lész édes kedves galambom:</l>
+									<l xml:id="l.520">Fölmelegszem barna szemed sugára</l>
+									<l xml:id="l.521">Föl viditja szivemet bizonyára.</l>
+								</lg>
+								<lg xml:id="lg.123">
+									<l xml:id="l.522">
+										 Nem is megyek elmelőled 
+										<sic/>
+										 sehova 
+									</l>
+									<l xml:id="l.523">
+										 Mig fölnem 
+										<sic/>
+										 tűn a nap piros sugara 
+									</l>
+									<l xml:id="l.524">Vesszen el az egész gulyám nem bánom</l>
+									<l xml:id="l.525">Veled voltam…. édes kedves galambom.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.124">
+								<head type="title">Csöndes…..</head>
+								<lg xml:id="lg.125">
+									<l xml:id="l.526">Csöndes éj van nyugszik a ki nyughatik</l>
+									<l xml:id="l.527">Fellegek közt a hold vigan bujdosik</l>
+									<l xml:id="l.528">Egy egy csillag néz a földre szeliden</l>
+									<l xml:id="l.529">Hej csak engem nem vigasztal semmisem.</l>
+								</lg>
+								<lg xml:id="lg.126">
+									<l xml:id="l.530">Leng a szellő Isten tudja mit beszél</l>
+									<l xml:id="l.531">Hogy szavára táncra kél a fa levél.</l>
+									<l xml:id="l.532">S ki fejleszti báj illatát a virág</l>
+									<l xml:id="l.533">Hej csak nékem vigasztalást mi sem ád</l>
+								</lg>
+								<lg xml:id="lg.127">
+									<l xml:id="l.534">Rózsa fák közt megcsendül a fülmile</l>
+									<l xml:id="l.535">Az egész tájt énekivel tölti be</l>
+									<l xml:id="l.536">Fájdalmában oly szomorun énekel</l>
+									<l xml:id="l.537">Hogy ki fakad rája a bimbó kebel.</l>
+								</lg>
+								<lg xml:id="lg.128">
+									<l xml:id="l.538">Kis madárka mért oly bus az éneked</l>
+									<l xml:id="l.539">Hisz szabad vagy boldogság az életed</l>
+									<l xml:id="l.540">Tégedet rabbá nem tett még senki se</l>
+									<l xml:id="l.541">Hej rab vagyok – rabbá tett babám szeme.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.129">
+								<head type="title">Mindennek…….</head>
+								<lg xml:id="lg.130">
+									<l xml:id="l.542">Mindennek légyen vége ma</l>
+									<l xml:id="l.543">Eddig sokat tettem – sokat</l>
+									<l xml:id="l.544">Jártam futottam lányokért</l>
+									<l xml:id="l.545">S mit nyertem? üres kosarat</l>
+								</lg>
+								<lg xml:id="lg.131">
+									<l xml:id="l.546">Pedig be kedveltem a lányt</l>
+									<l xml:id="l.547">És ha beszélgeték vele</l>
+									<l xml:id="l.548">És ha ő is beszélt velem</l>
+									<l xml:id="l.549">Mosolya dalra késztete.</l>
+								</lg>
+								<lg xml:id="lg.132">
+									<l xml:id="l.550">El is zengtem szerelmemet</l>
+									<l xml:id="l.551">Elötte szépen kedvesen</l>
+									<l xml:id="l.552">Miként szokott a kis madár</l>
+									<l xml:id="l.553">Ha a tavasz s nyár megjelen.</l>
+								</lg>
+								<lg xml:id="lg.133">
+									<l xml:id="l.554">De mind hiába kebele</l>
+									<l xml:id="l.555">Hóval fedett bérc fok vala</l>
+									<l xml:id="l.556">Melynek nem oldja föl jegét</l>
+									<l xml:id="l.557">A fényes napnak sugara.</l>
+								</lg>
+								<lg xml:id="lg.134">
+									<l xml:id="l.558">De ej minek panaszkodom</l>
+									<l xml:id="l.559">Volt és többé nem lesz soha</l>
+									<l xml:id="l.560">Örökre hát Isten veled</l>
+									<l xml:id="l.561">Szerelemnek csalárd hona.</l>
+								</lg>
+								<lg xml:id="lg.135">
+									<l xml:id="l.562">Hanem mit hallok – ajtomon</l>
+									<l xml:id="l.563">Kopognak – szabad – lehet</l>
+									<l xml:id="l.564">levél? s kitől? a lányka hi?!</l>
+									<l xml:id="l.565">No mond hogy mindjárt elmegyek.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.136">
+								<head type="title">Sz. L. hoz</head>
+								<lg xml:id="lg.137">
+									<l xml:id="l.566">Nem mondom egészen</l>
+									<l xml:id="l.567">Nem is mondhatom</l>
+									<l xml:id="l.568">Hogy az élet puszta</l>
+									<l xml:id="l.569">Néma bérc orom</l>
+								</lg>
+								<lg xml:id="lg.138">
+									<l xml:id="l.570">Hol ne nöljön egy két</l>
+									<l xml:id="l.571">Szép öröm virág</l>
+									<l xml:id="l.572">Hol ne légyen egy két</l>
+									<l xml:id="l.573">Hü s igaz barát.</l>
+								</lg>
+								<lg xml:id="lg.139">
+									<l xml:id="l.574">Hü s igaz barátság</l>
+									<l xml:id="l.575">A legszebb virág</l>
+									<l xml:id="l.576">A mit e gonosz föld</l>
+									<l xml:id="l.577">Az embernek ád.</l>
+								</lg>
+								<lg xml:id="lg.140">
+									<l xml:id="l.578">Ide hát kezed te</l>
+									<l xml:id="l.579">Kedves ifiu</l>
+									<l xml:id="l.580">Szived s szivem légyen</l>
+									<l xml:id="l.581">Egy szép koszoru</l>
+								</lg>
+								<lg xml:id="lg.141">
+									<l xml:id="l.582">S ezentul most már mink</l>
+									<l xml:id="l.583">Barátok levénk</l>
+									<l xml:id="l.584">Barátok a mennyben</l>
+									<l xml:id="l.585">S itt a föld terén.</l>
+								</lg>
+								<lg xml:id="lg.142">
+									<l xml:id="l.586">Még egyszer tehát tedd</l>
+									<l xml:id="l.587">Kezembe kezed</l>
+									<l xml:id="l.588">Mégegyszer üritsünk</l>
+									<l xml:id="l.589">Emlék serleget.</l>
+								</lg>
+								<lg xml:id="lg.143">
+									<l xml:id="l.590">S tudd meg a pohárból</l>
+									<l xml:id="l.591">A melyből ivánk</l>
+									<l xml:id="l.592">Kettőnk vére volt itt</l>
+									<l xml:id="l.593">Tisztán igazán.</l>
+								</lg>
+								<lg xml:id="lg.144">
+									<l xml:id="l.594">S tudd midőn a kéz</l>
+									<l xml:id="l.595">Kézben nyugodott</l>
+									<l xml:id="l.596">Nefelejts virágka</l>
+									<l xml:id="l.597">Volt s virita ott.</l>
+								</lg>
+								<lg xml:id="lg.145">
+									<l xml:id="l.598">S midőn a kéz elvált</l>
+									<l xml:id="l.599">Egy ág itt maradt</l>
+									<l xml:id="l.600">A másik szivedhez</l>
+									<l xml:id="l.601">Szivedhez tapadt.</l>
+								</lg>
+								<lg xml:id="lg.146">
+									<l xml:id="l.602">Öntözd e virágot</l>
+									<l xml:id="l.603">S ápold híven azt</l>
+									<l xml:id="l.604">Hidd el e virág majd</l>
+									<l xml:id="l.605">Örömöt fakaszt.</l>
+								</lg>
+							</lg>
+							<p xml:id="p.8">
+								<date when="1858">1858.</date>
+							</p>
+							<lg xml:id="lg.147">
+								<head type="title">Uj évre.</head>
+								<lg xml:id="lg.148">
+									<l xml:id="l.606">Mindegyre mulnak ifju éveim</l>
+									<l xml:id="l.607">És mulnak vélök szenvedéseim.</l>
+									<l xml:id="l.608">Mikkel oly sokszor sebzék szívemet:</l>
+									<l xml:id="l.609">Világ a sors s a durva emberek.</l>
+								</lg>
+								<lg xml:id="lg.149">
+									<l xml:id="l.610">Mindegyre jőnek s nőnek éveim</l>
+									<l xml:id="l.611">És nőnek vélök szenvedéseim;</l>
+									<l xml:id="l.612">Ki mondja meg ha majd én meghalok</l>
+									<l xml:id="l.613">Mik öltenek meg:</l>
+									<l xml:id="l.614">Az évek e? vagy a sok bánatok?</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.150">
+								<head type="title">Emlékezés K…..ra</head>
+								<lg xml:id="lg.151">
+									<l xml:id="l.615">
+										 Ismét íthon 
+										<sic/>
+										 vagyok 
+									</l>
+									<l xml:id="l.616">S benned kicsinyke lak</l>
+									<l xml:id="l.617">Honnét hő vágyaim</l>
+									<l xml:id="l.618">El-messze csaltanak</l>
+								</lg>
+								<lg xml:id="lg.152">
+									<l xml:id="l.619">Jártam sokat – sokat</l>
+									<l xml:id="l.620">
+										 Mint felhő kég 
+										<sic/>
+										 egen 
+									</l>
+									<l xml:id="l.621">Melyet a zivatar</l>
+									<l xml:id="l.622">
+										 Minden fel 
+										<add type="corr">é</add>
+										 viszen
+									</l>
+								</lg>
+								<lg xml:id="lg.153">
+									<l xml:id="l.623">Láttam a rónaság</l>
+									<l xml:id="l.624">Kalászos téreit –</l>
+									<l xml:id="l.625">S az itt ott feltünő</l>
+									<l xml:id="l.626">Kicsinyded völgyeit.</l>
+								</lg>
+								<lg xml:id="lg.154">
+									<l xml:id="l.627">De bár mily szép is az</l>
+									<l xml:id="l.628">
+										 Alföldi ronaság 
+										<sic/>
+									</l>
+									<l xml:id="l.629">Hol az ember szeme</l>
+									<l xml:id="l.630">A végtelenbe lát:</l>
+								</lg>
+								<lg xml:id="lg.155">
+									<l xml:id="l.631">Sokkal magasztosabb</l>
+									<l xml:id="l.632">Vagy büszke szikla táj</l>
+									<l xml:id="l.633">Melyeknek ormain</l>
+									<l xml:id="l.634">Sasoknak serge száll.</l>
+								</lg>
+								<lg xml:id="lg.156">
+									<l xml:id="l.635">Azért mindegyre csak</l>
+									<l xml:id="l.636">Vissza kivánkozám</l>
+									<l xml:id="l.637">Láthatni tégedet:</l>
+									<l xml:id="l.638">Szülöföldem – hazám.</l>
+								</lg>
+								<lg xml:id="lg.157">
+									<l xml:id="l.639">S most ismét itt vagyok</l>
+									<l xml:id="l.640">S melletted jó atyám</l>
+									<l xml:id="l.641">Meg melletted te hű</l>
+									<l xml:id="l.642">Egyetlen egy anyám.</l>
+								</lg>
+								<lg xml:id="lg.158">
+									<l xml:id="l.643">De ti mért könyeztek</l>
+									<l xml:id="l.644">Mondjátok meg nekem?</l>
+									<l xml:id="l.645">Azért hogy szerte van</l>
+									<l xml:id="l.646">Szakgasztva hő szivem?</l>
+								</lg>
+								<lg xml:id="lg.159">
+									<l xml:id="l.647">Hjáh – a mély fájdalom</l>
+									<l xml:id="l.648">Zuzá szét keblemet</l>
+									<l xml:id="l.649">Miként villám tüze</l>
+									<l xml:id="l.650">A büszke bérceket,</l>
+								</lg>
+								<lg xml:id="lg.160">
+									<l xml:id="l.651">De ne könyezzetek</l>
+									<l xml:id="l.652">Szenvedtem bár sokat</l>
+									<l xml:id="l.653">Mint virág a melyet</l>
+									<l xml:id="l.654">Csipős dér megfagyaszt</l>
+								</lg>
+								<lg xml:id="lg.161">
+									<l xml:id="l.655">Ne sirjatok szülék</l>
+									<l xml:id="l.656">Nem vesztém mindenem,</l>
+									<l xml:id="l.657">Legföbb kincsem megvan:</l>
+									<l xml:id="l.658">„A haza szerelem.”</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.162">
+								<head type="title">Ha vissza……</head>
+								<lg xml:id="lg.163">
+									<l xml:id="l.659">Ha vissza nézek elmult éveimre</l>
+									<l xml:id="l.660">Zugo kebelem zug – mint a téli nap</l>
+									<l xml:id="l.661">Midőn észak szele a rét göröngyin</l>
+									<l xml:id="l.662">Megbodultan – s örjöngve át szalad.</l>
+								</lg>
+								<lg xml:id="lg.164">
+									<l xml:id="l.663">Oh a mult nékem egy jégtenger a mely</l>
+									<l xml:id="l.664">Habzó vizével sziklává fajult,</l>
+									<l xml:id="l.665">Mely elhervasztá szép virágaimat</l>
+									<l xml:id="l.666">Mely itt forró szivem felett virult.</l>
+								</lg>
+								<lg xml:id="lg.165">
+									<l xml:id="l.667">Átkozott sors! fogsz e könyítni egykor</l>
+									<l xml:id="l.668">E megrongált – e vérző szív baján?</l>
+									<l xml:id="l.669">Mindegy… csak rajta büntess – nem
+										haragszom</l>
+									<l xml:id="l.670">Hagyj itt e meg fagyott rideg jegek fokán.</l>
+								</lg>
+								<lg xml:id="lg.166">
+									<l xml:id="l.671">Hisz én nem félek egy szikrát se tőled</l>
+									<l xml:id="l.672">Itt e kebel.. ha tetszik zuzd–tipord</l>
+									<l xml:id="l.673">Vagy lantom kell? itt van törd össze
+										vissza</l>
+									<l xml:id="l.674">De él a dal mit rajt szivem dalolt.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.167">
+								<head type="title">Anyámnak</head>
+								<head type="subtitle">– levél ujévre –</head>
+								<lg xml:id="lg.168">
+									<l xml:id="l.675">Ugy elmerengtem a mult év felett</l>
+									<l xml:id="l.676">Mely eltünt gyorsan mint villlám tüze:</l>
+									<l xml:id="l.677">Hogy bus lelkem a mélyen szenvedett</l>
+									<l xml:id="l.678">
+										 Keservesen és hosszan kőnyeze; 
+										<sic/>
+									</l>
+									<l xml:id="l.679">De te ne lásd – ne lásd s ha látod is</l>
+									<l xml:id="l.680">Ne ütközz meg szemem köny záporán</l>
+									<l xml:id="l.681">Fájdalmaimnak nem te vagy oka</l>
+									<l xml:id="l.682">Boldog uj évet édes jó anyám.</l>
+								</lg>
+								<lg xml:id="lg.169">
+									<l xml:id="l.683">
+										 Ha szét 
+										<del>tekintek</del>
+										 nézek a nagy
+										világba’ én 
+									</l>
+									<l xml:id="l.684">Senkim sincsen – csak te vagy egyedül</l>
+									<l xml:id="l.685">Csak te vagy kincsem – csak te mindenem</l>
+									<l xml:id="l.686">Csak te kiért gyermek szívem hevül; –</l>
+									<l xml:id="l.687">Hej mert sokat szenvedtem én sokat</l>
+									<l xml:id="l.688">E nagy világnak durva szinpadán….</l>
+									<l xml:id="l.689">De ne könyez ne – s én sem kőnyezek</l>
+									<l xml:id="l.690">Boldog uj évet édes jó anyám.</l>
+								</lg>
+								<lg xml:id="lg.170">
+									<l xml:id="l.691">Most messze űzött a sors engemet</l>
+									<l xml:id="l.692">Te tőled messze messzire nagyon,</l>
+									<l xml:id="l.693">De hadd el – nem sokára ujjolag</l>
+									<l xml:id="l.694">Meglátjuk egymást tiszta hajnalon;</l>
+									<l xml:id="l.695">Légy boldog addig ís és ne feledj</l>
+									<l xml:id="l.696">Ne ütközz meg fiadnak bus szaván</l>
+									<l xml:id="l.697">Fájdalmaimnak nem te vagy oka</l>
+									<l xml:id="l.698">Boldog uj évet édes jó anyám.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.171">
+								<head type="title">Kezére…..</head>
+								<lg xml:id="lg.172">
+									<l xml:id="l.699">Kezére keztyüt huz az ur</l>
+									<l xml:id="l.700">Hogy a hideg meg ne vegye</l>
+									<l xml:id="l.701">
+										 Vagy elne 
+										<sic/>
+										 süsse azt a nap 
+									</l>
+									<l xml:id="l.702">Forróan sütő melege.</l>
+								</lg>
+								<lg xml:id="lg.173">
+									<l xml:id="l.703">Huzzatok is keztyüt reá</l>
+									<l xml:id="l.704">Takarjátok be kezetek</l>
+									<l xml:id="l.705">Ne lássa a világ puhult</l>
+									<l xml:id="l.706">Restségtől sárgult kezetek.</l>
+								</lg>
+								<lg xml:id="lg.174">
+									<l xml:id="l.707">De hát – de hát majd szívetek</l>
+									<l xml:id="l.708">Azt a bünnel terhelt tanyát</l>
+									<l xml:id="l.709">Mivel föditek el – mivel</l>
+									<l xml:id="l.710">Hogy a világ ne lásson át?</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.175">
+								<head type="title">A remény.</head>
+								<lg xml:id="lg.176">
+									<l xml:id="l.711">Sokat szenvedtem én sokat</l>
+									<l xml:id="l.712">A sors elrablá mindenem</l>
+									<l xml:id="l.713">S elhervasztá virágimat</l>
+									<l xml:id="l.714">Melyek virultak szépen – kedvesen,</l>
+								</lg>
+								<lg xml:id="lg.177">
+									<l xml:id="l.715">S most némán állok mint a bérc</l>
+									<l xml:id="l.716">Melyen nincs zöld levél – s virág</l>
+									<l xml:id="l.717">Vagy mint egy rongyolt puszta lak</l>
+									<l xml:id="l.718">Melynek vihar döntötte bé falát.</l>
+								</lg>
+								<lg xml:id="lg.178">
+									<l xml:id="l.719">És ily sok szenvedés között</l>
+									<l xml:id="l.720">Én még is élni akarok</l>
+									<l xml:id="l.721">Az életért küzd kebelem</l>
+									<l xml:id="l.722">Habár eltüntek is a szebb napok</l>
+								</lg>
+								<lg xml:id="lg.179">
+									<l xml:id="l.723">És ily sok szenvedés között</l>
+									<l xml:id="l.724">Távol kis mécset lát szemem</l>
+									<l xml:id="l.725">Mely mintha híjna engemet</l>
+									<l xml:id="l.726">Lobog s világít bájjal – fényesen.</l>
+								</lg>
+								<lg xml:id="lg.180">
+									<l xml:id="l.727">És én utána indulok</l>
+									<l xml:id="l.728">S midőn már-már elérem őt</l>
+									<l xml:id="l.729">Egy perc….. és ismét eltünik</l>
+									<l xml:id="l.730">S magamra hágy fájdalmaim között.</l>
+								</lg>
+								<lg xml:id="lg.181">
+									<l xml:id="l.731">De végkép nem hagy el soha</l>
+									<l xml:id="l.732">Mindegyre biztat – egyre hij</l>
+									<l xml:id="l.733">Csak menjek s ha elértem őt</l>
+									<l xml:id="l.734">Nagy lész a boldogság nagy lész a dij.</l>
+								</lg>
+								<lg xml:id="lg.182">
+									<l xml:id="l.735">S hiszek szavának s követem</l>
+									<l xml:id="l.736">Fényét a föld felületén;</l>
+									<l xml:id="l.737">Mivé leszek ha ellobog</l>
+									<l xml:id="l.738">E mécs az a család – csalárd remény?</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.183">
+								<head type="title">Sokszor…</head>
+								<lg xml:id="lg.184">
+									<l xml:id="l.739">Sokszor ugy elgondolkodom</l>
+									<l xml:id="l.740">Miért élek – miért?</l>
+									<l xml:id="l.741">
+										<choice>
+											<orig>
+												 Mid 
+												<metamark function="tinta"/>
+											</orig>
+											<supplied>Mid</supplied>
+										</choice>
+										<del>
+											<gap extent="unknown" reason="illegible" unit="char"/>
+										</del>
+										 tudom fájdalmimért 
+									</l>
+									<l xml:id="l.742">Nem lesz ki nyujtna bért.</l>
+								</lg>
+								<lg xml:id="lg.185">
+									<l xml:id="l.743">Avagy lesz e majd valaki</l>
+									<l xml:id="l.744">Ki sebzett szivemet</l>
+									<l xml:id="l.745">Szerelemmel és lángoló</l>
+									<l xml:id="l.746">
+										 Csokkal gyógítsa 
+										<sic/>
+										 meg? 
+									</l>
+								</lg>
+								<lg xml:id="lg.186">
+									<l xml:id="l.747">Avagy lesz e majd valaki</l>
+									<l xml:id="l.748">Ki lantom bus szavát</l>
+									<l xml:id="l.749">Elzengje nékem mint madár</l>
+									<l xml:id="l.750">A reggnek hajnalát?</l>
+								</lg>
+								<lg xml:id="lg.187">
+									<l xml:id="l.751">Avagy lesz e – avagy lesz e</l>
+									<l xml:id="l.752">Lesz e majd oly leány</l>
+									<l xml:id="l.753">Kinek keblén megpihenjek</l>
+									<l xml:id="l.754">Mint harmat zöld fű oldalán?!</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.188">
+								<head type="title">
+									 Ne csodálkozatok 
+									<sic/>
+								</head>
+								<lg xml:id="lg.189">
+									<l xml:id="l.755">Ne csodálkozzatok</l>
+									<l xml:id="l.756">Ha néha vig vagyok</l>
+									<l xml:id="l.757">Hiszen rongált szivem</l>
+									<l xml:id="l.758">Vigalmi nem nagyok.</l>
+								</lg>
+								<lg xml:id="lg.190">
+									<l xml:id="l.759">S tudjátok e minek</l>
+									<l xml:id="l.760">Örülök néha én</l>
+									<l xml:id="l.761">E rég megátkozott</l>
+									<l xml:id="l.762">E durva föld tekén?</l>
+								</lg>
+								<lg xml:id="lg.191">
+									<l xml:id="l.763">Azt vélitek talán</l>
+									<l xml:id="l.764">A lány szerelminek?</l>
+									<l xml:id="l.765">Nem – nem hisz engemet</l>
+									<l xml:id="l.766">A lányka nem szeret.</l>
+								</lg>
+								<lg xml:id="lg.192">
+									<l xml:id="l.767">
+										 Csak annak őrűlök 
+										<sic/>
+									</l>
+									<l xml:id="l.768">Csak annak vigadok</l>
+									<l xml:id="l.769">Ha aztat gondolom:</l>
+									<l xml:id="l.770">Hogy holnap meghalok.</l>
+								</lg>
+							</lg>
+							<lg xml:id="lg.193">
+								<head type="title">Melyik már….</head>
+								<lg xml:id="lg.194">
+									<l xml:id="l.771">Melyik már szebb virág</l>
+									<l xml:id="l.772">
+										 A 
+										<add type="corr">z</add>
+										 igazság? vagy a
+										remény? 
+									</l>
+									<l xml:id="l.773">Én Istenugyse nem tudom:</l>
+									<l xml:id="l.774">Igazságot a földön nem lelek,</l>
+									<l xml:id="l.775">S reményt?</l>
+									<l xml:id="l.776">Cudar – eltün előlem.</l>
+								</lg>
+							</lg>
+						</note>
+						 , feltehetőleg még a nagykőrösi időszakban. 
+					</supplied>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

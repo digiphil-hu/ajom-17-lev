@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="960" type="main">TISZA LAJOSNÉ TELEKI JULIANNA – ARANY
+					JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.960</idno>
+				<idno type="ITIdata">Q344952</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.960.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p/>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/874</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>228</height>
+										<width>139</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 gyászkeretes, világoszöld fol., 22,8x13,9 cm. 1–4.
+										levél</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q344951</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1857-12-06"/>
+				<placeName>
+					 Csán 
+					<idno corresp="Mezőnagycsány" type="ITIdata">Q15250</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Tisza Lajosné Teleki Julianna 
+						<idno type="ITIdata">Q338420</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>TISZA LAJOSNÉ TELEKI JULIANNA – ARANY JÁNOSNAK</title>
+					<hi rend="underline">
+						<placeName>
+							 Csán 
+							<idno corresp="Mezőnagycsány" type="ITIdata">Q15250</idno>
+						</placeName>
+					</hi>
+					<date when="1857-12-06">
+						<hi rend="underline">Dec</hi>
+						 : 6 
+						<hi rend="super">d</hi>
+						 1857 
+					</date>
+				</head>
+				<p xml:id="p.1">
+					 Édes 
+					<persName>
+						 Arany 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+					 Úr! 
+				</p>
+				<p xml:id="p.2">
+					 Tullapon melléklem a’ jeg 
+					<add type="corr">y</add>
+					 zéket, melyben
+					azo 
+					<add type="corr">k</add>
+					 neveik írvák, kiknek áldott férjem halotti
+					beszédjeiből; 
+					<note type="critic">
+						<quote>
+							 melyben azo 
+							<add type="corr">k</add>
+							 neveik írvák, kiknek áldott
+							férjem halotti beszédjeiből 
+						</quote>
+						 – 
+						<persName>
+							 Tisza Lajos 
+							<idno corresp="Tisza Lajos" type="ITIdata">Q247540</idno>
+						</persName>
+						 ( 
+						<date from="1789" to="1856">1789–1856</date>
+						 ) Bihar megyei
+						adminisztrátor (lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 907. és XVI. 1213. 
+						</bibl>
+						 ) halotti beszédei:
+						<persName>Révész Bálint</persName>
+						 ( 
+						<date from="1816" to="1891">1816–1891</date>
+						 ): 
+						<bibl>
+							<title>Gyászünnepély, mely tartatott néh. borosjenői id. Tisza Lajos
+								urnak temetése alkalmával Geszten 1856. aug. 26. napján. Balogh
+								Péterrel együtt.</title>
+							<placeName>
+								 Debreczen 
+								<idno corresp="Debrecen"/>
+							</placeName>
+							 , 
+							<date when="1857">1857.</date>
+						</bibl>
+						 és 
+						<bibl>
+							<persName>
+								 Osváth Imre 
+								<idno corresp="Osváth Imre" type="ITIdata">Q37006</idno>
+							</persName>
+							 : 
+							<title>Emlék- beszéd, melyet néh. […] Boros-Jenői Tisza
+								Lajos ur gyász-ünnepélyére készített s hivei gyülekezetében
+								elmondott aug. 31. 1856.</title>
+							<placeName>
+								 Debreczen 
+								<idno corresp="Debrecen"/>
+							</placeName>
+							 , 
+							<date when="1857">1857.</date>
+						</bibl>
+						 – 
+						<persName>
+							 Balogh Péter 
+							<idno corresp="Balogh Péter" type="ITIdata">Q239029</idno>
+						</persName>
+						 ( 
+						<date from="1792" to="1870">1792–1870</date>
+						 ): 
+						<date from="1822">1822-től</date>
+						 id., 
+						<date from="1823">1823-tól</date>
+						rendes nagyszalontai ref. lelkész; 
+						<date from="1832">1832-től</date>
+						esperes, 
+						<date from="1855">1855-től</date>
+						 h. püspök, 
+						<date from="1860">1860-tól</date>
+						 püspök és debreceni pap. Vesd össze 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 803. és XVI. 1134. 
+						</bibl>
+					</note>
+					 az ő, ’s imádott fiam képeiből, és az utolsó verseiből akarok 
+					<persName>
+						Darányi Ignatz 
+						<idno corresp="Darányi Ignác"/>
+					</persName>
+					 Úr által szét kűldetni; ezen jegyzéket fő képpen azért kűldőm meg
+					Őnnek, hogy mint mínapis 
+					<sic/>
+					 írám, egység legyen a’ ki osztásba. Áldott
+					férjem képeiből őszvesen 150, fiamébol 100 példány van, ha hát az Őn kezébe
+					kűldőtt 17 kőtet versekhez még ohajtana őn néhány képet, irjon azonnal
+					<persName>
+						 Darányi 
+						<idno corresp="Darányi Ignác"/>
+					</persName>
+					 Úrnak, ki útasitva lesz mai napon, hogy kűldjen Őnnek menyit kér.
+					Látni fogja Őn egyébb eránt, hogy a’ Rokonokból még igen kevesek vannak fel
+					jegyezve. 
+				</p>
+				<p xml:id="p.3">
+					<persName>
+						 Heke 
+						<add type="corr">n</add>
+						 aszt 
+						<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+					</persName>
+					 Úr az őn reményét meg hiúsittá – hihetően számolt arra, mi
+					következett – hogy t.i. én megfizetem a’ procentet. 
+					<note type="critic">
+						<quote>procentet</quote>
+						 – százalékot (lat.) 
+					</note>
+					 De hogy ne csalódjam,
+					mit semibe se szeretek, legyen Őn szíves, ki ebbe jártas, meghatározni, menyire
+					tegyűnk egy kőtet verset, hogy igen alá taxálva 
+					<note type="critic">
+						<quote>alá taxálva</quote>
+						 – alábecsülve (lat.) 
+					</note>
+					 le ne alacsonyitsuk,
+					de igen fel nem téve, eladhatlanná ne tegyűk; ’s ezt, idő nyerés végett legyen
+					szives Őn 
+					<persName>
+						 Darányi 
+						<idno corresp="Darányi Ignác"/>
+					</persName>
+					 Urnak egyenesen megirní, valamint azt is, hány procent jár az
+					eladásért? Minap már irtam, szállása 
+					<hi rend="underline">
+						<placeName>
+							 Budá 
+							<idno corresp="Buda"/>
+						</placeName>
+						 n Viziváros öt pacsirta utsza 520 
+						<hi rend="super">d</hi>
+					</hi>
+					 számú saját házában 
+					<hi rend="underline">
+						 Joszág igazgató Űgyvéd
+						Tekintetes 
+						<persName>
+							 Daranyi Ignatz 
+							<idno corresp="Darányi Ignác"/>
+						</persName>
+						 Urnak 
+					</hi>
+				</p>
+				<p xml:id="p.4">
+					<date when="1857-12-13">
+						 E’ ho 13 
+						<hi rend="super">d</hi>
+					</date>
+					 hajnalban haza indúlásom terve még áll, azért ha irni akarna nekem Őn,
+					kérem oda az az – 
+					<placeName>
+						 Szalontha 
+						<idno corresp="Nagyszalonta"/>
+					</placeName>
+					 – 
+					<placeName>Geszt</placeName>
+					 re utasítni leveleit, hól a’ télen
+					egész családom együtt lesz. 
+				</p>
+				<p xml:id="p.5">Mi itt lévők szivesen tiszteljűk őnt és kedvesseit, ’s én
+					változhatlan hálával maradok Őnnek</p>
+				<p xml:id="p.6">alázatos szolgálója</p>
+				<p xml:id="p.7">
+					 Őz: 
+					<persName>
+						 Tisza Lajosné 
+						<idno corresp="Tisza Lajosné Teleki Julianna"/>
+					</persName>
+				</p>
+				<p xml:id="p.8">
+					 U.I. Majd feledém, hogy nőtlen fiaimat a’ farsang hihetően,
+					természetesen, 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 re csabitja. 
+				</p>
+				<p xml:id="p.9">
+					 Talán jó volna, ha 
+					<persName>
+						 Arany 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+					 Úr engem és 
+					<persName>
+						 Darányi 
+						<idno corresp="Darányi Ignác"/>
+					</persName>
+					 urat tudósitná a’ 17 példánból kiknek osztott 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					 ? 
+					<note type="critic">
+						<persName>
+							 Tisza Lajosné 
+							<idno corresp="Tisza Lajosné Teleki Julianna"/>
+						</persName>
+						 ezt a mondatot a 2. oldal tetejére írta, miután megfordította
+						azt. 
+					</note>
+				</p>
+				<p xml:id="p.10">
+					<table>
+						<row>
+							<cell>
+								<hi rend="underline">
+									<placeName>
+										 Pest 
+										<idno corresp="Pest"/>
+									</placeName>
+									 en szét kűldendők 
+								</hi>
+							</cell>
+							<cell>
+								<persName>
+									 Tisza Lajos 
+									<idno corresp="Tisza Lajos" type="ITIdata">Q49789</idno>
+								</persName>
+							</cell>
+							<cell>
+								<persName>
+									 Tisza Domo 
+									<idno corresp="Tisza Domokos" type="ITIdata">Q247546</idno>
+								</persName>
+							</cell>
+						</row>
+						<row>
+							<cell/>
+							<cell>H.beszed Kep</cell>
+							<cell>Versek Képe</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Darányi Ignatz 
+									<idno corresp="Darányi Ignác"/>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<choice>
+									<orig>N.</orig>
+									<supplied>Nagy</supplied>
+								</choice>
+								 Kovátsi lelkész 
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<choice>
+								<orig>N.</orig>
+								<supplied>Nagy</supplied>
+							</choice>
+							 Kovátsi lelkész 
+						</quote>
+						 –
+						<placeName>Hegyköz-Kovácsi</placeName>
+						 ban (Bihar megye) 
+						<date when="1855">1855-ben</date>
+						<persName>Lovas Dániel</persName>
+						 volt a ref. lelkész 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>Homan</persName>
+								<choice>
+									<orig>N.</orig>
+									<supplied>Nagy</supplied>
+								</choice>
+								 Kovátsi gazdatiszt 
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Szonyi 
+									<idno corresp="Szőnyi Pál" type="ITIdata">Q60797</idno>
+								</persName>
+								<sic/>
+								 Urék 
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Szonyi 
+								<idno corresp="Szőnyi Pál" type="ITIdata">Q60797</idno>
+							</persName>
+							 Urék 
+						</quote>
+						 – 
+						<persName>
+							 Szőnyi Pál 
+							<idno corresp="Szőnyi Pál" type="ITIdata">Q60797</idno>
+						</persName>
+						 ék 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 S 
+									<add type="corr">z</add>
+									 taroveszkyné 
+									<idno corresp="Sztaroveszky Imréné"/>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 ” 
+								<persName>
+									 Imre 
+									<idno corresp="Sztaroveszky Imre"/>
+								</persName>
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<persName>
+							 Sztaroveszkyné 
+							<idno corresp="Sztaroveszky Imréné"/>
+						</persName>
+						 , 
+						<persName>Sztaroveszky Imre</persName>
+						 – Sztaroveczky: Bihar
+						megyei nemesi család 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Daranyi Natzi 
+									<idno corresp="Darányi Ignác"/>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Daranyi Natzi 
+								<idno corresp="Darányi Ignác"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>Darányi Ignác</persName>
+						 ( 
+						<date when="1849">1849</date>
+						 –?): Tiszáék megbízott ügyvédjének fia 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Gyulay 
+									<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+								</persName>
+								 Úr 
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 Dr. 
+								<persName>
+									 Moskowits 
+									<idno corresp="Moscovitz Móric"/>
+								</persName>
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							 Dr. 
+							<persName>
+								 Moskowits 
+								<idno corresp="Moscovitz Móric"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>Moscovitz Móric</persName>
+						 ( 
+						<date from="1802" to="1880">1802–1880</date>
+						 ), orvosdoktor, 
+						<date from="1846">1846-tól</date>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 en a legelőkelőbb családok orvosa 
+					</note>
+					<table>
+						<row>
+							<cell>Gőrőg nyelv Professora</cell>
+							<cell>– –</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>Gőrőg nyelv Professora</quote>
+						 – 
+						<persName>Télfy Iván</persName>
+						 (
+						<date from="1816" to="1898">1816–1898</date>
+						 ): 
+						<date from="1846">1846-tól</date>
+						 a pesti egyetemen a görög nyelv és irodalom, 
+						<date from="1852">1852-től</date>
+						 a classica philologia tanára; vesd össze
+						<persName>
+							 Kovács János 
+							<idno corresp="Kovács János" type="ITIdata">Q243690</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 
+						<date when="1852-01-24">1852. jan. 24.</date>
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 350. 14. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.350"/>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<choice>
+									<orig>Nentovich</orig>
+									<supplied>
+										<persName>
+											 Mentovich 
+											<idno corresp="Mentovich Ferenc" type="ITIdata">Q56866</idno>
+										</persName>
+									</supplied>
+								</choice>
+							</cell>
+							<cell>– –</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>Nagy István</persName>
+								 Úrék 
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>Nagy István</persName>
+							 Úrék 
+						</quote>
+						 – nem azonosított
+						személyek 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Torők 
+									<sic/>
+									 Pál 
+									<idno corresp="Török Pál" type="ITIdata">Q151479</idno>
+								</persName>
+								 lelkész 
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Torők 
+								<sic/>
+								 Pál 
+								<idno corresp="Török Pál" type="ITIdata">Q151479</idno>
+							</persName>
+							 lelkész 
+						</quote>
+						 – 
+						<persName>
+							 Török Pál 
+							<idno corresp="Török Pál" type="ITIdata">Q151479</idno>
+						</persName>
+						 ( 
+						<date from="1808" to="1883">1808–1883</date>
+						 ): 
+						<date from="1832" to="1836">1832 és 1836 között</date>
+						 rektor
+						<placeName>Kisújszállás</placeName>
+						 on, 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 mellette preceptor 
+						<date from="1834" to="1836">1834-tól
+							1836-ig</date>
+						 . 
+						<date from="1836">1836-tól</date>
+						 ref. lelkész
+						<placeName>Kisújszállás</placeName>
+						 on, 
+						<date from="1839">1839-től</date>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 en, 
+						<date from="1860">1860-tól</date>
+						 püspök. A pesti ref.
+						teológiai akadémia ( 
+						<date when="1855">1855</date>
+						 ) és főgimnázium ( 
+						<date when="1859">1859</date>
+						 ) megalapítója. Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 913. és XVI. 1221. 
+						</bibl>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Székats 
+									<idno corresp="Székács József" type="ITIdata">Q49396</idno>
+								</persName>
+								<sic/>
+							</cell>
+							<cell>| –</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Székats 
+								<idno corresp="Székács József" type="ITIdata">Q49396</idno>
+							</persName>
+							<sic/>
+						</quote>
+						 – 
+						<persName>
+							 Székács József 
+							<idno corresp="Székács József" type="ITIdata">Q49396</idno>
+						</persName>
+						 ( 
+						<date from="1809" to="1876">1809–1876</date>
+						 ): 
+						<date from="1836">1836-tól</date>
+						 az Akadémia lev. tagja, 
+						<date from="1838">1838-tól</date>
+						 a Kisfaludy Társaság tagja, 
+						<date from="1836">1836-tól</date>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 en ev. lelkész, 
+						<date from="1860">1860-tól</date>
+						 püspök. Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 896. és XVI. 1199. 
+						</bibl>
+						 – Kötetünk egy hozzá
+						írt AJ-levelet tartalmaz. 
+					</note>
+					<table>
+						<row>
+							<cell>
+								 Oz:G: 
+								<persName>
+									 Teleki Samuné 
+									<idno corresp="Teleki Sámuelné Jeszenák Lujza"/>
+								</persName>
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 G 
+								<persName>
+									 Teleki Julia 
+									<idno corresp="Teleki Júlia"/>
+								</persName>
+								 – 
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>” ” Sándorék –</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 ” ” 
+								<persName>
+									 Gyula 
+									<idno corresp="Teleki Gyula"/>
+								</persName>
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 ” ” 
+								<persName>
+									 Domokos 
+									<idno corresp="Teleki Domokos" type="ITIdata">Q246512</idno>
+								</persName>
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							 Oz. G: 
+							<persName>
+								 Teleki Samuné 
+								<idno corresp="Teleki Samuné Jeszenák Lujza"/>
+							</persName>
+							 , 
+							<persName>
+								 Teleki Julia 
+								<idno corresp="Teleki Júlia"/>
+							</persName>
+							 , Teleki Sándorék, 
+							<persName>Teleki Gyula</persName>
+							 ,
+							<persName>
+								 Teleki Domokos 
+								<idno corresp="Teleki Domokos" type="ITIdata">Q246512</idno>
+							</persName>
+							 , 
+							<persName>Teleki Domokosné</persName>
+						</quote>
+						 – 
+						<persName>Teleki Samuné Jeszenák Lujza</persName>
+						 ( 
+						<date from="1803">1803</date>
+						 –?); 
+						<persName>
+							 Teleki Sándor 
+							<idno corresp="Teleki Sándor" type="ITIdata">Q151308</idno>
+						</persName>
+						 ( 
+						<date from="1829">1829</date>
+						 –?); felesége: 
+						<persName>Teleki
+							Jozefina</persName>
+						 ; 
+						<persName>Teleki Gyula</persName>
+						 ( 
+						<date from="1833">1833</date>
+						 –?); 
+						<persName>
+							 Teleki Domokos 
+							<idno corresp="Teleki Domokos" type="ITIdata">Q246512</idno>
+						</persName>
+						 ( 
+						<date from="1810" to="1876">1810–1876</date>
+						 ): 
+						<date from="1836">1836-tól</date>
+						 az Akadémia lev. tagja, 
+						<date from="1855">1855-től</date>
+						 igazgatótanácsi tagja, 
+						<date from="1861">1861-től</date>
+						 tiszteleti tag; a marosvásárhelyi Teleki-könyvtár egyik
+						feldolgozója, 
+						<persName>
+							 Mikó Imré 
+							<idno corresp="Mikó Imre"/>
+						</persName>
+						 vel az erdélyi múzeum megalapítója (lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 905. 
+						</bibl>
+						 ); felesége: 
+						<persName>Teleki
+							Klementina</persName>
+						 (lásd 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 1210. 
+						</bibl>
+						 ) 
+					</note>
+					<table>
+						<row>
+							<cell>” ” ”né</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 B. Way Miklosek 
+								<sic/>
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								 ” ” 
+								<persName>
+									 Lajos 
+									<idno corresp="Way Lajos"/>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								 ” ” 
+								<persName>
+									 Béláné 
+									<idno corresp="Way Béláné"/>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							 B. Way Miklosek, 
+							<persName>Way Lajos</persName>
+							 , 
+							<persName>Way
+								Béláné</persName>
+						</quote>
+						 – 
+						<persName>Way Miklós</persName>
+						 ( 
+						<date from="1802" to="1894">1802–1894</date>
+						 ): 
+						<date when="1859">1859-ben</date>
+						 részt vett a
+						protestáns pátens elleni harcban, 
+						<date from="1860">1860-tól</date>
+						<placeName>Magyarország</placeName>
+						 kancellárja és az akadémia igazgató
+						tagja; 
+						<persName>Way Lajos</persName>
+						 ( 
+						<date from="1803" to="1888">1803–1888</date>
+						 ): Borsod megye főispánja; 
+						<persName>Way Béláné Teleki
+							Erzse</persName>
+						 ( 
+						<date from="1812">1812</date>
+						 –?) vagy 
+						<persName>Way
+							Béláné Teleki Zsófia</persName>
+						 ( 
+						<date from="1836">1836</date>
+						 –?) 
+					</note>
+					<table>
+						<row>
+							<cell>
+								 Gr. 
+								<persName>Ráday Gedeon</persName>
+							</cell>
+							<cell>– |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								 ” ” 
+								<persName>
+									 Gida 
+									<idno corresp="Ráday Gedeon"/>
+								</persName>
+								 (:a’ fía:) 
+							</cell>
+							<cell>– –</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 ” ” 
+								<persName>
+									 Pál 
+									<idno corresp="Ráday Pál"/>
+								</persName>
+								 , 
+								<persName>
+									 Jozsef 
+									<idno corresp="Ráday József"/>
+								</persName>
+								 , 
+								<sic/>
+								<persName>
+									 Latzi 
+									<idno corresp="Ráday László"/>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>3 3</cell>
+						</row>
+						<row>
+							<cell>
+								 ” 
+								<persName>
+									 Szapáry Ráday Biri 
+									<idno corresp="Szapáry Istvánné Ráday Biri"/>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							 Gr. 
+							<persName>Ráday Gedeon</persName>
+							 , 
+							<persName>
+								 Ráday Gida 
+								<idno corresp="Ráday Gedeon"/>
+							</persName>
+							 (a’ fia:), 
+							<persName>Ráday Pál</persName>
+							 , 
+							<persName>
+								József 
+								<idno corresp="Ráday József"/>
+							</persName>
+							 , 
+							<persName>
+								 Latzi 
+								<idno corresp="Ráday László"/>
+							</persName>
+							 , 
+							<persName>
+								 Szapáry Ráday Biri 
+								<idno corresp="Szapáry Istvánné Ráday Biri"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>Ráday Gedeon</persName>
+						 ( 
+						<date from="1806" to="1873">1806–1873</date>
+						 ) nógrádi főispán, 
+						<persName>Teleki Borbála</persName>
+						férje volt; gyermekei: 
+						<persName>
+							 Ráday Gedeon 
+							<idno corresp="Ráday Gedeon, ifj."/>
+						</persName>
+						 ( 
+						<date from="1841" to="1883">1841–1883</date>
+						 ) 
+						<date from="1861">1861</date>
+						 után országgyűlési képviselő, 
+						<persName>Ráday
+							Pál</persName>
+						 ( 
+						<date from="1830" to="1879">1830–1879</date>
+						 ),
+						<persName>Ráday József</persName>
+						 , 
+						<persName>Ráday László</persName>
+						 (
+						<date from="1837" to="1869">1837–1869</date>
+						 ) és 
+						<persName>Szapáry
+							Istvánné Ráday Biri</persName>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Szabo 
+									<sic/>
+									 Menyhért 
+									<idno corresp="Szabó Menyhért"/>
+								</persName>
+								 Ur 
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>Madas Károly</persName>
+								 Úr 
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>Dobos Lajos</persName>
+								 Úr 
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Szeher 
+									<sic/>
+									 Mihály 
+								</persName>
+								 Úr 
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Hajdú Jozsef 
+									<idno corresp="Hajdú József"/>
+								</persName>
+								<sic/>
+								 Úr 
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>Szabó Menyhért</persName>
+							 Ur, 
+							<persName>Madas
+								Károly</persName>
+							 Úr, 
+							<persName>Dobos Lajos</persName>
+							 Úr,
+							<persName>Szeher Mihály</persName>
+							 Úr, 
+							<persName>
+								 Hajdú Jozsef 
+								<idno corresp="Hajdú József"/>
+							</persName>
+							 Úr 
+						</quote>
+						 – nem tudtuk őket azonosítani 
+					</note>
+					<table>
+						<row>
+							<cell/>
+							<cell>
+								<persName>
+									 Tisza Lajos 
+									<idno corresp="Tisza Lajos" type="ITIdata">Q49789</idno>
+								</persName>
+							</cell>
+							<cell>
+								<persName>
+									 Tisza Domokos 
+									<idno corresp="Tisza Domokos" type="ITIdata">Q247546</idno>
+								</persName>
+							</cell>
+						</row>
+						<row>
+							<cell/>
+							<cell>
+								<choice>
+									<orig>H. beszed</orig>
+									<supplied>Halotti beszed</supplied>
+								</choice>
+								 Kep 
+							</cell>
+							<cell>Versek Kép</cell>
+						</row>
+						<row>
+							<cell>
+								 Dr. 
+								<persName>
+									 Kováts Endre 
+									<idno corresp="Kovács Sebestyén Endre"/>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							 Dr. 
+							<persName>
+								 Kováts Endre 
+								<idno corresp="Kovács Sebestyén Endre"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>Kovács Sebestyén Endre</persName>
+						 ( 
+						<date from="1814" to="1878">1814–1878</date>
+						 ): orvosdoktor, 
+						<date from="1858">1858-tól</date>
+						 az akadémia lev. tagja 
+					</note>
+					<table>
+						<row>
+							<cell>
+								 Akadémia, Egyetem, 
+								<add type="corr">M</add>
+								 uzeum, tiz magyar
+								hirlap szerkesztője 
+							</cell>
+							<cell>– –</cell>
+							<cell>13 –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Toldy 
+									<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Czuczór 
+									<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+								</persName>
+								<sic/>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Czuczór 
+								<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+							</persName>
+							<sic/>
+						</quote>
+						 – 
+						<persName>
+							 Czuczor Gergely 
+							<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+						</persName>
+						 ( 
+						<date from="1800" to="1866">1800–1866</date>
+						 ): 
+						<date from="1831">1831-től</date>
+						 az Akadémia lev., 
+						<date from="1836">1836-tól</date>
+						 rendes tagja, 
+						<title>A magyar nyelv szótárá</title>
+						 nak
+						egyik szerzője (I–VI. 
+						<date from="1862" to="1871">1862–1871</date>
+						 ).
+						Kötetünk időszakában megjelent műve: 
+						<title>Czuczor költeményei
+							I–III.</title>
+						 ( 
+						<date when="1858">1858</date>
+						 ). Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 812. és XVI. 1143. 
+						</bibl>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Császár 
+									<idno corresp="Császár Ferenc" type="ITIdata">Q143296</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Brassay 
+									<idno corresp="Brassai Sámuel" type="ITIdata">Q142873</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Hunfalvy 
+									<idno corresp="Hunfalvy Pál" type="ITIdata">Q146468</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Hunfalvy 
+								<idno corresp="Hunfalvy Pál" type="ITIdata">Q146468</idno>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Hunfalvy Pál 
+							<idno corresp="Hunfalvy Pál" type="ITIdata">Q146468</idno>
+						</persName>
+						 ( 
+						<date from="1810" to="1891">1810–1891</date>
+						 ): nyelvész,
+						<date from="1841">1841-től</date>
+						 az akadémia lev., 
+						<date from="1858">1858-tól</date>
+						 rendes tagja; 
+						<date from="1842">1842-től</date>
+						 a
+						Kisfaludy Társaság tagja, 
+						<date from="1851">1851-től</date>
+						 az akadémia
+						főkönyvtárnoka 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Csengeri 
+									<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								 B 
+								<persName>
+									 Eőtvős 
+									<idno corresp="Eötvös József" type="ITIdata">Q241165</idno>
+								</persName>
+								 , 
+							</cell>
+							<cell>
+								 – 
+								<del>–</del>
+								<add type="corr">|</add>
+							</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 ” 
+								<persName>
+									 Kemén Zsigmond 
+									<idno corresp="Kemény Zsigmond" type="ITIdata">Q46130</idno>
+								</persName>
+								<sic/>
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Gregus 
+									<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+								</persName>
+								<sic/>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Gregus 
+								<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+							</persName>
+							<sic/>
+						</quote>
+						 – 
+						<persName>
+							 Greguss Ágost 
+							<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+						</persName>
+						 ( 
+						<date from="1825" to="1882">1825–1882</date>
+						 ): 
+						<date from="1858">1858-tól</date>
+						 az Akadémia lev. tagja, 
+						<date from="1860">1860-tól</date>
+						 a Kisfaludy Társaság tagja és titkára. Fontosabb művei
+						kötetünk időszakából: 
+						<title>A materialismus hatásáról</title>
+						 ( 
+						<date when="1859">1859</date>
+						 ), 
+						<title>A lángész</title>
+						 ( 
+						<date when="1860">1860</date>
+						 ), 
+						<title>Külföldi népdalok</title>
+						 ( 
+						<date when="1861">1861</date>
+						 ). Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 829. és XVI. 1159. 
+						</bibl>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Sárosy 
+									<idno corresp="Sárosi Gyula" type="ITIdata">Q245633</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Fay 
+									<sic/>
+									 András 
+									<idno corresp="Fáy András" type="ITIdata">Q144762</idno>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Fay 
+								<sic/>
+								 András 
+								<idno corresp="Fáy András" type="ITIdata">Q144762</idno>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Fáy András 
+							<idno corresp="Fáy András" type="ITIdata">Q144762</idno>
+						</persName>
+						 ( 
+						<date from="1786" to="1864">1786–1864</date>
+						 ): 
+						<date from="1831">1831-től</date>
+						 az Akadémia tiszteleti tagja, 
+						<date from="1837" to="1840">1837 és 1840 között</date>
+						 a Kisfaludy Társaság
+						igazgatója. E korszakbeli művei: 
+						<title>A Halmay-család</title>
+						 ( 
+						<date when="1858">1858</date>
+						 ), 
+						<title>A régi pénzek, vagy az erdélyiek
+							Magyarországban</title>
+						 ( 
+						<date when="1858">1858</date>
+						 ), 
+						<title>Hulló
+							virágok</title>
+						 ( 
+						<date when="1861">1861</date>
+						 ). Az 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+						</bibl>
+						 egy tőle és egy hozzá írt levelet közöl, a XVI. úgyszintén.
+						Kötetünkben egy 
+						<persName>
+							 Fáy 
+							<idno corresp="Fáy András"/>
+						</persName>
+						 hoz írt 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -levél található. Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 821. és XVI. 1155. 
+						</bibl>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Szemere Pál 
+									<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Szemere Pál 
+								<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+							</persName>
+						</quote>
+						 – ( 
+						<date from="1785" to="1861">1785–1861</date>
+						 ): 
+						<date from="1831">1831-től</date>
+						 az Akadémia rendes tagja, 
+						<date from="1840">1840-től</date>
+						 a Kisfaludy Társaság tagja. E korszakból való műve:
+						<title>Erdei lak mint hármas dalverseny, és Petőfi Sándor</title>
+						 (
+						<date when="1860">1860</date>
+						 ). Kötetünk egy tőle és egy hozzá való
+						levelet közöl. Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 897. és XVI. 1202. 
+						</bibl>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Toth 
+									<sic/>
+									 Lőrintz 
+									<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Toth 
+								<sic/>
+								 Lőrintz 
+								<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Tóth Lőrinc 
+							<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+						</persName>
+						 ( 
+						<date from="1814" to="1903">1814–1903</date>
+						 ): 
+						<date from="1836">1836-tól</date>
+						 az Akadémia lev., 
+						<date from="1858">1858-tól</date>
+						 rendes tagja, 
+						<date from="1837">1837-től</date>
+						 a
+						Kisfaludy Társaság jegyzője, 
+						<date from="1853">1853-tól</date>
+						 az Akadémia
+						pénztárosa. Kötetünk időszakában megjelent műve: 
+						<title>Magyar írók
+							arczképei és életrajzai</title>
+						 ( 
+						<date when="1858">1858</date>
+						 ). Lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 913. és XVI. 1221. 
+						</bibl>
+						 A XVI. kötet egy,
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak írt elveszett leveléről tud ( 
+						<date to="1855-08-05">1855.
+							aug. 5.</date>
+						 előtt), amelyre 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 válasza fennmaradt. 
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Erdélyi 
+									<idno corresp="Erdélyi János" type="ITIdata">Q43473</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Szilagyi 
+									<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+								</persName>
+								<sic/>
+							</cell>
+							<cell>– –</cell>
+							<cell>| –</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Szilagyi 
+								<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Szilágyi István 
+							<idno corresp="Szilágyi István" type="ITIdata">Q49424</idno>
+						</persName>
+					</note>
+					<table>
+						<row>
+							<cell>
+								<persName>
+									 Tompa 
+									<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+								</persName>
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Levay 
+									<idno corresp="Lévay József" type="ITIdata">Q54432</idno>
+								</persName>
+								<sic/>
+							</cell>
+							<cell>– –</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Szász Károly 
+									<idno corresp="Szász Károly" type="ITIdata">Q150786</idno>
+								</persName>
+							</cell>
+							<cell>– –</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Arany János 
+									<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+								</persName>
+								 és családja 
+							</cell>
+							<cell>| |</cell>
+							<cell>4 4</cell>
+						</row>
+						<row>
+							<cell>” ” kezeibe</cell>
+							<cell>– –</cell>
+							<cell>17 –</cell>
+						</row>
+						<row>
+							<cell>
+								<persName>
+									 Barabás 
+									<idno corresp="Barabás Miklós" type="ITIdata">Q40273</idno>
+								</persName>
+								 képiró 
+							</cell>
+							<cell>
+								<del>–</del>
+								<add type="corr">|</add>
+								 – 
+							</cell>
+							<cell>| –</cell>
+						</row>
+						<row>
+							<cell>
+								 G. 
+								<persName>
+									 Bethlen Geza 
+									<idno corresp="Bethlen Géza"/>
+								</persName>
+								<sic/>
+								 politech: tanulo 
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 Őz. 
+								<persName>Tokodyné</persName>
+								<placeName>
+									 Béts 
+									<idno corresp="Bécs"/>
+								</placeName>
+								 be 
+							</cell>
+							<cell>– |</cell>
+							<cell>| |</cell>
+						</row>
+						<row>
+							<cell>
+								 M: 
+								<choice>
+									<orig>SzentGyőrgyi</orig>
+									<supplied>
+										<persName>
+											 Szent Győrgyi 
+											<idno corresp="Szentgyörgyi Gyula"/>
+										</persName>
+									</supplied>
+								</choice>
+								 Ur 
+								<placeName>
+									 Béts 
+									<idno corresp="Bécs"/>
+								</placeName>
+								 be 
+							</cell>
+							<cell>| |</cell>
+							<cell>| |</cell>
+						</row>
+					</table>
+					<note type="critic">
+						<quote>
+							 G. 
+							<persName>
+								 Bethlen Geza 
+								<idno corresp="Bethlen Géza"/>
+							</persName>
+							<sic/>
+							 politech: tanulo, Őz. 
+							<persName>Tokodyné</persName>
+							<placeName>
+								 Béts 
+								<idno corresp="Bécs"/>
+							</placeName>
+							 be, 
+							<choice>
+								<orig>SzentGyőrgyi</orig>
+								<supplied>
+									<persName>
+										 Szent Győri 
+										<idno corresp="Szentgyörgyi Gyula"/>
+									</persName>
+								</supplied>
+							</choice>
+							 Ur 
+							<placeName>
+								 Béts 
+								<idno corresp="Bécs"/>
+							</placeName>
+							 be 
+						</quote>
+						 – 
+						<persName>Bethlen Géza</persName>
+						 ( 
+						<date from="1838" to="1911">1838–1911</date>
+						 ): 
+						<persName>
+							 Bethlen János 
+							<idno corresp="Bethlen János" type="ITIdata">Q41396</idno>
+						</persName>
+						 nak ( 
+						<date from="1811" to="1879">1811–1879</date>
+						 ) és
+						<persName>
+							 Teleki Zsófiá 
+							<idno corresp="Teleki Zsófia"/>
+						</persName>
+						 nak ( 
+						<date from="1815" to="1852">1815–1852</date>
+						 ),
+						<persName>Tisza Lajosné Teleki Julianna</persName>
+						 testvérének egyik
+						fia. Vesd össze 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 1137. 
+						</bibl>
+						 – Tokody: Bihar megyei nemesi
+						család; 
+						<persName>
+							 Szent Győrgyi 
+							<idno corresp="Szentgyörgyi Gyula"/>
+						</persName>
+						 Ur: talán 
+						<persName>Szentgyörgyi Gyula</persName>
+						 , aki a bécsi
+						udvari kancelláriánál volt titkár 
+					</note>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

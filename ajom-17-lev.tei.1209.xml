@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1209" type="main">KOLBENHEYER MÓR – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1209</idno>
+				<idno type="ITIdata">Q481945</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1209.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 669. 
+						</bibl>
+						 ) 
+					</p>
+					<p>Magyarul:</p>
+					<p>Tisztelt Uram és Barátom!</p>
+					<p>
+						 Ön megemlékezett rólam, még ha csak egy körlevél elküldése által is: ez
+						nekem, akit minden oldalról üldöznek és gyaláznak, mégis jólesett. Méltányos
+						ezért, hogy én is megemlékezzem Önről, s én ezt azáltal teszem, hogy íme,
+						elküldöm Önnek 
+						<persName>
+							 Vörösmarty 
+							<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+						</persName>
+						 két magasztos énekének fordítását, mellyel éppen elkészültem. 
+					</p>
+					<p>
+						 Tudomásom szerint sem a 
+						<title>Szózat</title>
+						 nak, sem a 
+						<title>Fóti
+							dal</title>
+						 nak nem található valamennyire is élvezhető fordítása.
+						Megkíséreltem e két dalt a német irodalomba bevezetni, és úgy hiszem,
+						fordításom nem teljesen sikertelen. Rendkívül örülnék, ha közölné szíves
+						véleményét. 
+					</p>
+					<p>
+						 Mert bizony magasra szárnyaló terveim vannak. Nem kevesebbet szeretnék, mint
+						hogy 
+						<persName>
+							 Heckenast 
+							<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+						</persName>
+						 kinyomtassa a hazaszeretet e kettős himnuszát különösen a
+						magyarországi németek épülésére, és ha lehet gazdag tipográfiai köntösben. A
+						Kisfaludytársaság 
+						<sic/>
+						 talán tudna segíteni e kívánság megvalósításában.
+						Úgy gondolom, hogy egy szó az Ön részéről ez ügyben 
+						<persName>
+							 Heckenast
+							<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+						</persName>
+						 számára mérvadó lenne. 
+					</p>
+					<p>
+						 Ez mindazonáltal az egyetlen módja annak, hogy én mint a „pártolója a’
+						Kisfaludytársaságnak” 
+						<sic/>
+						 lépjek fel. Egy szegény lelkész, akinek nyolc
+						élő gyermekét, kiknek egy része a messze idegenben tartózkodik, és egy öreg
+						anyósát kell eltartania, sokkal inkább maga szorulna támogatásra, semhogy
+						képes lenne intézményeket és eszmei testületeket támogatni. 
+					</p>
+					<p>Még valamit. Ha Ön, tisztelt Uram és Barátom, fontosnak tartja, hogy magyar
+						költeményeket jobb tolmácsok tegyenek a német olvasók számára
+						hozzáférhetővé, mint amilyenek az utóbbi időben előtérbe kerültek, úgy
+						legyen olyan jó, és jelölje meg nekem azt, ami leginkább érdemes arra, hogy
+						német nyelvre átültettessék.</p>
+					<p>Szívélyes üdvözlettel</p>
+					<p>az Ön</p>
+					<p>őszinte tisztelője</p>
+					<p>
+						<persName>
+							 Moritz Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+					</p>
+					<p>
+						<placeName>
+							 Sopron 
+							<idno type="ITIdata">Q238</idno>
+						</placeName>
+						 , 
+						<date when="1860-11-12">1860. nov. 12.</date>
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/1275</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>242</height>
+										<width>149</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 2 csontszínű fol., 24,2x14,9 cm. 1–2. levél, 3–4. üres. A 4.
+										oldalon 
+										<persName>
+											 AJ 
+											<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+										</persName>
+										 narancssárga ceruzás írásával: 
+										<persName>
+											Heckenast 
+											<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+										</persName>
+										 . 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471180</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-11-12"/>
+				<placeName>
+					 Sopron 
+					<idno type="ITIdata">Q238</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Kolbenheyer Mór 
+						<idno type="ITIdata">Q62425</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>KOLBENHEYER MÓR – ARANY JÁNOSNAK</title>
+					<supplied>
+						<placeName>
+							 Sopron 
+							<idno corresp="Sopron" type="ITIdata">Q238</idno>
+						</placeName>
+						 , 
+						<date when="1860-11-12">1860. november 12.</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">Verehrter Herr und Freund!</p>
+				<p xml:id="p.2">
+					 Sie haben sich meiner erinnert, wenn es auch nur durch Uebersendung
+					eines Circulares gewesen ist: 
+					<note type="critic">
+						<quote>Sie haben sich meiner erinnert, wenn es auch nur durch Uebersendung
+							eines Circulares gewesen ist</quote>
+						 – A Kisfaludy Társaság programjával
+						és a 
+						<title>SzF</title>
+						 megjelentetésével kapcsolatos kiadói körlevélről
+						lehet szó. Vesd össze 
+						<persName>
+							 Vadnay Károly 
+							<idno corresp="Vadnay Károly" type="ITIdata">Q50036</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1199. 
+						<ref target="ajom-17-lev.tei.1199"/>
+						<date when="1860-10">1860. okt.</date>
+						 , 2. jegyzet 
+					</note>
+					 so hat es mir
+					dem von allen Seiten Verfolgten und Geschmähten, doch wohl gethan. Es ist darum
+					billig, daß auch ich hinwieder Ihrer gedenke und ich thue es, in dem ich Ihnen
+					meine so eben vollendete Uebersetzung der beiden hohenpriesterlichen Gesänge
+					<persName>
+						 Vörösmarty 
+						<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+					</persName>
+					 s zusende. 
+					<note type="critic">
+						<quote>
+							 […] in dem ich Ihnen meine so eben vollendete Uebersetzung der
+							beiden hohenpriesterlichen Gesänge 
+							<persName>
+								 Vörösmarty 
+								<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+							</persName>
+							 s zusende 
+						</quote>
+						 – 
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						 a 
+						<title>Szózat</title>
+						 fordításának 
+						<title>Die Stimme des
+							Vaterlandes</title>
+						 , a 
+						<title>Fóti dal</title>
+						 énak 
+						<title>Das Lied von
+							Fót</title>
+						 címet adta. 
+						<bibl>
+							<abbr>Németh 1938.</abbr>
+						</bibl>
+						 mindkét fordítás kéziratából idéz egy-egy versszakot (47– 48.). Nem
+						találtuk nyomát annak, hogy a fordítások megjelentek volna; 
+						<persName>
+							 AJ
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 válaszáról sincs tudomásunk. 
+					</note>
+				</p>
+				<p xml:id="p.3">
+					 So viel ich weiß, existirt eine halbwegs genießbare Uebersetzung
+					weder vom 
+					<title>Szózat</title>
+					 , noch viel weniger vom 
+					<title>Fóti dal</title>
+					. 
+					<note type="critic">
+						<quote>
+							 So viel ich weiβ, existirt eine halbwegs genieβbare Uebersetzung
+							weder vom 
+							<title>Szózat</title>
+							 , noch viel weniger vom 
+							<title>Fóti
+								dal</title>
+						</quote>
+						 – A 
+						<title>Szózat</title>
+						 anonim fordítása 
+						<date when="1856">1856-ban</date>
+						 , valószínűleg 
+						<persName>
+							 Kertbeny Károly 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 tollából, 
+						<title>Aufruf!</title>
+						 címmel jelent meg ( 
+						<bibl>
+							<persName>
+								 Michael Vörösmarty 
+								<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+							</persName>
+							 : 
+							<title>Aufruf!</title>
+							 Ungarisch, deutsch, französisch,
+							italienisch. 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1856">1856.</date>
+							 R. Lampel 
+						</bibl>
+						 ).
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						<title>Aufruf!</title>
+						 c. 
+						<title>Szózat</title>
+						 - és 
+						<title>Fóti dal</title>
+						-fordítása egyaránt szerepel egy 
+						<date when="1857">1857-ben</date>
+						 megjelent
+						kötetben: 
+						<bibl>
+							<persName>
+								 Michael Vörösmarty 
+								<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+							</persName>
+							 : 
+							<title>Gedichte</title>
+							 . In eigenen und fremden
+							Uebersetzungen, 
+							<choice>
+								<orig>her.</orig>
+								<supplied>herausgegeben</supplied>
+							</choice>
+							 von 
+							<persName>
+								 K. M. Kertbeny 
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1857">1857.</date>
+							 R. Lampel.
+							<placeName>Leipzig</placeName>
+							 , 
+							<persName>
+								 G. E. Schultze 
+								<idno corresp="Schultze, G. E."/>
+							</persName>
+							 . XLV. 156 l. (61–64. és 80–88.) 
+						</bibl>
+					</note>
+					 Ich habe es versucht, beide Lieder in die deutsche Literatur einzuführen
+					und glaube, daß es mir nicht ganz mißlungen sei. Es wäre mir höchst erwünscht,
+					Ihre geneigte Ansicht darüber zu vernehmen. 
+				</p>
+				<p xml:id="p.4">
+					 Denn freilich hege ich hohe Gedanken. Ich möchte nichts Geringeres,
+					als daß 
+					<persName>
+						 Heckenast 
+						<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+					</persName>
+					 diesen zweifachen Hymnus der glühendsten Vaterlandsliebe zum Frommen
+					der Deutschen in Ungarn besonders und könnte es sein, mit typographischem
+					Glanze, abdrucken ließe. Die Kisfaludytársaság 
+					<sic/>
+					 wäre vielleicht in der
+					Lage, diesem Wunsche zur Verwirklichung zu verhelfen. Ich denke, daß ein Wort
+					von Ihnen bei 
+					<persName>
+						 Heckenast 
+						<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+					</persName>
+					 maßgebend sein müßte. 
+				</p>
+				<p xml:id="p.5">
+					 Und das ist freilich die einzige Weise, in welcher ich als
+					pártolója a’ Kisfaludytársaságnak 
+					<sic/>
+					 auftreten kann. Ein armer Pastor, der
+					acht lebende Kinder, zum Theil in weiter Ferne, und eine alte Schwiegermutter
+					erhalten muß, bedarf viel mehr selbst der Subvention, als daß er Institute und
+					moralische Körper zu unterstützen in der Lage wäre. 
+				</p>
+				<p xml:id="p.6">Noch Eins. Sollten Sie, Verehrter Herr und Freund, einen Werth
+					darauf legen, daß ungarische Dichtungen durch bessere Interpreten, als wie sich
+					deren Manche in letzterer Zeit vorgedrängt haben, der deutschen Lesewelt
+					zugänglich gemacht werden, so haben Sie doch die Güte, mir dasjenige näher zu
+					bezeichnen, was sich vorzugsweise dazu empfehlen möchte, ins Deutsche übertragen
+					zu werden.</p>
+				<p xml:id="p.7">Mit herzlichem Gruße</p>
+				<p xml:id="p.8">Ihr</p>
+				<p xml:id="p.9">aufrichtig ergebener</p>
+				<p xml:id="p.10">
+					<persName>
+						 Moritz Kolbenheyer 
+						<idno corresp="Kolbenheyer Móric"/>
+					</persName>
+				</p>
+				<p xml:id="p.11">
+					<placeName>
+						 Oedenburg 
+						<idno corresp="Sopron"/>
+					</placeName>
+					 , 
+					<date when="1860-11-12">12. Nov. 1860</date>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

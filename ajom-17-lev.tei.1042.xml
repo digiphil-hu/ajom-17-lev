@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1042" type="main">ARANY JÁNOS – TOMORI ANASZTÁZNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1042</idno>
+				<idno type="ITIdata">Q346450</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1042.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Válasz 
+						<persName>
+							 Tomori 
+							<idno corresp="Tomori Anasztáz" type="ITIdata">Q49893</idno>
+						</persName>
+						<date when="1858-11-14">1858. nov. 14-i</date>
+						 levelére (1041.) 
+						<ref target="ajom-17-lev.tei.1041"/>
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI II.</abbr>
+						 125–126. 
+					</bibl>
+					 (Emendálás az Arany László-féle
+					kiadáshoz képest: ott a műcímek kapitälchennel vannak szedve.) 
+					<bibl>
+						<abbr>AJLev</abbr>
+						 442–443. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Ismeretlen.</country>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio"/>
+									<dimensions unit="mm">
+										<height/>
+										<width/>
+									</dimensions>
+								</extent>
+								<condition>
+									<p/>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q346449</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Elveszett.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1858-11-17"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Tomori Anasztáz 
+						<idno type="ITIdata">Q49893</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – TOMORI ANASZTÁZNAK</title>
+					<placeName>
+						 Nagy-Kőrös 
+						<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+					</placeName>
+					 , 
+					<date when="1858-11-17">november 17. 1858.</date>
+				</head>
+				<p xml:id="p.1">
+					 Kedves barátom! Daczára félig-meddig tett igéretemnek, ne várj
+					engem 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 en. Nem, mintha szép vállalatod 
+					<note type="critic">
+						<quote>vállalatod</quote>
+						 – vállalkozásod 
+					</note>
+					 iránt kevesebb érdekkel
+					viseltetném; de bajos nekem most innen mozdulni, s aztán nélkülem szintúgy
+					elhatározhatjátok, én belenyugszom a többség akaratába. – Igéretemet, hogy én is
+					megkisértek egy vagy két darabot fordítani, nem vonom vissza; de magamat
+					bizonyos időhöz nem köthetem, mert sem időm, sem psychicai képességem nincs
+					folyvást dolgozni. Azt sem bánom, ha a már elhíresztelt 
+					<title>
+						 Midsummernights
+						<sic/>
+						 dream 
+					</title>
+					 mel 
+					<note type="critic">
+						<quote>
+							 a már elhíresztelt 
+							<title>
+								 Midsummernights 
+								<sic/>
+								 dream 
+							</title>
+							 mel
+						</quote>
+						 – A 
+						<title>Szent-Iván éji álom</title>
+						 mal 
+					</note>
+					 kezdek hozzá,
+					csak könyvem legyen, de az én 
+					<persName>
+						 Shakspeare 
+						<idno corresp="Shakespeare, William" type="ITIdata">Q514</idno>
+					</persName>
+					 met elpóétázta 
+					<persName>
+						 Gyulai Palkó 
+						<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+					</persName>
+					 , 
+					<note type="critic">
+						<quote>
+							 az én 
+							<persName>
+								 Shakspeare 
+								<idno corresp="Shakespeare, William" type="ITIdata">Q514</idno>
+							</persName>
+							 met elpóétázta 
+							<persName>
+								 Gyulai Palkó 
+								<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+							</persName>
+						</quote>
+						 – lásd 
+						<persName>
+							 Gyulai 
+							<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1048. 
+						<ref target="ajom-17-lev.tei.1048"/>
+						<date when="1858-11-28">1858. nov. 28.</date>
+						 és 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<date when="1858-12-22">1858. dec. 22-i</date>
+						 válaszát (1055.) 
+						<ref target="ajom-17-lev.tei.1055"/>
+					</note>
+					 – annak nem tudom, mikor nézek a szeme közé. Jó lenne talán a legjobb,
+					magyarázatos és jegyzetes 
+					<persName>
+						 Shakspeare 
+						<idno corresp="Shakespeare, William" type="ITIdata">Q514</idno>
+					</persName>
+					 t (ha 
+					<persName>
+						 Delius 
+						<idno corresp="Delius, Nikolaus"/>
+					</persName>
+					 az, hát azt 
+					<note type="critic">
+						<quote>
+							 ha 
+							<persName>
+								 Delius 
+								<idno corresp="Delius, Nikolaus"/>
+							</persName>
+							 az, hát azt 
+						</quote>
+						 – 
+						<title>Shakspeare’s Werke</title>
+						 .
+						<persName>
+							 Nikolaus Delius 
+							<idno corresp="Delius, Nikolaus"/>
+						</persName>
+						 ( 
+						<date from="1813" to="1888">1813–1888</date>
+						 ) német
+						irodalomtörténész 7 kötetes Shakespeare-kiadása ( 
+						<date from="1854" to="1861">1854–1861</date>
+						 ) – 
+						<title>A Shakespeare magyaritása
+							ügyében</title>
+						 c. híradás ( 
+						<bibl>
+							<abbr>SzépirodKözl</abbr>
+							<date when="1858">1858.</date>
+							 II. 22. sz. 
+							<date when="1858-12-16">dec.
+								16.</date>
+							 351–352. 
+						</bibl>
+						 ) a következő részleteket idézte
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 leveléből: a fordításhoz „a jó angol szöveg, a legjobb
+						magyarázatos és jegyzetes 
+						<persName>
+							 Shakespeare 
+							<idno corresp="Shakespeare, William" type="ITIdata">Q514</idno>
+						</persName>
+						 ”, tehát 
+						<persName>
+							 Delius 
+							<idno corresp="Delius, Nikolaus"/>
+						</persName>
+						 kiadása szükséges. „Mi magát a forditást illleti, arra nézve
+						<persName>
+							 Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 és mindnyájunk véleménye oda megy ki: »legyen a forditás eszme-
+						és alakhü, mégis szabad (azaz: ne szolgai); tehát vers, verssel, ha lehet
+						ugyanannyi sorral adassék vissza. Jegyzés csak annyi kell, hogy a szöveg
+						érthetlen ne maradjon, péld. ha ismeretlen tárgy, név stb. kiván
+						magyarázatot; de aesthetikai kommentárok erdejébe bonyolodni 
+						<sic/>
+						 nem
+						kell. A forditó ne csak a szinpadot, de az olvasó közönséget is szem előtt
+						tartsa; tehát hatályosság mellett választékos és korrekt is igyekezzék
+						lenni, – a magyarság mellett kerülje a bundaszagot.«” 
+					</note>
+					 ) megszerezni
+					a vállalat számára s darabonkint odakölcsönözni a fordítóknak, – már csak azért
+					is, hogy mindenki jó szöveget használjon. A mi a fordítást magát illeti, arra
+					nézve az én véleményem ide megy ki: legyen 
+					<hi rend="italic">eszme</hi>
+					 - és 
+					<hi rend="italic">alakhű</hi>
+					 , mégis 
+					<hi rend="italic">szabad</hi>
+					 (azaz ne
+					szolgai); tehát vers verssel, ha lehet ugyanannyi sorral, adassék vissza stb. A
+					kiadás 1/16 formatumban, füzetekben, úgy, hogy minden füzet egy kolomposabb
+					<note type="critic">
+						<quote>kolomposabb</quote>
+						 – irányadóbb, élenjáróbb 
+					</note>
+					 drámát és egy
+					ritkábban olvasott színművet tartalmazna, péld.: 
+					<title>Othello</title>
+					 –
+					<title>Téli rege</title>
+					 . Pazar nyomtatás nem kell, csak mint a lipcsei
+					stereotyp 
+					<note type="critic">
+						<quote>csak mint a lipcsei stereotyp</quote>
+						 – 
+						<bibl>
+							<title>W. Shakespeare’s Sämmtliche Werke</title>
+							 . Im Verein mit
+							Mehreren übersetzt, und herausgegeben von 
+							<persName>
+								 Julius Körner 
+								<idno corresp="Körner, Julius"/>
+							</persName>
+							 . Mit 40 Holzschnitten vermehrte Ausgabe.
+							<placeName>Leipzig</placeName>
+							 , Baumgärtner, 
+							<date when="1838">1838</date>
+						</bibl>
+						 vagy 
+						<bibl>
+							<title>Familien- Shakspeare</title>
+							 . Eine zusammenhängende Auswahl aus
+							Shakspeare’s Werken in deutscher metrischer Übertragung. Mit
+							Einleitungen, erläuternden Anmerkungen und einer Biographie des
+							Dichters, von dr. 
+							<choice>
+								<orig>O. L. B.</orig>
+							</choice>
+							<persName>
+								 Oskar Ludwig Bernhard Wolff 
+								<idno corresp="Wolff, Oskar Ludwig Bernhard"/>
+							</persName>
+							 . 
+							<placeName>Leipzig</placeName>
+							 , W. Jurany, 
+							<date when="1849">1849.</date>
+						</bibl>
+					</note>
+					 – így olcsóbban adható, s inkább elterjed. Jegyzés csak annyi, hogy a
+					szöveg érthetlen ne maradjon: péld.: ha ismeretlen tárgy, név stb. kiván
+					magyarázatot; de aestheticai commentárok erdejébe bonyolodni nem kell. A fordító
+					ne csak a színpadot, de az olvasó közönséget is szem előtt tartsa: tehát
+					hatályosság mellett választékos, és correct is igyekezzék lenni – s a magyarság
+					mellett kerülje a bundaszagot. Dixi. 
+					<note type="critic">
+						<quote>Dixi</quote>
+						 – megmondottam (lat.) 
+					</note>
+				</p>
+				<p xml:id="p.2">Isten veled, édes barátom, tudósits a tanácskozmány eredményéről,
+					addig is vedd baráti jobbomat!</p>
+				<p xml:id="p.3">
+					<persName>
+						 Arany J. 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

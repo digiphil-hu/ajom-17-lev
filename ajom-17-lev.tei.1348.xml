@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1348" type="main">ARANY JÁNOS – LAUKA GUSZTÁVNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1348</idno>
+				<idno type="ITIdata">Q482082</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1348.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Lauka Gusztáv 
+							<idno corresp="Lauka Gusztáv" type="ITIdata">Q56286</idno>
+						</persName>
+						 ( 
+						<date from="1820" to="1902">1820–1902</date>
+						 ): 
+						<date from="1855">1855-től</date>
+						<placeName>
+							 Nagyvárad 
+							<idno type="ITIdata">Q96</idno>
+						</placeName>
+						 on hivatalnok, 
+						<date from="1860">1860-tól</date>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest" type="ITIdata">Q93</idno>
+						</placeName>
+						 en helytartótanácsi tisztviselő. E korszakbeli művei egyebek
+						között a következő lapokban és folyóiratokban jelentek meg:
+						<title>Nőv</title>
+						 , 
+						<title>GyőriKözl</title>
+						 ,
+						<title>SzépirodKözl</title>
+						 , 
+						<title>Dcs</title>
+						 , 
+						<title>MS</title>
+						 ,
+						<title>SzF</title>
+						 , 
+						<title>CsalKör</title>
+						 ; kötete:
+						<title>Megtörténtek és megtörténhetők</title>
+						 ( 
+						<date when="1858">1858</date>
+						 ). – Kötetünk ezt a hozzá írt levelet közli. 
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>Scheiber 1977.</abbr>
+						 868. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Ismeretlen.</country>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>320</height>
+										<width>145</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 kékesszürke fol. koronás BATH-nyomattal,. 32x14,5 cm. 1.
+										levél, 2–3. üres, 4.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471319</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1861-10-08"/>
+				<placeName>
+					 Budapest 
+					<idno type="ITIdata">Q93</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Lauka Gusztáv 
+						<idno type="ITIdata">Q56286</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+				<correspAction type="address">
+					<p>
+						<supplied>címzés:</supplied>
+					</p>
+					<p>
+						 Tekintetes 
+						<hi rend="underline">
+							<persName>
+								 Lauka Gusztáv 
+								<idno corresp="Lauka Gusztáv" type="ITIdata">Q56286</idno>
+							</persName>
+						</hi>
+					</p>
+					<p>úrnak, tiszt.</p>
+					<p>
+						<hi rend="underline">
+							<placeName>
+								 Pest 
+								<idno corresp="Pest" type="ITIdata">Q93</idno>
+							</placeName>
+						</hi>
+					</p>
+					<p>Belváros, Lipót utcza</p>
+					<p>1. szám</p>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – LAUKA GUSZTÁVNAK</title>
+					<placeName>
+						 Pest 
+						<idno corresp="Pest" type="ITIdata">Q93</idno>
+					</placeName>
+					 , 
+					<date when="1861-10-08">october 8. 1861.</date>
+				</head>
+				<p xml:id="p.1">
+					 Édes 
+					<persName>
+						 Guszti 
+						<idno corresp="Lauka Gusztáv" type="ITIdata">Q56286</idno>
+					</persName>
+					 m! 
+				</p>
+				<p xml:id="p.2">
+					 Szemfájásom s egyéb bajaim miatt alig mehetvén ki hazulról, kérlek,
+					légy szíves a szívesen megigért novellát vagy humoreszket hozzám elküldeni.
+					<note type="critic">
+						<quote>légy szíves a szívesen megigért novellát vagy humoreszket hozzám
+							elküldeni</quote>
+						 – 
+						<persName>
+							 Lauká 
+							<idno corresp="Lauka Gusztáv" type="ITIdata">Q56286</idno>
+						</persName>
+						 nak három novellája jelent meg a 
+						<title>SzF</title>
+						 -ben:
+						<title>Egy újkori amazon</title>
+						 (I. 30. sz. 
+						<date when="1861-05-30">1861. máj. 30.</date>
+						 474–476.), 
+						<title>Egy nyár Pesten</title>
+						 (I. 51.
+						sz. 
+						<date when="1861-10-24">1861. okt. 24.</date>
+						 810–813., 52. sz. 
+						<date when="1861-10-31">1861. okt. 31.</date>
+						 825–828.) és
+						<title>Művészetragály</title>
+						 (II. II. 20. sz. 
+						<date when="1862-09-18">1862. szept. 18.</date>
+						 311–315, 21. sz. 
+						<date when="1862-09-25">1862.
+							szept. 25.</date>
+						 330–333, 22. sz. 
+						<date when="1862-10-02">1862. okt.
+							2.</date>
+						 345–347.); ezek közül a másodikról van szó 
+					</note>
+					 Ingyen nem
+					kívánom többé, miután az „ 
+					<title>Ördög</title>
+					 ” neked sem tolja többé a pénzt,
+					<note type="critic">
+						<quote>
+							 az „ 
+							<title>Ördög</title>
+							 ” neked sem tolja többé a pénzt 
+						</quote>
+						 –
+						<persName>
+							 Lauka 
+							<idno corresp="Lauka Gusztáv" type="ITIdata">Q56286</idno>
+						</persName>
+						<title>Ördög naplója</title>
+						 c., hetenként megjelenő élclapja ( 
+						<date from="1861-03-29" to="1861-06-28">1861. márc. 29.– 1861. jún. 28.</date>
+						). Vesd össze 
+						<bibl>
+							<abbr>MST</abbr>
+							 II/1. 655. 
+						</bibl>
+					</note>
+					 hanem szerény scalám szerint (íve 30 ft) köszöntettel fog 
+					<del>lak</del>
+					<add type="corr">om</add>
+					 díjazni műveidet. 
+				</p>
+				<p xml:id="p.3">Légy jó egészségben!</p>
+				<p xml:id="p.4">btod</p>
+				<p xml:id="p.5">
+					<persName>
+						 Arany J. 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

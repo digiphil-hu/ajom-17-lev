@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1327" type="main">ARANY JÁNOS – KAZINCZY GÁBORNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1327</idno>
+				<idno type="ITIdata">Q482061</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1327.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p/>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Petőfi Irodalmi Múzeum</institution>
+						<repository/>
+						<idno>V. 4713/48/1</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>240</height>
+										<width>210</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 Az 1. oldal jobb felső sarkában piros tintával: 16. 762-D.
+										Ugyanott felül fekete ceruzával: 
+										<hi rend="underline">
+											<placeName>
+												 Csurgo 
+												<idno corresp="Csurgó" type="ITIdata">Q10879</idno>
+											</placeName>
+										</hi>
+										 . Ugyanott baloldalt kék ceruzával: L 342. Ugyanott
+										jobboldalt lenn kék ceruzával: 
+										<persName>
+											 Kazinczy 
+											<idno corresp="Kazinczy Gábor" type="ITIdata">Q152549</idno>
+										</persName>
+										 . A 4. oldalon pecsét: 
+										<persName>
+											 Darnay Kálmán
+											<idno corresp="Darnay Kálmán" type="ITIdata">Q240799</idno>
+										</persName>
+										 kéziratgy. 
+										<placeName>
+											 Sümeg 
+											<idno type="ITIdata">Q9331</idno>
+										</placeName>
+										 ben 67. 2 csontszínű fol. 34x21 cm. 1. levél,
+										2–3. üres, 4. Piros pecsét Kisfaludy-Társaság felirattal.
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471298</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1861-08-04"/>
+				<placeName>
+					 Budapest 
+					<idno type="ITIdata">Q93</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Kazinczy Gábor 
+						<idno type="ITIdata">Q152549</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+				<correspAction type="address">
+					<p>
+						<supplied>címzés:</supplied>
+					</p>
+					<p>
+						<hi rend="underline">A Kisfaludy-társaság igazgatójától.</hi>
+					</p>
+					<p>
+						 Tekintetes 
+						<hi rend="underline">
+							<persName>
+								 Kazinczy Gábor 
+								<idno corresp="Kazinczy Gábor" type="ITIdata">Q152549</idno>
+							</persName>
+						</hi>
+						 m. akad. 
+					</p>
+					<p>tag, s országgy. képviselő urnak, a Kis-</p>
+					<p>faludy-társaság tagjának, tisztelettel.</p>
+					<p>
+						<hi rend="underline">Hivatalosan.</hi>
+					</p>
+					<p>
+						<hi rend="underline">
+							<placeName>
+								 Pest 
+								<idno corresp="Pest" type="ITIdata">Q93</idno>
+							</placeName>
+							 en. 
+						</hi>
+					</p>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – KAZINCZY GÁBORNAK</title>
+					<supplied>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest" type="ITIdata">Q93</idno>
+						</placeName>
+						 , 
+						<date when="1861-08-04">1861. augusztus 4.</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">Tekintetes Ur!</p>
+				<p xml:id="p.2">67.</p>
+				<p xml:id="p.3">Van szerencsém a Kisfaludy-társaságnak alább másolatban olvasható
+					végzése nyomán fölkérni, hogy székfoglalóját megtartani méltóztassék, annak
+					határnapjáról, valamint arról is, melyik tag által kivánja magát bevezettetni,
+					engem előre tudósítván.</p>
+				<p xml:id="p.4">Ki teljes tisztelettel maradok</p>
+				<p xml:id="p.5">A Tekintetes urnak</p>
+				<p xml:id="p.6">
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 en, 
+					<date when="1861-08-04">
+						 aug. 4 
+						<hi rend="super">én</hi>
+						 1861
+					</date>
+				</p>
+				<p xml:id="p.7">alázatos szolgája</p>
+				<p xml:id="p.8">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.9">igazgató.</p>
+				<p xml:id="p.10">
+					 ./. Kivonat a Kisfaludy-társaságnak 
+					<date when="1861-07-25">
+						 f. é.
+						jul. 25 
+						<hi rend="super">én</hi>
+					</date>
+					 tartott rendes havi űlése jegyzőkönyvéből. 
+					<note type="critic">
+						<quote>
+							 Kivonat a Kisfaludy-társaságnak 
+							<date when="1861-07-25">
+								 f. é. jul.
+								25 
+								<hi rend="super">én</hi>
+							</date>
+							 tartott rendes havi űlése jegyzőkönyvéből 
+						</quote>
+						 – Ezen az
+						ülésen 
+						<persName>
+							 Toldy Ferenc 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 elnökölt, rajta kívül részt vett 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 , 
+						<persName>
+							 Greguss Ágost 
+							<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+						</persName>
+						 , 
+						<persName>
+							 Kazinczy Gábor 
+							<idno corresp="Kazinczy Gábor" type="ITIdata">Q152549</idno>
+						</persName>
+						 , 
+						<persName>
+							 Kiss Károly 
+							<idno corresp="Kiss Károly" type="ITIdata">Q58114</idno>
+						</persName>
+						 és 
+						<persName>
+							 Tóth Lőrinc 
+							<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+						</persName>
+						 . Hasonló szövegű értesítést kapott, azonos keltezéssel,
+						<persName>
+							 Gyulai 
+							<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+						</persName>
+						 is: 
+						<bibl>
+							<abbr>GyPLev</abbr>
+							 682. 
+						</bibl>
+						 (Regesta, 27.); 
+						<bibl>
+							<abbr>AJÖM XIII.</abbr>
+							 405–406. 
+						</bibl>
+					</note>
+				</p>
+				<p xml:id="p.11">
+					 3.) Az alapszabályok 17-dik §-a szerint az ujonnan választott
+					tagnak a társaság munkálkodási körébe eső előadással kellvén helyét elfoglalni,
+					pályamunkák nem létében pedig az idei 
+					<title>Évlapok</title>
+					 szépműtani s
+					szépirodalmi része szinte kizárólag az uj tagok beköszöntőire levén szorúlva: 
+				</p>
+				<p xml:id="p.12">
+					 A helytartó elnök indítványára határozattá lőn, hogy az igazgató a
+					még be nem köszöntött tagokat székfoglaló előadásaiknak a jelen év folytában
+					megtartására szólitsa föl. Kiadta 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 en 
+					<date when="1861-07-27">jul. 27-dikén 1861.</date>
+					<persName>
+						 Greguss Ágost 
+						<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+					</persName>
+					 , titoknok. 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

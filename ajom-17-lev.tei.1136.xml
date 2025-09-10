@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1136" type="main">ACHILLE MILLIEN – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1136</idno>
+				<idno type="ITIdata">Q481873</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1136.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 669. 
+						</bibl>
+						 ) 
+						<persName>
+							 Achille Millien
+							<idno corresp="Millien, Achille"/>
+						</persName>
+						 ( 
+						<date from="1838" to="1927">1838–1927</date>
+						 ) verseskötete
+						<title>La Moisson</title>
+						 ( 
+						<title>Az aratás</title>
+						 ) címmel jelent meg
+						<date when="1860">1860-ban</date>
+						 , 
+						<placeName>
+							 Párizs 
+							<idno type="ITIdata">Q131</idno>
+						</placeName>
+						 ban. Lásd róla 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<title>Millien: La Moisson</title>
+						 c. bírálatát: 
+						<bibl>
+							<abbr>SzF</abbr>
+							 I. 27. sz. 
+							<date when="1861-05-09">1861. máj. 9.</date>
+							422–425. 
+						</bibl>
+						 és 
+						<bibl>
+							<abbr>AJÖM XI.</abbr>
+							 171–178. Jegyzet hozzá: 692–700. 
+						</bibl>
+						 (
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 szinte bizonyosan elküldte válaszlevelét, erre nézve azonban nem
+						ismerünk hivatkozást.) 
+					</p>
+					<p>Magyarul:</p>
+					<p>
+						<placeName>
+							 Beaumont-la-Ferrière, par Prémery (Nièvre) 
+							<idno type="ITIdata">Q351056</idno>
+						</placeName>
+						 ), 
+					</p>
+					<p>
+						<date when="1860-01-02">1860. január 2.</date>
+					</p>
+					<p>Tisztelt Uram, kiváló Mester!</p>
+					<p>
+						 Nemrégiben egy versgyűjteményt adtam ki, amelynek előszavát tudós tanítóm és
+						barátom, 
+						<persName>
+							 Thalès Bernard 
+							<idno corresp="Bernard, Thalès"/>
+						</persName>
+						 (akit ön is ismer) volt szíves megírni. Arra törekedtem, hogy
+						átvigyek valamit a mi francia versünkbe abból a természetes nyíltságból és
+						érzékenységből, ami a népdalok sajátja, és amellyel ön olyan jól tudta
+						áthatni szép költészetét. Nem mulaszthatom el, hogy el ne küldjem önnek az
+						én kötetemet: levelemmel egyidőben fog megérkezni. Ne értéke miatt fogadja
+						el, kiváló Mester, hanem mint az ön munkái iránti bámulat keltette érzések
+						tisztelgését. 
+					</p>
+					<p>Remélem, őszintén fogalmazza majd meg véleményét verseimről; hálás leszek
+						mindenért, amit ön mondani fog, s kérem, fogadja együttérző és
+						tiszteletteljes hódolatom kifejezését.</p>
+					<p>
+						<persName>
+							 Achille Millien 
+							<idno corresp="Millien, Achille"/>
+						</persName>
+					</p>
+					<p>író</p>
+					<p>
+						<placeName>
+							 Beaumont-la-Ferrière, par Prémery (Nièvre) 
+							<idno type="ITIdata">Q351056</idno>
+						</placeName>
+						 France 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/1282</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">1</measure>
+									<dimensions unit="mm">
+										<height>214</height>
+										<width>134</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>Gyászkeretes, csontszínű fol., 21,4x13,4 cm. 1–3. levél, 4.
+										üres.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471107</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-01-02"/>
+				<placeName>
+					 Beaumont-la-Ferrière 
+					<idno type="ITIdata">Q351056</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Achille Millien 
+						<idno type="ITIdata">Q470012</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ACHILLE MILLIEN – ARANY JÁNOSNAK</title>
+					<placeName>
+						 Beaumont-la-Ferrière, par Prémery (Nièvre) 
+						<idno corresp="Beaumont-la-Ferrière, par Prémery (Nièvre)" type="ITIdata">Q351056</idno>
+					</placeName>
+					<date when="1860-01-02">le 2 janvier 1860.</date>
+				</head>
+				<p xml:id="p.1">Monsieur et illustre poëte</p>
+				<p xml:id="p.2">
+					 J’ai publié récemment un Recueil de poésies dont mon savant maître
+					et ami 
+					<persName>
+						 Thalès Bernard 
+						<idno corresp="Bernard, Thalès"/>
+					</persName>
+					 (que vous connaissez) a bien voulu faire la préface. 
+					<note type="critic">
+						<quote>
+							 J’ai publié récemment un Recueil de poésies dont mon savant maître
+							et ami 
+							<persName>
+								 Thalès Bernard 
+								<idno corresp="Bernard, Thalès"/>
+							</persName>
+							 (que vous connaissez) a bien voulu faire la préface 
+						</quote>
+						– 
+						<persName>
+							 Thalès Bernard 
+							<idno corresp="Bernard, Thalès"/>
+						</persName>
+						 ( 
+						<date from="1821" to="1873">1821–1873</date>
+						 ) bevezetését
+						lásd 
+						<bibl>
+							<abbr>AJÖM XI.</abbr>
+							 695–696. 
+						</bibl>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 róla is írt: 
+						<bibl>
+							<title>Thalès Bernard</title>
+							 , 
+							<abbr>SzF</abbr>
+							 I. 6. sz. 
+							<date when="1860-12-12">1860. dec.12.</date>
+							 94. 
+						</bibl>
+						 és 
+						<bibl>
+							<abbr>AJÖM XI.</abbr>
+							 40–41. Jegyzet hozzá: 644. 
+						</bibl>
+					</note>
+					 Je 
+					<choice>
+						<orig>mesuis</orig>
+						<supplied>me suis</supplied>
+					</choice>
+					 efforcé de faire passer dans notre vers français quelque chose de
+					l’ingénuité et de la sensibilité qui sont l’apanage des chants populaires et
+					dont vous avez si bien su empreindre votre belle poésie. Je ne peux manquer de
+					vous adresser mon volume; 
+					<del>et</del>
+					 il vous arrivera en même temps que cette
+					lettre. 
+				</p>
+				<p xml:id="p.3">
+					 Agréez-le, Monsieur et illustre Maître, moins pour ce qu’il vaut
+					que comme l’hommage 
+					<choice>
+						<orig>demes</orig>
+						<supplied>de mes</supplied>
+					</choice>
+					 sentiments d’admiration pour vos ouvrages. 
+				</p>
+				<p xml:id="p.4">
+					 J’espère que vous ne refuserez pas 
+					<choice>
+						<orig>dem’exprimer</orig>
+						<supplied>de m’exprimer</supplied>
+					</choice>
+					 franchement Votre opinion sur mes vers; je vous serai reconnaissant de
+					tout ce que Vous voudrez bien 
+					<choice>
+						<orig>medire</orig>
+						<supplied>me dire</supplied>
+					</choice>
+					 et je vous prie de recevoir l’assurance de mon sympathique et
+					respectueux dévouement 
+				</p>
+				<p xml:id="p.5">
+					<persName>
+						 Achille Millien 
+						<idno corresp="Millien, Achille"/>
+					</persName>
+				</p>
+				<p xml:id="p.6">homme de lettres</p>
+				<p xml:id="p.7">
+					 à 
+					<placeName>Beaumont-la-Ferrière, par Prémery Nièvre
+						France</placeName>
+				</p>
+				<p xml:id="p.8"> – </p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1171" type="main">SZABÓ KÁROLY – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1171</idno>
+				<idno type="ITIdata">Q481907</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1171.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 603. 
+						</bibl>
+						 ) 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/458</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>222</height>
+										<width>142</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 csontszínű, középen beszakadt fol., magyar címeres
+										nyomattal, „ÁLDÁS HAZÁNKNAK” felirattal. 22,2x14,2 cm. 1–4.
+										levél.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471142</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-08-04"/>
+				<placeName>
+					 Kolozsvár 
+					<idno type="ITIdata">Q258</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Szabó Károly 
+						<idno type="ITIdata">Q150607</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>SZABÓ KÁROLY – ARANY JÁNOSNAK</title>
+					<hi rend="underline">
+						<placeName>
+							 Kolozsvár 
+							<idno corresp="Kolozsvár" type="ITIdata">Q258</idno>
+						</placeName>
+						<date when="1860-08-04">aug. 4. 1860.</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">Kedves barátom!</p>
+				<p xml:id="p.2">
+					 Erősen föltett szándékom volt, igaz lelkemre mondom, majd minden
+					nap készűltem, hogy igéretem szerint, ha csak röviden is tudósitsalak
+					helyzetemről: de részint magán házi bajaim, részint hivatalos töméntelen dolgom,
+					míg a halomra gyült könyvtárt, régiség- és éremtárt csak türhetően is rendeztem,
+					<note type="critic">
+						<quote>részint hivatalos töméntelen dolgom, míg a halomra gyült könyvtárt,
+							régiségés éremtárt csak türhetően is rendeztem</quote>
+						 – az Erdélyi
+						Múzeum Egylet közgyűlése 
+						<date when="1859-11-25">1859. nov. 25-én</date>
+						választotta meg 
+						<persName>
+							 Szabó Károly 
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						 t könyvtárosává, aki 
+						<date when="1860-06">1860 júniusában</date>
+						költözött 
+						<placeName>Kolozsvár</placeName>
+						 ra 
+					</note>
+					 minden időmet és
+					erőmet igénybe vévén, magánlevelezésemet napról napra halogattam; annyival is
+					inkább mert meghülés következtében csak nem az egész 
+					<date when="1860-07">mult
+						hónapban</date>
+					 félbeteg voltam, e mellett azon tudósitás, hogy atyám 
+					<date when="1860-07">julius</date>
+					 közepe felé csak nem halálos betegségben
+					szenvedett, s én látogatására nem siethettem, lelkemet is leverte. Szegény atyám
+					most már a halál veszedelmén tul van ugyan, s minap képes volt saját kezével
+					irni hozzám, de betegsége olyan, melyből 70 éves öregnek kigyógyúlni kevés
+					reménye lehet, s az orvosok is alig merik előbbi egészségével biztatni. Mihelyt
+					körülményeim engedik, azonnal sietek 
+					<placeName>Békés</placeName>
+					 be, 
+					<note type="critic">
+						<quote>
+							 Mihelyt körülményeim engedik, azonnal sietek
+							<placeName>Békés</placeName>
+							 be 
+						</quote>
+						 – 
+						<persName>
+							 Szabó Károly
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						 apja, 
+						<persName>Szabó Mihály</persName>
+						 ott volt ref. lelkész
+					</note>
+					 s ez alkalommal 
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 t s ha lehet 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 et is meglátogatom. Reménylem még akkor 
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ön talállak. 
+				</p>
+				<p xml:id="p.3">
+					 Talán levelemet még néhány napig halogattam volna, ha lelkemet föl
+					nem villanyozza azon tudósitás, hogy a Kisfaludy Társaság igazgatójává el vagy
+					választva. 
+					<note type="critic">
+						<quote>ha lelkemet föl nem villanyozza azon tudósitás, hogy a Kisfaludy
+							Társaság igazgatójává el vagy választva</quote>
+						 – lásd 
+						<title>PN</title>
+						<date when="1860-08-02">1860. aug. 2.</date>
+					</note>
+					 Hidd el, hogy ez minden jó barátodra, minden magyar emberre nézve valódi
+					örömhír volt. Nekem valóban titkolhatatlan a legőszintébb örömöm, hogy a
+					gondviselés eddigi test- és lélekölő hivatalodtól megszabaditott, s oly állásba
+					helyez, melyre igazán hivatva vagy, melyben lelked örömét fogja találni, s
+					melyben nemzeti irodalmunk javára oly igen sokat tehetsz. Én mint szóval is
+					régebben gyakran mondtam, szivemből szerencsét kivánok pesti szebb és jobb
+					állásodhoz, s feszűlt érdekkel várom tudósitásodat, – melyet reménylem nem
+					tagadsz meg tőlem, – mikor szándékozol 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 re költözni, hol bizonyosan valamint magad, ugy családod
+					boldogabbnak fogja magát érezni. 
+				</p>
+				<p xml:id="p.4">
+					 Az én 
+					<placeName>Kolozsvár</placeName>
+					 ra költözésem
+					hasonlithatatlanúl több testi és lelki törödéssel s anyagi kárral járt, mint a
+					te leendő 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 re telepedésed; hivatalom is az első években rendkivül terhes: még
+					is szerencsésnek érzem magamat anyagilag nehéz helyzetemben is mert állásom
+					lelkem vágyainak megfelel s egy pár év mulva, ha könyvtárunk s mellette az én
+					lakásom a muzeumi kertben meg lesz épitve, teljes lelki nyugalommal azon
+					munkakörnek élhetek, melyre lelkem vonzalmat érez. 
+				</p>
+				<p xml:id="p.5">
+					 Nőm is, miután a ház elrendezésének nehéz bajain tul estünk, mind
+					inkább otthonosan érzi magát 
+					<placeName>Kolozsvár</placeName>
+					 tt; igazán kedves
+					barátnéi köre van, s ha a házi gondoktól egy két órára szabadulni akar, a
+					gyönyörü sétateren, szinházban, concertekben stb. több szórakozást és szellemi
+					élvezetet talál, mint 
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ön találhatott. Csak néhány barátnéját sajnálja, kiket nem tud
+					feledni. 
+				</p>
+				<p xml:id="p.6">
+					 Én is részem 
+					<add type="corr">r</add>
+					 ől a collegatust 
+					<note type="critic">
+						<quote>collegatust</quote>
+						 – tantestületet (lat.) 
+					</note>
+					 sajnálom, melyben
+					annyi jó órát töltöttem: de ha elgondolom, mily jövő vár e testűletre – melyet
+					mint hirlapból olvasom az egyháztanácsból is ki akarnak taszitni 
+					<note type="critic">
+						<quote>de ha elgondolom, mily jövő vár e testűletre – melyet mint hirlapból
+							olvasom az egyháztanácsból is ki akarnak taszitni</quote>
+						 – a nagykőrösi
+						megüresedett lelkészi állás körüli vitát eldöntendő (hogy tudniillik egy
+						vagy két lelkész kövesse-e a lemondott 
+						<persName>Báthory Gábor</persName>
+						t), az egyházmegye esperese, 
+						<persName>Miskolczi István</persName>
+						 által
+						kinevezett bizottság azt a nézetét mondta ki, hogy „az egyháztanácsból a
+						tanárok kirekesztendők” ( 
+						<title>PN</title>
+						<date when="1860-08-02">1860. aug. 2.</date>
+						 ) 
+					</note>
+					 – örülök, hogy még e
+					gyalázat előtt szabadultam 
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ről, 
+					<note type="critic">
+						<quote>
+							 örülök, hogy még e gyalázat előtt szabadultam 
+							<placeName>
+								 Kőrös
+								<idno corresp="Nagykőrös"/>
+							</placeName>
+							 ről 
+						</quote>
+						 – 
+						<persName>
+							 Szabó Károly 
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						<date from="1855" to="1860-02">1855-től 1860 febr.</date>
+						 végéig tanított
+						<placeName>Nagykőrös</placeName>
+						 ön 
+					</note>
+					 s hiszem hogy minden, ki
+					magát béressé aljasítni nem örömest engedi, kézzel lábbal törekedni fog, hogy
+					szabaduljon ez iskolától, melynek az én hitem szerint, a hogy az ügyek
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ön fejlődni indultak, jövője többé alig alig reménylhető. 
+				</p>
+				<p xml:id="p.7">
+					<persName>
+						 Kiss Lajos 
+						<idno corresp="Kiss Lajos" type="ITIdata">Q171126</idno>
+					</persName>
+					 t lelkemből sajnálom, 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Kiss Lajos 
+								<idno corresp="Kiss Lajos" type="ITIdata">Q171126</idno>
+							</persName>
+							 t lelkemből sajnálom 
+						</quote>
+						 – 
+						<persName>
+							 Kiss Lajos 
+							<idno corresp="Kiss Lajos" type="ITIdata">Q171126</idno>
+						</persName>
+						 t a budai kerület protestáns tanfelügyelőjévé nevezték ki
+					</note>
+					 mint azon kormányrendszer áldozatját, melynek mi voltát ő, az őszinte
+					becsűletes lelkű s egyoldalúlag csak tudományoknak élő ember, fölfogni nem
+					birta. Nem kétlem, hogy ő bármi egyszerű, elvonult állapotban boldogabb lesz,
+					mint budai magos állásában; de mi ad neki kárpótlást azon lelki
+					nyugtalanságokért, melyeket kellemetlen helyzetében éreznie kellett, s elismert
+					tiszta lelke védheti-é őt azon kárörvendő guny nyilaitól, melyektől, a mint az
+					embereket ismerem, a hol legjobban ismer 
+					<add type="corr">i</add>
+					 k, még
+					<placeName>
+						 Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 ön sem hiszem hogy ment lehessen. 
+				</p>
+				<p xml:id="p.8">
+					 A kolozsvári eseményeket: az oláh fraternizálást gr. 
+					<persName>
+						Teleki Domokos 
+						<idno corresp="Teleki Domokos" type="ITIdata">Q246512</idno>
+					</persName>
+					 fáklyás zenéjét stb. hirlapból bizonyosan olvastad. 
+					<note type="critic">
+						<quote>
+							 A kolozsvári eseményeket: az oláh fraternizálást gr. 
+							<persName>
+								Teleki Domokos 
+								<idno corresp="Teleki Domokos" type="ITIdata">Q246512</idno>
+							</persName>
+							 fáklyás zenéjét stb. hirlapból bizonyosan olvastad 
+						</quote>
+						– 
+						<date when="1860-07-27">1860. júl. 27-én</date>
+						<persName>
+							 Reményi 
+							<idno corresp="Reményi Ede"/>
+						</persName>
+						 kolozsvári hangversenyén „román nemzeti dalok játszására lőn
+						fölszólitva”; az ezt követő díszvacsorán mindkét nép képviselői részéről a
+						magyar–román testvériséget éltető beszédek hangzottak el ( 
+						<bibl>
+							<title>Román–magyar testvériség!</title>
+							<abbr>PN</abbr>
+							<date when="1860-08-01">1860. aug. 1.</date>
+						</bibl>
+						 ) 
+					</note>
+					 Nagyszerűben ment a dolog; azolta hallomás szerint
+					<placeName>Naszód</placeName>
+					 körül volt roppant oláh gyülekezet, 2
+					püspökkel; mit végeztek, nem tudjuk. 
+					<note type="critic">
+						<quote>
+							 azolta hallomás szerint 
+							<placeName>Naszód</placeName>
+							 körül volt
+							roppant oláh gyülekezet, 2 püspökkel; mit végeztek, nem tudjuk 
+						</quote>
+						– „Legközelebbről a megszüntetett második oláh ezrednek határőrvidéki
+						kerülete, 
+						<hi rend="italic">
+							<placeName>
+								 Naszod 
+								<idno corresp="Naszód"/>
+							</placeName>
+						</hi>
+						<supplied>
+							 románul 
+							<placeName>
+								 Năsăud 
+								<idno corresp="Naszód"/>
+							</placeName>
+						</supplied>
+						 , mely 33 ezer lakost számlál, külön törvényhatósággá tétetett,
+						azon gondolattal, hogy a román nemzet számára, külön területté
+						alakittassék.” 
+						<bibl>
+							<persName>
+								 Kemény Zsigmond 
+								<idno corresp="Kemény Zsigmond" type="ITIdata">Q46130</idno>
+							</persName>
+							 : 
+							<title>Az Unio-törvényekről. Lenyomat a Pesti
+								Naplóból</title>
+							 . 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1861">1861.</date>
+							 25. 
+						</bibl>
+					</note>
+					 – A bizonyos, hogy az oláhok nagyon tanakodnak; de a mint a viszonyok
+					állnak, a magyarságnak nem lehet oka tőlök tartani. – Mi fejlik ki
+					<placeName>Erdély</placeName>
+					 ben a meginditott mozgalmakból, csak az idő
+					mutatja meg; 
+					<note type="critic">
+						<quote>
+							 Mi fejlik ki 
+							<placeName>Erdély</placeName>
+							 ben a meginditott
+							mozgalmakból, csak az idő mutatja meg 
+						</quote>
+						 – Az 
+						<date when="1860-10-20">1860. okt. 20-án</date>
+						 kibocsátott 
+						<title>Októberi
+							Diploma</title>
+						 a külön tartománygyűlések és a birodalmi tanács
+						közreműködésével hozandó törvényeket igért; visszaállt a magyar és az
+						erdélyi udvari kancellária. Az 
+						<date when="1848">1848.</date>
+						 évi unió
+						semmisnek nyilvánult, s ez a magyar liberális tábor ellenállását váltotta
+						ki; a szász polgárság régi jogainak visszaállítását kezdeményezte; a román
+						szándék az egyes nemzetek egyenlő számú képviselőiből álló erdélyi parlament
+						és a három egyenjogú nyelv kívánságától a románság területi egységének és a
+						román hivatalos nyelv kizárólagosságának követeléséig terjedt. 
+					</note>
+					 a sok
+					hirt, melylyeknek 
+					<supplied>
+						<unclear>mellyeknek</unclear>
+					</supplied>
+					<supplied>sorvég</supplied>
+					 némi része lapokba is becsúszott, ki győzné leirni.
+					– A tisztviselők felsőbb utasitás értelmében erősen tanulják az oláh
+					grammaticát; mi hasznát fogják venni, majd meglátjuk. 
+				</p>
+				<p xml:id="p.9">
+					<persName>
+						 Idá 
+						<idno corresp="Szabó Károlyné"/>
+					</persName>
+					 val együtt kedves komámaszszonyt s 
+					<persName>
+						 Julcsá 
+						<idno corresp="Arany Juliska" type="ITIdata">Q66067</idno>
+					</persName>
+					 t a legszivesebben köszöntjük s ezer örömöt kivánunk a pesti
+					élethez; 
+					<persName>
+						 Ida 
+						<idno corresp="Szabó Károlyné"/>
+					</persName>
+					 bocsánatot kér, hogy külön még nem irt; ezer a baja a gyermekekkel,
+					kik közzül 
+					<persName>
+						 Jolán 
+						<idno corresp="Szabó Jolán"/>
+					</persName>
+					 a mult hetekben himlős volt, de már semmi baja; rövid időn kipótolja
+					mulasztását; most 
+					<persName>Farkas Balázs</persName>
+					 rögtön indulván, nincs rá
+					ideje. 
+					<persName>
+						 Gizella 
+						<idno corresp="Szabó Gizella"/>
+					</persName>
+					 csókolja keresztmama és papa kezeit. 
+				</p>
+				<p xml:id="p.10">Istentől magadra s családodra szivemből áldást kivánva maradok</p>
+				<p xml:id="p.11">igaz barátod</p>
+				<p xml:id="p.12">
+					<persName>
+						 Szabó Károly 
+						<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+					</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

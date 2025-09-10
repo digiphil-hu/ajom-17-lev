@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1178" type="main">ARANY JÁNOS – CSENGERY ANTALNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1178</idno>
+				<idno type="ITIdata">Q481914</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1178.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 594. 
+						</bibl>
+						 ) Válasz 
+						<persName>
+							 Csengery
+							Antal 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						<date when="1860-08-09">1860. aug. 9-i</date>
+						 levelére (1177.) 
+						<ref target="ajom-17-lev.tei.1177"/>
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI II.</abbr>
+						 189–191. 
+					</bibl>
+					 (kihagyásokkal); 
+					<bibl>
+						<abbr>AJLev</abbr>
+						 484–486. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/82 és ad K 513/82&lt;a&gt;</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>233, 236</height>
+										<width>150, 151</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 A 2. fol. 1. oldalának jobb felső sarkában 
+										<persName>
+											 Arany
+											László 
+											<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+										</persName>
+										 írásával, fekete ceruzával: (Az 
+										<date when="1860-08-10">1860 aug. 10.</date>
+										 levélhez). Az 1.
+										fol. világoskék, 23,3x15 cm. Vízjel: 
+										<persName>
+											 ARANY JÁNOS
+											<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+										</persName>
+										 . 1–2. levél. A 2. fol. csontszínű, 23,6x15,1
+										cm. 1–2. levél. 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471149</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+				<language ident="de"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-08-10"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Csengery Antal 
+						<idno type="ITIdata">Q240595</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – CSENGERY ANTALNAK</title>
+					<hi rend="underline">
+						<placeName>
+							 Nagy-Kőrös 
+							<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+						</placeName>
+						 , 
+						<date when="1860-08-10">aug. 10. 1860.</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">Kedves Barátom!</p>
+				<p xml:id="p.2">
+					 Szerencsésen haza érkezvén, 
+					<note type="critic">
+						<quote>Szerencsésen haza érkezvén</quote>
+						 – pesti látogatásáról: 
+						<date from="1860-08-06" to="1860-08-09">1860. aug. 6–9.</date>
+						 (lásd
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Gyulai 
+							<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+						</persName>
+						 nak, 1179. 
+						<ref target="ajom-17-lev.tei.1179"/>
+						<date when="1860-08-10">1860. aug. 10.</date>
+						 ; 
+						<persName>
+							 Tompá 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 nak, 1181. 
+						<ref target="ajom-17-lev.tei.1181"/>
+						<date when="1860-08-10">1860. aug. 10.</date>
+						 ; 
+						<persName>
+							 Szabó Károly
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						 nak, 1195. 
+						<ref target="ajom-17-lev.tei.1195"/>
+						<date when="1860-09-14">1860. szept. 14.</date>
+						 ) 
+					</note>
+					 első gondom vala
+					feltenni a Helytartósághoz benyujtandó folyamodványnak vázlatát, mely ide zárva
+					megy. 
+					<note type="critic">
+						<quote>első gondom vala feltenni a Helytartósághoz benyujtandó
+							folyamodványnak vázlatát, mely ide zárva megy</quote>
+						 – feltenni: írásba
+						foglalni. Tekintettel arra, hogy Csengeryék e vázlat alapján, azt javítva és
+						kibővítve adták be a folyamodványt, amely a rendőrségen át jutott el a
+						Helytartósághoz (lásd 
+						<persName>
+							 Csengery 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1189. 
+						<ref target="ajom-17-lev.tei.1189"/>
+						<date when="1860-09-04">1860. szept. 4.</date>
+						 ), ezt a mellékletet nem
+						tekintjük önálló levélnek. 
+					</note>
+					 Olvassátok el, s javítsatok rajta: én
+					ennyit láttam szükségesnek elmondani, különösen a politikai igazoltságot
+					illetőleg, nehogy ezt elmúlasztván, hosszas ide-oda irkálásra nyújtsak alkalmat.
+					A czímet is ily egyszerűen gondoltam jónak; mivel a lap főleg az által fogna
+					különbözni a többiektől, hogy folyvást figyelemmel akarja kisérni a hazai és
+					külföldi szépirodalmat. Ha a folyamodvány magyar nyelven adatik be, mellékelni
+					lehetne zárjel közt a czim jelentését: ( 
+					<choice>
+						<orig>Belletrist. Beobachter</orig>
+						<supplied>
+							<title>Belletristischer Beobachter</title>
+						</supplied>
+					</choice>
+					<note type="critic">
+						<quote>
+							<choice>
+								<orig>Belletrist. Beobachter</orig>
+								<supplied>
+									<title>Belletristischer Beobachter</title>
+								</supplied>
+							</choice>
+						</quote>
+						 – 
+						<title>Szépirodalmi Figyelő</title>
+						 (né.) 
+					</note>
+					 ) vagy ilyesmi.
+					– Az egészségi, vagyinkább 
+					<sic/>
+					 gyengeségi argumentumot mellőztem: nehogy azt
+					mondják: hogyan szerkeszt lapot, ha tanárnak beteges? Mellőztem a 
+					<persName>
+						Kemény 
+						<idno corresp="Kemény Zsigmond" type="ITIdata">Q46130</idno>
+					</persName>
+					 tanácsolta argumentumot is, miszerint nevem fordítások által a német
+					közönség előtt sem ismeretlen: mert dicsekvésnek hangzanék; s a nélkűl is vagy
+					<hi rend="underline">tudják</hi>
+					 , akkor fölösleges; vagy 
+					<hi rend="underline">nem</hi>
+					 tudják, s akkor 
+					<choice>
+						<orig>
+							 ne 
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>nem</supplied>
+					</choice>
+					 igen sokat nyom előttök, ha csak az én számból hallják. – 
+				</p>
+				<p xml:id="p.3">
+					 Sajnálom s röstelem, hogy búcsú 
+					<choice>
+						<orig>
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>nélkül</supplied>
+					</choice>
+					 jöttem el a kedves komámasszonytól, ki mint hallom, akkor is az én
+					ügyemben fáradozott. Legyen, kérlek egy kis gondotok, hol kapnék szállást, és
+					írd meg ha akad, hogy nőmmel felrándulva, megnézhessük és fölvehessük. Már most
+					nehány napig várom a folyamod 
+					<add type="corr">ás</add>
+					 eredményét, addig nem
+					szólok az ittvalóknak, s megkisértem oly nyugodt lenni, hogy a 
+					<choice>
+						<orig>Sz.</orig>
+						<supplied>
+							<persName>
+								 Széchenyi 
+								<idno corresp="Széchenyi István" type="ITIdata">Q246323</idno>
+							</persName>
+						</supplied>
+					</choice>
+					 verset 
+					<del>meg</del>
+					 összeüssem. Aztán majd lesz dolog: irókat
+					toborzani, hirdetni a lapot, bizott 
+					<hi rend="underline">mánykod</hi>
+					 ni (épen
+					mint: ár 
+					<hi rend="underline">mánykod</hi>
+					 ni) stb. – 
+				</p>
+				<p xml:id="p.4">
+					 Köszöntök mindenkit. Csókolom a kedv. komám asszony jóságos kezeit;
+					<persName>
+						 Loránt 
+						<idno corresp="Csengery Lóránt"/>
+					</persName>
+					 ot és az apróbbakat hasonlóan, téged pedig ölellek számtalanszor. 
+				</p>
+				<p xml:id="p.5">igaz híved</p>
+				<p xml:id="p.6">
+					<choice>
+						<orig>AranyJ</orig>
+						<supplied>
+							<persName>
+								 Arany J 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.7">
+					 Feltörém a levelet, édes barátom, mivel már le volt pecsételve, de
+					különben csak a délutáni postával fogott elindulni. Hogy a lap czimét, vagy
+					nevét meg kell mondani, azt magam is fölértem észszel, mikép láthatod; hogy a
+					tartalmat 
+					<hi rend="underline">körülbelűl</hi>
+					 meg kell mondani, s fökép
+					említeni a politika kizárását, azt is sejtém; de hogy 
+					<hi rend="underline">formaszerinti</hi>
+					 programmot kell beadni: ez az, a mit nem is gyanítottam.
+					Én a programm rész 
+					<add type="corr">l</add>
+					 eteiről ez ideig magam sem
+					gondolkozám; s ha az, mit oda irtam, nem elég, szélesítsétek ki. Talán ilyen
+					forma lehetne: 
+				</p>
+				<p xml:id="p.8">
+					<hi rend="underline">Czélja</hi>
+					 e lapnak a magyar szépirodalom (műpróza és
+					költészet) aesthetikai fejlödését 
+					<sic/>
+					 előmozdítani. 
+				</p>
+				<p xml:id="p.9">Eszközli e czélt:</p>
+				<p xml:id="p.10">
+					 1.) 
+					<hi rend="underline">Elméletileg</hi>
+					 : aesthetikai 
+					<del>
+						<gap extent="unknown" reason="illegible" unit="char"/>
+					</del>
+					 értekezések, hosszabb, rövidebb tájékozások, fejtegetések által. 
+				</p>
+				<p xml:id="p.11">
+					 2.) 
+					<hi rend="underline">Gyakorlatilag</hi>
+					 : 
+					<add>a)</add>
+					Szépirodalmi (prózai és verses) dolgozatok közlése által. – 
+				</p>
+				<p xml:id="p.12">
+					 b.) Szépirodalmi, úgy hazai, mint külföldi termékek egyszerű, vagy
+					birálatos ismertetése által. 
+					<note type="critic">Ez alatt a sor alatt, a lap bal
+						szélén: C.)</note>
+					 – 
+				</p>
+				<p xml:id="p.13">
+					 c.) 
+					<add>
+						 Bármely irodalmi jelenség méltatása 
+						<add>által</add>
+						 ; a
+						mennyiben 
+						<add>az</add>
+						 aesthesis körébe esik. 
+					</add>
+					<note type="critic">a lap alján</note>
+					 – 
+				</p>
+				<p xml:id="p.14">
+					<del>c</del>
+					<add type="corr">d</add>
+					 .) Az által hogy a hazai irodalmi, főleg szépirodalmi
+					intézetek – minő a Kisf. Társ – működését folytonos figyelemmel kisérendi;
+					valamint a 
+					<del>szépirodalommal</del>
+					 költészettel 
+					<del>szorosb</del>
+					kapcsolatban álló 
+					<del>műintézeteket is,</del>
+					 rokon művészetekre is alkalmilag
+					kiterjeszkedik. 
+				</p>
+				<p xml:id="p.15">
+					 e.) 
+					<del>3.) d.</del>
+					 Rövid napi hireket is közöl, 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					<add>a bel- és külföldi</add>
+					 társas élet, de leginkább az irodalom és művészet
+					köréből. – 
+					<note type="critic">Ez alatt a sor alatt, a lap bal szélén: f.?
+						f.?)</note>
+				</p>
+				<p xml:id="p.16">
+					<del>d</del>
+					<add>
+						 f. (Czéljaira, ha mikor szükségesnek látja, a képző és 
+						<del>szóló</del>
+						hangzó művészetek segélyét is igénybe veszi.) 
+					</add>
+					 - 
+				</p>
+				<p xml:id="p.17">Nem jut nekem több eszembe, hamarjába. –</p>
+				<p xml:id="p.18">
+					 Csináljatok valami Herkulesz-csizmát, 
+					<note type="critic">
+						<quote>Csináljatok valami Herkulesz-csizmát</quote>
+						 – nagyméretű csizmát (az
+						olympiai láb 0,3205 m, az attikai 0,308 m: a monda magyarázata szerint az
+						olympiai stadiumot Heraklész mérte ki; vesd össze még a
+						Heraklész-kolosszusok nagyságával) 
+					</note>
+					 hogy inkább több férjen bele,
+					mint kevesebb. – 
+				</p>
+				<p xml:id="p.19">
+					 Isten veled! hanem azért fordits. – az f. alattit azért szurtam
+					oda, ha valamikor kép 
+					<del>é</del>
+					<add type="corr">e</add>
+					 t, zeneművet adnék, a mi egyelőre nem szándékom.
+					Szükséges-e ez? vagy, ha igen is, nem 
+					<choice>
+						<orig>
+							 job 
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>jobb</supplied>
+					</choice>
+					 volna-e ez f. alattit a d. után 
+					<choice>
+						<orig>
+							 csuszt 
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>csusztatni</supplied>
+					</choice>
+					 be? – 
+				</p>
+				<p xml:id="p.20">
+					 Adieu! 
+					<note type="critic">
+						<quote>Adieu!</quote>
+						 – Isten veled! (fr.) – A Magyar Országos Levéltár K.
+						k. Statthalterei für Ungarn Elnöki iratai D 161 jelzet alatt tartalmazza
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 folyóiratkérelmét, az alábbi iratokkal: 
+						<p xml:id="p.21">An das
+							hochlöbliche k. k. Statthalterei-Präsidium zu Ofen</p>
+						 Bericht der k. k.
+						Polizei-Direktion für 
+						<placeName>Ofen</placeName>
+						 - 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						<p xml:id="p.22">
+							 dt°. 
+							<date when="1860-09-05">5. September 1860</date>
+							 Z
+							<hi rend="underline">3285</hi>
+							 /Pr 
+						</p>
+						 Gesuch des 
+						<persName>
+							 Johann
+							Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 um die Bewilligung zur Herausgabe einer belletristisch-
+						kritischen Zeitschrift unter dem Titel: 
+						<title>Szépirodalmi figyelő</title>
+						<p xml:id="p.23">
+							<hi rend="underline">Zahl</hi>
+							<hi rend="underline">3285</hi>
+							 /Pr 
+						</p>
+						 Hochlöbliches k. k.
+						Statthalterei-Präsidium! 
+						<supplied>2 Stück</supplied>
+						<p xml:id="p.24">
+							 In dem beifolgenden Gesuche bittet der Gymnasial Professor
+							in 
+							<placeName>
+								 Nagy Kőrős 
+								<idno corresp="Nagykőrös"/>
+							</placeName>
+							 , 
+							<persName>
+								 Johann Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 um die Bewilligung zur Herausgabe einer belletristisch
+							kritischen Zeitschrift unter dem Titel: „ 
+							<title>Szépirodalmi
+								Figyelő</title>
+							 ” (: 
+							<title>Belletristischer Beobachter</title>
+							 )
+							welche wöchentlich einmal erscheinen wird und unter seiner eigenen
+							Redaktion die Förderung der schönen Literatur in ästhetischer Richtung
+							zur Tendenz haben, daher nicht cautionspflichtig sein würde. 
+						</p>
+						 Der
+						Concessionswerber ist von 
+						<placeName>
+							 Szalonta 
+							<idno corresp="Nagyszalonta"/>
+						</placeName>
+						 in Biharer Comitat gebürtig, 43 Jahre alt, hat seine Studien in
+						<placeName>
+							 Debreczin 
+							<idno corresp="Debrecen"/>
+						</placeName>
+						 mit Auszeichnung im Jahre 
+						<date when="1836">1836</date>
+						vollendet, wurde im Jahre 
+						<date when="1840">1840</date>
+						 Komitats Notär und
+						im Jahre 
+						<date when="1848">1848</date>
+						 Professor am Gymnasium zu 
+						<placeName>
+							Nagy Kőrős 
+							<idno corresp="Nagykőrös"/>
+						</placeName>
+						 , als welcher er auch 
+						<date when="1853">1853</date>
+						 durch das
+						k. k. Unterrichtsministerium bestätigt wurde. 
+						<p xml:id="p.25">
+							 Laut der
+							beiliegenden Note des 
+							<placeName>
+								 Nagy-Körös 
+								<idno corresp="Nagykőrös"/>
+							</placeName>
+							 er 
+							<date when="1860-08-31">Stuhlrichteramtes vom 31</date>
+							a. M. Z 
+							<hi rend="underline">476</hi>
+							 /pr liegt gegen denselben in
+							politischer Hinsicht nichts Nachtheiliges vor. 
+						</p>
+						<persName>
+							 Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 hat sich durch sein episches Gedicht „ 
+						<title>Toldi</title>
+						 ”
+						schnell im Lande bekannt gemacht und seine späteren Gedichte 
+						<title>Murány
+							ostroma</title>
+						 , 
+						<title>Katalin</title>
+						 , 
+						<title>Nagyidai
+							czigányok</title>
+						 werden unter die klassischen Werke der Jeztzeit
+						gezählt, und haben 
+						<persName>
+							 Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 zum ersten Dichter in der heutigen ungarischen Literatur
+						erhoben, demzufolge er auch zum Direktor des literarischen Vereins
+						„Kisfaludy társaság” gewählt wurde, als welcher er nun nach 
+						<placeName>
+							 Pest
+							<idno corresp="Pest"/>
+						</placeName>
+						 zu übersiedeln genöthiget ist. Da derselbe auch ordentliches
+						Mitglied der ungarischen gelehrten Gesellschaft ist und demnach als
+						anerkannte literarische Autorität im Lande gilt: so kann hinsichtlich seiner
+						Befähigung im Sinne des §. 12 der Preßordnung zur Leitung des beabsichtigten
+						Unternehmens kein Zweifel obwalten und in Bezug auf die Persönlichkeit des
+						Gesuchstellers überhaupt kein Anstand erhoben werden. 
+						<p xml:id="p.26">Was
+							das nun zu begründende Unternehmen betrifft: so zählt die ungarische
+							Journalistik zwar bereits mehr belletristische Blätter, als eigentliches
+							Bedürfniß dazu vorhanden ist, demzufolge auch manches derselben nur ein
+							kümmerliches Dasein fristet; nachdem es sich aber in dem vorliegenden
+							Falle um ein Organ für ästhetische Critik handelt, welches von der
+							breitgetretenen Heerstrasse der Mittelmässigkeit weichend, eine höhere,
+							die verflachte ungarische Belletristik ästhetisch bildende Richtung nach
+							dem, dem Gesuche beiliegenden Programm einzuschlagen beabsichtigt: so
+							glaubt man einem solchen Unternehmen nicht entgegen treten zu können und
+							da überhaupt alle im § 10 der Preßordnung erforderten Nachweisungen
+							geliefert werden: so erlaubt man sich das Gesuch ehrfruchtsvoll zu
+							befürworten.</p>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , am 
+						<date when="1860-09-05">5. September 1860.</date>
+						<p xml:id="p.27">Für den kk. Polizeidirektor</p>
+						<persName>Worafka</persName>
+						<p xml:id="p.28">k.k. Polizei Rath</p>
+						 Magyarul: 
+						<p xml:id="p.29">A
+							nagytekintetű budai székhelyű Cs. és K. Helytartósági Elnökség
+							számára</p>
+						 A Cs. és K. buda-pesti rendőrigazgatóság jelentése 
+						<p xml:id="p.30">
+							 Kelt 
+							<date when="1860-09-05">1860. szept. 5.</date>
+							Száma: 
+							<hi rend="underline">3285</hi>
+							 /Pr 
+						</p>
+						<persName>
+							 Arany János 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 kérvénye egy „ 
+						<title>Szépirodalmi figyelő</title>
+						 ” című
+						szépirodalmi-kritikai folyóirat kiadását illetően 
+						<p xml:id="p.31">
+							<hi rend="underline">3285</hi>
+							 /Pr 
+						</p>
+						 Nagytekintetű Cs. és K.
+						Helytartósági Elnökség! 
+						<note type="critic">a margón: 2 darab</note>
+						<p xml:id="p.32">
+							 A mellékelt kérvényben a nagy-kőrösi gimnáziumi tanár,
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 folyamodik egy „ 
+							<title>Szépirodalmi figyelő</title>
+							 ” című
+							szépirodalmi kritikai folyóirat kiadásának engedélyezéséért, mely lap
+							hetente egyszer fog megjelenni és 
+							<persName>
+								 Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 saját szerkesztésében a szépirodalom esztétikai irányú
+							előmozdítását célozná, ezért nem lenne kaucióköteles. 
+						</p>
+						 Az
+						engedélyért folyamodó a Bihar megyei 
+						<placeName>
+							 Szalontá 
+							<idno corresp="Nagyszalonta"/>
+						</placeName>
+						 n született, 43 éves, tanulmányait
+						<placeName>Debrecen</placeName>
+						 ben 
+						<date when="1836">1836-ban</date>
+						kitüntetéssel fejezte be, 
+						<date when="1840">1840-ben</date>
+						 megyei jegyző és
+						<date when="1848">1848-ban</date>
+						 a nagykőrösi gimnázium tanára lett,
+						mely utóbbi minőségében 
+						<date when="1853">1853-ban</date>
+						 a cs. k. Oktatási
+						Minisztérium is megerősítette. 
+						<p xml:id="p.33">
+							 A nagykőrösi szolgabírói
+							hivatal 
+							<date when="1860-08-31">aug. hónap 31-én</date>
+							 kelt 
+							<hi rend="underline">476</hi>
+							 /pr számú jegyzete szerint személyével
+							kapcsolatban politikai tekintetben semmi hátrányos tényező nem
+							ismeretes. 
+						</p>
+						<persName>
+							 Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 „ 
+						<title>Toldi</title>
+						 ” című epikus költeménye révén gyorsan
+						ismertté vált az országban. A későbbi 
+						<title>Murány ostroma</title>
+						 ,
+						<title>Katalin</title>
+						 , 
+						<title>Nagyidai czigányok</title>
+						 című verseit
+						a jelenkor klasszikus költeményei közé számítják s ezek 
+						<persName>
+							 Arany
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 t a mai magyar irodalom első költőjének rangjára emelték, aminek
+						nyomán a „Kisfaludy társaság” nevű irodalmi egyesület igazgatójává is
+						választották, s ekként most 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 re kell költöznie. Mivel 
+						<persName>
+							 Arany 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 ugyanakkor a magyar tudományos akadémia rendes tagja és eszerint
+						az ország elismert irodalmi tekintélyének számít: nem fér hozzá kétség, hogy
+						a sajtórendelet 12. paragrafusának értelmében alkalmas a tervezett
+						vállalkozás vezetésére és semminemű aggály nem merül fel a kérvényező
+						személyiségét illetően. 
+						<p xml:id="p.34">
+							 Ami a most alapítandó vállalkozást
+							illeti: 
+							<placeName>Magyarország</placeName>
+							 on ugyan máris több
+							szépirodalmi lap létezik, mint amennyire tényleges igény van, aminek
+							következtében néhány közülük nyomorúságosan tengődik; mivel azonban
+							jelen esetben olyan folyóiratról van szó, amely az esztétikai kritika
+							orgánuma lenne, amely a középszerűség szélesre taposott hadiútját
+							elhagyva, a kérvényhez csatolt program szerint az ellaposodott magyar
+							szépirodalmat esztétikailag kiművelő irányt venni szándékozik: úgy
+							gondoljuk, hogy nincsen ok akadályt gördíteni egy ilyen vállalkozás elé
+							és mivel a kérvényező a sajtórendelet 10. paragrafusában megkövetelt
+							összes bizonyítvánnyal rendelkezik, tiszteletteljesen bátorkodunk
+							kérvényét támogatni. 
+						</p>
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 en, 
+						<date when="1860-09-05">1860. szeptember 5-én</date>
+						<p xml:id="p.35">A cs. k. rendőrigazgató számára</p>
+						<persName>Worafka</persName>
+						<p xml:id="p.36">cs. k. rendőrtanácsos</p>
+						<hi rend="underline">ad 3693/pr. 60. St.</hi>
+						<p xml:id="p.37">
+							<hi rend="underline">
+								 A tervezett „ 
+								<title>Szépirodalmi Figyelő</title>
+								” (: 
+								<choice>
+									<orig>Belletr. Beobachter</orig>
+									<supplied>
+										<title>Belletristischer Beobachter</title>
+									</supplied>
+								</choice>
+								 :) prográmja. 
+							</hi>
+						</p>
+						<hi rend="underline">Megjelenik e lap hetenként egyszer.</hi>
+						<p xml:id="p.38">
+							<hi rend="underline">Czélja</hi>
+							 : A magyar szépirodalom (: művészet és
+							költészet:) aesthetikai fejlődését előmozdítani. Eszközli e czélt a lap:
+						</p>
+						 1.) 
+						<hi rend="underline">Elméletileg</hi>
+						 : aesthetikai értekezések,
+						hosszabb, rövidebb tájékozások, fejtegetések által. 
+						<p xml:id="p.39">
+							 2.)
+							<hi rend="underline">Gyakorlatilag</hi>
+							 : a) Szépirodalmi (: prózai
+							és verses:) 
+							<choice>
+								<orig>dolgozattok</orig>
+								<supplied>dolgozatok</supplied>
+							</choice>
+							 közlése által. 
+						</p>
+						 b.) Szépirodalmi, úgy hazai, mint
+						külfőldi, termékek egyszerű, vagy birálatos ismertetése által. 
+						<p xml:id="p.40">
+							 c.) Bármely irodalmi jelenség méltatása által, a
+							mennyiben az 
+							<choice>
+								<orig>aetthesis</orig>
+								<supplied>aesthesis</supplied>
+							</choice>
+							 körébe esik. 
+						</p>
+						 d.) Az által hogy a hazai irodalmi, főleg
+						szépirodalmi intézetek – minő a Kisfaludy társaság – működését folytonos
+						figyelemmel kisérendi; valamint a költészettel kapcsolatban álló rokon
+						művészetekre is alkalmilag kiterjeszkedik. 
+						<p xml:id="p.41">
+							 e.) Czéljaira,
+							ha mikor szükségesnek látja, a kép 
+							<add type="corr">z</add>
+							 ő és hangzó
+							művészetek segélyét is igénybe veszi. 
+						</p>
+						 f.) Rövid napi hireket is
+						közöl, a bel- és külföldi társas élet, de leginkább az irodalom és művészet
+						köréből. 
+					</note>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1152" type="main">ARANY JÁNOS – SZEMERE PÁLNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1152</idno>
+				<idno type="ITIdata">Q481889</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1152.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Válasz 
+						<persName>
+							 Szemere Pál 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						<date when="1860-04-02">1860. ápr. 2-i</date>
+						 levelére (1152.) 
+						<ref target="ajom-17-lev.tei.1152"/>
+						 A levél első, töredék-változata: K: 
+						<bibl>
+							<abbr>MTAK</abbr>
+							 Kt K 513/641. 
+						</bibl>
+						 Az 1. oldal jobb felső sarkában
+						fekete ceruzával: 
+						<supplied>
+							<date when="1860">1860</date>
+						</supplied>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 fekete ceruzás javításai. Csontszínű fol., 21,9x17,7 cm. 1–4.
+						levél. – 
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 608. 
+						</bibl>
+						 ) M: 
+						<bibl>
+							<abbr>AJLI I.</abbr>
+							 146–150. 
+						</bibl>
+						 ; 
+						<bibl>
+							<abbr>AJVM IV.</abbr>
+							 478–480. 
+						</bibl>
+						 (részlet) 
+					</p>
+					<p>A szöveg:</p>
+					<p>
+						 „ 
+						<persName>
+							 Szemere Pál 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						 nak 
+					</p>
+					<p>mély tisztelettel, szives viszont-üdvözléssel</p>
+					<p>
+						<choice>
+							<orig>AranyJános</orig>
+							<supplied>
+								<persName>
+									 Arany János 
+									<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+								</persName>
+							</supplied>
+						</choice>
+					</p>
+					<p>
+						 Örvendve olvastam az » 
+						<title>Elmélkedés</title>
+						 t«, melyet Kegyed, tisztelt
+						Férfiu, » 
+						<title>Remény</title>
+						 « cimű versem széptani fejtegetéseűl irt, és
+						nekem szives vala megküldeni. Az, és a már előbb láttam egy pár mutatvány
+						meggyőz engem, hogy a péczeli magányban olyasmi készűl, mely egyedűl fog
+						állni irodalmunkban. Hogyne? 
+						<persName>
+							 Szemere 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						 irja. Sziv és elme, kedély s értelem, eszme-röppentyűk s szigoru
+						logica hármoniás ölelkeztében minő 
+						<del>é</del>
+						<add type="corr">e</add>
+						 gészet várhatunk! Vajha mielébb! 
+					</p>
+					<p>
+						 Gyakran gondolok vissza – midőn lelkem ünnepel – a nem sok de feledhetlen
+						órá 
+						<del>k</del>
+						 ra, melye 
+						<del>ke</del>
+						 t egy izgalmas, de reményteljes
+						korban, a Kegyed nagyrabecsűlt társalgása nekem oly édessé tőn. Emlékszem,
+						minő kegyelettel csüggénk hárman – s ime 
+						<hi rend="underline">kettő</hi>
+						nincs többé! – a lelkes fejtegető szavain; hogy világosodott meg, a szellem
+						váratlan görögtüzeinél egy-egy eszme bennünk, mely elébb csak homályos
+						sejtelem, határozatlan ködárny, összefutó chaosz vala. Igen! mi gyönyörködve
+						tanultunk, s tanulságosan gyönyörködénk. Fájdalom, hogy a sors e nehány
+						órámat édes ugyan, de rövíd 
+						<hi rend="underline">emlék</hi>
+						 nek hagyta
+						maradni. 
+					</p>
+					<p>
+						 Mit szólhassak én a közlött » 
+						<title>Elmélkedés</title>
+						 re«? Egészben oly
+						kedvező az, hogy érezve parányiságomat s különösen a fölvett költemény
+						számos gyengéit, hizelgőnek kellene mondanom, ha e kifejezésnek egy oly
+						magasan álló műitész irányában, értelme volna. Így csupán arra szorítkozom,
+						hogy elismervén a fejtegetésnek, átalános szempontból véve, eredeti, találó
+						s következetes voltát, mintegy számot adok a specialis érzelem 
+						<add type="corr">r</add>
+						 ől, melyből ama költemény kieredt, s melynek hatása
+						alatt végig fonódott, hogy igy az » 
+						<title>Elmélkedés</title>
+						 « szerzőjének
+						alkalmat adjak összehasonlítást tenni saját felfogása és a között, mi a
+						versiró lelkében e költemény fogamzásakor, véghez ment. Ámbár tudom, hogy ez
+						sem szükséges, mert ha a költész azt, mi lelkében történt, nem fejezi ki
+						úgy, hogy semmi kétségnek, eltérő magyarázatnak helye ne lehessen, hanem
+						minden (hozzáértő) olvasójában ugyanazon érzelem képét támaszsza, – ha
+						mondom a költész nem tudta magát így fejezni ki, jele, hogy költeménye el
+						van hibázva. 
+					</p>
+					<p>
+						 Mielőtt arra mennék, szabad legyen egy észrevételt kockáztatnom Kegyednek
+						amaz ép annyira új, mint találó 
+						<del>
+							<gap extent="unknown" reason="illegible" unit="char"/>
+						</del>
+						 megjegyzésére, hogy a szellemnyilatkozásban, főleg ha költészetre, s
+						itt leginkább a lyrára szoritjuk, alsó fokozat a 
+						<hi rend="underline">neszme</hi>
+						 (nonsens ugy-e?), vagy alig több ennél. Igen helyes. Mi is
+						lehetne, az 
+						<hi rend="underline">inventio</hi>
+						 műveinél, egyéb mint neszme,
+						vagy félig homályos eszme legfölebb. Itt nem a logica vezet bizonyos
+						eszmékhez, itt a pillanatnyi helyzet, kedélyállapot, érzelemből fog eszme
+						fejleni, s ha kisérhetjük is, szabályozhatjuk is további fejlésében, a
+						csiráról, a keletkezés mozzanatárol 
+						<sic/>
+						 nem adhatunk számot magunknak.
+						Hallottam – s Kegyed még inkább tudhatja – hogy 
+						<persName>
+							 Vörösmarty 
+							<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+						</persName>
+						<title>Szép Ilonká</title>
+						 ja ez egyetlen sorból fakadt fel: 
+					</p>
+					<lg>
+						<lg>
+							<l>»Hervadása liliomhullás volt.«</l>
+						</lg>
+					</lg>
+					<p>
+						 – Mi ez így, semmi határozott személyhez, tárgyhoz nem kötve? egy kép, de
+						mihez csak ezentúl kell tárgyat keresni: tehát 
+						<hi rend="underline">fél</hi>
+						eszme, vagy a mi egyértelmű: 
+						<hi rend="underline">neszme</hi>
+						 . És e
+						neszmétől viselősen, a költő addig hordja azt, mig szerves egészszé alakítva
+						megszületik az 
+						<hi rend="underline">eszme</hi>
+						 , teljes szépségében: egy »
+						<title>Szép Ilonka</title>
+						 «. – Más példát mondok. A nép fia megtelik
+						érzelemmel, – az érzelem már hullámzik, rhythmust, dallamosságot kap (mert a
+						zeneiség áll legközelebb a még eszmévé nem fejlett érzelemhez) – de az eszme
+						még hiányzik: mit tesz tehát? Összefüggetlen, ex abrupto, jövő szavak dall
+						<del>á</del>
+						<add type="corr">a</add>
+						 mába önti érzelmét, s csak azután törekszik e
+						dallamos szavakhoz illő eszmét találni, mi nem is sükerűl olykor. Példa
+						saját népköltészetünk, de, némi módosítással valamennyi nép lyrája, főleg a
+						chinai, mely e részt a mienkkel meglepő hasonlatot tűntet föl. Mikor a dalló
+						neki kezd: »Káka tövén költ a rucza« akkor még nehezen van egyebe a puszta
+						érzelemnél, eszmeiség nélkül, melyet dallamos szavakba, s egy az érzéki
+						szemlélet köréből – találomra előrántott – képbe önt, s ez első sor mi
+						egybefüggésben sincs a majdan kifejlő eszmével, ez ridegen marad. Mikor a
+						másik sort hozzárimli: »Jó földben 
+						<hi rend="underline">terem</hi>
+						 a búza« –
+						akkor sincs még eszméje az érzelemhez, de e sor már mégsem marad oly
+						ridegen, mint az első, mert hozzá kötheti a 
+						<hi rend="underline">terem</hi>
+						szóhoz megszületett gondolatját: »De a hol a 
+						<del>szép</del>
+						 szűz lyány 
+						<hi rend="underline">terem</hi>
+						 , Azt a helyet nem ismerem«. – Már van
+						eszméje, »hogy a leány 
+						<hi rend="underline">mind</hi>
+						 , (s különösen az 
+						<hi rend="underline">övé</hi>
+						 ) hűtelen.« Vagy szabatosabban: »azért hűtelen
+						<hi rend="underline">minden</hi>
+						 lyány, mert az 
+						<hi rend="underline">övé</hi>
+						 az.« 
+					</p>
+					<p>
+						 Az eszme genesise hát, ugy sejtem, művelt lyricusnál is ez, csak a
+						velebánás, a procedura különböző, több félék levén az utóbbinak eszközei,
+						mint a természet naïv gyermekének. Ön csekély tapasztalásom legalább ezt
+						látszik igazolni. Kevés számu lyrai darabjaim közűl most is azokat tartom
+						sikerűltebbeknek, a melyek dallamát hordtam már, mielőtt kifejlett eszmém
+						lett volna – úgyhogy a dallambol 
+						<sic/>
+						 fejlődött mintegy a 
+						<del>z</del>
+						gondolat 
+						<del>,</del>
+						 . Sőt balladáim foganzásakor 
+						<sic/>
+						 is, az első, még
+						homályos eszme felködlésnél már ott volt a rhythmus, a dallam, rendszerint
+						nem eredeti, hanem valamely régi népdalhang, mely nem tudom micsoda
+						sympathiánál fogva épen a szülemlő 
+						<del>es</del>
+						 eszméhez társult, illett és
+						semmi más. Ezért esett meg rajtam nem egyszer, hogy ha a fölvett dallam
+						formáit, rhythmusát a nyelv később nem birta, noha az eszmével már tisztába
+						jöttem, még sem tudtam azt más, talán kényelmesb formába önteni, hanem az
+						elkezdett mű töredék maradt. De hagyjuk ezt. 
+					</p>
+					<p>
+						 A mi a fejtegett » 
+						<title>Remény</title>
+						 t« illeti: annak eredetére igy
+						emlékszem. 
+						<date when="1850">1850-ben</date>
+						 készűlt, nem sokkal a nagy,
+						országos catastropha után. Egyéni helyzetem is örömtelen, reménytelen vala.
+						E kettős, honfiúi és egyéni helyzetből 
+						<del>
+							<gap extent="1" reason="illegible" unit="char"/>
+						</del>
+						 – s ez a 
+						<hi rend="underline">való</hi>
+						 – menekűlni akarván, keresem
+						a 
+						<hi rend="underline">bizonytalant</hi>
+						 , mert a mi 
+						<hi rend="underline">bizonyos</hi>
+						 , az kétségbe ejt. Eszményi világba ringatom magamat,
+						mert a real csak ijesztő kilátásokat nyújt: nem kivánok boldog jövőt – 
+						<choice>
+							<orig>tehátnemcsak</orig>
+							<supplied>tehát nemcsak</supplied>
+						</choice>
+						 átalános értelemben veszem a reményt – 
+						<del>csak</del>
+						<add>hanem</add>
+						 azt ohajtom, hogy ne érezzem a szenvedést, s álmodozva,
+						idealis világban találjon a csapás, mitől rettegek: álmodott világból
+						mehessek át, si fata tulerint 
+						<supplied>ha a sors eltűri, lat.</supplied>
+						 –
+						a halálba is, észrevétlenűl. – Innen már a kis 
+						<hi rend="underline">hajó</hi>
+						 , mely az alábbi csónakkal synonim – semmi egyéb – nem
+						<del>csak</del>
+						 azért van megfosztva kormány és 
+						<del>eve</del>
+						árbocztól, hogy a valóságtól eltérő, idealis szint nyerjen, hanem, mert a
+						bizonytalanság tengerén lebeg, irány és védelem nélkűl. Megy, megy, mint a
+						haldoklani bujdosó hattyu, – mindig beljebb a kétes messzeségbe, mégis e
+						helyzet nem ijesztő, inkább enyh 
+						<del>
+							<gap extent="1" reason="illegible" unit="char"/>
+						</del>
+						 űletes a csónakon levőnek, mert mind jobban elhagyja a partot, hol
+						<hi rend="underline">bizonyos</hi>
+						 a veszély, s bár a tenger is bősz
+						habbal forog, mégis 
+						<del>
+							<gap extent="unknown" reason="illegible" unit="char"/>
+						</del>
+						 itt érzi magát jobban, mert néha egy-egy szivárvány is mosolyog rá.” 
+					</p>
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 ( 
+						<bibl>
+							<abbr>AJLI I.</abbr>
+							 XVIII. 
+						</bibl>
+						 ): „Tárgyánál és stiljénél fogva az
+						egész gyüjteményből kiválik a 
+						<persName>
+							 Szemere Pál 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						 lal cserélt levél. Az érdemes öreg, 
+						<date when="1860">1860-ban</date>
+						 , az ő akkori szokása szerint, egy elmélkedést írt
+						atyám 
+						<title>Remény</title>
+						 czímű költeményére, s ezt neki levél alakban
+						megküldötte, Atyám, úgy látszik, hasonló modorban akart válaszolni reá; ez
+						lett volna talán az egyetlen »epistola«, a mit életében írt. De nem tudom
+						befejezte és elküldötte-e? Levelét kerestettem a Szemere-Tárban, de nem
+						akadtak nyomára. Az a bevégzetlen rész, a mit közölhetek, saját kéziratai
+						között volt, nem mint fogalmazvány, hanem mint elküldésre szánt, de félben
+						maradt levél.” – 
+						<persName>
+							 Baráth Ferenc 
+							<idno corresp="Baráth Ferenc" type="ITIdata">Q141227</idno>
+						</persName>
+						 levele ( 
+						<bibl>
+							<abbr>MTAK</abbr>
+							 Kt K 513/641/a 
+						</bibl>
+						 ): „Kedves barátom! A kérdéses
+						levélnek utána néztem a Szemere-könyvtárban, de eredménytelenül. 
+						<persName>
+							Szemeré 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						 nk összes levelezéseit az u.n. Szemere-tár 17 kötete foglalja
+						magában, s ezek közül az utolsó az 
+						<date from="1840" to="1860">1840től
+							1860ig</date>
+						 terjedő részt. Ennek minden lapját átnéztem, de a keresett
+						dolgot ott nem találtam. 
+						<date when="1860">1860ból</date>
+						 mintegy 15–20
+						levél van benne, leginkább rokonoktól, 
+						<persName>Halász Dezső</persName>
+						től, 
+						<persName>
+							 Kazinczy Gábor 
+							<idno corresp="Kazinczy Gábor" type="ITIdata">Q152549</idno>
+						</persName>
+						 tól stb. Ha válaszolt is kedves apád, könynyen megtörténhetett,
+						hogy levelét valamelyik rokon vagy jó ismerős 
+						<persName>
+							 Szemere 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						 halála után eltulajdonitotta – emlékül. Ez annyival könnyebben
+						történhetett, mert míg a 
+						<choice>
+							<orig>Sz.</orig>
+							<supplied>
+								<persName>
+									 Szemere 
+									<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+								</persName>
+							</supplied>
+						</choice>
+						 tár többi kötetei lapszámozva és tárgymutatóval ellátva vannak: az
+						utolsónál mind ennek semmi nyoma, csak bele vannak téve az iratok, egymás
+						után idő rendben. Az öreg halála után azt tették ide be, a mit akartak. Ez,
+						eddig, igy van. Különben pedig boldog ünneplést kiván tisztelő barátod 
+						<choice>
+							<orig>Baráth Ferencz</orig>
+							<supplied>
+								<persName>
+									 Baráth Ferencz 
+									<idno corresp="Baráth Ferenc" type="ITIdata">Q141227</idno>
+								</persName>
+							</supplied>
+						</choice>
+						 .” 
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>Vértes 1951.</abbr>
+						 230–231. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>Vértes 1970.</abbr>
+						 84–86. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Ráday Gyűjtemény</institution>
+						<repository/>
+						<idno>I. pótk. 10</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">1</measure>
+									<dimensions unit="mm">
+										<height>218</height>
+										<width>178</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>Az egymást követő oldalak jobb ill. bal felső sarkában fekete
+										ceruzával: 36., 37., 38., 39. Csontszínű fol., 21,8x17,8
+										cm.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471123</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-04-14"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Szemere Pál 
+						<idno type="ITIdata">Q246128</idno>
+					</persName>
+					<placeName>
+						 Pécel 
+						<idno type="ITIdata">Q10924</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – SZEMERE PÁLNAK</title>
+					<hi rend="underline">
+						<placeName>
+							 Nagy-Kőrös 
+							<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+						</placeName>
+						<date when="1860-04-14">apr. 14. 1860.</date>
+					</hi>
+				</head>
+				<p xml:id="p.1">
+					<persName>
+						 Szemere Pál 
+						<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+					</persName>
+					 nak 
+				</p>
+				<p xml:id="p.2">mély tisztelettel, szives viszontüdvözléssel</p>
+				<p xml:id="p.3">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+					 . 
+				</p>
+				<p xml:id="p.4">
+					 Örvendve olvasám az „ 
+					<title>Elmélkedés</title>
+					 t” melyet Kegyed,
+					mélyen tisztelt Férfiú, „ 
+					<title>Remény</title>
+					 ” czimű versem széptani
+					fejtegetéseül irt és nekem szives vala megküldeni. Az, és a már előbb láttam egy
+					töredék-mutatvány 
+					<note type="critic">
+						<quote>és a már előbb láttam egy töredék-mutatvány</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Szemere Pál 
+								<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+							</persName>
+							 : 
+							<title>Erdei lak, mint hármas dalverseny és Petőfi
+								Sándor</title>
+							 . 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1860">1860.</date>
+						</bibl>
+					</note>
+					 meggyőzött engem, hogy a péczeli magányban olyasmi készűl, mi ritka
+					fényt hozand irodalmunkra.Vajha mielőbb megjelenne! 
+				</p>
+				<p xml:id="p.5">
+					 Gyakran gondolok vissza – midőn lelkem ünnepel – a nem sok de
+					feledhetlen órára, melyeket, egy izgalmas, de reményteljes korban, a Kegyed
+					leereszkedő társalgása nekem oly édessé tőn. Emlékszem, minő kegyelettel
+					csüggénk, hárman – s ime, 
+					<hi rend="underline">kettő</hi>
+					 azokból nincs többé!
+					<note type="critic">
+						<quote>
+							 Emlékszem, minő kegyelettel csüggénk, hárman – s ime 
+							<hi rend="underline">kettő</hi>
+							 azokból nincs többé! 
+						</quote>
+						 –
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 , 
+						<persName>
+							 Petőfi 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						 és 
+						<persName>
+							 Vörösmarty 
+							<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+						</persName>
+						 , 
+						<date from="1848-05-16" to="1848-05-21">1848. máj. 16. és 21.
+							között</date>
+						 , 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 en ( 
+						<bibl>
+							<abbr>Voinovich 1929.</abbr>
+							 214–215. 
+						</bibl>
+						 ) 
+					</note>
+					 – szavain a
+					lelkes fejtegetőnek; hogy’ világosodott meg, a szellem váratlan görögtüzeinél,
+					egy-egy eszme bennünk, mely előbb csak homályos sejtelem, határozatlan ködárny,
+					összefutó chaosz vala. Igen! mi tanúltunk gyönyörködve, s gyönyörködénk,
+					tanulságosan. Fájdalom, hogy a sors e nehány órámat édes ugyan, de rövid és
+					elszigetelt 
+					<hi rend="underline">emlék</hi>
+					 nek hagyta maradni. 
+				</p>
+				<p xml:id="p.6">
+					 Mit szólhassak 
+					<hi rend="underline">én</hi>
+					 a közlött „ 
+					<title>
+						<del>e</del>
+						<add type="corr">E</add>
+						 lmélkedés 
+					</title>
+					 re 
+					<choice>
+						<orig>’</orig>
+						<supplied>”</supplied>
+					</choice>
+					 ?… Egészben oly kedvező az, hogy érezve parányiságomat s különösen a
+					fölvett költemény számos gyengéit, hizelgőnek kellene mondanom, ha e
+					kifejezésnek egy oly magasan álló műitész irányában értelme volna. Így csupán
+					arra szorítkozom, hogy elismervén a fejtegetésnek, átalános szempontból véve
+					eredeti, találó, következetes voltát, számot adok mintegy a specialis
+					érzelemről, melyből ama költemény kieredt, s melynek hatása alatt végig
+					fonódott, hogy igy az „ 
+					<title>Elmélkedés</title>
+					 ” szerzőjének alkalmat
+					nyújtsak öszszehasonlítást tenni saját felfogása és a között, mi a versiró
+					lelkében, e költemény szülemlésekor véghez ment. Ámbár tudom, hogy ez sem
+					szükséges; mert ha a költész azt, mi lelkében történt, nem fejezi ki úgy, hogy
+					semmi kétségnek, eltérő magyarázatnak helye ne lehessen, hanem minden
+					(hozzáértő) olvasójában ugyanazon érzelem képét támaszsza, – ha 
+					<del>ne</del>
+					mondom, a költő nem tudta magát így fejezni ki, jele, hogy költeménye el van
+					hibázva. 
+				</p>
+				<p xml:id="p.7">
+					 Mielőtt azonban erre mennék, szabad legyen érintenem Kegyednek amaz
+					épannyira új, mint találó észrevételét, hogy a szellemnyilatkozásban, ha főleg a
+					költészetre s itt leginkább a lyrára 
+					<choice>
+						<orig>szorítjuk</orig>
+						<supplied>szorítjuk,</supplied>
+					</choice>
+					 az alsó fokozat a 
+					<hi rend="underline">neszme</hi>
+					 (nonsense ugy-e?),
+					<note type="critic">
+						<quote>
+							 a 
+							<hi rend="underline">neszme</hi>
+							 (nonsense ugy-e?) 
+						</quote>
+						 – még
+						nem eszmélet, még nem eszme (az ang. nonsense, a fr. non-sens:
+						’értelmetlenség’ alapján), vagyis a gör. heureszisz, a lat. inventio
+						(’rátalálás’, ’lelemény’, ’kitalálás’) szintje 
+					</note>
+					 vagy alig több ennél.
+					– Nagyon igaz. Mi is lehetne, 
+					<hi rend="underline">inventio</hi>
+					 műveinél, egyéb
+					mint neszme, vagy félig homályos eszme legfölebb. Itt nem a logica vezet
+					bizonyos eszmékhez, itt a pilla 
+					<add type="corr">n</add>
+					 atnyi helyzet, érzelem,
+					kedély állapotból fog eszme fejleni, s ha kisérhetjük is, szabályozhatjuk is
+					további fejlésében, a csirárol, 
+					<sic/>
+					 a keletkezés mozzanatárol 
+					<sic/>
+					 nem
+					adhatunk számot magunknak. Hallottam – Kegyed méginkább tudhatja – hogy
+					<persName>
+						 Vörösmarty 
+						<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+					</persName>
+					 „ 
+					<title>Szép Ilonká</title>
+					 ja” ez egyetlen sorból fakadt fel: 
+				</p>
+				<lg xml:id="lg.1">
+					<lg xml:id="lg.2">
+						<l xml:id="l.1">Hervadása liliomhullás volt –</l>
+					</lg>
+				</lg>
+				<p xml:id="p.8">
+					 . Mi ez így? semmi határozott személyhez, tárgyhoz nem kötve? Egy
+					kép, mihez csak ezentúl kell tárgyat keresni: tehát 
+					<hi rend="underline">fél</hi>
+					 eszme, vagy a mi egy értelmű: 
+					<hi rend="underline">neszme</hi>
+					 . S
+					ím, e neszmétől viselősen, a költő addig hordja azt, mig előáll az 
+					<hi rend="underline">eszme</hi>
+					 , teljes szépségben, egy valódi 
+					<title>Szép
+						Ilonka</title>
+					 . – Más példát mondok. A nép fia megtelik érzelemmel, – az
+					érzés már hullámzik, rhythmust, dallamosságot kap, (mert a zeneiség áll
+					legközelebb a még eszmévé nem fejlett érzelemhez) de még hiányzik az eszme. Mit
+					tesz tehát? Ex abrupto 
+					<note type="critic">
+						<quote>Ex abrupto</quote>
+						 – váratlanul, rögtönözve (lat.) 
+					</note>
+					 jött,
+					gyakran össze sem függő szavak rhythmusába önti érzelmét; s csak azután
+					törekszik e dallamos szavakhoz illő eszmét találni, mi olykor nem is sikerűl.
+					Példa saját népköltészetünk, de, némi módosítással, valamennyi nép lyrája, főleg
+					a chinai, 
+					<note type="critic">
+						<quote>Példa saját népköltészetünk, de, némi módosítással, valamennyi nép
+							lyrája, főleg a chinai</quote>
+						 – a kínai költészetről lásd pl. 
+						<bibl>
+							<persName>
+								 Székely József 
+								<idno corresp="Székely József" type="ITIdata">Q150853</idno>
+							</persName>
+							 : 
+							<title>Kelet költészete</title>
+							 .
+							<abbr>SzépirodKözl</abbr>
+							<date when="1857">1857.</date>
+							 1. sz. 
+							<date from="1857-10-04">okt.
+								4.</date>
+							 14–18., 3. sz. 
+							<date when="1857-10-11">okt. 11.</date>
+							65–71., 5. sz. 
+							<date when="1857-10-18">okt. 18.</date>
+							 116– 118., 8. sz.
+							<date when="1857-10-28">okt. 28.</date>
+							 186–190. 
+						</bibl>
+					</note>
+					 mely e részt a mienkkel meglepő hasonlatot tűntet elő. Mikor a dalló
+					neki kezd: Káka tövén költ a rucza – akkor még nehezen van egyebe a puszta
+					érzelemnél, eszmeiség nélkűl, melyet dallamos szavakba – egy az érzéki szemlélet
+					köréből találomra elérántott képbe – önt; s az első sor mi egybefüggésben sincs
+					a majdan kifejlő gondolattal, – ridegen marad. Mikor a másik sort hozzárímli:
+					„Jó földben 
+					<hi rend="underline">terem</hi>
+					 a buza” akkor sincs még eszméje az
+					érzelemhez, de már 
+					<hi rend="underline">készűl lenni</hi>
+					 mert a 
+					<hi rend="underline">terem</hi>
+					 szó felkölti azt; e sor már nem marad oly
+					ridegen, mint az előbbi, mert a 
+					<hi rend="underline">terem-hez köti</hi>
+					megszületett gondolatját: „De a hol a 
+					<hi rend="underline">hű</hi>
+					 lány 
+					<hi rend="underline">terem</hi>
+					 , azt a helyet nem ismerem.”. Már van eszméje:
+					<hi rend="underline">minden</hi>
+					 leány hűtelen (mert az 
+					<hi rend="underline">övé</hi>
+					 az). 
+				</p>
+				<p xml:id="p.9">
+					 A mi már a „ 
+					<title>Remény</title>
+					 t” illeti, ennek genezise
+					körűlbelűl igy van. 
+					<date when="1850">1850-ben</date>
+					 készűlt az, nem sokkal a
+					nagy, országos catastropha után. Egyéni helyzetem is csüggesztő vala. E kettős –
+					hazafiúi és egyéni – helyzet a 
+					<hi rend="underline">való</hi>
+					 , melytől
+					menekűlni ohajtok, tehát nem csupán a real 
+					<hi rend="underline">átalában</hi>
+					 ,
+					s nem csak azért vágyok eszményi világba, mert átalában költőnek ott a helye,
+					hanem mert ez álmadozás felejteti a valót, enyhíti annak szenvedéseit. Nem is
+					remény, t.i. 
+					<hi rend="underline">jobbnak</hi>
+					 reménye az, mi tengerre hajt:
+					mindegy, ha 
+					<hi rend="underline">jobb</hi>
+					 , ha 
+					<hi rend="underline">roszabb</hi>
+					 talál is, csakhogy itt a veszély még bizonytalan. – Ezért a
+					<hi rend="underline">kis</hi>
+					 hajó is – mely synonim az alábbi csónakkal –
+					nem azért van megfosztva árbocz- és kormánytól, hogy a valóhoz kevésbbé
+					hasonlítson, hanem, mert 
+					<hi rend="underline">az a remény</hi>
+					 , melyről
+					énekelek, nem sokkal több a 
+					<hi rend="underline">kétségbeesésnél</hi>
+					 . Így a
+					költemény egyénibb színű, mint Kegyed magyarázata szerint, mely mindent
+					eszményít, de tartoztam az igazságnak e vallomással. 
+				</p>
+				<p xml:id="p.10">
+					 Fogadja hő kézszorításomat 
+					<del>!</del>
+					<add type="corr">,</add>
+					 s mindenkori tiszteletem őszinte kijelentését! – 
+				</p>
+				<p xml:id="p.11">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

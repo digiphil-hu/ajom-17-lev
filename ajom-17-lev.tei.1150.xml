@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1150" type="main">SZEMERE PÁL – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1150</idno>
+				<idno type="ITIdata">Q481887</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1150.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 608. 
+						</bibl>
+						 ) 
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI II.</abbr>
+						 141–146. 
+					</bibl>
+					 ; 
+					<bibl>
+						<abbr>Szemere 1890.</abbr>
+						 II. 43–45. 
+					</bibl>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/639</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>295</height>
+										<width>230</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 Az ajánlás 
+										<persName>
+											 Szemere Pál 
+											<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+										</persName>
+										 , az 
+										<title>Elmélkedés</title>
+										<persName>Halász Dezső</persName>
+										 kézírása. Az 1. oldalon a
+										dátum mellett 
+										<persName>
+											 Arany László 
+											<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+										</persName>
+										 írásával, kék ceruzával: 
+										<date when="1860-04-02">april 2.</date>
+										 A 4. oldal alsó felén 
+										<persName>Halász
+											Dezső</persName>
+										 levele. 
+										<persName>
+											 Arany László 
+											<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+										</persName>
+										 kék ceruzás kihúzásai. 2 csontszínű fol.,
+										29,5x23 cm. 1–4. levél. 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471121</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-04-02"/>
+				<placeName>
+					 Pécel 
+					<idno type="ITIdata">Q10924</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Szemere Pál 
+						<idno type="ITIdata">Q246128</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Nagykőrös 
+						<idno type="ITIdata">Q20914</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>SZEMERE PÁL – ARANY JÁNOSNAK</title>
+					<supplied>
+						<placeName>
+							 Pécel 
+							<idno corresp="Pécel" type="ITIdata">Q10924</idno>
+						</placeName>
+						 , 
+						<date when="1860-04-02">1860. április 2.</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">
+					 Kedveskedésül, 
+					<choice>
+						<orig>tiszelkedésül</orig>
+						<supplied>tisztelkedésül</supplied>
+					</choice>
+					 ! Választ remélve, kérve 
+				</p>
+				<p xml:id="p.2">
+					<choice>
+						<orig>SzemerePál</orig>
+						<supplied>
+							<persName>
+								 Szemere Pál 
+								<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.3">
+					<placeName>
+						 Péczel 
+						<idno corresp="Pécel"/>
+					</placeName>
+					<date when="1860-04-02">2/4. 1860.</date>
+				</p>
+				<p xml:id="p.4">Elmélkedés</p>
+				<p xml:id="p.5">
+					<persName>
+						 Arany János 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+				</p>
+				<p xml:id="p.6">„Reménye” felett.</p>
+				<p xml:id="p.7">
+					 A szellemnyilatkozatban, noha nem kezeskedünk e vélemény általános
+					és egyetemes terjedelme felől, de a művészetre, jelesűl a költészetre
+					szorosabban a dalászatra nézve többféle fokozatot sejtünk. A legelső és
+					legcsekélyebb talán nem egyéb mint 
+					<choice>
+						<orig>neszmélet</orig>
+						<supplied>neszmélet.</supplied>
+					</choice>
+					 Ha a neszme 
+					<note type="critic">
+						<quote>neszmélet; neszme</quote>
+						 – még nem eszmélet; még nem eszme (az ang.
+						nonsense, a fr. non-sens: ’értelmetlenség’ alapján), azaz a gör. heureszisz,
+						a lat. inventio (’rátalálás’, ’lelemény’, ’kitalálás’) szintje; vesd össze
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<date when="1860-04-14">1860. ápr. 14-i</date>
+						 válaszával (1152.) 
+						<ref target="ajom-17-lev.tei.1152"/>
+					</note>
+					 fogalomig észig ébredez vagy mint mondani szoktuk eszmélkedik föl,
+					gondolattá szervesűl. De ugy látszik hogy nem csak agyunk és főnk hanem kebelünk
+					és szívünk is termesztenek némi neszmélethez hasonló vágyat sőt talán gondolatot
+					is. Nem lehet nem tapasztalnunk miszerint a beszély és szinmű
+					szellemnyilatkozatai (kénytelen leszek ugy érzem ez észrevételt nem csak
+					költészetemben hanem többnyire minden általam taglalandó dalműnél ujra
+					ismételni,) a dalmű nyilatkozataitól a való és valószinüség minéműsége szerint
+					különböznek. 
+				</p>
+				<p xml:id="p.8">
+					 A II.ik sz. a. tárgy 6. rendbeli részein, hacsak futólag is
+					átpillantani, nem épen felesleges. 
+					<note type="critic">
+						<quote>A II.ik sz. a. tárgy 6. rendbeli részein, hacsak futólag is
+							átpillantani, nem épen felesleges</quote>
+						 – A kontextussal kapcsolatban
+						lásd 
+						<persName>Halász Dezső</persName>
+						<date when="1860-04-03">1860. ápr. 3-án</date>
+						 kelt kísérőlevelét (1151.)
+						<ref target="ajom-17-lev.tei.1151"/>
+						 : „A versenytársak »
+						<title>Remény</title>
+						 « czím alá foglalva 
+						<persName>
+							 Petőfi 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						 (1.2.3.) 
+						<persName>
+							 Csokonai V. M 
+							<idno corresp="Csokonai Vitéz Mihály" type="ITIdata">Q42599</idno>
+						</persName>
+						 . (5.) és 
+						<persName>
+							 Szemere Pál 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						 sonettje (6.)”. 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<title>Reményem</title>
+						 c. költeménye a 
+						<title>Dalverseny és magyarázat Mű
+							és élv</title>
+						 c. részének VI., 
+						<title>Remény</title>
+						 c. fejezetében
+						<persName>
+							 Petőfi 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						<title>Drága orvos úr…</title>
+						 , 
+						<title>Szállnak reményink…</title>
+						 ,
+						<title>Szerelmem zúgó tenger…</title>
+						 c. versei után, 
+						<persName>
+							Csokonai 
+							<idno corresp="Csokonai Vitéz Mihály" type="ITIdata">Q42599</idno>
+						</persName>
+						<title>A reményhez</title>
+						 és 
+						<persName>
+							 Szemere Pál 
+							<idno corresp="Szemere Pál" type="ITIdata">Q246128</idno>
+						</persName>
+						<title>Remény</title>
+						 c. szonettje előtt szerepel ( 
+						<bibl>
+							<abbr>Szemere 1890.</abbr>
+						</bibl>
+						 ). 
+					</note>
+					 Az 1. sz. a. versezet magát a verselőt és ennek halálos
+					beteg szivét beszéltetvén a reményben nem lát egyebet mint balzsamot, mely sem
+					nem gyógyit sem nem öl. A 2.-ik sz. a. versezet 
+					<choice>
+						<orig>em</orig>
+						<supplied>nem</supplied>
+					</choice>
+					 egy, hanem több reményt pillant meg kiket a való lelövöldöz. A 3. sz.
+					a. noha előtte szerelme lebeg zugó tenger partjáról szólal meg, azonban a
+					reményen mint 
+					<hi rend="underline">csalogányon</hi>
+					 végződik. Az 5. sz. a. égi
+					tüneménynek bókol. A 6.-ik a többször emlitett tárgyat az esttünemény és Aurora
+					alakjaikban tünteti föl. Mind az öt rendbeli versezet költészei kisebb nagyobb
+					mértékben gondolkozván a kérdésbeli tárgy felől, e mérték szerint közlötték
+					szellemnyilatkozataikat. – – 
+				</p>
+				<p xml:id="p.9">
+					 A jelen 4. szám alatti versezet költésze a közönséges
+					szellemnyilatkozattól kétségkivűl magasztosabb szellemműködésnél fogva kénytelen
+					volt eltérni. Ugyanis mindnyájunkat vagy legalább a legtöbbet közülünk a nagyság
+					fogalma vezérel sőt ingerel a jelennél nagyobbakról álmadozni nagyobbakat
+					jósolni tehát mingyárt kezdetben nagyobbak felől nyilatkozni. Költészünk viszont
+					érdekkel és hatálylyal lep meg bennünket, – csaknem hasonlóval ahhoz melynél
+					fogva ifjabb szeretteinket, mint öcsém, húgom sőt barátom ( 
+					<hi rend="underline">kis barát</hi>
+					 jának nevezte az öreg b. 
+					<persName>
+						 Orczy Lőrincz 
+						<idno corresp="Orczy Lőrinc"/>
+					</persName>
+					<note type="critic">
+						<quote>
+							<persName>
+								 Orczy Lőrincz 
+								<idno corresp="Orczy Lőrinc"/>
+							</persName>
+						</quote>
+						 – 
+						<date from="1718" to="1789">1718–1789</date>
+					</note>
+					 a még alig husz éves 
+					<persName>
+						 Kazinczy Ferencz 
+						<idno corresp="Kazinczy Ferenc" type="ITIdata">Q45911</idno>
+					</persName>
+					 et.) 
+					<hi rend="underline">kis</hi>
+					 névvel különböztetjük meg, –
+					midőn nem nagy de 
+					<hi rend="underline">Kis</hi>
+					 …. szóval kezdvén meg versét
+					távol minden kaczérkodástól és sokkal biztató várakozástól a kérdésbeli tárgyat
+					nem utól hanem legelűl mutatja föl igy zengvén: 
+					<hi rend="underline">
+						 Kis hajó
+						az én 
+						<choice>
+							<orig>reményem</orig>
+							<supplied>reményem.</supplied>
+						</choice>
+					</hi>
+					 A második sorban kis hajóját, megtagadván tőle az árboczot sőt még a
+					kormányt is, mind felűl mind alul terjedelmesebben korvonalozza. 
+					<sic/>
+					 Többet
+					mondok. A mit a nyelv tagadólag emlit, hogy 
+					<hi rend="underline">nincs</hi>
+					 , de
+					az ehez tartozó szókat világosan kimondja, noha a tárgy 
+					<add type="corr">on</add>
+					 csonkit, képzeletünket az ettől megtagadott kép lelki látásában is
+					részesiti, s tudatunk elébe hozza; ellenkező esetben képtelenség volna a 
+					<hi rend="underline">nincs</hi>
+					 miatt nem-létező, tehát semmihez sem hasonló
+					tárgy felől észrevételt tennem. Pedig ímé e tettet követem el. Épen a
+					kormánytalan kis hajó az mely csak a 
+					<hi rend="underline">valószinűségnek</hi>
+					annyival inkább a 
+					<hi rend="underline">lyrának</hi>
+					 világában talál helyet, mert
+					a mindennapi 
+					<del>világban</del>
+					 életben a legkisebb hajónak is nélkülözhetlen
+					része a kormány. De a régiség gemmain 
+					<note type="critic">
+						<quote>gemmain</quote>
+						 – drágakövein (lat.) 
+					</note>
+					 is ily részletek
+					hiányával szemléljük a legtöbb ábrákat. A harmadik és negyedik sor a két előbbi
+					sorral viszonykodván a rhythmust egésziti ki. Most a lyrai érzelem egész teljes
+					világa zendül meg. E tekintetben a jelen költész talán minden elődjét, egykorúit
+					pedig, kétség kivűl mindnyáját, tetemesen mulja felűl. Verseszköze nem a tompa
+					hangú és meddő 
+					<hi rend="underline">klapáncz</hi>
+					<note type="critic">
+						<quote>
+							<hi rend="underline">klapáncz</hi>
+						</quote>
+						 – mesterkélt, gyatra rím (né.) 
+					</note>
+					 hanem a szózatos és
+					képteremtő rím; amaz többnyire vesztegel és henyél, ez mint maga a lyrai érzelem
+					a várás és meglepés játékát űzi; párosan jelenik meg, de egyik a másiknak
+					csaknem úr és szolga módra van alárendelve s ilyenkor nem csak a véghangok hanem
+					az érzelmek sorai is rimzenek. Igy történik jelenleg is. A két első sor
+					szenvedőleges viszonyban áll két utódjával ugyanis az elsőbbnek türnie kell
+					midőn az utóbbik 
+					<hi rend="underline">veti-hányja</hi>
+					 . 
+				</p>
+				<p xml:id="p.10">
+					 A masodik 
+					<sic/>
+					 vers a lyrai érzelemnek uj fokozatát nyitja meg. 
+					<choice>
+						<orig>Való színűség</orig>
+						<supplied>Valószínűség</supplied>
+					</choice>
+					<supplied>a sorvégen nincs elválasztójel</supplied>
+					 világához tartozó (nem az
+					élethez hol egy parttal sohasem találkozunk) part, 
+					<hi rend="underline">kék</hi>
+					part és pedig 
+					<hi rend="underline">messze</hi>
+					 part áll nem előtte, hanem háta
+					<hi rend="underline">mögött</hi>
+					 a költésznek tündér szemeivel pillant meg
+					reményt, de nem azt, melyet az előbbeni fokozatban a hullám keményen csapkodott,
+					hanem egy egészen uj és más reményt, most már nem kis hajón hanem csónakon, mely
+					félig megszemélyesitve 
+					<hi rend="underline">fut</hi>
+					 és pedig el, ki
+					számüzötten. Még tündéribb személy-alakot éreztet velünk a jelen reménycsónak,
+					midőn egy részről messzebb téved mint a hattyú mely világra bujdosott, más
+					részről bár egy hab a másikhoz vágja mégis oly hősiesen daczos és konok,
+					miszerint révet lelni nem ohajt. 
+				</p>
+				<p xml:id="p.11">
+					 A harmadik fokozaton mind a valószinű világ, mind a személy
+					ugymint a költész lelke, változásokon mennek keresztűl. Amaz jelenleg tenger, ez
+					pedig mint amannak hajósa nem tudni mi okból és miért, ujabb kikötőtől retteg.
+					Azonban a lyrai érzelem a maga teljes joganál 
+					<sic/>
+					 fogva (mely szerint
+					ábrazolványa 
+					<sic/>
+					 kezdetben talány s azt később fejti meg) magyarázatokba
+					ereszkedik. Onnan ered t.i. rettegése mert a kikötő körül a tövis között nincsen
+					rózsa, s pusztájan 
+					<sic/>
+					 virány nem zöldül. Oly gyanú támad költészünk
+					bensejében, s ez érzelem gyakran, sőt talán mindig sarkára hágdos a reménylőnek,
+					azt sejti sőt hiszi, mert vallja, miszerint a kikötő szomszédjában lévő föld
+					azért áll oly szilárdúl, hogy, ha kilép, nyomait űldözői a sívár mezőkon 
+					<sic/>
+					keresztűl követni bátran birhassák. 
+				</p>
+				<p xml:id="p.12">
+					 Az érzelem újabb lyrai fokozatán serkentésre és biztatásra fakad a
+					költész saját benseje irányában, zengvén: 
+					<hi rend="underline">El hát a
+						bizonytalanba Merre szél hajt és hab ingat</hi>
+					 . Érzelmére és fájdalmára
+					legelőször csak itt hivatkozik és pedig némi örömhódolattal és hálával
+					lantolván: 
+					<hi rend="underline">
+						 Érzem enyhűl fájdalmam, ha 
+						<add type="corr">s</add>
+						 zél és hullám karja ringat 
+					</hi>
+					 . Itt a szél és hab karjainak
+					ringatása mintegy igazolja maradni vágyását a tengeren s ohajtását a
+					bizonytalanba. 
+				</p>
+				<p xml:id="p.13">
+					 Mingyárt nyomban a lyrai érzelem, mintegy habozva az akarás és
+					nem-akarás között, a nem val 
+					<add type="corr">ó</add>
+					 élethez, hanem a
+					valószínűhöz tartozó remény világába ragadtatik be, szíve lángecsetével ekképen
+					rajzolván azt: 
+					<hi rend="underline">Ott szabad a lég köröttem S néha-néha egy
+						szivárvány Mosolyog rám megtörötten Képzeletem oczeánján</hi>
+					 . 
+				</p>
+				<p xml:id="p.14">
+					 Ujra előbbi önserkentését ismétli zengvén: 
+					<hi rend="underline">El, el a bizonytalanba</hi>
+					 ; de a bizonytalanság nem egyéb mint maga a
+					reménység; tehát mintha mondaná: el, el a reménybe. Dicsekszik vele, hogy hajója
+					reng, és méltán mert már nem kicsiny, hanem eléggé nagy, 
+					<choice>
+						<orig>
+							 min 
+							<metamark function="tinta"/>
+							 hogy 
+						</orig>
+						<supplied>minthogy</supplied>
+					</choice>
+					 halad és reng. Ez alkalommal a legteljesebben művészeti, szorosabban
+					lyrai érzelem-komolyságot érzelem-játszisággal kapcsolja együvé a velünk
+					mindennap oly édesen játszadozó kecsegtető másod-életünket-hát 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					<add>r</add>
+					 a vetvén, a hellenek által lefelé sülyesztett szövétnekkel ábrázolt
+					s általok álomtestvérnek is nevezett angyalnak, saját nevével a halálnak
+					pillantván szeme közé az eddigi általanos 
+					<sic/>
+					 és egyetemes
+					reményvalószínűséget vitézséggel (mert ruházatunk, tánczunk leginkább ilyen)
+					tehát nemzetiséggel (s költészünk e részben is, mint rhythmusában, oly kitűnő
+					miszerint kopéskodástól ripők pulyaszerű szilajkodástól, magyaronczkodástól
+					távol művészetileg mindég szűzen maradva egy sorban áll 
+					<persName>
+						 Vörösmarty
+						<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+					</persName>
+					 val 
+					<persName>
+						 Petőfi 
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 t pedig nem egyszer mulja felűl) tősgyökeres magyarsággal rekeszti
+					be. 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

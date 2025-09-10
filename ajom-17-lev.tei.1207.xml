@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1207" type="main">KERTBENY KÁROLY – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1207</idno>
+				<idno type="ITIdata">Q481943</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1207.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 598. 
+						</bibl>
+						 ) 
+						<persName>
+							 Kertbeny Károly
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 ( 
+						<date from="1824" to="1882">1824–1882</date>
+						 ): 
+						<date when="1851">1851-ben</date>
+						 a 
+						<title>Toldi</title>
+						 és 
+						<title>Murány
+							ostroma</title>
+						 fordítója ( 
+						<title>Erzählende Dichtungen von Johann
+							Arany</title>
+						 ); 
+						<date from="1855">1855-től</date>
+						<placeName>
+							 Bécs 
+							<idno type="ITIdata">Q99</idno>
+						</placeName>
+						 ben, 
+						<date from="1860">1860-tól</date>
+						 két évig 
+						<placeName>
+							Genf 
+							<idno type="ITIdata">Q11371</idno>
+						</placeName>
+						 ben élt. E korszakbeli fordításai: 
+						<title>Gedichte von Michael
+							Vörösmarty</title>
+						 ( 
+						<date when="1857">1857</date>
+						 ), 
+						<title>Dichtungen
+							von Alexander Petőfi</title>
+						 ( 
+						<date when="1858">1858</date>
+						 ),
+						<title>Zaubertraum. Dichtung von Petőfi</title>
+						 ( 
+						<date when="1859">1859</date>
+						 ), 
+						<title>Gedichte von Koloman Lisznyai</title>
+						 ( 
+						<date when="1859">1859</date>
+						 ), 
+						<title>Erzählende Dichtungen von Alexander
+							Petőfi</title>
+						 ( 
+						<date when="1860">1860</date>
+						 ), 
+						<title>Alexander
+							Petőfi’s Dichtungen</title>
+						 ( 
+						<date when="1860">1860</date>
+						 ),
+						<title>Erinnerungen an Graf Stefan Széchenyi</title>
+						 ( 
+						<date when="1860">1860</date>
+						 ), 
+						<title>Gedichte von Johann Arany</title>
+						 ( 
+						<date when="1861">1861</date>
+						 ). Korábbi kapcsolatukról lásd 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+							 847–848. és XVI. 1172–1174. 
+						</bibl>
+						 Az 
+						<bibl>
+							<abbr>AJÖM XV.</abbr>
+						</bibl>
+						 hét tőle való levelet közöl és három elveszett 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -levélről tud, a XVI. hét Kertbeny-levelet tartalmaz és
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 két elveszett levelét tartja számon. Kötetünkben tőle ez az egy
+						levél található; 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 válaszáról nincsen tudomásunk. 
+					</p>
+					<p>Magyarul:</p>
+					<p>
+						<placeName>
+							 Genf 
+							<idno type="ITIdata">Q11371</idno>
+						</placeName>
+						 , 
+						<date when="1860-11-08">1860. 11. 8.</date>
+						 csütörtök. Hôtel
+						de la Balance 
+					</p>
+					<p>Uram!</p>
+					<p>
+						 Mellékelten küldöm 18 apróbb költeményéből készített legújabb fordításom egy
+						példányát. Amikor évekkel ezelőtt csak nem éppen udvarias és honfitársi
+						szavai voltak számomra, köszönetképpen a „ 
+						<title>Toldi</title>
+						 ” és a „
+						<title>Murány ostroma</title>
+						 ” fordításáért, teljes joggal tartotta
+						nagyon rossznak azokat a fordításokat; csak most, hogy sok gyakorlat és
+						komoly tanulmányok által bölcsebb lettem, és a műfordítás teljesen más
+						elvéhez jutottam el, látom be igazán, hogy az abban a kiadásban megjelent
+						fordítások valóban igen ügyetlenek, sőt még sokkal ügyetlenebbek, mint azt
+						Ön a saját nézőpontjából meg tudja ítélni. Mégsem szégyenlem irodalmi
+						múltamat. Autodidaktaként önkényes próbálkozásokra voltam utalva,
+						honfitársaimtól semmiféle segítséget vagy jó tanácsot nem kaptam, így csak
+						saját káromon tanulhattam; kontár kísérletek révén találtam meg a helyes
+						utat, és magamnak kellett tűzön-vizen át utat törnöm, hogy csak
+						megközelítőleg megoldjam feladatomat. Egyéni érdemem, hogy nem csak hogy nem
+						fáradtam bele ebbe és nem kedvetlenedtem el, hanem következetesen tovább
+						kísérleteztem és mindig jobbat igyekeztem nyújtani; és ez ritka érdem ma,
+						ebben a felületes és következetlen korban. Ezért ha valakinek szégyellnie
+						kell magát, úgy inkább honfitársaim azok, akik soha nem segítettek, nem
+						támogattak, tanáccsal sem láttak el, hanem mindig csak közömbösen vagy
+						gúnyosan tekintettek igyekezetemre, akik miatt megint az idegen keserű
+						kenyerét kell ennem, és akiknek érdekében én mégis kitartóan azon fáradozom,
+						hogy hírnevük és elismertségük a külföldön gyarapodjék. 
+					</p>
+					<p>
+						 Fenti vallomásom korábbi munkáim elégtelenségét illetően egyébként csak a
+						magam számára kiállított műveltségi bizonyítványnak tekinthető. Ön előtt
+						azonban ennek ellenére sem kell magamat vádolnom. Az európai közönség
+						érdemük felett kedvezően fogadta 
+						<title>Toldy</title>
+						 - 
+						<sic/>
+						 és
+						<title>Murány</title>
+						 -fordításaimat; egy második kiadása is megjelent a
+						két fordításnak, az Ön neve és hírneve általuk honosodott meg a
+						világirodalomban; életrajzát az általam közölt adatok nyomán közölte
+						<persName>
+							 Brockhaus 
+							<idno corresp="Brockhaus, Friedrich Arnold"/>
+						</persName>
+						<title>Konversationslexikon</title>
+						 a, 
+						<persName>
+							 Lorck 
+							<idno corresp="Lorck, C. B."/>
+						</persName>
+						 „ 
+						<title>Männer der Zeit</title>
+						 ”-je, 
+						<persName>
+							 Vaporeau 
+							<idno corresp="Vaporeau, Gustave"/>
+						</persName>
+						<title>Dictionnaire des Contemporains</title>
+						 -je, és még számtalan további
+						német, francia és angol gyűjteményes munka; továbbá az én fordításom adott
+						alkalmat Dr. 
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						 nek, hogy ő maga egy jobbat készítsen. Szóval, nem csak hogy nem
+						ártottam Önnek, hanem sokkal inkább komoly hasznára voltam, minden magamnak
+						bevallandó elégtelenség ellenére. 
+					</p>
+					<p>
+						 Most azonban úgy hiszem, fordításom köszönetre méltó módon esztétikai
+						vonatkozásban is megfelel Önnek. Olyan fordítást küldök most, amely nemcsak
+						hogy a német formai és nyelvi követelményeknek tesz eleget, hanem amelyben,
+						ezen túl, az eredetiben fellelhető nehézségek megkettőzve jelennek meg és
+						mégis ügyesen megoldatnak, és amelyet, minekutána a művet, még szemleív
+						formában, az alább következőknek átnézés céljából szétküldtem, olyan
+						elsőrangú tekintélyek, mint egy 
+						<persName>
+							 Charles Sealsfield 
+							<idno corresp="Sealsfield, Charles"/>
+						</persName>
+						<supplied>
+							<date from="1793" to="1864">1793–1864</date>
+						</supplied>
+						 , egy 
+						<persName>
+							 Ludwig Uhland 
+							<idno corresp="Uhland, Ludwig"/>
+						</persName>
+						<supplied>
+							<date from="1787" to="1862">1787– 1862</date>
+						</supplied>
+						 , 
+						<persName>
+							 Georg Herwegh 
+							<idno corresp="Herwegh, Georg"/>
+						</persName>
+						<supplied>
+							<date from="1817" to="1875">1817–1875</date>
+						</supplied>
+						 , 
+						<persName>
+							 Ferdinand Freiligrath 
+							<idno corresp="Freiligrath, Ferdinand"/>
+						</persName>
+						<supplied>
+							<date from="1810" to="1876">1810–1876</date>
+						</supplied>
+						 és 
+						<persName>
+							 Hermann Grimm 
+							<idno corresp="Grimm, Hermann"/>
+						</persName>
+						<supplied>
+							<date from="1828" to="1901">1828–1901</date>
+						</supplied>
+						 valódi „mesterfordításnak” neveztek. A tőlük kapott hízelgő
+						tartalmú leveleket, mivel csak a nyomtatás lezárulta után érkeztek meg, a
+						második kiadásban fogom kinyomtattatni. 
+					</p>
+					<p>
+						 Mint mondottam, ez a kedvező ítélet e fordításnak csak mint német poétikai
+						munkának értékére vonatkozik, amely vonatkozásban kevés német fordítás
+						vetekedhet vele a művészi forma biztonságát, a rímelés szigorúságát és
+						tisztaságát illetően. Ami azonban az eredeti iránti 
+						<hi rend="underline">hűséget</hi>
+						 illeti, ezt Önnek kell megítélnie; egyedül a hírneves
+						filológus, honfitársunk 
+						<persName>
+							 Louis Podhorszky 
+							<idno corresp="Podhorszky, Louis"/>
+						</persName>
+						 vetette eddig egybe az eredetit az utánköltéssel, és akármilyen
+						nehéz is egyébként az ő igényességének megfelelni, ezúttal nagyon bátorítóan
+						nyilatkozott. 
+					</p>
+					<p>
+						 Talán most nekilátok, hogy, ha alkalom adódik, a 
+						<title>Toldy</title>
+						 t
+						<sic/>
+						 és 
+						<title>Murány</title>
+						 t is újrafordítsam ezen új, szigorúbb
+						rendszer szerint, mint ahogy 
+						<persName>
+							 Petőfi 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						 ből készített első fordításom elégtelenségeit is jóvátettem és
+						elfeledtettem az oly jól sikerült második által. 
+					</p>
+					<p>
+						 Mindenesetre látnia kell – és láthatják a többi honfitársak is –, hogy
+						nemcsak hogy fáradhatatlanul törekszem arra, hogy a magam elé állított
+						feladatot mindig jobban és jobban megoldjam és hogy önmagam művelése által
+						mind hatékonyabban képviseljem az országot, hanem hogy még mindig az
+						egyetlen vagyok – az elmúlt 12 év tapasztalata ezt mutatja – , aki
+						<placeName>
+							 Magyarország 
+							<idno type="ITIdata">Q9</idno>
+						</placeName>
+						 hírnevének a költészet terén való gyarapítását igazán komolyan
+						veszi és a szívén viseli, hiszen 
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						 , 
+						<persName>
+							 Dux 
+							<idno corresp="Dux Adolf" type="ITIdata">Q43305</idno>
+						</persName>
+						 , 
+						<persName>
+							 Dudumi 
+							<idno corresp="Dudumi, Demeter"/>
+						</persName>
+						 , 
+						<persName>
+							 Machek 
+							<idno corresp="Machik, Joseph von"/>
+						</persName>
+						<sic/>
+						 és mások próbálkozásai csak kísérleteknek, gyakran csak bármely
+						határozott célt nélkülöző játszadozásoknak nevezhetők. 
+					</p>
+					<p>
+						 Kisebb költeményeinek első kiadása nem kerül a könyvkereskedésekbe, mivel a
+						kiadást egy baráti kör előfizetése fedezi. A legtöbb példányt 
+						<persName>
+							Miksa 
+							<idno corresp="II. Miksa József"/>
+						</persName>
+						 bajor király, 
+						<persName>Ernst</persName>
+						 koburgi herceg,
+						<persName>Hohenlohe</persName>
+						 herceg, a weimari nagyherceg, 
+						<persName>
+							M. Bentheim 
+							<idno corresp="Bentheim, M."/>
+						</persName>
+						 birodalmi gróf, 
+						<persName>Polignac</persName>
+						 herceg rendelték
+						meg, a honfitársak közül pedig 
+						<persName>
+							 Klapka 
+							<idno corresp="Klapka György" type="ITIdata">Q147209</idno>
+						</persName>
+						 , 
+						<persName>
+							 Teleki 
+							<idno corresp="Teleki László" type="ITIdata">Q49703</idno>
+						</persName>
+						 , s.t.b. A második kiadást 
+						<placeName>
+							 Berlin 
+							<idno type="ITIdata">Q11749</idno>
+						</placeName>
+						 ben szándékozom megjelentetni, és remény van arra, hogy korunk
+						legnagyobb művésze, 
+						<persName>
+							 Wilhelm v. Kaulbach 
+							<idno corresp="Kaulbach, Wilhelm von"/>
+						</persName>
+						 igazgató úr 
+						<placeName>
+							 München 
+							<idno type="ITIdata">Q6959</idno>
+						</placeName>
+						 ben, akinek a fordítást ajánlottam, néhány illusztrációt rajzol
+						majd a következő kiadáshoz. E célból igen kívánatos lenne, ha kaphatnék
+						néhány rajzot magyar nemzeti viseletekről, hogy a nagy mesternek legyen
+						támpontja az embertípust és a történelmi lokálkoloritot illetően. Úgy
+						gondolom, tudja majd értékelni a kilátásba helyezett lehetőség jelentőségét,
+						mégpedig, hogy egy olyan művész ceruzája segítségével tehet szert európai
+						hírnévre, aki a 
+						<title>Reinecke Fuchs</title>
+						 ot, 
+						<persName>
+							 Goethe 
+							<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+						</persName>
+						 és 
+						<persName>
+							 Schiller 
+							<idno corresp="Schiller, Friedrich" type="ITIdata">Q334379</idno>
+						</persName>
+						<supplied>
+							<date from="1759" to="1805">1759–1805</date>
+						</supplied>
+						 műveit oly korszakalkotóan illusztrálta. 
+					</p>
+					<p>Egyébként Öntől függ, hogy ezúttal megtisztel-e engem levelem
+						megválaszolásával, amely udvarias gesztushoz honfitársaim részéről nem
+						vagyok már hozzászokva. Nagyon megörvendeztetne egy teljesen őszinte
+						válasszal, mindazon tökéletlenségek megjelölésével, melyeket a fordításban
+						esetleg még kifogásolni lehet. Hiszen bizonyára belátja, hogy én magam is
+						legmélyebben érdekelve vagyok abban, hogy az eredeti mű szerzőjének
+						támogatása révén a fordítást a második kiadás számára tovább tudjam
+						tökéletesíteni, és még a leghaloványabb esetleges pecsétet is el tudjam
+						tüntetni.</p>
+					<p>Legjobb szerencsekívánatokkal a szülőföld nemzete, és hasonló jókívánságokkal
+						annak legnemesebb ma élő költője számára, üdvözli Önt</p>
+					<p>odaadó híve</p>
+					<p>
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+					</p>
+					<p>
+						 Levélcímem: Mr. 
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 , 
+						<placeName>
+							 Genéve 
+							<idno corresp="Genf" type="ITIdata">Q11371</idno>
+						</placeName>
+						<sic/>
+						 , Hôtel de la Balance. Suisse 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/272</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>208</height>
+										<width>133</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 csontszínű fol., 20,8x13,3 cm. 1–4. levél.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471178</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-11-08"/>
+				<placeName>
+					 Genf 
+					<idno type="ITIdata">Q11371</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Kertbeny Károly 
+						<idno type="ITIdata">Q243342</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>KERTBENY KÁROLY – ARANY JÁNOSNAK</title>
+					<supplied>
+						<placeName>
+							 Genf 
+							<idno corresp="Genf" type="ITIdata">Q11371</idno>
+						</placeName>
+						 , 
+						<date when="1860-11-08">1860. november 8.</date>
+					</supplied>
+					<placeName>
+						 Genf 
+						<idno corresp="Genf" type="ITIdata">Q11371</idno>
+					</placeName>
+					 , 
+					<date when="1860-11-08">81160.</date>
+					 Donnerstag. 
+					<hi rend="underline">Hôtel de la Balance</hi>
+				</head>
+				<p xml:id="p.1">Mein Herr!</p>
+				<p xml:id="p.2">
+					 Sie erhalten anbei ein Exemplar meiner neuesten Uebersetzung von 18
+					Ihrer kleineren Gedichte. 
+					<note type="critic">
+						<quote>Sie erhalten anbei ein Exemplar meiner neuesten Uebersetzung von 18
+							Ihrer kleineren Gedichte</quote>
+						 – A 18 vers 
+						<date when="1861">1861-ben</date>
+						 jelent meg 
+						<placeName>Genf</placeName>
+						 ben: 
+						<bibl>
+							<title>Gedichte von Johann Arany</title>
+							 . Versuch einer
+							Musterübersetzung. Nach dem Ungarischen von 
+							<persName>
+								 K. M. Kertbeny
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<placeName>Genf</placeName>
+							 , Buchdruckerei von 
+							<persName>
+								J. W. Fick 
+								<idno corresp="Fick, J. W."/>
+							</persName>
+							 , 
+							<date when="1861">1861.</date>
+						</bibl>
+						 A kötet a következő költeményeket tartalmazza: 
+						<title>Die Mutter des
+							Königs Mathias Korvin</title>
+						<supplied>
+							<title>Mátyás anyja</title>
+						</supplied>
+						 , 
+						<title>Klara Zács</title>
+						<supplied>
+							<title>Zács Klára</title>
+						</supplied>
+						 , 
+						<title>Ladislaus der Fünfte</title>
+						<supplied>
+							<title>V. László</title>
+						</supplied>
+						 , 
+						<title>Bor der Held</title>
+						<supplied>
+							<title>Bor vitéz</title>
+						</supplied>
+						 , 
+						<title>Der gefangene Storch</title>
+						<supplied>
+							<title>A rab gólya</title>
+						</supplied>
+						 , 
+						<title>Die Hunnenschlacht</title>
+						<supplied>
+							<title>Keveháza</title>
+						</supplied>
+						 , 
+						<title>Familienkreis</title>
+						<supplied>
+							<title>Családi kör</title>
+						</supplied>
+						 , 
+						<title>Im Herbste</title>
+						<supplied>
+							<title>Ősszel</title>
+						</supplied>
+						 , 
+						<title>Dante</title>
+						<supplied>
+							<title>Dante</title>
+						</supplied>
+						 , 
+						<title>Erinnerungen an Alexander Petöfi</title>
+						<supplied>
+							<title>Emléklapra</title>
+						</supplied>
+						 , 
+						<title>Auf dem Hügel von Tetétlen</title>
+						<supplied>
+							<title>A tetétleni halmon</title>
+						</supplied>
+						 , 
+						<title>Rückblick</title>
+						<supplied>
+							<title>Visszatekintés</title>
+						</supplied>
+						 , 
+						<title>Die Ballade von der Frau Agnes</title>
+						<supplied>
+							<title>Ágnes asszony</title>
+						</supplied>
+						 , 
+						<title>Die Nähmädchen</title>
+						<supplied>
+							<title>A varró leányok</title>
+						</supplied>
+						 , 
+						<title>Hatvani</title>
+						<supplied>
+							<title>Hatvani</title>
+						</supplied>
+						 , 
+						<title>Des uralten Gulyás (Rinderhirt’s) Begräbniss</title>
+						<supplied>
+							<title>A vén gulyás temetése</title>
+						</supplied>
+						 , 
+						<title>Die Katze des Gelehrten</title>
+						<supplied>
+							<title>A tudós macskája</title>
+						</supplied>
+						 , 
+						<title>Die Nachtigall</title>
+						<supplied>
+							<title>A fülemile</title>
+						</supplied>
+						 . 
+					</note>
+					 Als Sie vor Jahren mir nicht sehr höflich und
+					landsmännisch den Dienst dankten, Ihren „ 
+					<title>Toldi</title>
+					 ” und Ihre „
+					<title>Belagerung von Murány</title>
+					 ” übertragen zu haben, 
+					<note type="critic">
+						<quote>
+							 […] Ihren „ 
+							<title>Toldi</title>
+							 ” und Ihre „ 
+							<title>Belagerung von
+								Murány</title>
+							 ” übertragen zu haben 
+						</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Johann Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 : 
+							<title>Die Eroberung von Murány</title>
+							<supplied>
+								<title>Murány ostroma</title>
+							</supplied>
+							 . Erzählende Dichtung. Übers. von 
+							<persName>
+								 Kertbeny 
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<placeName>Leipzig</placeName>
+							<date when="1851">1851.</date>
+							 Herbig 
+						</bibl>
+						 ; 
+						<bibl>
+							<persName>
+								 Johann Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 : 
+							<title>Toldi</title>
+							 . Erzählende Dichtung. Übers. von
+							<persName>
+								 Kertbeny 
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<placeName>Leipzig</placeName>
+							<date when="1851">1851.</date>
+							 Herbig 
+						</bibl>
+						 . Lásd 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 két elveszett levelét 
+						<persName>
+							 Kertbeny Károly 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 nak, 
+						<date when="1852-08-01">1852. aug. 1.</date>
+						 ( 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 398. 86. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.398"/>
+						 ) és 
+						<date when="1853">1853.</date>
+						 585.
+						<ref target="ajom-16-lev.tei.585"/>
+						<date when="1853-12">dec.</date>
+						 vége (Ugyanott 585. 
+						<ref target="ajom-16-lev.tei.585"/>
+						 362.) 
+					</note>
+					 hatten Sie völlig Recht
+					jene Uebersetzungen für sehr schlecht zu halten; jezt erst, wo ich durch viele
+					Routine und ernste Studien weiser geworden, und zu einem völlig anderen Prinzip
+					der poetischen Translation gelangte, lernte ich einsehen, daß jene Ausgabe
+					wirklich und zwar noch viel ungeschickter ist, als Sie es von Ihrem Standpunkte
+					aus zu beurtheilen vermögen. Ich schäme mich aber deßhalb doch nicht meiner
+					literärischen Vergangenheit. Als Autodidakt auf willkürliches Experimentiren
+					angewiesen, ohne alle Hilfe und guten Rath von Seite meiner Landsleute, konnte
+					ich nur durch leidigste Selbsterfahrung, und stümperhafteste Versuche den
+					rechten Weg auffinden, und mußte mir durch Dick und Dünn Bahn brechen, um meine
+					Aufgabe nur annähernd lösen zu können. Daß ich nicht nur nicht ermüdete und
+					nicht verzagte, vielmehr konsequent weiter experimentirte und immer Besseres zu
+					leisten strebte, das ist mein subjektives Verdienst, und ein seltenes in
+					jetziger Zeit der Oberflächlichkeit und Inkonsequenz. Wenn sich daher schon
+					irgend wer schämen soll, so mögen es meine Landsleute thun, die nie guten Rath,
+					Beihülfe, Theilnahme, sondern nur vorweg Indifferenz, darnach Hohn für mein
+					Streben hatten, die mich dazu brachten, wieder das bittere Brot der Fremde essen
+					zu müssen, und denen gegenüber ich doch nicht müde werde, mein Schärflein nach
+					schwachen Kräften fort und fort beizutragen, um ihre Anerkennung und ihren Ruhm
+					vor dem Auslande zu vermehren. 
+				</p>
+				<p xml:id="p.3">
+					 Mein voranstehendes Selbsteingeständniß der Unzulänglichkeit meiner
+					früheren Arbeiten ist übrigens blos ein Bildungsabschluß mir selbst gegenüber.
+					Ihnen gegenüber jedoch habe ich mich auch trotzdem durchaus nicht anzuklagen.
+					Das europäische Publikum nahm meine Uebersetzung von 
+					<title>Toldy</title>
+					<sic/>
+					 und 
+					<title>Murány</title>
+					 günstiger auf, als sie es verdiente; es
+					erschien davon die zweite Auflage; 
+					<note type="critic">
+						<quote>es erschien davon die zweite Auflage</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Johann Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 : 
+							<title>Die Eroberung von Murány</title>
+							 . Erzählende
+							Dichtung. Übers. von 
+							<persName>
+								 Kertbeny 
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<placeName>Leipzig</placeName>
+							<date when="1853">1853.</date>
+							 Herbig 
+						</bibl>
+						 ; 
+						<bibl>
+							<persName>
+								 Johann Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 : 
+							<title>Toldi</title>
+							 . Erzählende Dichtung. Übers. von
+							<persName>
+								 Kertbeny 
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<placeName>Leipzig</placeName>
+							<date when="1853">1853.</date>
+							 Herbig. 
+						</bibl>
+					</note>
+					 Ihr Name ist dadurch in der Weltliteratur ein rühmlichst eingebürgerter
+					geworden; Ihre Biografie brachten nach den von mir mitgetheilten Daten das
+					<persName>
+						 Brockhäusische 
+						<idno corresp="Brockhaus, Friedrich Arnold"/>
+					</persName>
+					 „ 
+					<title>Konversationslexikon</title>
+					 ”, 
+					<note type="critic">
+						<quote>
+							 das 
+							<persName>Brockhäusische</persName>
+							 „
+							<title>Konversationslexikon</title>
+							 ” 
+						</quote>
+						 – 
+						<bibl>
+							<title>Brockhaus’ Konversations-Lexikon</title>
+							 . 10. Auflage. Unsere
+							Zeit. Deutsche Revue der Gegenwart. Bd. 1–8.
+							<placeName>Leipzig</placeName>
+							 , 
+							<persName>
+								 F. A; Brockhaus 
+								<idno corresp="Brockhaus, Friedrich Arnold"/>
+							</persName>
+							 , 
+							<date from="1857" to="1864">1857–64.</date>
+						</bibl>
+					</note>
+					 die 
+					<persName>
+						 Lorck 
+						<idno corresp="Lorck, C. B."/>
+					</persName>
+					 ’schen „ 
+					<title>Männer der Zeit</title>
+					 ”, 
+					<note type="critic">
+						<quote>
+							 die 
+							<persName>
+								 Lorck 
+								<idno corresp="Lorck, C. B."/>
+							</persName>
+							 'schen „ 
+							<title>Männer der Zeit</title>
+							 ” 
+						</quote>
+						 – 
+						<bibl>
+							<title>Männer der Zeit</title>
+							 . Biographisches Lexikon der Gegenwart.
+							<placeName>Leipzig</placeName>
+							 , 
+							<persName>
+								 C. B. Lorck 
+								<idno corresp="Lorck, C. B."/>
+							</persName>
+							 , 
+							<date when="1860">1860.</date>
+						</bibl>
+					</note>
+					<persName>
+						 Vapereau 
+						<idno corresp="Vaporeau, Gustave"/>
+					</persName>
+					 ’s 
+					<title>Dictionnaire des Contemporains</title>
+					 , 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Vapereau 
+								<idno corresp="Vaporeau, Gustave"/>
+							</persName>
+							 's 
+							<title>Dictionnaire des Contemporains</title>
+						</quote>
+						 – 
+						<bibl>
+							<title>Dictionnaire universel des contemporains</title>
+							 … par 
+							<persName>
+								Gustave Vapereau 
+								<idno corresp="Vaporeau, Gustave"/>
+							</persName>
+							 . 
+							<placeName>
+								 Paris 
+								<idno corresp="Párizs"/>
+							</placeName>
+							 , L. Hachette 
+							<date when="1858">1858.</date>
+						</bibl>
+					</note>
+					 und noch unzählige andere deutsche, französische, auch englische
+					Sammelwerke; ferner konnte, durch meine Uebersetzung veranlaßt, die des Dr
+					<persName>
+						 Kolbenheyer 
+						<idno corresp="Kolbenheyer Móric"/>
+					</persName>
+					 eine bessere werden. 
+					<note type="critic">
+						<quote>
+							 ferner konnte, durch meine Uebersetzung veranlaβt, die des Dr
+							<persName>
+								 Kolbenheyer 
+								<idno corresp="Kolbenheyer Móric"/>
+							</persName>
+							 eine bessere werden 
+						</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Johann Arany 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+							 : 
+							<title>Toldi</title>
+							 . Poetische Erzählungen in 12
+							Gesängen. Im Versmaß des Originals übersetzt von 
+							<persName>
+								 Moritz
+								Kolbenheyer 
+								<idno corresp="Kolbenheyer Móric"/>
+							</persName>
+							 . Mit einem Briefe von 
+							<choice>
+								<orig>Fr. Hebbel</orig>
+								<supplied>
+									<persName>
+										 Friedrich Hebbel 
+										<idno corresp="Hebbel, Friedrich"/>
+									</persName>
+								</supplied>
+							</choice>
+							 . 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<persName>
+								 Heckenast 
+								<idno corresp="Heckenast Gusztáv" type="ITIdata">Q242743</idno>
+							</persName>
+							 , 
+							<date when="1855">1855.</date>
+						</bibl>
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						 fordításával 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 is elégedett volt, lásd 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						 nek 
+						<date when="1855-03-17">1855. márc. 17.</date>
+						 ( 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 694. 532–533. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.694"/>
+						 ) – 
+						<persName>Kolbenheyer
+							Móric</persName>
+						 ( 
+						<date from="1810" to="1884">1810–1884</date>
+						 ): 
+						<date from="1846">1846-tól</date>
+						 ev. lelkész 
+						<placeName>Sopron</placeName>
+						ban. E korszakbeli művei: 
+						<title>Johann Arany: Toldi’s Abend</title>
+						 ( 
+						<date when="1856">1856</date>
+						 ); 
+						<title>Festgedicht zur Huldigung der
+							Evangelischen Ungarns Ihren k. k. Apost. Majestäten Franz Josef I. und
+							Elisabeth in unterthänigster Ehrfurcht dargebracht zu Ofen–Pest im Monat
+							Mai 1857</title>
+						 ( 
+						<date when="1857">1857</date>
+						 ). 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -sal való korábbi kapcsolatát lásd 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 1175. 
+						</bibl>
+						 Az 
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+						</bibl>
+						 egy tőle való és két hozzá írt AJ-levelet közöl (közülük az egyik
+						elveszett), ez a kötet egy Kolbenheyer-levelet tartalmaz. 
+					</note>
+					 Genug, ich
+					habe Ihnen nicht nur nicht geschadet, vielmehr, trotz aller mir einzugestehender
+					Unzulänglichkeit, wesentlich genüzt. 
+				</p>
+				<p xml:id="p.4">
+					 Nunmehr jedoch glaube ich Ihnen dankenswerther auch in
+					aesthetischer Beziehung gerecht geworden zu sein. Sie erhalten anbei eine
+					Uebersetzung, die bezüglich deutscher Form und Sprache nicht nur kaum mehr was
+					zu wünschen übrig läßt, die vielmehr alle im Original vorhandenen einfachen
+					Schwierigkeiten verdoppelte, und dabei doch noch gewandt löste, und die, nachdem
+					ich das Werk an Nachstehende noch in den Aushängebogen zur Durchsicht versandte,
+					von Autoritäten allerersten Ranges, wie ein 
+					<persName>
+						 Charles Sealsfield 
+						<idno corresp="Sealsfield, Charles"/>
+					</persName>
+					 , 
+					<persName>
+						 Ludwig Uhland 
+						<idno corresp="Uhland, Ludwig"/>
+					</persName>
+					 , 
+					<persName>
+						 Georg Herwegh 
+						<idno corresp="Herwegh, Georg"/>
+					</persName>
+					 , 
+					<persName>
+						 Ferdinand Freiligrath 
+						<idno corresp="Freiligrath, Ferdinand"/>
+					</persName>
+					 und 
+					<persName>
+						 Hermann Grimm 
+						<idno corresp="Grimm, Hermann"/>
+					</persName>
+					 als wirkliche „Musterübersetzung” bezeichnet wurde, welche
+					schmeichelhaften Briefe, da sie jezt erst nach geschlossenem Drucke eintrafen,
+					ich der demnächsten zweiten Auflage werde beidrucken lassen. 
+					<note type="critic">
+						<quote>welche schmeichelhaften Briefe, da sie jezt erst nach geschlossenem
+							Drucke eintrafen, ich der demnächsten zweiten Auflage werde beidrucken
+							lassen</quote>
+						 – Második kiadás nem jelent meg. Az 
+						<date when="1861">1861-es</date>
+						 első kiadást a 
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 által szerkesztett 
+						<bibl>
+							<title>A magyar nemzeti és nemzetközi irodalom könyvészete
+								1441–1878</title>
+							 című munka szerint ( 
+							<placeName>
+								 Bp 
+								<idno corresp="Budapest"/>
+							</placeName>
+							 ., 
+							<date when="1876">1876.</date>
+							 7.) 
+						</bibl>
+						 750
+						példányban nyomtatták, csak baráti körben került terjesztésre, ingyen.
+					</note>
+				</p>
+				<p xml:id="p.5">
+					 Wie gesagt, jenes vortheilhafte Urtheil beschränkt sich nur auf
+					diese Uebersetzung bezüglich ihres Werthes als deutsche poetische Arbeit, in
+					welchem Vergleich wenig andere deutsche Uebersetzungen sich mit dieser
+					Sicherheit künstlicher Form, Schärfe und Reinheit des Reimes werden messen
+					lassen. Bezüglich jedoch der 
+					<hi rend="underline">Treue</hi>
+					 gegenüber dem
+					Originale haben 
+					<hi rend="underline">Sie</hi>
+					 zu entscheiden; einzig der bestens
+					bekannte Filologe 
+					<persName>
+						 Louis Podhorszky 
+						<idno corresp="Podhorszky Lajos"/>
+					</persName>
+					 , 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Louis Podhorszky 
+								<idno corresp="Podhorszky Lajos"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>Podhorszky Lajos</persName>
+						 ( 
+						<date from="1815" to="1891">1815–1891</date>
+						 ): nyelvész, hányatott sorsú emigráns. Az
+						1850-es években a párizsi Bibliothèque Nationale-ban dolgozott. A
+						kelet-ázsiai nyelveket és őstörténelmet tanulmányozta, kínai–magyar
+						nyelvrokonságot tételezett fel. 
+					</note>
+					 unser Landsmann, verglich bis jezt
+					das Original mit der Wiederdichtung, und so schwer zu befriedigen er sonst ist,
+					sprach er sich doch diesmal sehr ermuthigend aus. 
+				</p>
+				<p xml:id="p.6">
+					 Vielleicht, daß ich nun darangehen werde, gelegentlich auch
+					<title>Toldy</title>
+					<sic/>
+					 und 
+					<title>Murány</title>
+					 nach diesem neuen, strengeren Systeme neu zu
+					übersetzen, wie ich die Unzulänglichkeit meiner ersten Uebersetzung 
+					<persName>
+						Petőfi 
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 ’s, durch die so gelungene zweite wieder gut und vergessen machte.
+					<note type="critic">
+						<quote>
+							 wie ich die Unzulänglichkeit meiner ersten Uebersetzung 
+							<persName>
+								Petőfi 
+								<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+							</persName>
+							 ’s, durch die so gelungene zweite wieder gut und vergessen
+							machte 
+						</quote>
+						 – Az első Petőfi-fordításokat tartalmazó kötet 
+						<date when="1849">1849-ben</date>
+						 jelent meg: 
+						<bibl>
+							<title>Gedichte von Alexander Petőfi</title>
+							 . Nebst Anhang, Lieder
+							anderer ungarischer Dichter. ( 
+							<persName>
+								 Heinrich Heine 
+								<idno corresp="Heine, Heinrich" type="ITIdata">Q334353</idno>
+							</persName>
+							 gewidmet.) 
+							<placeName>Frankfurt</placeName>
+							 a. M., 
+							<date when="1849">1849.</date>
+							 Literar. Anstalt, XXIII. 466. 
+						</bibl>
+						 A
+						második 
+						<date when="1858">1858-ban</date>
+						 : 
+						<bibl>
+							<title>Dichtungen von Alexander Petőfi</title>
+							 . Aus dem Ungrischen in
+							eigenen und fremden Uebersetzungen. Mit einem Vorworte von 
+							<choice>
+								<orig>Friedr. Bodenstedt</orig>
+								<supplied>
+									<persName>
+										 Friedrich Bodenstedt 
+										<idno corresp="Bodenstedt, Friedrich"/>
+									</persName>
+								</supplied>
+							</choice>
+							 . 
+							<placeName>Leipzig</placeName>
+							 , 
+							<date when="1858">1858.</date>
+							<persName>
+								 F. A. Brockhaus 
+								<idno corresp="Brockhaus, Friedrich Arnold"/>
+							</persName>
+							 . XXII. 592. 
+						</bibl>
+						<persName>
+							 Bodenstedt 
+							<idno corresp="Bodenstedt, Friedrich"/>
+						</persName>
+						 és 
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						<date when="1856">1856-ban</date>
+						 váltott leveleiben szó volt a műfordítás
+						elvi kérdéseiről ( 
+						<persName>
+							 Bodenstedt 
+							<idno corresp="Bodenstedt, Friedrich"/>
+						</persName>
+						 azt tanácsolta 
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 nek, hogy ne szöveghűségre, hanem kifogástalan német nyelvű
+						költemény létrehozására törekedjen, mely „úgy hangozzék s oly hatást
+						gyakoroljon, mint az eredeti”. ( 
+						<bibl>
+							<persName>
+								 Kertbeny Károly 
+								<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+							</persName>
+							 . 
+							<abbr>KépCsalL</abbr>
+							<date when="1879">1879.</date>
+							 265. 
+						</bibl>
+						 ) Ez hozzájárulhatott ahhoz,
+						hogy 
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 a levélben fentebb említett „teljesen más rendszerre” tért át
+						műfordítói munkájában. 
+					</note>
+				</p>
+				<p xml:id="p.7">
+					 Jedenfalls sehen Sie – und können es die übrigen Landsleute sehen,
+					– daß ich nicht nur unermüdlich bin, die mir gestellte Aufgabe immer
+					entsprechender zu lösen, und durch Selbstbildung eine wirksamere Repräsentation
+					zu erstreben, sondern auch – und die lezten 12 Jahre lehren es, – daß ich noch
+					immer der Einzige bin, dem es tief ernst um 
+					<placeName>
+						 Ungarn 
+						<idno corresp="Magyarország"/>
+					</placeName>
+					 s Ruhm auf poetischem Felde ist, denn die anderen Versuche eines
+					<persName>
+						 Kolbenheyer 
+						<idno corresp="Kolbenheyer Móric"/>
+					</persName>
+					 , 
+					<note type="critic">
+						<quote>
+							 die anderen Versuche eines 
+							<persName>
+								 Kolbenheyer 
+								<idno corresp="Kolbenheyer Móric"/>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						<persName>
+							 Petőfi 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						 , 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 , 
+						<persName>
+							 Vörösmarty 
+							<idno corresp="Vörösmarty Mihály" type="ITIdata">Q50503</idno>
+						</persName>
+						 , 
+						<persName>
+							 Jókai 
+							<idno corresp="Jókai Mór" type="ITIdata">Q243229</idno>
+						</persName>
+						 , 
+						<persName>
+							 Lisznyai 
+							<idno corresp="Lisznyai Kálmán" type="ITIdata">Q53835</idno>
+						</persName>
+						 , 
+						<persName>
+							 Pompéry 
+							<idno corresp="Pompéry János" type="ITIdata">Q245302</idno>
+						</persName>
+						 , 
+						<persName>
+							 Czuczor 
+							<idno corresp="Czuczor Gergely István" type="ITIdata">Q240808</idno>
+						</persName>
+						 , 
+						<persName>
+							 Garay 
+							<idno corresp="Garay János" type="ITIdata">Q44339</idno>
+						</persName>
+						 műveit is fordította németre. Figyelemre méltó, hogy 
+						<persName>
+							Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						 itt ellentmondásba kerül önmagával: fentebb maga mondta
+						<persName>
+							 Kolbenheyer 
+							<idno corresp="Kolbenheyer Móric"/>
+						</persName>
+						 Toldi-fordításáról, hogy jobb, mint az övé. 
+					</note>
+					<persName>
+						 Dux 
+						<idno corresp="Dux Adolf" type="ITIdata">Q43305</idno>
+					</persName>
+					 , 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Dux 
+								<idno corresp="Dux Adolf" type="ITIdata">Q43305</idno>
+							</persName>
+						</quote>
+						 – 
+						<persName>
+							 Dux Adolf 
+							<idno corresp="Dux Adolf" type="ITIdata">Q43305</idno>
+						</persName>
+						 , például: 
+						<bibl>
+							<title>Ungarische Dichtungen</title>
+							 . Deutsch von A. Dux. Preßburg u.
+							<placeName>Leipzig</placeName>
+							 . 
+							<date when="1854">1854.</date>
+							<persName>
+								 L. A. Knapp 
+								<idno corresp="Knapp, L. A."/>
+							</persName>
+							 und 
+							<persName>
+								 W. Baensch 
+								<idno corresp="Baensch, W."/>
+							</persName>
+							 . IV. 116. 
+						</bibl>
+					</note>
+					<persName>
+						 Dudumi 
+						<idno corresp="Dudumi, Demeter"/>
+					</persName>
+					 , 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Dudumi 
+								<idno corresp="Dudumi, Demeter"/>
+							</persName>
+						</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Demeter Dudumi 
+								<idno corresp="Dudumi, Demeter"/>
+							</persName>
+							 : 
+							<title>Klänge aus dem Osten</title>
+							 . Ungarische
+							Dichtungen, frei nachgebildet von 
+							<persName>
+								 Demeter Dudumi 
+								<idno corresp="Dudumi, Demeter"/>
+							</persName>
+							 . 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1855">1855.</date>
+							 Geibel Miniatur-Ausgabe.
+							XII. 186. 
+						</bibl>
+					</note>
+					<persName>
+						 Machek 
+						<idno corresp="Machik, Joseph von"/>
+					</persName>
+					<sic/>
+					 , 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Machek 
+								<idno corresp="Machik, Joseph von"/>
+							</persName>
+							<sic/>
+						</quote>
+						 – 
+						<persName>
+							 Joseph von Machik 
+							<idno corresp="Machik, Joseph von"/>
+						</persName>
+						 , például: 
+						<bibl>
+							<title>Gisela</title>
+							 . Auswahl ungarischer Dichter. Deutsch von
+							<persName>
+								 Joseph von Machik 
+								<idno corresp="Machik, Joseph von"/>
+							</persName>
+							 . 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1858">1858.</date>
+							 Lampel.
+							Miniatur-Prachtausgabe, 130. 
+						</bibl>
+					</note>
+					 u.s.w. können doch zumeist nur Versuche, oft nur Spielereien ohne
+					bestimmtes Ziel genannt werden. 
+				</p>
+				<p xml:id="p.8">
+					 Diese erste Auflage Ihrer kleineren Gedichte kommt nicht in den
+					Buchhandel, da die Auflage durch Pränumeration im Freundeskreise gedeckt ist.
+					Hauptabnehmer waren König 
+					<persName>
+						 Max 
+						<idno corresp="II. Miksa József"/>
+					</persName>
+					 von Bayern, 
+					<note type="critic">
+						<quote>
+							<persName>
+								 Max 
+								<idno corresp="II. Miksa József"/>
+							</persName>
+							 von Bayern 
+						</quote>
+						 – 
+						<persName>II. Miksa József</persName>
+						( 
+						<date from="1811" to="1864">1811–1864</date>
+						 ), 
+						<date from="1848" to="1864">1848–1864-ig</date>
+						<placeName>Bajorország</placeName>
+						 királya 
+					</note>
+					<persName>Ernst</persName>
+					 Herzog von Koburg, Fürst
+					<persName>Hohenlohe</persName>
+					 , der Großherzog von Weimar, Reichsgraf M.
+					<persName>
+						 M. Bentheim 
+						<idno corresp="Bentheim, M."/>
+					</persName>
+					 , Fürst 
+					<persName>Polignac</persName>
+					 , und von den Landsleuten
+					<persName>
+						 Klapka 
+						<idno corresp="Klapka György" type="ITIdata">Q147209</idno>
+					</persName>
+					 , 
+					<persName>
+						 Teleki 
+						<idno corresp="Teleki László" type="ITIdata">Q49703</idno>
+					</persName>
+					 , u.s.w. 
+					<note type="critic">
+						<quote>
+							 von den Landsleuten 
+							<persName>
+								 Klapka 
+								<idno corresp="Klapka György" type="ITIdata">Q147209</idno>
+							</persName>
+							 , 
+							<persName>
+								 Teleki 
+								<idno corresp="Teleki László" type="ITIdata">Q49703</idno>
+							</persName>
+							 , u.s.w. 
+						</quote>
+						 – 
+						<persName>
+							 Kertbeny 
+							<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+						</persName>
+						<date from="1860-04">1860 áprilisától</date>
+						<placeName>Genf</placeName>
+						 ben élt. Az itteni magyar emigránsok közül főleg
+						<persName>
+							 Klapka György 
+							<idno corresp="Klapka György" type="ITIdata">Q147209</idno>
+						</persName>
+						 és 
+						<persName>
+							 Teleki László 
+							<idno corresp="Teleki László" type="ITIdata">Q49703</idno>
+						</persName>
+						 gróf támogatták ( 
+						<bibl>
+							<abbr>Detrich 1936.</abbr>
+							 26. 
+						</bibl>
+						 ) 
+					</note>
+					 Die zweite Auflage soll
+					in 
+					<placeName>Berlin</placeName>
+					 erscheinen, und ist Hoffnung vorhanden, daß der
+					größte Künstler der Gegenwart, Direktor 
+					<persName>
+						 Wilhelm v. Kaulbach 
+						<idno corresp="Kaulbach, Wilhelm von"/>
+					</persName>
+					 in 
+					<placeName>München</placeName>
+					 , 
+					<note type="critic">
+						<quote>
+							 Direktor 
+							<persName>
+								 Wilhelm v. Kaulbach 
+								<idno corresp="Kaulbach, Wilhelm von"/>
+							</persName>
+							 in 
+							<placeName>München</placeName>
+						</quote>
+						 – 
+						<persName>
+							 Wilhelm v. Kaulbach 
+							<idno corresp="Kaulbach, Wilhelm von"/>
+						</persName>
+						 ( 
+						<date from="1805" to="1874">1805– 1874</date>
+						 ) 
+						<date from="1837">1837-től</date>
+						 bajor udvari festő, 
+						<date from="1849">1849-től</date>
+						 a Müncheni Akadémia igazgatója volt. 
+						<persName>
+							 Goethe
+							<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+						</persName>
+						<title>Reineke Fuchs</title>
+						 ához rajzolt illusztrációi az 1840-es években,
+						<persName>
+							 Goethe 
+							<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+						</persName>
+						 nőalakjait megörökítő szénrajzai és a
+						<title>Schillergaléria</title>
+						 az 1850-es és 1860-as években készültek.
+					</note>
+					 dem die Uebersetzung gewidmet ist, einige Illustrationen zur nächsten
+					Edition zeichnet. Zu diesem Zwecke wäre es sehr wünschenswerth, einige
+					Zeichnungen ungarischer Nationalkostüme zu erhalten, um dem großen Meister einen
+					Anhaltspunkt für die Race, und den historischen Lokalton zu bieten, und ich
+					denke, Sie werden die Tragweite der in Aussicht gestellten Möglichkeit zu
+					würdigen wissen, europäische Berühmtheit durch den Stift eines Künstlers zu
+					erlangen, der 
+					<title>Reinecke Fuchs</title>
+					 , 
+					<persName>
+						 Goethe 
+						<idno corresp="Goethe, Johann Wolfgang von" type="ITIdata">Q396</idno>
+					</persName>
+					 ’s und 
+					<persName>
+						 Schiller 
+						<idno corresp="Schiller, Friedrich" type="ITIdata">Q334379</idno>
+					</persName>
+					 ’s Werke bisher so epochemachend illustrirte. 
+				</p>
+				<p xml:id="p.9">Es hängt übrigens von Ihnen ab, die, von Seite meiner Landsleute
+					nicht mehr gewohnte Höflichkeit mir diesmal zu erweisen, und mich durch eine
+					Antwort zu ehren, durch eine völlig offenherzige, mit Bezeichnung all der
+					Unzulänglichkeiten, welche noch etwa zu rügen sind, wirklich zu erfreuen. Denn
+					Sie werden einsehen, daß es auch tiefst in meinem eigenen Interesse liegt, durch
+					Beistand des Originalautors in die Möglichkeit versetzt zu werden, die
+					Uebersetzung in zweiter Auflage noch besser zu liefern, und auch die leisesten
+					etwaigen Flecke wegzutilgen.</p>
+				<p xml:id="p.10">Indem ich der Nation der Heimath besten Segen wünsche, habe ich
+					denselben Wunsch für ihren jeztlebenden edelsten Dichter, und grüße Sie als Ihr
+					ergebener</p>
+				<p xml:id="p.11">
+					<persName>
+						 Kertbeny 
+						<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+					</persName>
+				</p>
+				<p xml:id="p.12">
+					 Meine Adreße ist: Mr 
+					<persName>
+						 Kertbeny 
+						<idno corresp="Kertbeny Károly Mária" type="ITIdata">Q243342</idno>
+					</persName>
+					 , 
+					<placeName>
+						 Genéve 
+						<idno corresp="Genf"/>
+					</placeName>
+					<sic/>
+					 , Hôtel de la Balance. Suisse 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1154" type="main">ARANY JÁNOS – CSENGERY ANTALNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1154</idno>
+				<idno type="ITIdata">Q481891</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1154.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							 594. 
+						</bibl>
+						 ) Válasz 
+						<persName>
+							 Csengery 
+							<idno corresp="Csengery Antal" type="ITIdata">Q240595</idno>
+						</persName>
+						<date when="1860-04-18">1860. április 18-i</date>
+						 levelére (1153.) 
+						<ref target="ajom-17-lev.tei.1153"/>
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI II.</abbr>
+						 178–181. 
+					</bibl>
+					 (kihagyással) 
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/78</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>234</height>
+										<width>151</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 Az 1. oldal jobb felső sarkában 
+										<persName>
+											 Arany László
+											<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+										</persName>
+										 írásával, fekete ceruzával: 
+										<date when="1860-04-23">1860 april 23.</date>
+										 2 világoskék
+										fol., koronás BATH-nyomattal. Vízjel: 
+										<persName>
+											 ARANY JÁNOS
+											<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+										</persName>
+										 . 23,4x15,1 cm. 1–3. levél, 4. üres. 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471125</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1860-04-23"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Csengery Antal 
+						<idno type="ITIdata">Q240595</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – CSENGERY ANTALNAK</title>
+					<supplied>
+						<placeName>
+							 Nagykőrös 
+							<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+						</placeName>
+						 , 
+						<date when="1860-04-23">1860. április 23.</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">Kedves Barátom!</p>
+				<p xml:id="p.2">Rövid, de annál fontosabb leveledre nem válaszolhattam tüstént.
+					Néhány nap óta sulyosabban fogott elő régi bajom, s ily állapotban reményt
+					táplálni a jövőre, s igéreteket tenni nem fért össze kedélyemmel. Most egy kissé
+					derűlni kezdek, nem is halogatom a választ tovább.</p>
+				<p xml:id="p.3">
+					 Az akademia fel fog szólítni, irjak egy költeményt 
+					<persName>
+						Széchenyi 
+						<idno corresp="Széchenyi István" type="ITIdata">Q246323</idno>
+					</persName>
+					 halálára s az Igazgató Tanács 100 aranynyal dijazza. Szép, igen
+					szép. De, édes barátom, ha engem egy 
+					<persName>
+						 Szé 
+						<add type="corr">ch</add>
+						enyi 
+						<idno corresp="Széchenyi István" type="ITIdata">Q246323</idno>
+					</persName>
+					<hi rend="underline">halála</hi>
+					 föl nem képes gerjeszteni arra, hogy szót adjak
+					a nagy nemzeti fájdalomnak: akkor semmi felszólítás, semi aranyos jutalom nem
+					fogja azt eszközölni. Gondolod, nem sírtam-e titkon, belül-vérző szivvel,
+					vérkönyüket, 
+					<del>hogy</del>
+					 a mult évi Kazinczy-jubilaeumok alatt, hogy midőn
+					fű-fa viszhangoz 
+					<del>z</del>
+					<add type="corr">t</add>
+					 a nagy nevét, csupán nekem kelle némán maradnom? Ez nem
+					restség, tunyaság, egykedvűség volt: a legemésztőbb fájdalmat éltem át. S most e
+					fájdalom kétszeres gyötrelemmel látszik megújulni: a nemzet rám függeszti
+					szemét, s én, valószinűleg, ismét hallgatni leszek kénytelen. Megkisértem, vedd
+					őszinte igéretemet, de nem tudom, ha megbirom-e. Annyival kétesb a süker, hogy e
+					nagy nemzeti gyász nagyobb, mintsem szóval ki volna mondható, s igy méltólag meg
+					sem énekelhető; aztán az én múzsácskám – egészséges korában is – visszariadt
+					volna ily magas tárgytól. A „majora canamus” sohasem ment énnekem, inkább a
+					„humiles myricae” körül forgottam. 
+					<note type="critic">
+						<quote>A „majora canamus” sohasem ment énnekem, inkább a „humiles myricae”
+							körül forgottam</quote>
+						 – 
+						<lg xml:id="lg.1">
+							<lg xml:id="lg.2">
+								<l xml:id="l.1">Sicelides Musae, paullo majora canamus.</l>
+							</lg>
+							<lg xml:id="lg.3">
+								<l xml:id="l.2">Non omnis arbusta juvant, humilesque myricae.</l>
+							</lg>
+						</lg>
+						<bibl>
+							<persName>
+								 Vergilius 
+								<idno corresp="Vergilius, Publius Maro"/>
+							</persName>
+							 : 
+							<title>Eklogák</title>
+							 , IV. 1–2. 
+						</bibl>
+						<persName>Lakatos István</persName>
+						 fordításában: 
+						<lg xml:id="lg.4">
+							<lg xml:id="lg.5">
+								<l xml:id="l.3">Múzsák, sicelidák! magasabbra kicsit ma
+									dalunkkal!</l>
+							</lg>
+							<lg xml:id="lg.6">
+								<l xml:id="l.4">Van kit a hanga-berek nem igéz, sem a törpe
+									bozótos</l>
+							</lg>
+						</lg>
+					</note>
+					 Sőt a frázis-csinálás 
+					<note type="critic">sorvégen</note>
+					 hoz 
+					<note type="critic">sor elején</note>
+					<note type="critic">kötőjel nélkül; emend.</note>
+					 sem értek, hogy népszerű
+					sallangokkal födözhetném az igazi belbecs hiányát ily nagyhangú alkalmi
+					költeményben. – 
+				</p>
+				<p xml:id="p.4">
+					 Mindent összevéve, kevés a kilátás, hogy én jóravalót adhassak,
+					vagy – a mi ezzel egyértelmű – bármit is adhassak. Hogy tehát mégis az ünnepély
+					költemény nélkül ne maradjon – képzelheted minő helyzetben lennék, ha
+					megbizatván, nem volnék képes teljesitni – hogy, mondom, az ünnepélyre költemény
+					biztosíttassék, s én is meg legyek kimélve egy országos compromissiótól, 
+					<note type="critic">
+						<quote>compromissiótól</quote>
+						 – kompromittálástól (lat.) 
+					</note>
+					 úgy látnám
+					jónak, hogy az 
+					<choice>
+						<orig>Ig.</orig>
+						<supplied>Igazgató</supplied>
+					</choice>
+					 tanács által kinevezett bizottmány ne specifice 
+					<note type="critic">
+						<quote>specifice</quote>
+						 – megkülönböztetve (lat.) 
+					</note>
+					 szólítna fel
+					engem, hanem, ha már pályát nyitni, és az Akad. körén kivűl lépni nem akar,
+					szólitná fel a többi verselő tagjait is, s a beérkezendő müvek közül fogadná el
+					azt, a melyik legjobban sükerűlt. Én részemről kijelentem, hogy semmi
+					neheztelésnek nem adnék helyet azon esetre, ha netán az enyém 
+					<choice>
+						<orig>
+							 mellőztetnék 
+							<metamark function="tinta"/>
+						</orig>
+						<supplied>mellőztetnék.</supplied>
+					</choice>
+					<persName>
+						 Tompa 
+						<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+					</persName>
+					 ugyan, tavalyi esete miatt alig fogna a felhivásnak engedni; azonban
+					okkal móddal, szép szóval őt is rábírhatnánk, hisz ez mégsem pályazat, 
+					<sic/>
+					 a
+					közönségnek nem szükség volna erről tudni; aztán 
+					<choice>
+						<orig>T…nak</orig>
+						<supplied>
+							<persName>
+								 Tompá 
+								<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+							</persName>
+							 nak 
+						</supplied>
+					</choice>
+					 azt lehetne kezdeményűl adni, hogy süker esetében, költeménye
+					„beköszöntő” helyen vét 
+					<add type="corr">e</add>
+					 tik. Máskint aligha foglal ő
+					valaha széket. No s aztán végre 
+					<choice>
+						<orig>Szász K.</orig>
+						<supplied>
+							<persName>
+								 Szász Károly 
+								<idno corresp="Szász Károly" type="ITIdata">Q150786</idno>
+							</persName>
+						</supplied>
+					</choice>
+					 kivonna bennünket a sárból. 
+				</p>
+				<p xml:id="p.5">Ezeket bizodalmosan irom neked, nem hogy felolvasd valaki előtt.
+					–</p>
+				<p xml:id="p.6">
+					 Most a másodikra. Volna-e 
+					<hi rend="underline">kedvem</hi>
+					 stb. Oh
+					boldog isten! Kedvem, hisz az volna, de erőm, képességem? Tudod, mennyire únom
+					itteni helyzetemet, tudod, hogy örömest cserélnem 
+					<sic/>
+					 állapotomat valami
+					mással, hogy e változtatástól gyógyúlást remélek, hogy körötökben, azt hiszem,
+					felüdűlnék, lassan lassan. De tudod azt is, hogy vaktába semmi lépést nem szabad
+					tennem. Egy oly állomás, minőt említél, csak erőm volna hozzá, plausibilis 
+					<note type="critic">
+						<quote>plausibilis</quote>
+						 – elfogadható (lat.) 
+					</note>
+					<hi rend="underline">ok</hi>
+					 volna 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 re költöznöm, s miután az inkább tiszteleti, mint dijazott leend
+					is, talán a pengetett lap ügyével köthetném össze, s ilyet a társaság aegise
+					<note type="critic">
+						<quote>aegise</quote>
+						 – oltalma (gör.) 
+					</note>
+					 alatt is indithatnék meg 
+					<add type="corr">.</add>
+					 Minden esetre tudósíts ez ügy további fejlődéséről, s
+					majd meglássuk, hogyan fog alakulni, ahoz képest határozok én is. Azonban
+					óvakodjál részemen idő előtt izgatásba, capacitatióba elegyedni, 
+					<note type="critic">
+						<quote>capacitatióba elegyedni</quote>
+						 – rábeszéléseket kezdeményezni (lat.)
+					</note>
+					 mert az nem volna ildomos, nagyon röstelném, ha a lapok nyelvére
+					kerűlnék. – Hanem hiszen nálad ily intés merőben fölösleges. 
+				</p>
+				<p xml:id="p.7">
+					 Én és családom legszivesebben üdvözlünk benneteket. 
+					<persName>
+						Julcsa 
+						<idno corresp="Arany Juliska" type="ITIdata">Q66067</idno>
+					</persName>
+					 meleg hálával csókolja az „édes néni” kezeit és a kedves apróságot.
+					Ez a lány igen komoly lett. Nem 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 en, áldott szives körötök balzsam volt lelkére – de már 
+					<placeName>
+						Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 re vitte a kedélyén rágó férget és – nem hagyta ott. 
+					<note type="critic">
+						<quote>
+							 de már 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 re vitte a kedélyén rágó férget és – nem hagyta ott
+						</quote>
+						 – lásd 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						<date when="1859-11-02">1859. nov. 2-i</date>
+						 , 
+						<persName>
+							 Tompá 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 nak írt levelét (1118.) 
+						<ref target="ajom-17-lev.tei.1118"/>
+					</note>
+					 Azt gondoltuk, elmúló könnyű seb, – de fájdalommal látjuk most, hogy
+					mélyre ette magát. – Valóban aggasztó ez, és nem tudjuk, mit tanácsoljunk neki,
+					a tudvalévő viszonyában. Erről mindig hallgat, mi sem szólunk. Néha szórakozik,
+					s úgy látszik felderűl kedélye, de legott, ha alkalmat lel, visszaesik egy
+					kedélytelen hangúlatba, minőt rajta az előtt sohasem tapasztaltunk. Ez is egy
+					baj, és nem a legkisebb. 
+				</p>
+				<p xml:id="p.8">Fogadd ölelésemet!</p>
+				<p xml:id="p.9">
+					<placeName>
+						 Nagy-Kőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					<del>.</del>
+					<date when="1860-04-23">april. 23. 1860.</date>
+				</p>
+				<p xml:id="p.10">igaz barátod</p>
+				<p xml:id="p.11">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.12">
+					 Hát a 
+					<title>Szemle</title>
+					 , 
+					<note type="critic">
+						<quote>
+							 a 
+							<title>Szemle</title>
+						</quote>
+						 – a 
+						<title>Budapesti Szemle</title>
+					</note>
+					 ugy-e? bizony hát. De beteges valék, mondom. Majd, majd. Mostan itt
+					nagyban 
+					<hi rend="underline">egressyzünk</hi>
+					 : 
+					<note type="critic">
+						<quote>
+							<hi rend="underline">egressyzünk</hi>
+						</quote>
+						 – 
+						<persName>
+							 Egressy Gábor 
+							<idno corresp="Egressy Gábor" type="ITIdata">Q241202</idno>
+						</persName>
+						<placeName>Nagykőrös</placeName>
+						 ön vendégszerepelt 
+					</note>
+					 ma közlakoma, à
+					la 
+					<placeName>
+						 Pest 
+						<idno corresp="Pest"/>
+					</placeName>
+					 , 
+					<note type="critic">
+						<quote>
+							 à la 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+						</quote>
+						 – 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 módjára (fr.) 
+					</note>
+					 – tegnap 
+					<title>Bánk-bán</title>
+					(roszúl), az előtt Krumm Illyés meg 
+					<title>Brankovics</title>
+					 , igen jól, ma egy
+					hete 
+					<title>Hamlet</title>
+					 , 
+					<note type="critic">
+						<quote>
+							 tegnap 
+							<title>Bánk-bán</title>
+							 (roszúl), az előtt Krumm Illyés meg
+							<title>Brankovics</title>
+							 , igen jól, ma egy hete
+							<title>Hamlet</title>
+						</quote>
+						 – az 
+						<persName>
+							 Egressy 
+							<idno corresp="Egressy Gábor" type="ITIdata">Q241202</idno>
+						</persName>
+						 színtársulata által előadott darabok (Krumm Illyés 
+						<persName>
+							Kotzebue 
+							<idno corresp="Kotzebue, August Friedrich"/>
+						</persName>
+						<title>Legjobb az egyenes út</title>
+						 c. vígjátékának főszerepe,
+						<title>Brankovics</title>
+						 pedig 
+						<persName>
+							 Obernyik Károly 
+							<idno corresp="Obernyik Károly" type="ITIdata">Q47459</idno>
+						</persName>
+						 műve); a játszott szerepekre nézve lásd 
+						<bibl>
+							<abbr>Rakodczay 1911.</abbr>
+							 II. 243. 
+						</bibl>
+					</note>
+					 nem úgy a mint én képzelem. Infamis, 
+					<note type="critic">
+						<quote>Infamis</quote>
+						 – gyalázatos (lat.) 
+					</note>
+					 csapnivaló társaság
+					különben, és igy gyilkos ensemble! 
+					<note type="critic">
+						<quote>ensemble</quote>
+						 – együttes (fr.) 
+					</note>
+					 Adieu! 
+					<note type="critic">
+						<quote>Adieu!</quote>
+						 – Isten veled! (fr.) 
+					</note>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

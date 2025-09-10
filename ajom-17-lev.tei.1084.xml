@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1084" type="main">ARANY JÁNOS – TOMPA MIHÁLYNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1084</idno>
+				<idno type="ITIdata">Q347733</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1084.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						<persName>
+							 Arany László 
+							<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+						</persName>
+						 hagyatékából ( 
+						<bibl>
+							<abbr>AkÉrt</abbr>
+							<date when="1899">1899.</date>
+							 665. 
+						</bibl>
+						 )Válasz 
+						<persName>
+							 Tompa
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						<date when="1859-04-02">1859. ápr. 2-i</date>
+						 levelére (1080.) 
+						<ref target="ajom-17-lev.tei.1080"/>
+					</p>
+				</note>
+				<note type="publication">
+					<bibl>
+						<abbr>AJLI I.</abbr>
+						 461–463. 
+					</bibl>
+					 (kihagyásokkal) 
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>K 513/1144</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>236</height>
+										<width>150</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										<persName>
+											 Arany László 
+											<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+										</persName>
+										 kék ceruzás zárójelei. 2 csontszínű, nyomatos
+										fol., 23,6x15 cm. 1–4. levél. 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q347732</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadott.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1859-04-17"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Tompa Mihály 
+						<idno type="ITIdata">Q156834</idno>
+					</persName>
+					<placeName>
+						 Hanva 
+						<idno type="ITIdata">Q9590</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – TOMPA MIHÁLYNAK</title>
+					<hi rend="underline">
+						<placeName>
+							 Nagy-Kőrös 
+							<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+						</placeName>
+						 , virágvasárnap 
+					</hi>
+					<date when="1859-04-17">
+						<hi rend="underline">859.</hi>
+						<supplied>április 17.</supplied>
+					</date>
+				</head>
+				<p xml:id="p.1">
+					 Édes 
+					<persName>
+						 Miská 
+						<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+					</persName>
+					 m! 
+				</p>
+				<p xml:id="p.2">
+					 Szakasztott oly állapotban vagyok, mint te, engem is a feleségem
+					hajszol, hogy irjak már, mert az ő levele negyed nap óta kész, s nem akarná
+					elküldeni az enyém nélkűl. Ebből az tetszik ki, hogy a mi áldott feleségeink még
+					is jobbak mint mi – legalább a levélirásban. Tegnap ugyan már belefogtam volt,
+					de nálam ritka eset egy szús 
+					<hi rend="underline">zrau</hi>
+					<note type="critic">
+						<quote>
+							 szúsz 
+							<hi rend="underline">rau</hi>
+						</quote>
+						 – szuszra, palóc ejtéssel 
+					</note>
+					 be is végezni a levelet;
+					kizavartak, magam se’ bántam, mert igen savanyú órában kezdtem vala hozzá: pedig
+					mi a mennykőért irjunk egymásnak világfájdalmas leveleket?! Ha még az az egy két
+					óra is – melyet egymással igy a távolból elfecsegünk – panasz és gyötrelem, hol
+					keressünk egy kis örömet e siralom völgyében? 
+				</p>
+				<p xml:id="p.3">
+					 Nagy dolgot feszegetsz, édes barátom. Igen, igen jó volna
+					mégegyszer találkoznunk, s átlátom, hogy a találkozást hosszu porázra hagyni
+					szinte nem tanácsos: de hol és mikép. Ti nem jöhettek. De nincs remény, hogy még
+					<date to="1859-08">augusztusig</date>
+					 jobbra fordúl a kedves k. asszony
+					egészsége? Diligentiában 
+					<note type="critic">
+						<quote>Diligentiában</quote>
+						 – szorgalmi időben (lat.) 
+					</note>
+					 ne is
+					jöjetek, (nem azt értem, hogy 
+					<hi rend="underline">delizsánczon</hi>
+					<note type="critic">
+						<quote>
+							<hi rend="underline">delizsánczon</hi>
+						</quote>
+						 – postakocsin (fr.) 
+					</note>
+					 ne), az veszett nyűgös állapot lenne
+					rám nézve, sokat kelletvén nélkülöznöm társaságtokat: de a szűnnapok alatt? Én
+					még nem tettem le a reményről, hogy eljöhettek. Mert hogy mi menjünk, az már nem
+					oly könnyű, mint a múltkor. Akkor én, feleségem s a két 
+					<hi rend="underline">gyermek</hi>
+					 , mentünk: most pedig egy 4 
+					<hi rend="underline">felnőtt</hi>
+					tagból álló család menne nyakatokra. Igaz, tehetném egy kis kegyetlenséggel,
+					hogy 
+					<persName>
+						 Laczit 
+						<idno corresp="Arany László" type="ITIdata">Q140428</idno>
+					</persName>
+					 és 
+					<persName>
+						 Julcsá 
+						<idno corresp="Arany Juliska" type="ITIdata">Q66067</idno>
+					</persName>
+					 t – vagy valamelyiket legalább a szűnidőre vagy 
+					<placeName>
+						 Szalontá
+						<idno corresp="Nagyszalonta"/>
+					</placeName>
+					 ra vagy máshová deportáltatnám: 
+					<note type="critic">
+						<quote>deportáltatnám</quote>
+						 – szállíttatnám el (lat.) 
+					</note>
+					 de mikor
+					mind úgy vágyik 
+					<placeName>
+						 Hanvá 
+						<idno corresp="Hanva"/>
+					</placeName>
+					 ra, hogy inkább 
+					<hi rend="underline">engem</hi>
+					 hagynának itthon,
+					mint ők maradjanak. 
+				</p>
+				<p xml:id="p.4">
+					 Mind e mellett sokszor beszélgettünk mi azon, hogy lehetne
+					kimódolni az izét. Előre óvást teszek, nehogy igéretnek vedd, a mit mondandó
+					vagyok, s megint összeveszsz velem, mint anno 
+					<date when="1854">1854</date>
+					 (?),
+					ha nem talál teljesűlni. 
+					<note type="critic">
+						<quote>
+							 s megint összeveszsz velem, mint anno 
+							<date when="1854">1854</date>
+							(?), ha nem talál teljesűlni 
+						</quote>
+						 – anno 
+						<date when="1854">1854</date>
+						 : az 
+						<date when="1854">1854.</date>
+						 évben (lat.); vesd
+						össze 
+						<persName>
+							 Tompa 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 
+						<date when="1854-10-09">1854. okt. 9.</date>
+						<bibl>
+							<abbr>AJÖM XVI.</abbr>
+							 668. 489–491. 
+						</bibl>
+						<ref target="ajom-16-lev.tei.668"/>
+					</note>
+					 Hát biz én, – hogy üres vagy sötét óráimban csalogassam magamat –
+					előelőveszem a Karacsféle földabroszt: 
+					<note type="critic">
+						<quote>a Karacsféle földabroszt</quote>
+						 – 
+						<persName>Karacs Ferenc</persName>
+						( 
+						<date from="1770" to="1838">1770–1838</date>
+						 ): 
+						<bibl>
+							<title>Kis Atlas az oskolák számára</title>
+							 ( 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1838">1838</date>
+						</bibl>
+						 ) vagy 
+						<bibl>
+							<title>Magyarország és a hozzá kapcsoltatott Horvát és Tót országoknak
+								és a Határőrző katonai vidéknek, nem különben az Erdélyi nagy
+								fejedelemségnek közönséges táblája</title>
+							 ( 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1813">1813</date>
+						</bibl>
+						 ) 
+					</note>
+					 nézegetem, hol van 
+					<placeName>Hanva</placeName>
+					 , és hol
+					<placeName>
+						 nagyKőrös 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 , 
+					<sic/>
+					 mérem a távolságot így is úgy is, erre is arra is, – mikép
+					volna közelebb, kényelmesebb, – s a mi nálam megint nagy tétel: olcsóbb.
+					<placeName>
+						 Miskolcz 
+						<idno corresp="Miskolc"/>
+					</placeName>
+					 ra ugyan, 
+					<placeName>
+						 Debreczen 
+						<idno corresp="Debrecen"/>
+					</placeName>
+					 t útba ejtve, hamar el lehet ruszszani, ha a vasút megnyílik: 
+					<note type="critic">
+						<quote>ha a vasút megnyílik</quote>
+						 – a 
+						<placeName>Debrecen</placeName>
+						 –
+						<placeName>Miskolc</placeName>
+						 vonalat 
+						<date when="1859-05-24">1859.
+							máj. 24-én</date>
+						 adták át 
+					</note>
+					 de egy az, hogy a tenger pusztaságon
+					ismeretes „semminél” egyebet nem látni, – más az, hogy ily nagy kerűlővel, 4
+					személyre egy erszényre a vasút sem legolcsóbb jármű. Csak 24–25 forint legyen
+					egy személyre, jövet-menet: négyre az is nagyot ránt. A gőzhajóval is ilyen
+					formán áll a dolog. Az ős Tisza magas partjainak 
+					<hi rend="underline">benső</hi>
+					részét, s 
+					<placeName>
+						 Kűrü 
+						<idno corresp="Kürü"/>
+					</placeName>
+					 helység 
+					<note type="critic">
+						<quote>
+							<placeName>
+								 Kűrü 
+								<idno corresp="Kürü"/>
+							</placeName>
+							 helység 
+						</quote>
+						 – (Nagy) 
+						<placeName>Kürü</placeName>
+						 :
+						Jász-Nagykun-Szolnok megyei község 
+					</note>
+					 tornyát eléggé megbámultam a
+					multkor: de meg azt sem fognám engedni „ 
+					<hi rend="underline">semmi esetre</hi>
+					” hogy 
+					<placeName>
+						 Keszi 
+						<idno corresp="Tiszakeszi"/>
+					</placeName>
+					 ből megint a „fátyol” 
+					<note type="critic">
+						<quote>a „fátyol”</quote>
+						 – 
+						<persName>
+							 Tompa 
+							<idno corresp="Tompa Mihály" type="ITIdata">Q156834</idno>
+						</persName>
+						 lova 
+					</note>
+					 vonczoljon bennünket 10–12 mérföldnyire.
+					Legrövidebbnek és talán legolcsóbbnak, vagy, ha nem, legélvezetesbnek gondolnám
+					<placeName>
+						 Vácz 
+						<idno corresp="Vác"/>
+					</placeName>
+					 ig vasuton, ott kocsit fogadni, 
+					<choice>
+						<orig>B. Gyarmat</orig>
+						<supplied>
+							<placeName>
+								 Balassa Gyarmat 
+								<idno corresp="Balassagyarmat"/>
+							</placeName>
+						</supplied>
+					</choice>
+					 , 
+					<placeName>
+						 Losoncz 
+						<idno corresp="Losonc"/>
+					</placeName>
+					<placeName>Fülek</placeName>
+					 en át 
+					<placeName>Hajnácskő</placeName>
+					 re, – onnan
+					aztán majd csak 
+					<hi rend="underline">haza</hi>
+					 találnánk 
+					<placeName>
+						 Hanvá 
+						<idno corresp="Hanva"/>
+					</placeName>
+					 ra. Az egész út – 
+					<placeName>
+						 Vácz 
+						<idno corresp="Vác"/>
+					</placeName>
+					 tól 
+					<placeName>Hajnácskő</placeName>
+					 ig – mint én mappa után
+					számítom, nem igen több 12 mérföldnél, – aztán meglátnám hires nevezetes
+					Neograad 
+					<note type="critic">
+						<quote>Neograad</quote>
+						 – Nógrád, latinos formában 
+					</note>
+					 vármegyét, a
+					palóczdalok hazáját, 
+					<note type="critic">
+						<quote>a palóczdalok hazáját</quote>
+						 – vesd össze 
+						<bibl>
+							<persName>Lisznyay Damó Kálmán</persName>
+							 : 
+							<title>Palócz dalok</title>
+							( 
+							<placeName>Debrecen</placeName>
+							 , 
+							<date when="1851">1851</date>
+							 )
+						</bibl>
+						 ; 
+						<bibl>
+							<title>Uj palócz dalok</title>
+							 ( 
+							<placeName>
+								 Pest 
+								<idno corresp="Pest"/>
+							</placeName>
+							 , 
+							<date when="1858">1858</date>
+						</bibl>
+						 ) 
+					</note>
+					 ha rá nem érnék is, hogy megmászkáljam várromjait. Quid
+					sagis zu hoc? 
+					<note type="critic">
+						<quote>Quid sagis zu hoc?</quote>
+						 – Mit szólsz ehhez? (lat.-ném.
+						keveréknyelven) 
+					</note>
+				</p>
+				<p xml:id="p.5">
+					 Azonban – mégegyszer óvlak – nehogy mind erre többet épits, mint
+					<placeName>
+						 Europa 
+						<idno corresp="Európa"/>
+					</placeName>
+					 népei a kilátásban levő (?) congressusra. 
+					<note type="critic">
+						<quote>
+							 mint 
+							<placeName>
+								 Europa 
+								<idno corresp="Európa"/>
+							</placeName>
+							 népei a kilátásban levő (?) congressusra 
+						</quote>
+						 – a
+						piemonti kérdés megoldására 
+						<placeName>Oroszország</placeName>
+						 egy európai
+						kongresszus összehívását kezdeményezte, erre azonban nem került sor 
+					</note>
+					Hátha még addig fel is fordúl a világ s 
+					<placeName>
+						 NagyKeüreüs 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					<note type="critic">
+						<quote>
+							<placeName>
+								 NagyKeüreüs 
+								<idno corresp="Nagykőrös"/>
+							</placeName>
+						</quote>
+						 – 
+						<placeName>Nagykőrös</placeName>
+						 , bihari ejtéssel 
+					</note>
+					<placeName>
+						 Patagoniá 
+						<idno corresp="Patagónia"/>
+					</placeName>
+					 ba, 
+					<placeName>Hanva</placeName>
+					 pedig 
+					<placeName>
+						 Sibériá 
+						<idno corresp="Szibéria"/>
+					</placeName>
+					 ba csöppen? Midőn negyed éve ott jártam, cholera volt; hátha most
+					meg oly nagy háború lesz, 
+					<note type="critic">
+						<quote>hátha most meg oly nagy háború lesz</quote>
+						 – Az
+						<placeName>Ausztria</placeName>
+						 és 
+						<placeName>Piemont</placeName>
+						 ,
+						valamint 
+						<placeName>Franciaország</placeName>
+						 közötti egyre növekvő
+						feszültség 
+						<date when="1857-05-20">1857. máj. 20-án</date>
+						 az osztrák
+						seregek montebellói, 
+						<date when="1857-06-04">jún. 4-én</date>
+						 magentai,
+						<date when="1857-06-24">jún. 24-én</date>
+						 pedig solferinói vereségéhez
+						vezetett. A háború a villafrancai fegyverszünettel és a zürichi békével ért
+						véget, amelyben 
+						<placeName>Ausztria</placeName>
+						 lemondott 
+						<placeName>
+							Lombardiá 
+							<idno corresp="Lombardia"/>
+						</placeName>
+						 ról 
+						<placeName>Franciaország</placeName>
+						 javára. 
+					</note>
+					 hogy a
+					falu végeig is csak katonai fedezet alatt mehetünk. Mi lenne, ha ott fogna török
+					vagy tatár, s nem eresztene többé vissza 
+					<placeName>
+						 NKőrösre 
+						<idno corresp="Nagykőrös"/>
+					</placeName>
+					 professornak? Ez elég komoly akadály 
+					<del>fogna lenni</del>
+					 : de
+					fájdalom, nemcsak ez gátolja hozzátok menésünket. – Dolgoznom kellene – persze,
+					nem tudok. Öszsze kén valamit tudóskodnom, székfoglalónak: de még sehol sincs
+					semmi. Már gondoltam is, jobb volna szépen lemondani, mielőtt, az év elteltén,
+					infam-cassiroznak: 
+					<note type="critic">
+						<quote>infam-cassiroznak</quote>
+						 – rangomtól mint arra érdemtelenné válót
+						megfosztanak (fr.- ném.) 
+					</note>
+					 úgy is mit csinálok én köztük, mikor 
+					<hi rend="underline">semmit sem csinálok</hi>
+					 . De megint hozzám lopódzik a
+					festett arczú rima – a remény – s azt mondja: „tűrj, nem lesz ez mindég igy.” 
+				</p>
+				<p xml:id="p.6">
+					<persName>
+						 Szilágyi 
+						<idno corresp="Szilágyi Sándor" type="ITIdata">Q151031</idno>
+					</persName>
+					 megvan a maga kopottas nőtlen állapotjában. Erősen őszűl, ide s tova
+					engem is elhágy pedig én is gyakorlom azt a mesterséget, vagy 20 év óta. Jót
+					nevettem a minap. Egy collegám 
+					<placeName>
+						 Szathmár 
+						<idno corresp="Szatmár"/>
+					</placeName>
+					 on, vagy 
+					<placeName>
+						 Szoboszló 
+						<idno corresp="Hajdúszoboszló"/>
+					</placeName>
+					 n, vagy hol, föllelkesűlt s irt hozzám egy erősen gyenge odát,
+					<sic/>
+					 mottóul véve 
+					<persName>
+						 Horácius 
+						<idno corresp="Horatius, Quintus Flaccus"/>
+					</persName>
+					 ból 
+				</p>
+				<lg xml:id="lg.1">
+					<lg xml:id="lg.2">
+						<l xml:id="l.1">„Quis desiderio sit pudor aut modus tam cari capitis”</l>
+					</lg>
+				</lg>
+				<p xml:id="p.7">
+					<note type="critic">
+						<quote>„Quis desiderio sit pudor aut modus tam cari capitis”</quote>
+						 – 
+						<bibl>
+							<persName>
+								 Horatius 
+								<idno corresp="Horatius, Quintus Flaccus"/>
+							</persName>
+							 : 
+							<title>Énekek</title>
+							 , I. 24. 1–2. 
+						</bibl>
+						<persName>Grigássy Éva</persName>
+						 fordításában: 
+						<lg xml:id="lg.3">
+							<lg xml:id="lg.4">
+								<l xml:id="l.2">Mily szégyen s fegyelem tiltana gyászt, ha íly</l>
+							</lg>
+							<lg xml:id="lg.5">
+								<l xml:id="l.3">kedves főt siratunk?</l>
+							</lg>
+						</lg>
+						 Lásd 
+						<persName>Szathmári György</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1066. 
+						<ref target="ajom-17-lev.tei.1066"/>
+						<date when="1859-02-20">1859. febr. 20.</date>
+					</note>
+					 – 
+					<hi rend="underline">cani</hi>
+					 , 
+					<hi rend="underline">cani</hi>
+					<note type="critic">
+						<quote>
+							<hi rend="underline">cani</hi>
+							 , 
+							<hi rend="underline">cani</hi>
+						</quote>
+						 – a carum caput (kedves fő) helyett canum caput (ősz fő) 
+					</note>
+					mondám nevetve s belökém az irományt többi ereklyéim közé. Mert tudnod kell,
+					hogy én mindjárt-mingyárt kapok a postán, ismeretlen celebritásoktól 
+					<note type="critic">
+						<quote>celebritásoktól</quote>
+						 – hírességektől (lat.) 
+					</note>
+					 egy egy nyaláb
+					verset, hogy biráljam meg, azaz mondjam ki szerzőikre a halhatatlanság 
+					<hi rend="underline">anathemáját</hi>
+					 . 
+					<note type="critic">
+						<quote>
+							<hi rend="underline">anathemáját</hi>
+						</quote>
+						 – ítéletét (gör.) 
+					</note>
+					 De én nem vagyok oly kegyetlen. E
+					félékből már is szép gyűjteményem van. Hát a minap hogy járok. Beállit hozzám
+					egy fiatal ember, hogy ő szinész, hogy őt egy barátja küldte hozzám, ki
+					hasonlóan szinész, egy csomó verssel. Mingyárt eszembe jutott 
+					<persName>
+						 Petőfi
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 a 
+					<persName>
+						 Pönögei Kis Pál 
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 bőrében, s éltem a gyanúpörrel, hogy ifju barátom 
+					<persName>
+						 Bajzá
+						<idno corresp="Bajza József" type="ITIdata">Q238725</idno>
+					</persName>
+					 t akar velem fogatni. 
+					<note type="critic">
+						<quote>
+							 Mingyárt eszembe jutott 
+							<persName>
+								 Petőfi 
+								<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+							</persName>
+							 a 
+							<persName>
+								 Pönögei Kis Pál 
+								<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+							</persName>
+							 bőrében, s éltem a gyanúpörrel, hogy ifju barátom 
+							<persName>
+								Bajzá 
+								<idno corresp="Bajza József" type="ITIdata">Q238725</idno>
+							</persName>
+							 t akar velem fogatni 
+						</quote>
+						 – 
+						<persName>
+							 Bajza József
+							<idno corresp="Bajza József" type="ITIdata">Q238725</idno>
+						</persName>
+						 ( 
+						<date from="1804" to="1858">1804–1858</date>
+						 ) 
+						<persName>
+							Petőfi 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						 több költeményét 
+						<persName>
+							 Pönögei Kis Pál 
+							<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+						</persName>
+						 álnéven közölte az 
+						<title>Athenaeum</title>
+						 ban ( 
+						<date when="1843">1843</date>
+						 ) 
+					</note>
+					 Kapom a csomó verset, forgatom, erősen
+					majmolja 
+					<persName>
+						 Petőfi 
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 gyengé 
+					<add type="corr">i</add>
+					 t. Mondom a legénynek, hogy barátja
+					úgy látszik sokat olvassa 
+					<persName>
+						 Petőfi 
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 t – „igen – válaszol – azt olvassa, mindig 
+					<hi rend="underline">csak</hi>
+					 azt.” Én tanácsolám, hogy miután némi tehetséget látok, próbáljon
+					barátja 
+					<del>n.</del>
+					 egy kis önállóságra tenni szert, mert két 
+					<persName>
+						Petőfi 
+						<idno corresp="Petőfi Sándor" type="ITIdata">Q149546</idno>
+					</persName>
+					 nem lehet, nem is lesz. Azzal elment az ifju, de verseit nálam
+					hagyta, hogy tűzzek ki egy napot, mikor ismét eljön értök. „De hát tovább itt
+					marad ön?” „Igen, a fogadóban leszek még nehány nap. No hát forduljon elő
+					holnapután, akkor üres időm lesz. Azóta sem láttam többé, de kapok a helybeli
+					szolgabirótól egy levelet, melyben kérdi: igaz-e hogy valami 
+					<persName>
+						Thűringer Márton 
+						<idno corresp="Csillag Márton"/>
+					</persName>
+					 verseket hozott hozzám, – s mit tudok e fiatal emberről, mert a
+					városi rendőrségnek feltűnt, hogy a 
+					<add type="corr">f</add>
+					 ogadóban napol, s
+					azt vélik elmeháborodott, mert mindig csak jár fel s alá s 
+					<del>mag</del>
+					fenhangon beszél (szavalt perse). Én mondtam rá a mennyit tudtam, s így
+					elszabadúlt, de felém se jött. Hanem hetek múlva ir Tul a dunáról egy levelet „
+					<persName>
+						 Becskereki Márton 
+						<idno corresp="Csillag Márton"/>
+					</persName>
+					 ” név alatt, melyben mennyre földre kér, hogy biráljam meg verseit,
+					küldjem haza, s mindenek felett mondjam ki, hogy ő poeta, mert ő az akar lenni,
+					mert ő olyan, mint az örült 
+					<sic/>
+					 etc. Nem feleltem rá, – magam is félteni
+					kezdém a fiatal embert, hogy baja van. Idő mulva kapok egy új levelet, de egész
+					más hangon. Szó sincs többé az én birálatomról. Lóháton beszél. Elmondja, hogy ő
+					még az őszön 
+					<choice>
+						<orig>Vahot I.nél</orig>
+						<supplied>
+							<persName>
+								 Vahot Imré 
+								<idno corresp="Vahot Imre" type="ITIdata">Q158579</idno>
+							</persName>
+							 nél 
+						</supplied>
+					</choice>
+					 járt, s átaladott neki egy csomó verset. 
+					<persName>
+						 Vahot 
+						<idno corresp="Vahot Imre" type="ITIdata">Q158579</idno>
+					</persName>
+					 válaszolt neki, lapját is megküldte, de ő nem volt honn, más ember
+					kezébe kerűlt s attól csak most kapta meg mind a levelet, mind a lapokat. A
+					levél a legmagasztalóbb kifejezésekkel irva, a lap első száma az ő verseit
+					hozza, ajánlat mellett. Tehát tőlem 
+					<hi rend="underline">csak azt</hi>
+					 kéri,
+					küldjem haza nálam hagyott verseit. 
+					<persName>
+						 Vahot 
+						<idno corresp="Vahot Imre" type="ITIdata">Q158579</idno>
+					</persName>
+					 már őbelőle embert farag. 
+					<del>
+						<gap extent="1" reason="illegible" unit="char"/>
+					</del>
+					<persName>
+						<hi rend="underline">Csillag</hi>
+						 Márton 
+					</persName>
+					 ”. 
+					<note type="critic">
+						<quote>
+							<persName>
+								<hi rend="underline">Csillag</hi>
+								 Márton 
+							</persName>
+						</quote>
+						 – lásd 
+						<persName>Csillag Márton</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -hoz írt levelét (1165. 
+						<ref target="ajom-17-lev.tei.1165"/>
+						<date when="1860-07-16">1860. júl. 16.</date>
+						 ) és 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 válaszát (1175. 
+						<ref target="ajom-17-lev.tei.1175"/>
+						<date when="1860-08-06">1860. aug. 6.</date>
+						 ). 
+					</note>
+					 – Ha a
+					<title>Napkelet</title>
+					 et olvasod, vagy látod, ismerheted e nevet, melyet
+					<persName>
+						 Vahot 
+						<idno corresp="Vahot Imre" type="ITIdata">Q158579</idno>
+					</persName>
+					 mostanában égig magasztal. Én nem látok még eddig benne semmit: csak
+					azért irtam meg e curiosumot, hogy ha majd egykor 
+					<persName>
+						 Csillag 
+						<idno corresp="Csillag Márton"/>
+					</persName>
+					 nevétől viszhangzik a két haza, emlékezzél velem történt kalandjára.
+					– 
+				</p>
+				<p xml:id="p.8">
+					 De ki is fogyok ez ostobaságért, a papirból. Isten 
+					<hi rend="underline">áldjon</hi>
+					 meg, édes jó barátom, – kedves nőddel együtt.
+					Szeressetek, mint mi, s 
+					<hi rend="underline">míg</hi>
+					 mi. Írj ne sokára, – ünnep
+					van a háznál mikor csak egy sorodat is veszi 
+				</p>
+				<p xml:id="p.9">barátod</p>
+				<p xml:id="p.10">
+					<choice>
+						<orig>AranyJános</orig>
+						<supplied>
+							<persName>
+								 Arany János 
+								<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+							</persName>
+						</supplied>
+					</choice>
+				</p>
+				<p xml:id="p.11">
+					<choice>
+						<orig>Szabó K.</orig>
+						<supplied>
+							<persName>
+								 Szabó Károly 
+								<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+							</persName>
+						</supplied>
+					</choice>
+					 is irt hogy 
+					<placeName>
+						 Enyed 
+						<idno corresp="Nagyenyed"/>
+					</placeName>
+					 re megy Professornak. 
+					<note type="critic">
+						<quote>
+							<choice>
+								<orig>Szabó K.</orig>
+								<supplied>
+									<persName>
+										 Szabó Károly 
+										<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+									</persName>
+								</supplied>
+							</choice>
+							 is irt hogy 
+							<placeName>
+								 Enyed 
+								<idno corresp="Nagyenyed"/>
+							</placeName>
+							 re megy Professornak 
+						</quote>
+						 –
+						<placeName>Erdély</placeName>
+						 ből, feltehetőleg
+						<placeName>Kolozsvár</placeName>
+						 ról írt, elveszett levél (lásd
+						<persName>
+							 Szabó Károly 
+							<idno corresp="Szabó Károly" type="ITIdata">Q150607</idno>
+						</persName>
+						<persName>
+							 Gyulai 
+							<idno corresp="Gyulai Pál" type="ITIdata">Q145946</idno>
+						</persName>
+						 nak, 
+						<bibl>
+							<abbr>GyPLev</abbr>
+							 320. 374–375. 
+						</bibl>
+						 ) 
+					</note>
+					 Ide s tova én leszek
+					itt az utolsó Mohikán. 
+					<note type="critic">
+						<quote>Ide s tova én leszek itt az utolsó Mohikán</quote>
+						 – 
+						<persName>
+							 James
+							Fenimore Cooper 
+							<idno corresp="Cooper, James Fenimore"/>
+						</persName>
+						 ( 
+						<date from="1789" to="1851">1789– 1851</date>
+						 ) 
+						<date when="1826">1826-ban</date>
+						 megjelent regényét ( 
+						<title>The Last of the
+							Mohicans</title>
+						 ) 
+						<persName>
+							 Gondol Dániel 
+							<idno corresp="Gondol Dániel" type="ITIdata">Q145712</idno>
+						</persName>
+						 fordította magyarra, 
+						<title>Az utolsó mohikán</title>
+						 címmel (
+						<date when="1845">1845</date>
+						 ) 
+					</note>
+					 – 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

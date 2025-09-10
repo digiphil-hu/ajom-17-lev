@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1306" type="main">KALMÁR GÉZA – ARANY JÁNOSNAK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1306</idno>
+				<idno type="ITIdata">Q482040</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1306.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Válasz 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 Nyilt levelezés-beli üzenetére ( 
+						<bibl>
+							<abbr>SzF</abbr>
+							 I. 15. sz. 
+							<date when="1861-02-13">1861. febr.
+								13.</date>
+							 240. 
+						</bibl>
+						 és 
+						<bibl>
+							<abbr>AJÖM XII.</abbr>
+							 198. Jegyzet hozzá: 538. 
+						</bibl>
+						 ) 
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Budapest</settlement>
+						<institution>Magyar Tudományos Akadémia Könyvtára</institution>
+						<repository/>
+						<idno>Ms 5738</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>339</height>
+										<width>208</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>
+										 ( 
+										<title>A Kisfaludy Társaság iratai</title>
+										 – 
+										<date when="1861">1861.</date>
+										 ) 2 csontszínű fol., 33,9x20,8
+										cm. A 4. oldalon fekete ceruzával: 30/1861. 1. levél, 2–4.
+										üres 
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q471277</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1861-05-01"/>
+				<placeName>
+					 Orosháza 
+					<idno type="ITIdata">Q17877</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Kalmár Géza 
+						<idno type="ITIdata">Q170550</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>KALMÁR GÉZA – ARANY JÁNOSNAK</title>
+					<supplied>
+						<placeName>
+							 Orosháza 
+							<idno corresp="Orosháza" type="ITIdata">Q17877</idno>
+						</placeName>
+						 , 
+						<date when="1861-05-01">1861. május 1.</date>
+					</supplied>
+				</head>
+				<p xml:id="p.1">Igen tisztelt Igazgató úr!</p>
+				<p xml:id="p.2">
+					 Itt küldön irodalmi zsengémet. 
+					<note type="critic">
+						<quote>Itt küldön irodalmi zsengémet</quote>
+						 – 
+						<persName>Kalmár
+							Géza</persName>
+						 a 
+						<title>VI. Henrik</title>
+						 első részének fordítását
+						küldte (vesd össze 
+						<persName>Kalmár Géza</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1264. 
+						<ref target="ajom-17-lev.tei.1264"/>
+						<date to="1861-02-13">1861. febr. 13.</date>
+						 előtt), amely a Kisfaludy
+						Társaság 
+						<date when="1861-05-31">1861. máj. 31-én</date>
+						 tartott ülésén
+						„birálat alá bocsáttatott” ( 
+						<bibl>
+							<persName>
+								 Greguss Ágost 
+								<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+							</persName>
+							 : 
+							<title>Kisfaludy-Társaság</title>
+							 . 
+							<abbr>SzF</abbr>
+							 I.
+							31. sz. 
+							<date when="1861-06-06">1861. jún. 6.</date>
+							 495. 
+						</bibl>
+						 ). A
+						<date when="1861-07-25">1861. júl. 25-i</date>
+						 ülésen 
+						<persName>
+							 Szász
+							Károly 
+							<idno corresp="Szász Károly" type="ITIdata">Q150786</idno>
+						</persName>
+						 és 
+						<persName>Lukács Móric</persName>
+						 bírálata hangzott el: az
+						első levele szerint „a szerző még igen gyönge 
+						<persName>
+							 Shakespeare 
+							<idno corresp="Shakespeare, William" type="ITIdata">Q514</idno>
+						</persName>
+						 t forditni”, fordítson inkább könnyebb szövegeket (
+						<placeName>Kunszentmiklós</placeName>
+						 , 
+						<date when="1861-06-25">1861.
+							jún. 25.</date>
+						 ); a második így összegezte véleményét: „a jelen
+						fordítást […] számos hiányai miatt, a társaság által kiadásra elfogadhatónak
+						nem tartom”, 
+						<persName>
+							 Kalmár 
+							<idno corresp="Kalmár Géza"/>
+						</persName>
+						 dolgozza újra, akkor kiadható lesz. ( 
+						<bibl>
+							<abbr>MTAK</abbr>
+							 Kt 
+							<title>A Kisfaludy Társaság iratai</title>
+							 – 
+							<date when="1861">1861.</date>
+						</bibl>
+						 ) A jegyzőkönyv szerint az ülésen 
+						<persName>
+							 Toldy 
+							<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno>
+						</persName>
+						 elnökölt, s 
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 , 
+						<persName>
+							 Greguss 
+							<idno corresp="Greguss Ágost" type="ITIdata">Q242319</idno>
+						</persName>
+						 , 
+						<persName>
+							 Kazinczy Gábor 
+							<idno corresp="Kazinczy Gábor" type="ITIdata">Q152549</idno>
+						</persName>
+						 , 
+						<persName>
+							 Kiss Károly 
+							<idno corresp="Kiss Károly" type="ITIdata">Q58114</idno>
+						</persName>
+						 és 
+						<persName>
+							 Tóth Lőrinc 
+							<idno corresp="Tóth Lőrinc" type="ITIdata">Q246617</idno>
+						</persName>
+						 volt jelen. – 
+						<persName>Kalmár Géza</persName>
+						 önállóan adta ki
+						a 
+						<title>VI. Henrik király</title>
+						 első részét ( 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , 
+						<date when="1862">1862</date>
+						 ); a Kisfaludy Társaság
+						Shakespeare-sorozatának XVII. kötetében 
+						<persName>Lőrinczy
+							Zsigmond</persName>
+						 fordítása jelent meg ( 
+						<date when="1870">1870</date>
+						). 
+					</note>
+					 – Soha roszúl: soha jól. – Ha azomban az tűnnék ki, hogy talán a
+					következő munkáim sikerülnének: méltóztassék megbízatni engem még más darabok’ –
+					p. o. az ugyan Shakespeare-i 
+					<title>
+						 VI 
+						<hi rend="super">ik</hi>
+						 Henrik 
+					</title>
+					másod- és harmadik részének – lefordításával; vagy ha azokra már több
+					vállalkozók volnának, – akár mely – erőmhöz mért – darabbal az Angol– vagy
+					franczia irodalombol. – Isten látja lelkem! – minden erőmből igyekezném a
+					honi-irodalom emelkedéséhez valami paránnyal járulni; csak legalább is egy igen
+					szerény létezést bisztosíthatnék 
+					<sic/>
+					 magamnak, – hogy minden időmet ezen
+					rögös, de magasztos feladatnak szentelhetném. 
+				</p>
+				<p xml:id="p.3">E tárgyban szíves tudósitást mielőbb várva – mert az idő (:több
+					mint:) pénz: maradtam</p>
+				<p xml:id="p.4">Az igen tisztelt Igazgató úrnak</p>
+				<p xml:id="p.5">
+					<placeName>
+						 Orosházá 
+						<idno corresp="Orosháza"/>
+					</placeName>
+					 n 
+					<date when="1861-05-01">
+						 Május 1 
+						<hi rend="super">én</hi>
+						 1861.
+					</date>
+				</p>
+				<p xml:id="p.6">alázatos szolgája:</p>
+				<p xml:id="p.7">
+					<persName>Kalmár Géza</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title key="body" n="1062" type="main">ARANY JÁNOS – ALMÁSI BALOGH
+					TIHAMÉRNEK</title>
+				<author>
+					<persName>Arany János</persName>
+					<idno type="ITIdata">Q140423</idno>
+					<idno type="VIAF">VIAF:95251869</idno>
+				</author>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<objectName xml:lang="hu">Informatizált kiadás</objectName>
+					<objectName xml:lang="en">Digital edition</objectName>
+				</edition>
+				<respStmt>
+					<resp xml:lang="hu">Főszerkesztő: </resp>
+					<resp xml:lang="en">Editor-in-chief: </resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<idno type="ITIdata">Q245084</idno>
+						<idno type="ORCID">0000-0002-4394-8577</idno>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">A TEI XML szerkesztője: </resp>
+					<resp xml:lang="en">Editor of the TEI XML format: </resp>
+					<persName>
+						<surname>Bobák</surname>
+						<forename>Barbara</forename>
+						<idno type="ITIdata">Q474117</idno>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+					<persName>
+						<surname>Csonki</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<persName>
+						<surname>Horváth-Márjánovics</surname>
+						<forename>Diána</forename>
+						<idno type="ITIdata">Q469953</idno>
+					</persName>
+					<persName>
+						<surname>Káli</surname>
+						<forename>Anita</forename>
+						<idno type="ITIdata">Q469955</idno>
+					</persName>
+					<persName>
+						<surname>Metzger</surname>
+						<forename>Réka</forename>
+					</persName>
+					<persName>
+						<surname>Móré</surname>
+						<forename>Tünde</forename>
+						<idno type="ITIdata">Q470036</idno>
+					</persName>
+					<persName>
+						<surname>Roskó</surname>
+						<forename>Mira</forename>
+					</persName>
+					<persName>
+						<surname>Sárközi-Lindner</surname>
+						<forename>Zsófia</forename>
+					</persName>
+					<persName>
+						<surname>Vétek</surname>
+						<forename>Bence</forename>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="hu">TEI-specifikáció: </resp>
+					<resp xml:lang="en">TEI-specification: </resp>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+						<idno type="ITIdata">Q349971</idno>
+						<idno type="ORCID">0000-0001-9199-1759</idno>
+					</persName>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<orgName>
+						 DigiPhil 
+						<ref type="url">http://digiphil.hu</ref>
+					</orgName>
+					<orgName>
+						 Irodalomtudományi Kutatóintézet 
+						<idno type="ITIdata">Q2256</idno>
+						<ref type="url">https://iti.abtk.hu</ref>
+					</orgName>
+				</publisher>
+				<pubPlace>
+					 Budapest 
+					<ref type="url">http://www.geonames.org/3054643</ref>
+				</pubPlace> 				<date>2025</date>
+				<availability>
+					<p>
+						 CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International
+						<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref>
+					</p>
+				</availability>
+				<idno type="PID">ajom-17-lev.tei.1062</idno>
+				<idno type="ITIdata">Q347647</idno>
+				<ref target="https://github.com/digiphil-hu/ajom-17-lev/blob/main/ajom-17-lev.tei.1062.xml">The TEI XML transcript of the letter in the DigiPhil GitHub repository.</ref>
+			</publicationStmt>
+			<notesStmt>
+				<note type="critIntro">
+					<p>
+						 Válasz 
+						<persName>Almási Balogh Tihamér</persName>
+						 levelére (1061.) 
+						<ref target="ajom-17-lev.tei.1061"/>
+					</p>
+				</note>
+				<note type="publication"/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Magyarország</country>
+						<settlement>Buadpest</settlement>
+						<institution/>
+						<repository>Kiss Ferenc magántul. Bp.</repository>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<extent>
+									<measure type="quantity" unit="folio">2</measure>
+									<dimensions unit="mm">
+										<height>237</height>
+										<width>150</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>2 csontszínű fol. oroszlános nyomattal, 23,7x15 cm. 1–3.
+										levél, 4. üres.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<bibl>
+					<author>
+						<persName>
+							<surname>Arany</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q140423</idno>
+							<idno type="VIAF">VIAF:95251869</idno>
+						</persName>
+					</author>
+					<title type="main">Arany János Összes Művei XVII. kötet</title>
+					<title type="sub">Levelezés 3.</title>
+					<idno type="ISBN">ISBN:963-9104-84-1</idno>
+					<idno type="ITIdata">Q338268</idno>
+					<respStmt>
+						<resp xml:lang="hu">Szerkesztő: </resp>
+						<resp xml:lang="en">Editor: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Sajtó alá rendezte: </resp>
+						<resp xml:lang="en">Arranged for publication by: </resp>
+						<persName>
+							<surname>Korompay H.</surname>
+							<forename>János</forename>
+							<idno type="ITIdata">Q53969</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Lektor: </resp>
+						<resp xml:lang="en">Proofreader: </resp>
+						<persName>
+							<surname>Kerényi</surname>
+							<forename>Ferenc</forename>
+							<idno type="ITIdata">Q248580</idno>
+						</persName>
+					</respStmt>
+					<respStmt>
+						<resp xml:lang="hu">Fordító: </resp>
+						<resp xml:lang="en">Translator: </resp>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Magdolna</forename>
+						</persName>
+						<persName>
+							<surname>Bódyné Márkus</surname>
+							<forename>Rozália</forename>
+						</persName>
+						<persName>
+							<surname>Jankovits</surname>
+							<forename>László</forename>
+							<idno type="ITIdata">Q211998</idno>
+						</persName>
+					</respStmt>
+					<date>2004</date>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Universitas Kiadó</publisher>
+					<idno type="DOI">https://doi.org/10.5281/zenodo.17094430</idno>
+					<idno type="ITIdata">Q347646</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu"/>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term>levél</term>
+					<term>Kiadatlan.</term>
+					<term>Teljes.</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when="1859-01-21"/>
+				<placeName>
+					 Nagykőrös 
+					<idno type="ITIdata">Q20914</idno>
+				</placeName>
+			</creation>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>
+						 Arany János 
+						<idno type="ITIdata">Q140423</idno>
+					</persName>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName>
+						 Almási Balogh Tihamér 
+						<idno type="ITIdata">Q141157</idno>
+					</persName>
+					<placeName>
+						 Budapest 
+						<idno type="ITIdata">Q93</idno>
+					</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div xml:id="d.1">
+				<head>
+					<title>ARANY JÁNOS – ALMÁSI BALOGH TIHAMÉRNEK</title>
+					<placeName>
+						 Nagy-Kőrös 
+						<idno corresp="Nagykőrös" type="ITIdata">Q20914</idno>
+					</placeName>
+					 , 
+					<date when="1859-01-21">jan. 21. 1859.</date>
+				</head>
+				<p xml:id="p.1">
+					 Édes 
+					<persName>
+						 Tihamér 
+						<idno corresp="Almási Balogh Tihamér"/>
+					</persName>
+					 ! 
+				</p>
+				<p xml:id="p.2">
+					 Rég válaszolnom kellett volna becses levelére, de részint hivatalos
+					teendőim, részint más dolgaim gátoltak, hogy a küldött beszélyeket átnézhessem.
+					<note type="critic">
+						<quote>Rég válaszolnom kellett volna becses levelére, de részint hivatalos
+							teendőim, részint más dolgaim gátoltak, hogy a küldött beszélyeket
+							átnézhessem</quote>
+						 – lásd 
+						<persName>Almási Balogh Tihamér</persName>
+						<persName>
+							 AJ 
+							<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+						</persName>
+						 -nak, 1061. 
+						<ref target="ajom-17-lev.tei.1061"/>
+						<date to="1859-01-21">1859. jan. 21.</date>
+						 előtt 
+					</note>
+					 Most fogadja
+					azokra rövid, de öszinte véleményemet. 
+				</p>
+				<p xml:id="p.3">
+					 Először is a kézirattal kezdem. Ha megengedjük az alapot, hogy t.i.
+					egy 
+					<hi rend="underline">leány</hi>
+					 , rosz regényektől elkábítva, azon 
+					<hi rend="underline">merész</hi>
+					 séget veheti magának, hogy oly nagy 
+					<choice>
+						<orig>vállatra</orig>
+						<supplied>vállalatra</supplied>
+					</choice>
+					 vesse fejét, ha 
+					<del>nem</del>
+					 mondom, ez alapot megengedjük, akkor a
+					fejlesztés igen jól, psychologice halad tovább. Különösen szép az, midőn a szülő
+					háztól – bár onnan egész lélekkel elvágyik, mégis nehéz elválnia; midőn a
+					szerelmi ideált Sándorban föllelve: ez lesz az ő 
+					<placeName>
+						 Ameriká 
+						<idno corresp="Amerika"/>
+					</placeName>
+					 ja, nem kell neki többé az út: hisz az egész 
+					<placeName>
+						 Ameriká
+						<idno corresp="Amerika"/>
+					</placeName>
+					 ba vágyás úgy is csak a szerelem-szomjas, de tárgyat a magányban
+					nem találó kebel rajongása. Szép az is, midőn a figyelmeztető jó barátot előbb
+					rosz emberének tartja, s a mint kezdi észre venni 
+					<choice>
+						<orig>S.</orig>
+						<supplied>Sándor</supplied>
+					</choice>
+					 általi mellőztetését, mindinkább átlátja amannak jó akaratját. Ez,
+					mondom, mind szép: egy beszélyében sem találtam a benső cselekvényt ily
+					psychologice kivíve; csak a kiinduló pont támaszt bennem kérdést, és meg – a 
+					<hi rend="underline">bezárás</hi>
+					 . Hogyan tér vissza falujába? mint ártatlan?
+					mint bűnös? Az első, Eszti tapasztalatlansága, és Sándor túl-tapasztaltsága
+					mellett, nem valószinű. Ha mint bűnös, és szarvakat visz haza egy bár
+					miveletlen, de becsűletes embernek, Bertusnak: akkor – franczia morál van benne.
+					Még kedvet támaszthat vala 
+					<add type="corr">m</add>
+					 i leányban, kit valami
+					fajankó akar elvenni, elébb, à la Eszti, 
+					<note type="critic">
+						<quote>à la Eszti</quote>
+						 – Eszti módjára (fr.) 
+					</note>
+					 leélni világát és
+					virágját, hisz a fajankónak azután is jó lesz. – Oly lépés után, mely a
+					becsűletet annyira compromittálta, nem lehet a leány 
+					<hi rend="underline">fél</hi>
+					 boldog sem, – legalább költői igazság szerint. – Különben még
+					Bertus szerelmi nyilatkozatára van egy szóm: az naív akar lenni, de épen e
+					naívság nyelve nincs egészen eltalálva, midőn virágos beszéd nélkűl nem tud
+					szerelmet vallani. – 
+				</p>
+				<p xml:id="p.4">
+					<hi rend="underline">Andor Klárá</hi>
+					 t így resumálom. 
+					<note type="critic">
+						<quote>resumálom</quote>
+						 – foglalom össze (lat.) 
+					</note>
+					 Tamás urnak oka van
+					Gézát nem szeretni, ki is szeretne tudva ily becsempészett kakukfiat. Hogy,
+					ellentétben, igaz gyermeke Klára iránti szeretetében túl megy a kellő határon:
+					az az előbbinek természetes következménye. Hogy az elkényeztetett leány szive
+					megromlik, a mellőzött testvért ő is megveti, bene; 
+					<note type="critic">
+						<quote>bene</quote>
+						 – jól van (lat.) 
+					</note>
+					 ez utóbbit annál inkább teheti,
+					mert, bár testvérének hiszi, – de a természet szavát nem érzi bensejében. Hogy
+					az elkényeztetett leány szíve később anyja ellen fordúl, az iránt közönyös,
+					hideg lesz: ez is rendes dolog, s természeti büntetése az ily atyáknak. Most
+					következik Klára büntetése: Az atya kitagadja őt, sajátját, s az 
+					<hi rend="underline">idegent</hi>
+					 teszi örökösévé. Mind jó. De e büntetés csak
+					<hi rend="underline">látszó</hi>
+					 , mert Géza megszereti Klárát, 
+					<del>a</del>
+					<add type="corr">e</add>
+					 z is azt, s végűl oly boldogok lesznek, hogy az öreg
+					Tamás kaczag rájok az égből. – Itt van valami, a mi nekem nem tetszik. – E
+					catastropha ugyan Klára 
+					<hi rend="underline">megbánásá</hi>
+					 val van indokolva;
+					de e megbánás alig nyilatkozik tettben, csak nehány sohajban stb. A megbánás
+					szép keresztyéni dolog; s a megbocsátás Üdvezítőnk tana: de az aesthetica nem
+					osztogatja oly könnyen az amnestiát. Nem mondom, hogy ölni kell mindig, (még a
+					sugót is) – de itt mégsem találok költ. igazságot. – 
+				</p>
+				<p xml:id="p.5">
+					 A 
+					<hi rend="underline">szivar és táncz</hi>
+					 ismeretes előttem még
+					vigjáték korából. 
+					<note type="critic">
+						<quote>A szivar és táncz ismeretes előttem még vigjáték korából</quote>
+						 – a
+						művet „ 
+						<title>Beszély</title>
+						 ”- ként a 
+						<title>Hf</title>
+						 közölte: 
+						<date when="1858-12-02">1858. dec. 2.</date>
+						 1101–1102., 
+						<date when="1858-12-03">dec. 3.</date>
+						 1105–1106., 
+						<date when="1858-12-04">dec. 4.</date>
+						 1109– 1110., 
+						<date when="1858-12-06">dec. 6.</date>
+						1113–1114., 
+						<date when="1858-12-07">dec. 7.</date>
+						 1117–1118., 
+						<date when="1858-12-09">dec. 9.</date>
+						 1121–1122., 
+						<date when="1858-12-10">dec. 10.</date>
+						 1125–1126., 
+						<date when="1858-12-11">dec. 11.</date>
+						1129–1130., 
+						<date when="1858-12-13">dec. 13.</date>
+						 1133–1134., 
+						<date when="1858-12-14">dec. 14.</date>
+						 1137–1138., 
+						<date when="1858-12-15">dec. 15.</date>
+						 1141–1142., 
+						<date when="1858-12-16">dec. 16.</date>
+						1145–1146., 
+						<date when="1858-12-17">dec. 17.</date>
+						 1149–1150., 
+						<date when="1858-12-18">dec. 18.</date>
+						 1153– 1154.; vígjátékként való
+						megjelenéséről nincsen tudomásunk 
+					</note>
+					 Ugy tetszik nekem, hogy némely
+					jelenete most is mutatja vigjátéki eredetét. Vannak benne helyek, a mik ha 
+					<hi rend="underline">eredetileg</hi>
+					 beszélylyé 
+					<choice>
+						<orig>alakult</orig>
+						<supplied>alakultak</supplied>
+					</choice>
+					 volna, tán nem volnának, vagy nem 
+					<hi rend="underline">úgy</hi>
+					volnának benne. Ilyennek tetszett nekem, mikor a vén szolgát szivarért küldik,
+					aztán Csermainak minden jelenete, meg az ifjak poharazása. Csermai különösen,
+					beszélyben fölöslegesb személynek tetszik, mint hogy vele csak annyit is
+					foglalkozzunk. Szóval a mik a vigjátékban mintegy 
+					<hi rend="underline">kitöltő</hi>
+					 jelenetek voltak, azok a beszélyben nekem fölösleges
+					kitéréseknek tűntek föl. – Ezzel csak azt mondom, a mit olvasáskor éreztem,
+					minden kárhoztatás nélkűl. – 
+				</p>
+				<p xml:id="p.6">
+					<hi rend="underline">
+						<title>Ez nőm</title>
+					</hi>
+					 . Az „urhatnám” természetes büntetésének könnyen odavetett, s elég jól
+					kivitt variatiója. „ 
+					<hi rend="underline">L’amour</hi>
+					<note type="critic">
+						<quote>
+							<hi rend="underline">L’amour</hi>
+						</quote>
+						 – A szerelem (fr.); a L’amour qui passe, l’amour qui vient (A
+						szerelem, amely elmúlik, a szerelem, amely közeledik; fr.) először az
+						<persName>Enyedi Miklós</persName>
+						 szerkesztette 
+						<title>Szépirodalmi
+							Album</title>
+						 ban jelent meg ( 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , 
+						<date when="1856">1856</date>
+						 ) 
+					</note>
+					<hi rend="underline">&amp;.</hi>
+					<choice>
+						<orig/>
+						<supplied>”</supplied>
+					</choice>
+					 Élénk menetű darab, mire az első olvasásból is 
+					<hi rend="underline">jól</hi>
+					 emlékszem. – 
+					<hi rend="underline">Sikerűlt előadás</hi>
+					 , csinosan
+					ecsetelt árnykép. – Ezekről nincs mit hosszabban szólnom. 
+				</p>
+				<p xml:id="p.7">
+					 Mindezeket össze-véve, a világért sem mondom azt, hogy ne adja ön
+					ki, ha kedve van. 
+					<note type="critic">
+						<quote>a világért sem mondom azt, hogy ne adja ön ki, ha kedve van</quote>
+						 –
+						<title>A Köny és mosoly</title>
+						 c. kötetben ( 
+						<placeName>
+							 Pest 
+							<idno corresp="Pest"/>
+						</placeName>
+						 , 
+						<date when="1859">1859</date>
+						 ) a következő beszélyek
+						jelentek meg: I. 
+						<title>Andor Klára, Hova visz az amerikai út?</title>
+						 ,
+						<title>Egynapi fogadás</title>
+						 ; II. 
+						<title>Sikerült előadás</title>
+						 ,
+						<title>A szerelem nő és távozik</title>
+						 , 
+						<title>Ez nőm</title>
+						 .
+					</note>
+					 A nyelvezet bennök jó, benső becsre is kiállják a versenyt sok megjelenő
+					beszélylyel. Hiányok a composit 
+					<del>ó</del>
+					<add type="corr">í</add>
+					 óban vannak: de ki vár kezdőtől (nem veszi rosz néven,
+					ha első 
+					<hi rend="underline">könyve</hi>
+					 kiadásakor így nevezem) tökéletest? Ha
+					tetszik, és 
+					<hi rend="underline">jó móddal</hi>
+					 teheti, javíthat is még rajtok.
+					Szivesen átvállalnám a keresztapaságot: de talán az én szavam ily szakban nem is
+					lenne tekintély. Egy regény v. beszélyiró jobban illik e szerepre. Szokás nálunk
+					úgy is, ha valaki valamiről ítéletet mond, azt kérdeni, mit mutathat fel azon
+					<hi rend="underline">szak</hi>
+					 ban? Ön se tekintse véleményemet egyébnek
+					puszta véleménynél, mely épen úgy lehet hibás, mint akárki fiáé. – 
+				</p>
+				<p xml:id="p.8">Fogadja szives köszönetemet végső meleg soraiért. Mélyen tisztelt
+					Szüleinek tolmácsolja viszont üdvözlésemet, s ön fogadja mindenkori jóindulatom
+					édes kifejezését!</p>
+				<p xml:id="p.9">
+					<persName>
+						 AranyJ 
+						<idno corresp="Arany János" type="ITIdata">Q140423</idno>
+					</persName>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
